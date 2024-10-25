@@ -1,6 +1,6 @@
 # 生成地址：v2rayse.com
 # 模版名称：defaultName
-# 生成时间：2024-10-25 05:29:42
+# 生成时间：2024-10-25 15:30:52
 # 不要随意改变关键字，否则会导致出错
 # acl4SSR规则
 # 去广告：支持
@@ -58,47 +58,78 @@ tun:
     - 1.1.1.1
     - 1.0.0.1
 proxies:
+  - name: 🇺🇸_US_美国_1
+    port: 8080
+    server: 38.86.135.211
+    type: ss
+    udp: true
+    password: KixLvKzwjekG00rm
+    cipher: aes-256-gcm
   - name: 🇺🇸_US_美国_2
-    port: 9090
-    server: 169.197.141.84
+    port: 5500
+    server: 38.114.114.46
     type: ss
     udp: true
-    password: Y6R9pAtvxxzmGC
+    password: KixLvKzwjekG00rm
     cipher: aes-256-gcm
+  - name: 🇷🇺_RU_俄罗斯_1
+    port: 2098
+    server: f41.maryam1500.top
+    type: vmess
+    network: http
+    udp: true
+    sni: ""
+    skip-cert-verify: true
+    http-opts: {}
+    cipher: auto
+    uuid: 83876222-64a4-4912-aa18-b7d9d34959de
+    alterId: 0
   - name: 🇺🇸_US_美国_3
-    port: 8091
-    server: 69.50.95.115
+    port: 9101
+    server: 38.114.114.46
     type: ss
     udp: true
-    password: PCnnH6SQSnfoS27
+    password: e4FCWrgpkji3QY
     cipher: aes-256-gcm
-  - name: 🇮🇪_IE_爱尔兰
-    port: 25579
-    server: 13.74.71.116
-    type: ss
+  - name: 🇷🇺_RU_俄罗斯_2
+    port: 2098
+    server: 147.45.51.16
+    type: vmess
+    network: http
     udp: true
-    password: 1EDLaUEHX0a0Uvyjzmwjh3
-    cipher: chacha20-ietf-poly1305
+    sni: ""
+    skip-cert-verify: true
+    http-opts: {}
+    cipher: auto
+    uuid: 83876222-64a4-4912-aa18-b7d9d34959de
+    alterId: 0
   - name: 🇺🇸_US_美国_4
-    port: 8090
-    server: 142.202.49.74
+    port: 5003
+    server: 38.68.134.9
     type: ss
     udp: true
-    password: PCnnH6SQSnfoS27
+    password: g5MeD6Ft3CWlJId
     cipher: aes-256-gcm
+  - name: 🇺🇸_US_美国_5
+    port: 5004
+    server: 38.75.137.42
+    type: ss
+    udp: true
+    password: g5MeD6Ft3CWlJId
+    cipher: aes-256-gcm
+  - name: 🇨🇳_CN_中国->🇩🇪_DE_德国
+    port: 20934
+    server: 221.181.185.71
+    type: ss
+    udp: true
+    password: bbO8KazkNBUGb7HP
+    cipher: aes-256-cfb
   - name: 🇺🇸_US_美国_6
-    port: 8091
-    server: 142.202.49.74
+    port: 6697
+    server: 38.68.134.9
     type: ss
     udp: true
-    password: PCnnH6SQSnfoS27
-    cipher: aes-256-gcm
-  - name: 🇺🇸_US_美国_7
-    port: 5498
-    server: 69.50.95.115
-    type: ss
-    udp: true
-    password: lGqs95QkFHo2NV
+    password: TEzjfAYq2IjtuoS
     cipher: aes-256-gcm
 proxy-groups:
   - name: 🚀 节点选择
@@ -106,69 +137,87 @@ proxy-groups:
     proxies:
       - ♻️ 自动选择
       - DIRECT
+      - 🇺🇸_US_美国_1
       - 🇺🇸_US_美国_2
+      - 🇷🇺_RU_俄罗斯_1
       - 🇺🇸_US_美国_3
-      - 🇮🇪_IE_爱尔兰
+      - 🇷🇺_RU_俄罗斯_2
       - 🇺🇸_US_美国_4
+      - 🇺🇸_US_美国_5
+      - 🇨🇳_CN_中国->🇩🇪_DE_德国
       - 🇺🇸_US_美国_6
-      - 🇺🇸_US_美国_7
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
+      - 🇺🇸_US_美国_1
       - 🇺🇸_US_美国_2
+      - 🇷🇺_RU_俄罗斯_1
       - 🇺🇸_US_美国_3
-      - 🇮🇪_IE_爱尔兰
+      - 🇷🇺_RU_俄罗斯_2
       - 🇺🇸_US_美国_4
+      - 🇺🇸_US_美国_5
+      - 🇨🇳_CN_中国->🇩🇪_DE_德国
       - 🇺🇸_US_美国_6
-      - 🇺🇸_US_美国_7
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
+      - 🇺🇸_US_美国_1
       - 🇺🇸_US_美国_2
+      - 🇷🇺_RU_俄罗斯_1
       - 🇺🇸_US_美国_3
-      - 🇮🇪_IE_爱尔兰
+      - 🇷🇺_RU_俄罗斯_2
       - 🇺🇸_US_美国_4
+      - 🇺🇸_US_美国_5
+      - 🇨🇳_CN_中国->🇩🇪_DE_德国
       - 🇺🇸_US_美国_6
-      - 🇺🇸_US_美国_7
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
+      - 🇺🇸_US_美国_1
       - 🇺🇸_US_美国_2
+      - 🇷🇺_RU_俄罗斯_1
       - 🇺🇸_US_美国_3
-      - 🇮🇪_IE_爱尔兰
+      - 🇷🇺_RU_俄罗斯_2
       - 🇺🇸_US_美国_4
+      - 🇺🇸_US_美国_5
+      - 🇨🇳_CN_中国->🇩🇪_DE_德国
       - 🇺🇸_US_美国_6
-      - 🇺🇸_US_美国_7
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
+      - 🇺🇸_US_美国_1
       - 🇺🇸_US_美国_2
+      - 🇷🇺_RU_俄罗斯_1
       - 🇺🇸_US_美国_3
-      - 🇮🇪_IE_爱尔兰
+      - 🇷🇺_RU_俄罗斯_2
       - 🇺🇸_US_美国_4
+      - 🇺🇸_US_美国_5
+      - 🇨🇳_CN_中国->🇩🇪_DE_德国
       - 🇺🇸_US_美国_6
-      - 🇺🇸_US_美国_7
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
+      - 🇺🇸_US_美国_1
       - 🇺🇸_US_美国_2
+      - 🇷🇺_RU_俄罗斯_1
       - 🇺🇸_US_美国_3
-      - 🇮🇪_IE_爱尔兰
+      - 🇷🇺_RU_俄罗斯_2
       - 🇺🇸_US_美国_4
+      - 🇺🇸_US_美国_5
+      - 🇨🇳_CN_中国->🇩🇪_DE_德国
       - 🇺🇸_US_美国_6
-      - 🇺🇸_US_美国_7
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -191,12 +240,15 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
+      - 🇺🇸_US_美国_1
       - 🇺🇸_US_美国_2
+      - 🇷🇺_RU_俄罗斯_1
       - 🇺🇸_US_美国_3
-      - 🇮🇪_IE_爱尔兰
+      - 🇷🇺_RU_俄罗斯_2
       - 🇺🇸_US_美国_4
+      - 🇺🇸_US_美国_5
+      - 🇨🇳_CN_中国->🇩🇪_DE_德国
       - 🇺🇸_US_美国_6
-      - 🇺🇸_US_美国_7
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
   - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
