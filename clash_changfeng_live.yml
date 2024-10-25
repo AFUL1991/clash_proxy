@@ -1,6 +1,6 @@
 # 生成地址：v2rayse.com
 # 模版名称：defaultName
-# 生成时间：2024-10-25 21:34:59
+# 生成时间：2024-10-26 05:30:45
 # 不要随意改变关键字，否则会导致出错
 # acl4SSR规则
 # 去广告：支持
@@ -59,60 +59,63 @@ tun:
     - 1.0.0.1
 proxies:
   - name: 🇺🇸_US_美国_1
-    port: 3306
-    server: 38.68.134.9
+    port: 7307
+    server: 38.114.114.46
     type: ss
     udp: true
-    password: Y6R9pAtvxxzmGC
+    password: FoOiGlkAA9yPEGP
     cipher: aes-256-gcm
   - name: 🇺🇸_US_美国_2
-    port: 5600
-    server: 38.68.134.9
-    type: ss
-    udp: true
-    password: Y6R9pAtvxxzmGC
-    cipher: aes-256-gcm
-  - name: 🇺🇸_US_美国_3
-    port: 8000
-    server: 38.68.134.9
-    type: ss
-    udp: true
-    password: KixLvKzwjekG00rm
-    cipher: aes-256-gcm
-  - name: 🇺🇸_US_美国_4
-    port: 7002
+    port: 7001
     server: 38.68.134.9
     type: ss
     udp: true
     password: RexnBgU7EV5ADxG
     cipher: aes-256-gcm
-  - name: 🇺🇸_US_美国_5
-    port: 6697
-    server: 38.114.114.46
-    type: ss
+  - name: 未知
+    port: 13021
+    server: naiu-us.05vr9nyqg5.download
+    type: trojan
     udp: true
-    password: TEzjfAYq2IjtuoS
-    cipher: aes-256-gcm
-  - name: 🇺🇸_US_美国_6
-    port: 8008
+    sni: cloudflare.node-ssl.cdn-alibaba.com
+    password: 5b4becce-5739-483f-97ec-68b81a855d68
+  - name: 🇺🇸_US_美国_3
+    port: 8881
     server: 38.68.134.9
     type: ss
     udp: true
-    password: XKFKl2rULjIp74
+    password: kDWvXYZoTBcGkC4
     cipher: aes-256-gcm
-  - name: 🇺🇸_US_美国_7
-    port: 5001
-    server: 38.114.114.46
+  - name: 🇳🇱_NL_荷兰
+    port: 57456
+    server: 45.144.48.63
     type: ss
     udp: true
-    password: Y6R9pAtvxxzmGC
-    cipher: aes-256-gcm
-  - name: 🇺🇸_US_美国_9
+    password: d3837224ed465f00
+    cipher: chacha20-ietf-poly1305
+  - name: 🇺🇸_US_美国_4
     port: 8080
     server: 38.86.135.211
     type: ss
     udp: true
     password: KixLvKzwjekG00rm
+    cipher: aes-256-gcm
+  - name: 🇨🇳_CN_中国->🇯🇵_JP_日本
+    port: 21616
+    server: 110.40.69.43
+    type: vmess
+    network: tcp
+    udp: true
+    sni: ""
+    cipher: auto
+    uuid: 432dd1c8-b83c-47a0-82d9-453beeda35dc
+    alterId: 0
+  - name: 🇺🇸_US_美国_6
+    port: 8119
+    server: 38.114.114.46
+    type: ss
+    udp: true
+    password: cdBIDV42DCwnfIN
     cipher: aes-256-gcm
 proxy-groups:
   - name: 🚀 节点选择
@@ -122,12 +125,12 @@ proxy-groups:
       - DIRECT
       - 🇺🇸_US_美国_1
       - 🇺🇸_US_美国_2
+      - 未知
       - 🇺🇸_US_美国_3
+      - 🇳🇱_NL_荷兰
       - 🇺🇸_US_美国_4
-      - 🇺🇸_US_美国_5
+      - 🇨🇳_CN_中国->🇯🇵_JP_日本
       - 🇺🇸_US_美国_6
-      - 🇺🇸_US_美国_7
-      - 🇺🇸_US_美国_9
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -136,12 +139,12 @@ proxy-groups:
     proxies:
       - 🇺🇸_US_美国_1
       - 🇺🇸_US_美国_2
+      - 未知
       - 🇺🇸_US_美国_3
+      - 🇳🇱_NL_荷兰
       - 🇺🇸_US_美国_4
-      - 🇺🇸_US_美国_5
+      - 🇨🇳_CN_中国->🇯🇵_JP_日本
       - 🇺🇸_US_美国_6
-      - 🇺🇸_US_美国_7
-      - 🇺🇸_US_美国_9
   - name: 🌍 国外媒体
     type: select
     proxies:
@@ -150,12 +153,12 @@ proxy-groups:
       - 🎯 全球直连
       - 🇺🇸_US_美国_1
       - 🇺🇸_US_美国_2
+      - 未知
       - 🇺🇸_US_美国_3
+      - 🇳🇱_NL_荷兰
       - 🇺🇸_US_美国_4
-      - 🇺🇸_US_美国_5
+      - 🇨🇳_CN_中国->🇯🇵_JP_日本
       - 🇺🇸_US_美国_6
-      - 🇺🇸_US_美国_7
-      - 🇺🇸_US_美国_9
   - name: 📲 电报信息
     type: select
     proxies:
@@ -163,12 +166,12 @@ proxy-groups:
       - 🎯 全球直连
       - 🇺🇸_US_美国_1
       - 🇺🇸_US_美国_2
+      - 未知
       - 🇺🇸_US_美国_3
+      - 🇳🇱_NL_荷兰
       - 🇺🇸_US_美国_4
-      - 🇺🇸_US_美国_5
+      - 🇨🇳_CN_中国->🇯🇵_JP_日本
       - 🇺🇸_US_美国_6
-      - 🇺🇸_US_美国_7
-      - 🇺🇸_US_美国_9
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
@@ -176,12 +179,12 @@ proxy-groups:
       - 🚀 节点选择
       - 🇺🇸_US_美国_1
       - 🇺🇸_US_美国_2
+      - 未知
       - 🇺🇸_US_美国_3
+      - 🇳🇱_NL_荷兰
       - 🇺🇸_US_美国_4
-      - 🇺🇸_US_美国_5
+      - 🇨🇳_CN_中国->🇯🇵_JP_日本
       - 🇺🇸_US_美国_6
-      - 🇺🇸_US_美国_7
-      - 🇺🇸_US_美国_9
   - name: 🍎 苹果服务
     type: select
     proxies:
@@ -189,12 +192,12 @@ proxy-groups:
       - 🎯 全球直连
       - 🇺🇸_US_美国_1
       - 🇺🇸_US_美国_2
+      - 未知
       - 🇺🇸_US_美国_3
+      - 🇳🇱_NL_荷兰
       - 🇺🇸_US_美国_4
-      - 🇺🇸_US_美国_5
+      - 🇨🇳_CN_中国->🇯🇵_JP_日本
       - 🇺🇸_US_美国_6
-      - 🇺🇸_US_美国_7
-      - 🇺🇸_US_美国_9
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -219,12 +222,12 @@ proxy-groups:
       - ♻️ 自动选择
       - 🇺🇸_US_美国_1
       - 🇺🇸_US_美国_2
+      - 未知
       - 🇺🇸_US_美国_3
+      - 🇳🇱_NL_荷兰
       - 🇺🇸_US_美国_4
-      - 🇺🇸_US_美国_5
+      - 🇨🇳_CN_中国->🇯🇵_JP_日本
       - 🇺🇸_US_美国_6
-      - 🇺🇸_US_美国_7
-      - 🇺🇸_US_美国_9
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
   - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
