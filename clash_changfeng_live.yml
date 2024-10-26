@@ -1,6 +1,6 @@
 # 生成地址：v2rayse.com
 # 模版名称：defaultName
-# 生成时间：2024-10-26 15:29:04
+# 生成时间：2024-10-26 21:31:51
 # 不要随意改变关键字，否则会导致出错
 # acl4SSR规则
 # 去广告：支持
@@ -59,67 +59,67 @@ tun:
     - 1.0.0.1
 proxies:
   - name: 🇺🇸_US_美国_1
-    port: 8881
-    server: 69.50.92.99
+    port: 6697
+    server: 38.114.114.69
     type: ss
     udp: true
-    password: kDWvXYZoTBcGkC4
+    password: TEzjfAYq2IjtuoS
     cipher: aes-256-gcm
   - name: 🇺🇸_US_美国_2
-    port: 2375
-    server: 38.68.134.9
+    port: 8080
+    server: 38.114.114.69
     type: ss
     udp: true
-    password: faBAoD54k87UJG7
+    password: KixLvKzwjekG00rm
     cipher: aes-256-gcm
   - name: 🇺🇸_US_美国_3
-    port: 8118
+    port: 8009
     server: 23.157.40.113
     type: ss
     udp: true
-    password: cdBIDV42DCwnfIN
+    password: XKFKl2rULjIp74
     cipher: aes-256-gcm
   - name: 🇺🇸_US_美国_4
-    port: 5003
-    server: 38.75.137.42
+    port: 8000
+    server: 38.68.134.9
     type: ss
     udp: true
-    password: g5MeD6Ft3CWlJId
+    password: KixLvKzwjekG00rm
     cipher: aes-256-gcm
-  - name: 🇩🇪_DE_德国->🇺🇸_US_美国
-    port: 8080
-    server: 45.87.175.199
+  - name: 🇨🇳_CN_中国->🇩🇪_DE_德国
+    port: 20934
+    server: 221.181.185.71
     type: ss
     udp: true
-    password: 1RWwXhwfAB5gAEozU4G2Pg
-    cipher: chacha20-ietf-poly1305
+    password: bbO8KazkNBUGb7HP
+    cipher: aes-256-cfb
   - name: 🇺🇸_US_美国_5
-    port: 8090
-    server: 167.88.61.111
+    port: 6697
+    server: 69.50.95.53
+    type: ss
+    udp: true
+    password: TEzjfAYq2IjtuoS
+    cipher: aes-256-gcm
+  - name: 🇺🇸_US_美国_6
+    port: 8091
+    server: 38.114.114.69
     type: ss
     udp: true
     password: PCnnH6SQSnfoS27
     cipher: aes-256-gcm
-  - name: 🇺🇸_US_美国_6
-    port: 5601
-    server: 38.110.1.105
-    type: ss
-    udp: true
-    password: Y6R9pAtvxxzmGC
-    cipher: aes-256-gcm
   - name: 🇺🇸_US_美国_7
-    port: 7307
-    server: 38.110.1.105
+    port: 8000
+    server: 38.68.134.9
     type: ss
     udp: true
-    password: FoOiGlkAA9yPEGP
+    password: KixLvKzwjekG00rm
     cipher: aes-256-gcm
   - name: 🇺🇸_US_美国_8
-    port: 8118
-    server: 38.110.1.105
+    port: 8009
+    server: 38.114.114.69
     type: ss
     udp: true
-    password: cdBIDV42DCwnfIN
+    password: XKFKl2rULjIp74
     cipher: aes-256-gcm
 proxy-groups:
   - name: 🚀 节点选择
@@ -131,7 +131,7 @@ proxy-groups:
       - 🇺🇸_US_美国_2
       - 🇺🇸_US_美国_3
       - 🇺🇸_US_美国_4
-      - 🇩🇪_DE_德国->🇺🇸_US_美国
+      - 🇨🇳_CN_中国->🇩🇪_DE_德国
       - 🇺🇸_US_美国_5
       - 🇺🇸_US_美国_6
       - 🇺🇸_US_美国_7
@@ -146,7 +146,7 @@ proxy-groups:
       - 🇺🇸_US_美国_2
       - 🇺🇸_US_美国_3
       - 🇺🇸_US_美国_4
-      - 🇩🇪_DE_德国->🇺🇸_US_美国
+      - 🇨🇳_CN_中国->🇩🇪_DE_德国
       - 🇺🇸_US_美国_5
       - 🇺🇸_US_美国_6
       - 🇺🇸_US_美国_7
@@ -161,7 +161,7 @@ proxy-groups:
       - 🇺🇸_US_美国_2
       - 🇺🇸_US_美国_3
       - 🇺🇸_US_美国_4
-      - 🇩🇪_DE_德国->🇺🇸_US_美国
+      - 🇨🇳_CN_中国->🇩🇪_DE_德国
       - 🇺🇸_US_美国_5
       - 🇺🇸_US_美国_6
       - 🇺🇸_US_美国_7
@@ -175,7 +175,7 @@ proxy-groups:
       - 🇺🇸_US_美国_2
       - 🇺🇸_US_美国_3
       - 🇺🇸_US_美国_4
-      - 🇩🇪_DE_德国->🇺🇸_US_美国
+      - 🇨🇳_CN_中国->🇩🇪_DE_德国
       - 🇺🇸_US_美国_5
       - 🇺🇸_US_美国_6
       - 🇺🇸_US_美国_7
@@ -189,7 +189,7 @@ proxy-groups:
       - 🇺🇸_US_美国_2
       - 🇺🇸_US_美国_3
       - 🇺🇸_US_美国_4
-      - 🇩🇪_DE_德国->🇺🇸_US_美国
+      - 🇨🇳_CN_中国->🇩🇪_DE_德国
       - 🇺🇸_US_美国_5
       - 🇺🇸_US_美国_6
       - 🇺🇸_US_美国_7
@@ -203,7 +203,7 @@ proxy-groups:
       - 🇺🇸_US_美国_2
       - 🇺🇸_US_美国_3
       - 🇺🇸_US_美国_4
-      - 🇩🇪_DE_德国->🇺🇸_US_美国
+      - 🇨🇳_CN_中国->🇩🇪_DE_德国
       - 🇺🇸_US_美国_5
       - 🇺🇸_US_美国_6
       - 🇺🇸_US_美国_7
@@ -234,7 +234,7 @@ proxy-groups:
       - 🇺🇸_US_美国_2
       - 🇺🇸_US_美国_3
       - 🇺🇸_US_美国_4
-      - 🇩🇪_DE_德国->🇺🇸_US_美国
+      - 🇨🇳_CN_中国->🇩🇪_DE_德国
       - 🇺🇸_US_美国_5
       - 🇺🇸_US_美国_6
       - 🇺🇸_US_美国_7
