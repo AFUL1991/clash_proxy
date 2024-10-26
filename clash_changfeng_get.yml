@@ -1,6 +1,6 @@
 # 生成地址：v2rayse.com
 # 模版名称：defaultName
-# 生成时间：2024-10-26 05:30:36
+# 生成时间：2024-10-26 15:28:57
 # 不要随意改变关键字，否则会导致出错
 # acl4SSR规则
 # 去广告：支持
@@ -59,200 +59,221 @@ tun:
     - 1.0.0.1
 proxies:
   - name: 🇺🇸_US_美国_1
-    port: 9090
-    server: 38.114.114.46
+    port: 8118
+    server: 15.204.87.217
     type: ss
     udp: true
-    password: Y6R9pAtvxxzmGC
+    password: cdBIDV42DCwnfIN
     cipher: aes-256-gcm
   - name: 🇺🇸_US_美国_2
-    port: 3306
-    server: 23.157.40.113
+    port: 3389
+    server: 15.204.87.217
     type: ss
     udp: true
     password: Y6R9pAtvxxzmGC
     cipher: aes-256-gcm
   - name: 🇺🇸_US_美国_3
-    port: 9102
-    server: 38.110.1.105
+    port: 8090
+    server: 23.157.40.113
     type: ss
     udp: true
-    password: e4FCWrgpkji3QY
+    password: PCnnH6SQSnfoS27
     cipher: aes-256-gcm
   - name: 🇺🇸_US_美国_4
-    port: 443
-    server: 149.22.95.183
-    type: ss
-    udp: true
-    password: shadowsocks
-    cipher: aes-128-gcm
-  - name: 🇺🇸_US_美国_5
-    port: 8091
-    server: 169.197.141.84
-    type: ss
-    udp: true
-    password: PCnnH6SQSnfoS27
-    cipher: aes-256-gcm
-  - name: 🇺🇸_US_美国_6
-    port: 8119
-    server: 38.110.1.105
-    type: ss
-    udp: true
-    password: cdBIDV42DCwnfIN
-    cipher: aes-256-gcm
-  - name: 🇺🇸_US_美国_7
-    port: 5601
-    server: 23.157.40.113
-    type: ss
-    udp: true
-    password: Y6R9pAtvxxzmGC
-    cipher: aes-256-gcm
-  - name: 🇺🇸_US_美国_8
-    port: 8118
-    server: 23.157.40.113
-    type: ss
-    udp: true
-    password: cdBIDV42DCwnfIN
-    cipher: aes-256-gcm
-  - name: 🇺🇸_US_美国_9
-    port: 8000
-    server: 38.110.1.105
-    type: ss
-    udp: true
-    password: KixLvKzwjekG00rm
-    cipher: aes-256-gcm
-  - name: 🇺🇸_US_美国_10
-    port: 8091
-    server: 38.75.137.42
-    type: ss
-    udp: true
-    password: PCnnH6SQSnfoS27
-    cipher: aes-256-gcm
-  - name: 🇺🇸_US_美国_11
-    port: 9102
-    server: 38.68.134.9
-    type: ss
-    udp: true
-    password: e4FCWrgpkji3QY
-    cipher: aes-256-gcm
-  - name: 🇺🇸_US_美国_13
-    port: 7306
-    server: 167.88.61.111
-    type: ss
-    udp: true
-    password: FoOiGlkAA9yPEGP
-    cipher: aes-256-gcm
-  - name: 🇺🇸_US_美国_14
-    port: 8009
-    server: 38.110.1.105
-    type: ss
-    udp: true
-    password: XKFKl2rULjIp74
-    cipher: aes-256-gcm
-  - name: 🇺🇸_US_美国_15
-    port: 2376
-    server: 139.64.165.230
-    type: ss
-    udp: true
-    password: faBAoD54k87UJG7
-    cipher: aes-256-gcm
-  - name: 🇺🇸_US_美国_16
     port: 8882
-    server: 23.157.40.113
+    server: 38.75.137.42
     type: ss
     udp: true
     password: kDWvXYZoTBcGkC4
     cipher: aes-256-gcm
-  - name: 🇺🇸_US_美国_17
-    port: 3389
-    server: 38.114.114.46
+  - name: 🇺🇸_US_美国_5
+    port: 5004
+    server: 38.68.134.202
     type: ss
     udp: true
-    password: Y6R9pAtvxxzmGC
+    password: g5MeD6Ft3CWlJId
     cipher: aes-256-gcm
-  - name: 🇺🇸_US_美国_18
-    port: 9101
+  - name: 🇺🇸_US_美国_6
+    port: 443
+    server: 23.157.40.113
+    type: ss
+    udp: true
+    password: pKEW8JPByTVTLtM
+    cipher: aes-256-gcm
+  - name: 🇺🇸_US_美国_7
+    port: 5500
+    server: 15.204.87.217
+    type: ss
+    udp: true
+    password: KixLvKzwjekG00rm
+    cipher: aes-256-gcm
+  - name: 🇺🇸_US_美国_8
+    port: 7307
     server: 38.110.1.105
     type: ss
     udp: true
-    password: e4FCWrgpkji3QY
+    password: FoOiGlkAA9yPEGP
     cipher: aes-256-gcm
-  - name: 🇺🇸_US_美国_19
-    port: 5601
-    server: 38.68.134.9
+  - name: 🇺🇸_US_美国_9
+    port: 6697
+    server: 69.50.95.53
     type: ss
     udp: true
-    password: Y6R9pAtvxxzmGC
+    password: TEzjfAYq2IjtuoS
     cipher: aes-256-gcm
-  - name: 🇺🇸_US_美国_20
-    port: 2375
-    server: 38.68.134.9
-    type: ss
-    udp: true
-    password: faBAoD54k87UJG7
-    cipher: aes-256-gcm
-  - name: 🇺🇸_US_美国_21
+  - name: 🇺🇸_US_美国_10
     port: 5003
     server: 38.110.1.105
     type: ss
     udp: true
     password: g5MeD6Ft3CWlJId
     cipher: aes-256-gcm
-  - name: 🇳🇱_NL_荷兰
-    port: 57456
-    server: 45.144.48.63
+  - name: 🇺🇸_US_美国_11
+    port: 9101
+    server: 38.110.1.105
     type: ss
     udp: true
-    password: d3837224ed465f00
-    cipher: chacha20-ietf-poly1305
-  - name: 🇺🇸_US_美国_22
-    port: 6697
-    server: 38.114.114.46
-    type: ss
-    udp: true
-    password: TEzjfAYq2IjtuoS
+    password: e4FCWrgpkji3QY
     cipher: aes-256-gcm
-  - name: 🇺🇸_US_美国_23
-    port: 8008
+  - name: 🇺🇸_US_美国_12
+    port: 8009
     server: 23.157.40.113
     type: ss
     udp: true
     password: XKFKl2rULjIp74
     cipher: aes-256-gcm
-  - name: 🇺🇸_US_美国_24
-    port: 8118
-    server: 38.110.1.105
-    type: ss
-    udp: true
-    password: cdBIDV42DCwnfIN
-    cipher: aes-256-gcm
-  - name: 🇺🇸_US_美国_25
-    port: 3389
-    server: 23.157.40.113
+  - name: 🇺🇸_US_美国_13
+    port: 3306
+    server: 15.204.87.217
     type: ss
     udp: true
     password: Y6R9pAtvxxzmGC
     cipher: aes-256-gcm
-  - name: 🇺🇸_US_美国_26
-    port: 8000
-    server: 54.37.12.70
+  - name: 🇺🇸_US_美国_14
+    port: 5498
+    server: 69.50.95.53
     type: ss
     udp: true
-    password: KixLvKzwjekG00rm
+    password: lGqs95QkFHo2NV
     cipher: aes-256-gcm
-  - name: 🇺🇸_US_美国_27
+  - name: 🇺🇸_US_美国_15
+    port: 8119
+    server: 38.68.134.9
+    type: ss
+    udp: true
+    password: cdBIDV42DCwnfIN
+    cipher: aes-256-gcm
+  - name: 🇺🇸_US_美国_16
+    port: 5498
+    server: 23.157.40.113
+    type: ss
+    udp: true
+    password: lGqs95QkFHo2NV
+    cipher: aes-256-gcm
+  - name: 🇺🇸_US_美国_17
+    port: 3306
+    server: 69.50.95.53
+    type: ss
+    udp: true
+    password: Y6R9pAtvxxzmGC
+    cipher: aes-256-gcm
+  - name: 🇺🇸_US_美国_18
+    port: 6697
+    server: 15.204.87.217
+    type: ss
+    udp: true
+    password: TEzjfAYq2IjtuoS
+    cipher: aes-256-gcm
+  - name: 🇺🇸_US_美国_19
+    port: 443
+    server: 69.50.95.53
+    type: ss
+    udp: true
+    password: pKEW8JPByTVTLtM
+    cipher: aes-256-gcm
+  - name: 🇺🇸_US_美国_20
+    port: 5600
+    server: 15.204.87.217
+    type: ss
+    udp: true
+    password: Y6R9pAtvxxzmGC
+    cipher: aes-256-gcm
+  - name: 🇺🇸_US_美国_21
+    port: 7307
+    server: 23.157.40.113
+    type: ss
+    udp: true
+    password: FoOiGlkAA9yPEGP
+    cipher: aes-256-gcm
+  - name: 🇺🇸_US_美国_22
     port: 443
     server: 38.110.1.105
     type: ss
     udp: true
     password: pKEW8JPByTVTLtM
     cipher: aes-256-gcm
-  - name: 🇺🇸_US_美国_28
-    port: 8119
+  - name: 🇺🇸_US_美国_23
+    port: 8009
+    server: 38.110.1.105
+    type: ss
+    udp: true
+    password: XKFKl2rULjIp74
+    cipher: aes-256-gcm
+  - name: 🇺🇸_US_美国_24
+    port: 8091
+    server: 69.50.95.53
+    type: ss
+    udp: true
+    password: PCnnH6SQSnfoS27
+    cipher: aes-256-gcm
+  - name: 🇺🇸_US_美国_26
+    port: 8881
     server: 38.68.134.9
     type: ss
     udp: true
+    password: kDWvXYZoTBcGkC4
+    cipher: aes-256-gcm
+  - name: 🇺🇸_US_美国_27
+    port: 9102
+    server: 69.50.92.99
+    type: ss
+    udp: true
+    password: e4FCWrgpkji3QY
+    cipher: aes-256-gcm
+  - name: 🇺🇸_US_美国_28
+    port: 8118
+    server: 23.157.40.113
+    type: ss
+    udp: true
     password: cdBIDV42DCwnfIN
+    cipher: aes-256-gcm
+  - name: 🇺🇸_US_美国_29
+    port: 8090
+    server: 38.110.1.51
+    type: ss
+    udp: true
+    password: PCnnH6SQSnfoS27
+    cipher: aes-256-gcm
+  - name: 🇺🇸_US_美国_30
+    port: 8119
+    server: 69.50.95.53
+    type: ss
+    udp: true
+    password: cdBIDV42DCwnfIN
+    cipher: aes-256-gcm
+  - name: 🇺🇸_US_美国_31
+    port: 9102
+    server: 38.68.134.9
+    type: ss
+    udp: true
+    password: e4FCWrgpkji3QY
+    cipher: aes-256-gcm
+  - name: 🇺🇸_US_美国_32
+    port: 7002
+    server: 23.157.40.113
+    type: ss
+    udp: true
+    password: RexnBgU7EV5ADxG
     cipher: aes-256-gcm
 proxy-groups:
   - name: 🚀 节点选择
@@ -271,6 +292,7 @@ proxy-groups:
       - 🇺🇸_US_美国_9
       - 🇺🇸_US_美国_10
       - 🇺🇸_US_美国_11
+      - 🇺🇸_US_美国_12
       - 🇺🇸_US_美国_13
       - 🇺🇸_US_美国_14
       - 🇺🇸_US_美国_15
@@ -280,14 +302,16 @@ proxy-groups:
       - 🇺🇸_US_美国_19
       - 🇺🇸_US_美国_20
       - 🇺🇸_US_美国_21
-      - 🇳🇱_NL_荷兰
       - 🇺🇸_US_美国_22
       - 🇺🇸_US_美国_23
       - 🇺🇸_US_美国_24
-      - 🇺🇸_US_美国_25
       - 🇺🇸_US_美国_26
       - 🇺🇸_US_美国_27
       - 🇺🇸_US_美国_28
+      - 🇺🇸_US_美国_29
+      - 🇺🇸_US_美国_30
+      - 🇺🇸_US_美国_31
+      - 🇺🇸_US_美国_32
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -305,6 +329,7 @@ proxy-groups:
       - 🇺🇸_US_美国_9
       - 🇺🇸_US_美国_10
       - 🇺🇸_US_美国_11
+      - 🇺🇸_US_美国_12
       - 🇺🇸_US_美国_13
       - 🇺🇸_US_美国_14
       - 🇺🇸_US_美国_15
@@ -314,14 +339,16 @@ proxy-groups:
       - 🇺🇸_US_美国_19
       - 🇺🇸_US_美国_20
       - 🇺🇸_US_美国_21
-      - 🇳🇱_NL_荷兰
       - 🇺🇸_US_美国_22
       - 🇺🇸_US_美国_23
       - 🇺🇸_US_美国_24
-      - 🇺🇸_US_美国_25
       - 🇺🇸_US_美国_26
       - 🇺🇸_US_美国_27
       - 🇺🇸_US_美国_28
+      - 🇺🇸_US_美国_29
+      - 🇺🇸_US_美国_30
+      - 🇺🇸_US_美国_31
+      - 🇺🇸_US_美国_32
   - name: 🌍 国外媒体
     type: select
     proxies:
@@ -339,6 +366,7 @@ proxy-groups:
       - 🇺🇸_US_美国_9
       - 🇺🇸_US_美国_10
       - 🇺🇸_US_美国_11
+      - 🇺🇸_US_美国_12
       - 🇺🇸_US_美国_13
       - 🇺🇸_US_美国_14
       - 🇺🇸_US_美国_15
@@ -348,14 +376,16 @@ proxy-groups:
       - 🇺🇸_US_美国_19
       - 🇺🇸_US_美国_20
       - 🇺🇸_US_美国_21
-      - 🇳🇱_NL_荷兰
       - 🇺🇸_US_美国_22
       - 🇺🇸_US_美国_23
       - 🇺🇸_US_美国_24
-      - 🇺🇸_US_美国_25
       - 🇺🇸_US_美国_26
       - 🇺🇸_US_美国_27
       - 🇺🇸_US_美国_28
+      - 🇺🇸_US_美国_29
+      - 🇺🇸_US_美国_30
+      - 🇺🇸_US_美国_31
+      - 🇺🇸_US_美国_32
   - name: 📲 电报信息
     type: select
     proxies:
@@ -372,6 +402,7 @@ proxy-groups:
       - 🇺🇸_US_美国_9
       - 🇺🇸_US_美国_10
       - 🇺🇸_US_美国_11
+      - 🇺🇸_US_美国_12
       - 🇺🇸_US_美国_13
       - 🇺🇸_US_美国_14
       - 🇺🇸_US_美国_15
@@ -381,14 +412,16 @@ proxy-groups:
       - 🇺🇸_US_美国_19
       - 🇺🇸_US_美国_20
       - 🇺🇸_US_美国_21
-      - 🇳🇱_NL_荷兰
       - 🇺🇸_US_美国_22
       - 🇺🇸_US_美国_23
       - 🇺🇸_US_美国_24
-      - 🇺🇸_US_美国_25
       - 🇺🇸_US_美国_26
       - 🇺🇸_US_美国_27
       - 🇺🇸_US_美国_28
+      - 🇺🇸_US_美国_29
+      - 🇺🇸_US_美国_30
+      - 🇺🇸_US_美国_31
+      - 🇺🇸_US_美国_32
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
@@ -405,6 +438,7 @@ proxy-groups:
       - 🇺🇸_US_美国_9
       - 🇺🇸_US_美国_10
       - 🇺🇸_US_美国_11
+      - 🇺🇸_US_美国_12
       - 🇺🇸_US_美国_13
       - 🇺🇸_US_美国_14
       - 🇺🇸_US_美国_15
@@ -414,14 +448,16 @@ proxy-groups:
       - 🇺🇸_US_美国_19
       - 🇺🇸_US_美国_20
       - 🇺🇸_US_美国_21
-      - 🇳🇱_NL_荷兰
       - 🇺🇸_US_美国_22
       - 🇺🇸_US_美国_23
       - 🇺🇸_US_美国_24
-      - 🇺🇸_US_美国_25
       - 🇺🇸_US_美国_26
       - 🇺🇸_US_美国_27
       - 🇺🇸_US_美国_28
+      - 🇺🇸_US_美国_29
+      - 🇺🇸_US_美国_30
+      - 🇺🇸_US_美国_31
+      - 🇺🇸_US_美国_32
   - name: 🍎 苹果服务
     type: select
     proxies:
@@ -438,6 +474,7 @@ proxy-groups:
       - 🇺🇸_US_美国_9
       - 🇺🇸_US_美国_10
       - 🇺🇸_US_美国_11
+      - 🇺🇸_US_美国_12
       - 🇺🇸_US_美国_13
       - 🇺🇸_US_美国_14
       - 🇺🇸_US_美国_15
@@ -447,14 +484,16 @@ proxy-groups:
       - 🇺🇸_US_美国_19
       - 🇺🇸_US_美国_20
       - 🇺🇸_US_美国_21
-      - 🇳🇱_NL_荷兰
       - 🇺🇸_US_美国_22
       - 🇺🇸_US_美国_23
       - 🇺🇸_US_美国_24
-      - 🇺🇸_US_美国_25
       - 🇺🇸_US_美国_26
       - 🇺🇸_US_美国_27
       - 🇺🇸_US_美国_28
+      - 🇺🇸_US_美国_29
+      - 🇺🇸_US_美国_30
+      - 🇺🇸_US_美国_31
+      - 🇺🇸_US_美国_32
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -488,6 +527,7 @@ proxy-groups:
       - 🇺🇸_US_美国_9
       - 🇺🇸_US_美国_10
       - 🇺🇸_US_美国_11
+      - 🇺🇸_US_美国_12
       - 🇺🇸_US_美国_13
       - 🇺🇸_US_美国_14
       - 🇺🇸_US_美国_15
@@ -497,14 +537,16 @@ proxy-groups:
       - 🇺🇸_US_美国_19
       - 🇺🇸_US_美国_20
       - 🇺🇸_US_美国_21
-      - 🇳🇱_NL_荷兰
       - 🇺🇸_US_美国_22
       - 🇺🇸_US_美国_23
       - 🇺🇸_US_美国_24
-      - 🇺🇸_US_美国_25
       - 🇺🇸_US_美国_26
       - 🇺🇸_US_美国_27
       - 🇺🇸_US_美国_28
+      - 🇺🇸_US_美国_29
+      - 🇺🇸_US_美国_30
+      - 🇺🇸_US_美国_31
+      - 🇺🇸_US_美国_32
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
   - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
