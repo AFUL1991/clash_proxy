@@ -1,6 +1,6 @@
 # 生成地址：v2rayse.com
 # 模版名称：defaultName
-# 生成时间：2024-10-29 17:46:09
+# 生成时间：2024-10-29 21:36:05
 # 不要随意改变关键字，否则会导致出错
 # acl4SSR规则
 # 去广告：支持
@@ -58,13 +58,32 @@ tun:
     - 1.1.1.1
     - 1.0.0.1
 proxies:
-  - name: 🇬🇧_GB_英国
-    port: 443
-    server: 141.98.101.179
+  - name: 🇷🇺_RU_俄罗斯
+    port: 2098
+    server: 147.45.51.16
+    type: vmess
+    network: http
+    udp: true
+    sni: ""
+    skip-cert-verify: true
+    http-opts: {}
+    cipher: auto
+    uuid: 83876222-64a4-4912-aa18-b7d9d34959de
+    alterId: 0
+  - name: 🇨🇳_CN_中国_1
+    port: 8080
+    server: 107.155.57.51
     type: ss
     udp: true
-    password: shadowsocks
-    cipher: aes-128-gcm
+    password: 14fFPrbezE3HDZzsMOr6
+    cipher: rc4-md5
+  - name: 🇨🇳_CN_中国->🇷🇺_RU_俄罗斯
+    port: 50098
+    server: 122.188.71.122
+    type: ss
+    udp: true
+    password: 7ac75754-fde2-407d-ac00-17cd5ddc53d1
+    cipher: chacha20-ietf-poly1305
   - name: 🇺🇸_US_美国_1
     port: 6379
     server: 23.150.152.16
@@ -73,146 +92,116 @@ proxies:
     password: zDNVedRFPQexG9v
     cipher: aes-256-gcm
   - name: 🇺🇸_US_美国_2
-    port: 22222
-    server: 3.97.130.28
-    type: trojan
-    udp: true
-    sni: trojan.burgerip.co.uk
-    password: telegram-id-directvpn
-  - name: 🇺🇸_US_美国_3
-    port: 443
-    server: 142.202.49.119
+    port: 8008
+    server: 38.110.1.35
     type: ss
     udp: true
-    password: pKEW8JPByTVTLtM
+    password: XKFKl2rULjIp74
     cipher: aes-256-gcm
-  - name: 🇺🇸_US_美国_4
-    port: 22222
-    server: 3.220.69.59
-    type: trojan
+  - name: 🇹🇷_TR_土耳其->🇩🇪_DE_德国
+    port: 21657
+    server: ist1.fromblancwithlove.com
+    type: ss
     udp: true
-    sni: trojan.burgerip.co.uk
-    password: telegram-id-directvpn
-    skip-cert-verify: false
-  - name: 未知_1
-    port: 13021
-    server: naiu-us.05vr9nyqg5.download
-    type: trojan
-    network: tcp
-    udp: true
-    sni: cloudflare.node-ssl.cdn-alibaba.com
-    password: 5b4becce-5739-483f-97ec-68b81a855d68
-  - name: 未知_2
-    port: 13021
-    server: naiu-us.05vr9nyqg5.download
-    type: trojan
-    network: tcp
-    udp: true
-    sni: cloudflare.node-ssl.cdn-alibaba.com
-    password: 5b4becce-5739-483f-97ec-68b81a855d68
-  - name: 🇨🇳_CN_中国->🇺🇸_US_美国
-    port: 33288
-    server: 183.236.48.161
+    password: 7PC4KztQwRixCS809ZFEllQpmAMn4oE0O9qdrCYo4MdEXJU577cjYeaG0tZDyRl0
+    cipher: chacha20-ietf-poly1305
+  - name: 🇨🇳_CN_中国_2
+    port: 46665
+    server: 120.237.79.157
     type: vmess
     network: tcp
     udp: true
     cipher: auto
-    uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+    uuid: 3ac820af-becb-45d7-9e7a-e33d02961bb3
     alterId: 64
-  - name: 🇺🇸_US_美国_5
-    port: 443
-    server: 44.244.21.125
+  - name: 🇨🇳_CN_中国_3
+    port: 8080
+    server: 107.155.57.51
     type: ss
     udp: true
-    password: amazonskr05
-    cipher: aes-256-cfb
+    password: 14fFPrbezE3HDZzsMOr6
+    cipher: rc4-md5
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - 🇬🇧_GB_英国
+      - 🇷🇺_RU_俄罗斯
+      - 🇨🇳_CN_中国_1
+      - 🇨🇳_CN_中国->🇷🇺_RU_俄罗斯
       - 🇺🇸_US_美国_1
       - 🇺🇸_US_美国_2
-      - 🇺🇸_US_美国_3
-      - 🇺🇸_US_美国_4
-      - 未知_1
-      - 未知_2
-      - 🇨🇳_CN_中国->🇺🇸_US_美国
-      - 🇺🇸_US_美国_5
+      - 🇹🇷_TR_土耳其->🇩🇪_DE_德国
+      - 🇨🇳_CN_中国_2
+      - 🇨🇳_CN_中国_3
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - 🇬🇧_GB_英国
+      - 🇷🇺_RU_俄罗斯
+      - 🇨🇳_CN_中国_1
+      - 🇨🇳_CN_中国->🇷🇺_RU_俄罗斯
       - 🇺🇸_US_美国_1
       - 🇺🇸_US_美国_2
-      - 🇺🇸_US_美国_3
-      - 🇺🇸_US_美国_4
-      - 未知_1
-      - 未知_2
-      - 🇨🇳_CN_中国->🇺🇸_US_美国
-      - 🇺🇸_US_美国_5
+      - 🇹🇷_TR_土耳其->🇩🇪_DE_德国
+      - 🇨🇳_CN_中国_2
+      - 🇨🇳_CN_中国_3
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇬🇧_GB_英国
+      - 🇷🇺_RU_俄罗斯
+      - 🇨🇳_CN_中国_1
+      - 🇨🇳_CN_中国->🇷🇺_RU_俄罗斯
       - 🇺🇸_US_美国_1
       - 🇺🇸_US_美国_2
-      - 🇺🇸_US_美国_3
-      - 🇺🇸_US_美国_4
-      - 未知_1
-      - 未知_2
-      - 🇨🇳_CN_中国->🇺🇸_US_美国
-      - 🇺🇸_US_美国_5
+      - 🇹🇷_TR_土耳其->🇩🇪_DE_德国
+      - 🇨🇳_CN_中国_2
+      - 🇨🇳_CN_中国_3
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 🇬🇧_GB_英国
+      - 🇷🇺_RU_俄罗斯
+      - 🇨🇳_CN_中国_1
+      - 🇨🇳_CN_中国->🇷🇺_RU_俄罗斯
       - 🇺🇸_US_美国_1
       - 🇺🇸_US_美国_2
-      - 🇺🇸_US_美国_3
-      - 🇺🇸_US_美国_4
-      - 未知_1
-      - 未知_2
-      - 🇨🇳_CN_中国->🇺🇸_US_美国
-      - 🇺🇸_US_美国_5
+      - 🇹🇷_TR_土耳其->🇩🇪_DE_德国
+      - 🇨🇳_CN_中国_2
+      - 🇨🇳_CN_中国_3
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - 🇬🇧_GB_英国
+      - 🇷🇺_RU_俄罗斯
+      - 🇨🇳_CN_中国_1
+      - 🇨🇳_CN_中国->🇷🇺_RU_俄罗斯
       - 🇺🇸_US_美国_1
       - 🇺🇸_US_美国_2
-      - 🇺🇸_US_美国_3
-      - 🇺🇸_US_美国_4
-      - 未知_1
-      - 未知_2
-      - 🇨🇳_CN_中国->🇺🇸_US_美国
-      - 🇺🇸_US_美国_5
+      - 🇹🇷_TR_土耳其->🇩🇪_DE_德国
+      - 🇨🇳_CN_中国_2
+      - 🇨🇳_CN_中国_3
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 🇬🇧_GB_英国
+      - 🇷🇺_RU_俄罗斯
+      - 🇨🇳_CN_中国_1
+      - 🇨🇳_CN_中国->🇷🇺_RU_俄罗斯
       - 🇺🇸_US_美国_1
       - 🇺🇸_US_美国_2
-      - 🇺🇸_US_美国_3
-      - 🇺🇸_US_美国_4
-      - 未知_1
-      - 未知_2
-      - 🇨🇳_CN_中国->🇺🇸_US_美国
-      - 🇺🇸_US_美国_5
+      - 🇹🇷_TR_土耳其->🇩🇪_DE_德国
+      - 🇨🇳_CN_中国_2
+      - 🇨🇳_CN_中国_3
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -235,15 +224,14 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇬🇧_GB_英国
+      - 🇷🇺_RU_俄罗斯
+      - 🇨🇳_CN_中国_1
+      - 🇨🇳_CN_中国->🇷🇺_RU_俄罗斯
       - 🇺🇸_US_美国_1
       - 🇺🇸_US_美国_2
-      - 🇺🇸_US_美国_3
-      - 🇺🇸_US_美国_4
-      - 未知_1
-      - 未知_2
-      - 🇨🇳_CN_中国->🇺🇸_US_美国
-      - 🇺🇸_US_美国_5
+      - 🇹🇷_TR_土耳其->🇩🇪_DE_德国
+      - 🇨🇳_CN_中国_2
+      - 🇨🇳_CN_中国_3
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
   - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
