@@ -1,11 +1,11 @@
----------- [2024-10-29 18:11:28] 更新订阅 ----------
----------- 2024-10-29 18:11:28 ----------
+---------- [2024-10-29 21:26:38] 更新订阅 ----------
+---------- 2024-10-29 21:26:39 ----------
 [长风分享]:
 /home/runner/work/auto_jobs/proxy/clash_cfmem.yml
 /home/runner/work/auto_jobs/proxy/v2ray_cfmem.txt
 [长风分享]: 订阅成功 https://fs.v2rayse.com/share/20241029/5pkmjjc916.yaml
 [长风分享]: 订阅成功 https://fs.v2rayse.com/share/20241029/3r0igkkxzn.txt
----------- 2024-10-29 18:11:29 ----------
+---------- 2024-10-29 21:26:40 ----------
 [freev2]: /home/runner/work/auto_jobs/subscribe/freev2.py
 [freev2]: 当前工作目录：/home/runner/work/auto_jobs/proxy/clash_freev2.yml
 [freev2]: 订阅成功, https://raw.githubusercontent.com/freefq/free/master/v2
@@ -43,7 +43,7 @@ User(
 	phone='436789040144717',
 	photo=None,
 	status=UserStatusOffline(
-		was_online=datetime.datetime(2024, 10, 29, 10, 9, 43, tzinfo=datetime.timezone.utc)
+		was_online=datetime.datetime(2024, 10, 29, 13, 23, 23, tzinfo=datetime.timezone.utc)
 	),
 	bot_info_version=None,
 	restriction_reason=[
@@ -60,25 +60,27 @@ Name: 知乎暴论, ID: -1001646933542
 Name: FREE 中文, ID: -1001570215033
 Name: 长风分享频道, ID: -1001516635885
 Name: 免费节点自动分享, ID: 2096213628
-Name: 🎬 阿里云盘交流群 💾, ID: -1001589118734
 Name: TG代理VPN技术分享, ID: -1001670133389
-Name: 长风分享群组, ID: -1001802101728
-Name: 吃瓜 吃瓜群众🍉, ID: -1001786596225
+Name: 阿里云盘资源搜索, ID: -1001598490288
 Name: 极搜-中文搜索（复活版） 中文 搜索, ID: -1001607161451
 Name: 极搜（复活版）, ID: -1001983206073
+Name: 吃瓜 吃瓜群众🍉, ID: -1001786596225
+Name: 🎬 阿里云盘交流群 💾, ID: -1001589118734
+Name: 优哥跨境交流群, ID: -1001861402973
+Name: 🎬 云盘盘 - 阿里云盘投稿🚦, ID: -1001198853752
+Name: 🎬 阿里云盘资源 🆙 🚦, ID: -1001520702906
+Name: 黑料网155.fun-免费吃瓜-解决找瓜难题, ID: -1001863758543
+Name: 老毛子Padavan固件自助交流群, ID: -1001148540997
 Name: 超级搜索引擎, ID: -1001760236395
 Name: 【李老师不是你老师】官方电报, ID: -1002155057858
-Name: 黑料网155.fun-免费吃瓜-解决找瓜难题, ID: -1001863758543
+Name: 长风分享群组, ID: -1001802101728
 Name: 极搜, ID: -1001888813717
-Name: 🎬 阿里云盘资源 🆙 🚦, ID: -1001520702906
-Name: 🎬 云盘盘 - 阿里云盘投稿🚦, ID: -1001198853752
-Name: 优哥跨境交流群, ID: -1001861402973
-Name: 老毛子Padavan固件自助交流群, ID: -1001148540997
-Name: 阿里云盘资源搜索, ID: -1001598490288
+Name: 🍒 不良少女 破处区🩸, ID: -1002426062367
 Name: 猎奇探花老司机, ID: -1001667285813
-Name: Telegram, ID: 777000
-Name: 吃瓜中心, ID: -1001638488383
 Name: 吃瓜笑料, ID: -1002122890847
+Name: 吃瓜中心, ID: -1001638488383
+Name: 不良林-交流群, ID: -1001125179638
+Name: Telegram, ID: 777000
 Name: 狗狗免费社工机器人, ID: 6005833864
 Name: 自选基金助手群组, ID: -1001389480278
 Name: 吃瓜少女, ID: -1001232928936
@@ -88,7 +90,6 @@ Name: 吃瓜🍉搜 @achiguao, ID: -1001569868197
 Name: 吃瓜🍉群众, ID: -1001905442401
 Name: ProxyBingAI🚀, ID: -1002007144215
 Name: 口交💋专辑, ID: -1001420871010
-Name: 🍒 不良少女 破处区🩸, ID: -1002426062367
 Name: Github_2dust, ID: -1001628493435
 Name: Gmail Bot, ID: 307373020
 Name: 蛟龙, ID: -1001465257366
@@ -98,7 +99,6 @@ Name: TG代理/VPN/V2ray/Clash/小火箭节点/Proxy MTProto, ID: -1001589241381
 Name: 科技爱好者周刊, ID: -1001191802783
 Name: 狼友投稿分享群, ID: -1002033839322
 Name: DY|摸鱼, ID: -1001745768919
-Name: 不良林-交流群, ID: -1001125179638
 Name: 绅士👙联盟🔗, ID: -1001162700628
 Name: 免费社工库机器人 FreeSGKbot, ID: -1001516876124
 Name: 阿里云盘盘 - 📣通知频道, ID: -1001616865400
@@ -128,10 +128,10 @@ Name: 吃瓜新闻, ID: -1001252816724
 Name: 1lib, ID: 1788460589
 Name: 摆烂社工bot频道, ID: -1001788223313
 免费节点自动分享: 
-12138 /get
-12137 节点更新时间：17:54:20
+12141 /get
+12140 节点更新时间：17:54:20
 每30分钟更新10个节点
-12136 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpvWGhxSkdSODFFeU5ITTdabnJzUmxxYkdTUzRFOVY0VzhKWUdNclIyNk5jTlVCdmI@176.97.67.144:51348#%E9%98%BF%E8%81%94%E9%85%8B-16.6MB%2Fs
+12139 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpvWGhxSkdSODFFeU5ITTdabnJzUmxxYkdTUzRFOVY0VzhKWUdNclIyNk5jTlVCdmI@176.97.67.144:51348#%E9%98%BF%E8%81%94%E9%85%8B-16.6MB%2Fs
 ss://cmM0LW1kNToxNGZGUHJiZXpFM0hEWnpzTU9yNg@107.155.57.51:8080#%E7%BE%8E%E5%9B%BD-4.60MB%2Fs
 trojan://telegram-id-privatevpns@54.78.141.167:22222?allowInsecure=1&sni=trojan.burgerip.co.uk#%E7%88%B1%E5%B0%94%E5%85%B0-1.90MB%2Fs
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTotNC1NMVElJEhl@150.241.95.62:14416#%E8%A5%BF%E7%8F%AD%E7%89%99-90.3MB%2Fs
@@ -154,4 +154,4 @@ vmess://eyJ2IjoiMiIsInBzIjoi5pel5pysLTg0LjFNQi9zIiwiYWRkIjoiNjEuMTIwLjkuMTgiLCJw
 ----------------------------------------------------------------------------------------------------
 ['ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpvWGhxSkdSODFFeU5ITTdabnJzUmxxYkdTUzRFOVY0VzhKWUdNclIyNk5jTlVCdmI@176.97.67.144:51348#%E9%98%BF%E8%81%94%E9%85%8B-16.6MB%2Fs\nss://cmM0LW1kNToxNGZGUHJiZXpFM0hEWnpzTU9yNg@107.155.57.51:8080#%E7%BE%8E%E5%9B%BD-4.60MB%2Fs\ntrojan://telegram-id-privatevpns@54.78.141.167:22222?allowInsecure=1&sni=trojan.burgerip.co.uk#%E7%88%B1%E5%B0%94%E5%85%B0-1.90MB%2Fs\nss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTotNC1NMVElJEhl@150.241.95.62:14416#%E8%A5%BF%E7%8F%AD%E7%89%99-90.3MB%2Fs\nvmess://eyJ2IjoiMiIsInBzIjoi576O5Zu9LTMuMDdNQi9zIiwiYWRkIjoiMTg2LjE5MC4yMTUuNzUiLCJwb3J0IjoiNDQzIiwidHlwZSI6Im5vbmUiLCJpZCI6IjAzZmNjNjE4LWI5M2QtNjc5Ni02YWVkLThhMzhjOTc1ZDU4MSIsImFpZCI6IjEiLCJuZXQiOiJ3cyIsInBhdGgiOiJsaW5rdndzIiwiaG9zdCI6IiIsInRscyI6InRscyJ9\nss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNToxUld3WGh3ZkFCNWdBRW96VTRHMlBn@45.87.175.181:8080#%E7%AB%8B%E9%99%B6%E5%AE%9B-4.20MB%2Fs\nvmess://eyJ2IjoiMiIsInBzIjoi576O5Zu9LTIuNzdNQi9zIiwiYWRkIjoiMTg2LjE5MC4yMTUuMzIiLCJwb3J0IjoiNDQzIiwidHlwZSI6Im5vbmUiLCJpZCI6IjAzZmNjNjE4LWI5M2QtNjc5Ni02YWVkLThhMzhjOTc1ZDU4MSIsImFpZCI6IjEiLCJuZXQiOiJ3cyIsInBhdGgiOiJsaW5rdndzIiwiaG9zdCI6IiIsInRscyI6InRscyJ9\nss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpMTVNOaDIxVHJYalIyb2syNVEybkU4RU5UMnpvQm1QdmthM1JDQ1VBSFpFTENuV29la1ZqdmFmODlxd2NSa2RieEVmZXAyYmMyYVV0bW54cXZGMWF5UVJlejFKSGpVTGo@exchange.gameaurela.click:52952#%E4%BC%8A%E6%9C%97-54.0MB%2Fs\nvmess://eyJ2IjoiMiIsInBzIjoi5pyq55+l5Zu95a62LTMuMTFNQi9zIiwiYWRkIjoiMjMuMTY2Ljg4LjI3IiwicG9ydCI6IjQ0MyIsInR5cGUiOiJub25lIiwiaWQiOiIwM2ZjYzYxOC1iOTNkLTY3OTYtNmFlZC04YTM4Yzk3NWQ1ODEiLCJhaWQiOiIxIiwibmV0Ijoid3MiLCJwYXRoIjoibGlua3Z3cyIsImhvc3QiOiIiLCJ0bHMiOiJ0bHMifQ==\nvmess://eyJ2IjoiMiIsInBzIjoi5pel5pysLTg0LjFNQi9zIiwiYWRkIjoiNjEuMTIwLjkuMTgiLCJwb3J0IjoiNDM3MjAiLCJ0eXBlIjoibm9uZSIsImlkIjoiZjI0OGQwZTktMTlmNy1lYTdmLTY2NTktMTdhNjEwZGZlOGQ2IiwiYWlkIjoiMCIsIm5ldCI6InRjcCIsInBhdGgiOiJsaW5rdndzIiwiaG9zdCI6IiIsInRscyI6IiJ9']
 ----------------------------------------------------------------------------------------------------
----------- [2024-10-29 18:11:34] 更新订阅 ----------
+---------- [2024-10-29 21:26:45] 更新订阅 ----------
