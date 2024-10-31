@@ -1,6 +1,6 @@
 # 生成地址：v2rayse.com
 # 模版名称：defaultName
-# 生成时间：2024-10-31 21:35:03
+# 生成时间：2024-11-01 05:30:03
 # 不要随意改变关键字，否则会导致出错
 # acl4SSR规则
 # 去广告：支持
@@ -58,117 +58,130 @@ tun:
     - 1.1.1.1
     - 1.0.0.1
 proxies:
+  - name: 🇸🇬_SG_新加坡
+    port: 443
+    server: 52.77.209.61
+    type: ss
+    udp: true
+    password: amazonskr05
+    cipher: aes-256-cfb
   - name: 🇺🇸_US_美国_1
-    port: 443
-    server: 156.146.38.168
+    port: 8118
+    server: 69.50.92.110
     type: ss
     udp: true
-    password: shadowsocks
-    cipher: aes-128-gcm
+    password: cdBIDV42DCwnfIN
+    cipher: aes-256-gcm
+  - name: 🇬🇧_GB_英国_1
+    port: 6679
+    server: 145.239.6.202
+    type: ss
+    udp: true
+    password: TEzjfAYq2IjtuoS
+    cipher: aes-256-gcm
   - name: 🇺🇸_US_美国_2
-    port: 443
-    server: 34.210.94.67
+    port: 5498
+    server: 69.50.92.110
     type: ss
     udp: true
-    password: amazonskr05
-    cipher: aes-256-cfb
-  - name: 未知
-    port: 13021
-    server: naiu-us.05vr9nyqg5.download
-    type: trojan
-    udp: true
-    sni: cloudflare.node-ssl.cdn-alibaba.com
-    password: 5b4becce-5739-483f-97ec-68b81a855d68
-  - name: 🇺🇸_US_美国_5
-    port: 443
-    server: 34.216.240.225
-    type: ss
-    udp: true
-    password: amazonskr05
-    cipher: aes-256-cfb
-  - name: 🇺🇸_US_美国_6
-    port: 443
-    server: 34.222.148.255
-    type: ss
-    udp: true
-    password: amazonskr05
-    cipher: aes-256-cfb
-  - name: 🇺🇸_US_美国_7
+    password: lGqs95QkFHo2NV
+    cipher: aes-256-gcm
+  - name: 🇬🇧_GB_英国_2
     port: 3389
-    server: 23.134.94.168
+    server: 145.239.6.202
     type: ss
     udp: true
     password: Y6R9pAtvxxzmGC
     cipher: aes-256-gcm
+  - name: 🇬🇧_GB_英国_3
+    port: 7001
+    server: 145.239.6.202
+    type: ss
+    udp: true
+    password: RexnBgU7EV5ADxG
+    cipher: aes-256-gcm
+  - name: 🇩🇪_DE_德国->🇦🇫_AF_阿富汗
+    port: 8080
+    server: 45.87.175.171
+    type: ss
+    udp: true
+    password: cvII85TrW6n0OGyfpHVS1u
+    cipher: chacha20-ietf-poly1305
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
+      - 🇸🇬_SG_新加坡
       - 🇺🇸_US_美国_1
+      - 🇬🇧_GB_英国_1
       - 🇺🇸_US_美国_2
-      - 未知
-      - 🇺🇸_US_美国_5
-      - 🇺🇸_US_美国_6
-      - 🇺🇸_US_美国_7
+      - 🇬🇧_GB_英国_2
+      - 🇬🇧_GB_英国_3
+      - 🇩🇪_DE_德国->🇦🇫_AF_阿富汗
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
+      - 🇸🇬_SG_新加坡
       - 🇺🇸_US_美国_1
+      - 🇬🇧_GB_英国_1
       - 🇺🇸_US_美国_2
-      - 未知
-      - 🇺🇸_US_美国_5
-      - 🇺🇸_US_美国_6
-      - 🇺🇸_US_美国_7
+      - 🇬🇧_GB_英国_2
+      - 🇬🇧_GB_英国_3
+      - 🇩🇪_DE_德国->🇦🇫_AF_阿富汗
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
+      - 🇸🇬_SG_新加坡
       - 🇺🇸_US_美国_1
+      - 🇬🇧_GB_英国_1
       - 🇺🇸_US_美国_2
-      - 未知
-      - 🇺🇸_US_美国_5
-      - 🇺🇸_US_美国_6
-      - 🇺🇸_US_美国_7
+      - 🇬🇧_GB_英国_2
+      - 🇬🇧_GB_英国_3
+      - 🇩🇪_DE_德国->🇦🇫_AF_阿富汗
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
+      - 🇸🇬_SG_新加坡
       - 🇺🇸_US_美国_1
+      - 🇬🇧_GB_英国_1
       - 🇺🇸_US_美国_2
-      - 未知
-      - 🇺🇸_US_美国_5
-      - 🇺🇸_US_美国_6
-      - 🇺🇸_US_美国_7
+      - 🇬🇧_GB_英国_2
+      - 🇬🇧_GB_英国_3
+      - 🇩🇪_DE_德国->🇦🇫_AF_阿富汗
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
+      - 🇸🇬_SG_新加坡
       - 🇺🇸_US_美国_1
+      - 🇬🇧_GB_英国_1
       - 🇺🇸_US_美国_2
-      - 未知
-      - 🇺🇸_US_美国_5
-      - 🇺🇸_US_美国_6
-      - 🇺🇸_US_美国_7
+      - 🇬🇧_GB_英国_2
+      - 🇬🇧_GB_英国_3
+      - 🇩🇪_DE_德国->🇦🇫_AF_阿富汗
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
+      - 🇸🇬_SG_新加坡
       - 🇺🇸_US_美国_1
+      - 🇬🇧_GB_英国_1
       - 🇺🇸_US_美国_2
-      - 未知
-      - 🇺🇸_US_美国_5
-      - 🇺🇸_US_美国_6
-      - 🇺🇸_US_美国_7
+      - 🇬🇧_GB_英国_2
+      - 🇬🇧_GB_英国_3
+      - 🇩🇪_DE_德国->🇦🇫_AF_阿富汗
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -191,12 +204,13 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
+      - 🇸🇬_SG_新加坡
       - 🇺🇸_US_美国_1
+      - 🇬🇧_GB_英国_1
       - 🇺🇸_US_美国_2
-      - 未知
-      - 🇺🇸_US_美国_5
-      - 🇺🇸_US_美国_6
-      - 🇺🇸_US_美国_7
+      - 🇬🇧_GB_英国_2
+      - 🇬🇧_GB_英国_3
+      - 🇩🇪_DE_德国->🇦🇫_AF_阿富汗
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
   - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
