@@ -1,6 +1,6 @@
 # 生成地址：v2rayse.com
 # 模版名称：defaultName
-# 生成时间：2024-11-20 15:30:36
+# 生成时间：2024-11-20 21:37:42
 # 不要随意改变关键字，否则会导致出错
 # acl4SSR规则
 # 去广告：支持
@@ -58,146 +58,121 @@ tun:
     - 1.1.1.1
     - 1.0.0.1
 proxies:
-  - name: 🇩🇪_DE_德国_1
-    port: 8080
-    server: 45.87.175.164
+  - name: 🇺🇸_US_美国_1
+    port: 443
+    server: 34.219.157.214
     type: ss
     udp: true
-    password: cvII85TrW6n0OGyfpHVS1u
-    cipher: chacha20-ietf-poly1305
-  - name: 🇨🇳_CN_中国->🇺🇸_US_美国
-    port: 52112
-    server: 183.236.51.23
+    password: amazonskr05
+    cipher: aes-256-cfb
+  - name: 🇺🇸_US_美国_2
+    port: 443
+    server: 35.95.35.11
+    type: ss
+    udp: true
+    password: amazonskr05
+    cipher: aes-256-cfb
+  - name: 🇨🇳_CN_中国->🇺🇸_US_美国_1
+    port: 58831
+    server: 183.236.48.163
     type: vmess
     network: tcp
     udp: true
     cipher: auto
     uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
     alterId: 64
-  - name: 未知
-    port: 443
-    server: customer-185-231-206-12.stark-industries.solutions
-    type: trojan
-    udp: true
-    password: c5691b8f-d833-41e4-9295-769f3edb4cd2
-  - name: 🇺🇦_UA_乌克兰->🇷🇺_RU_俄罗斯
-    port: 443
-    server: 95.164.38.151
-    type: trojan
+  - name: 🇨🇳_CN_中国->🇺🇸_US_美国_2
+    port: 58831
+    server: 183.236.48.163
+    type: vmess
     network: tcp
     udp: true
-    sni: customer-95-164-38-151.stark-industries.solutions
-    password: c5691b8f-d833-41e4-9295-769f3edb4cd2
-    skip-cert-verify: true
-  - name: 🇬🇧_GB_英国_1
-    port: 34213
-    server: 51.13.59.152
-    type: ss
-    udp: true
-    password: wdsnQN4sSAPt9Bh6k3crUO
-    cipher: chacha20-ietf-poly1305
-  - name: 🇲🇩_MD_摩尔多瓦
+    cipher: auto
+    uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+    alterId: 64
+  - name: 🇺🇸_US_美国_3
     port: 443
-    server: 45.67.229.222
-    type: trojan
-    udp: true
-    sni: customer-45-67-229-222.stark-industries.solutions
-    password: c5691b8f-d833-41e4-9295-769f3edb4cd2
-  - name: 🇩🇪_DE_德国_2
-    port: 8080
-    server: 45.87.175.188
+    server: 34.220.216.220
     type: ss
     udp: true
-    password: cvII85TrW6n0OGyfpHVS1u
-    cipher: chacha20-ietf-poly1305
-  - name: 🇬🇧_GB_英国_2
-    port: 22222
-    server: 52.56.101.96
-    type: trojan
+    password: amazonskr05
+    cipher: aes-256-cfb
+  - name: 🇺🇸_US_美国_4
+    port: 443
+    server: 54.188.86.128
+    type: ss
     udp: true
-    sni: trojan.burgerip.co.uk
-    password: telegram-id-privatevpns
+    password: amazonskr05
+    cipher: aes-256-cfb
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - 🇩🇪_DE_德国_1
-      - 🇨🇳_CN_中国->🇺🇸_US_美国
-      - 未知
-      - 🇺🇦_UA_乌克兰->🇷🇺_RU_俄罗斯
-      - 🇬🇧_GB_英国_1
-      - 🇲🇩_MD_摩尔多瓦
-      - 🇩🇪_DE_德国_2
-      - 🇬🇧_GB_英国_2
+      - 🇺🇸_US_美国_1
+      - 🇺🇸_US_美国_2
+      - 🇨🇳_CN_中国->🇺🇸_US_美国_1
+      - 🇨🇳_CN_中国->🇺🇸_US_美国_2
+      - 🇺🇸_US_美国_3
+      - 🇺🇸_US_美国_4
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - 🇩🇪_DE_德国_1
-      - 🇨🇳_CN_中国->🇺🇸_US_美国
-      - 未知
-      - 🇺🇦_UA_乌克兰->🇷🇺_RU_俄罗斯
-      - 🇬🇧_GB_英国_1
-      - 🇲🇩_MD_摩尔多瓦
-      - 🇩🇪_DE_德国_2
-      - 🇬🇧_GB_英国_2
+      - 🇺🇸_US_美国_1
+      - 🇺🇸_US_美国_2
+      - 🇨🇳_CN_中国->🇺🇸_US_美国_1
+      - 🇨🇳_CN_中国->🇺🇸_US_美国_2
+      - 🇺🇸_US_美国_3
+      - 🇺🇸_US_美国_4
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇩🇪_DE_德国_1
-      - 🇨🇳_CN_中国->🇺🇸_US_美国
-      - 未知
-      - 🇺🇦_UA_乌克兰->🇷🇺_RU_俄罗斯
-      - 🇬🇧_GB_英国_1
-      - 🇲🇩_MD_摩尔多瓦
-      - 🇩🇪_DE_德国_2
-      - 🇬🇧_GB_英国_2
+      - 🇺🇸_US_美国_1
+      - 🇺🇸_US_美国_2
+      - 🇨🇳_CN_中国->🇺🇸_US_美国_1
+      - 🇨🇳_CN_中国->🇺🇸_US_美国_2
+      - 🇺🇸_US_美国_3
+      - 🇺🇸_US_美国_4
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 🇩🇪_DE_德国_1
-      - 🇨🇳_CN_中国->🇺🇸_US_美国
-      - 未知
-      - 🇺🇦_UA_乌克兰->🇷🇺_RU_俄罗斯
-      - 🇬🇧_GB_英国_1
-      - 🇲🇩_MD_摩尔多瓦
-      - 🇩🇪_DE_德国_2
-      - 🇬🇧_GB_英国_2
+      - 🇺🇸_US_美国_1
+      - 🇺🇸_US_美国_2
+      - 🇨🇳_CN_中国->🇺🇸_US_美国_1
+      - 🇨🇳_CN_中国->🇺🇸_US_美国_2
+      - 🇺🇸_US_美国_3
+      - 🇺🇸_US_美国_4
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - 🇩🇪_DE_德国_1
-      - 🇨🇳_CN_中国->🇺🇸_US_美国
-      - 未知
-      - 🇺🇦_UA_乌克兰->🇷🇺_RU_俄罗斯
-      - 🇬🇧_GB_英国_1
-      - 🇲🇩_MD_摩尔多瓦
-      - 🇩🇪_DE_德国_2
-      - 🇬🇧_GB_英国_2
+      - 🇺🇸_US_美国_1
+      - 🇺🇸_US_美国_2
+      - 🇨🇳_CN_中国->🇺🇸_US_美国_1
+      - 🇨🇳_CN_中国->🇺🇸_US_美国_2
+      - 🇺🇸_US_美国_3
+      - 🇺🇸_US_美国_4
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 🇩🇪_DE_德国_1
-      - 🇨🇳_CN_中国->🇺🇸_US_美国
-      - 未知
-      - 🇺🇦_UA_乌克兰->🇷🇺_RU_俄罗斯
-      - 🇬🇧_GB_英国_1
-      - 🇲🇩_MD_摩尔多瓦
-      - 🇩🇪_DE_德国_2
-      - 🇬🇧_GB_英国_2
+      - 🇺🇸_US_美国_1
+      - 🇺🇸_US_美国_2
+      - 🇨🇳_CN_中国->🇺🇸_US_美国_1
+      - 🇨🇳_CN_中国->🇺🇸_US_美国_2
+      - 🇺🇸_US_美国_3
+      - 🇺🇸_US_美国_4
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -220,14 +195,12 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇩🇪_DE_德国_1
-      - 🇨🇳_CN_中国->🇺🇸_US_美国
-      - 未知
-      - 🇺🇦_UA_乌克兰->🇷🇺_RU_俄罗斯
-      - 🇬🇧_GB_英国_1
-      - 🇲🇩_MD_摩尔多瓦
-      - 🇩🇪_DE_德国_2
-      - 🇬🇧_GB_英国_2
+      - 🇺🇸_US_美国_1
+      - 🇺🇸_US_美国_2
+      - 🇨🇳_CN_中国->🇺🇸_US_美国_1
+      - 🇨🇳_CN_中国->🇺🇸_US_美国_2
+      - 🇺🇸_US_美国_3
+      - 🇺🇸_US_美国_4
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
   - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
