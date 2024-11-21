@@ -5,123 +5,63 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: 美国-287.4KB/s, server: 38.86.135.141, port: 8882, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
-  - {name: 巴拿马-1.66MB/s, server: 138.186.142.4, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
-  - {name: 立陶宛-81.8MB/s, server: 45.87.175.164, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: 1RWwXhwfAB5gAEozU4G2Pg, udp: true}
-  - {name: 立陶宛-48.4MB/s, server: 45.87.175.164, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: cvII85TrW6n0OGyfpHVS1u, udp: true}
-  - {name: 立陶宛-43.5MB/s, server: 45.87.175.178, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: 4a2rfixophdjffa8KVA4Aa, udp: true}
-  - {name: 立陶宛-105.6KB/s, server: 45.87.175.188, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: 1RWwXhwfAB5gAEozU4G2Pg, udp: true}
-  - {name: 美国-846.2KB/s, server: 69.50.95.53, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
-  - {name: 立陶宛-53.6MB/s, server: 45.87.175.166, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: cvII85TrW6n0OGyfpHVS1u, udp: true}
-  - {name: 英国-9.0MB/s, server: series-a2.samanehha.co, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: mps3FwmDjLrWaOVg, udp: true}
-  - {name: 立陶宛-48.3MB/s, server: 45.87.175.166, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: 1RWwXhwfAB5gAEozU4G2Pg, udp: true}
-  - {name: 立陶宛-62.0MB/s, server: 45.87.175.199, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: cvII85TrW6n0OGyfpHVS1u, udp: true}
-  - {name: 立陶宛-32.5MB/s, server: 45.87.175.166, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: 4a2rfixophdjffa8KVA4Aa, udp: true}
-  - {name: 英国-2.36MB/s, server: series-a2.varzesh360.co, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: mps3FwmDjLrWaOVg, udp: true}
-  - {name: 拉脱维亚-14.8MB/s, server: 193.124.22.253, port: 33068, type: ss, cipher: chacha20-ietf-poly1305, password: 3MgIhqwp4pjM8SKwixNkYZ, udp: true}
-  - {name: 英国-1.89MB/s, server: series-a2.varzesh360.co, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: mps3FwmDjLrWaOVg, udp: true}
-  - {name: 立陶宛-111.8KB/s, server: 45.87.175.164, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: 4a2rfixophdjffa8KVA4Aa, udp: true}
-  - {name: 中转节点-1.97MB/s, server: 183.236.51.23, port: 52112, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 未知国家-1.10MB/s, server: 104.18.14.19, port: 2082, type: vmess, uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /github.com/Alvin9999, headers: {Host: ip18.6929198.xyz}}, udp: true}
-  - {name: 美国-5.00MB/s, server: 38.14.107.233, port: 38003, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /path/340434130032}, udp: true}
-  - {name: 英国-3.20MB/s, server: 149.7.16.174, port: 443, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /linkvws}, udp: true}
-  - {name: 荷兰-45.5MB/s, server: 172.99.188.21, port: 443, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /linkvws}, udp: true}
-  - {name: 中转节点-303.7KB/s, server: 183.236.48.163, port: 58831, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 中转节点-908.3KB/s, server: 36.151.192.198, port: 36900, type: trojan, password: QwwHvrnN, skip-cert-verify: true, udp: true}
-  - {name: 未知国家-2.13MB/s, server: 160.30.21.105, port: 443, type: trojan, password: 94d219c9-1afc-4d42-b090-8b3794764380, sni: std1.loadingip.com, skip-cert-verify: true, udp: true}
-  - {name: 中转节点-3.22MB/s, server: 36.151.192.239, port: 17806, type: trojan, password: QwwHvrnN, skip-cert-verify: true, udp: true}
+  - {name: 西班牙-50.9MB/s, server: 150.241.102.95, port: 21771, type: ss, cipher: chacha20-ietf-poly1305, password: jDtThYmCygPATxWBTJZUqG, udp: true}
+  - {name: 立陶宛-56.5MB/s, server: 45.87.175.188, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: cvII85TrW6n0OGyfpHVS1u, udp: true}
+  - {name: 韩国-669.8KB/s, server: 3.35.137.32, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+  - {name: 法国-21.1MB/s, server: 129.151.225.228, port: 8443, type: vmess, uuid: 05641cf5-58d2-4ba4-a9f1-b3cda0b1fb1d, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /obdii.cfd:443/linkws, headers: {Host: e130917c-1b58-4136-b2d9-76dc920e0add.add97ee8-0f14-48a3-b2cd-979c56742e64.loseyourip.com}}, udp: true}
+  - {name: 美国-18.2MB/s, server: 158.101.126.221, port: 443, type: vmess, uuid: 05641cf5-58d2-4ba4-a9f1-b3cda0b1fb1d, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /obdii.cfd:443/linkws, headers: {Host: e130917c-1b58-4136-b2d9-76dc920e0add.add97ee8-0f14-48a3-b2cd-979c56742e64.loseyourip.com}}, udp: true}
+  - {name: 美国-523.9KB/s, server: 172.64.198.249, port: 2082, type: vmess, uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: ip3.6929198.xyz}}, udp: true}
+  - {name: 日本-2.12MB/s, server: 141.147.147.180, port: 443, type: vmess, uuid: 05641cf5-58d2-4ba4-a9f1-b3cda0b1fb1d, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /obdii.cfd:443/linkws, headers: {Host: e130917c-1b58-4136-b2d9-76dc920e0add.add97ee8-0f14-48a3-b2cd-979c56742e64.loseyourip.com}}, udp: true}
+  - {name: 法国-494.4KB/s, server: 141.145.216.142, port: 2087, type: vmess, uuid: 05641cf5-58d2-4ba4-a9f1-b3cda0b1fb1d, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /obdii.cfd:443/linkws, headers: {Host: e130917c-1b58-4136-b2d9-76dc920e0add.add97ee8-0f14-48a3-b2cd-979c56742e64.loseyourip.com}}, udp: true}
+  - {name: 中转节点-651.3KB/s, server: 183.236.51.23, port: 52112, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 中转节点-3.30MB/s, server: 36.151.192.198, port: 36900, type: trojan, password: QwwHvrnN, skip-cert-verify: true, udp: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 美国-287.4KB/s
-      - 巴拿马-1.66MB/s
-      - 立陶宛-81.8MB/s
-      - 立陶宛-48.4MB/s
-      - 立陶宛-43.5MB/s
-      - 立陶宛-105.6KB/s
-      - 美国-846.2KB/s
-      - 立陶宛-53.6MB/s
-      - 英国-9.0MB/s
-      - 立陶宛-48.3MB/s
-      - 立陶宛-62.0MB/s
-      - 立陶宛-32.5MB/s
-      - 英国-2.36MB/s
-      - 拉脱维亚-14.8MB/s
-      - 英国-1.89MB/s
-      - 立陶宛-111.8KB/s
-      - 中转节点-1.97MB/s
-      - 未知国家-1.10MB/s
-      - 美国-5.00MB/s
-      - 英国-3.20MB/s
-      - 荷兰-45.5MB/s
-      - 中转节点-303.7KB/s
-      - 中转节点-908.3KB/s
-      - 未知国家-2.13MB/s
-      - 中转节点-3.22MB/s
+      - 西班牙-50.9MB/s
+      - 立陶宛-56.5MB/s
+      - 韩国-669.8KB/s
+      - 法国-21.1MB/s
+      - 美国-18.2MB/s
+      - 美国-523.9KB/s
+      - 日本-2.12MB/s
+      - 法国-494.4KB/s
+      - 中转节点-651.3KB/s
+      - 中转节点-3.30MB/s
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - 美国-287.4KB/s
-      - 巴拿马-1.66MB/s
-      - 立陶宛-81.8MB/s
-      - 立陶宛-48.4MB/s
-      - 立陶宛-43.5MB/s
-      - 立陶宛-105.6KB/s
-      - 美国-846.2KB/s
-      - 立陶宛-53.6MB/s
-      - 英国-9.0MB/s
-      - 立陶宛-48.3MB/s
-      - 立陶宛-62.0MB/s
-      - 立陶宛-32.5MB/s
-      - 英国-2.36MB/s
-      - 拉脱维亚-14.8MB/s
-      - 英国-1.89MB/s
-      - 立陶宛-111.8KB/s
-      - 中转节点-1.97MB/s
-      - 未知国家-1.10MB/s
-      - 美国-5.00MB/s
-      - 英国-3.20MB/s
-      - 荷兰-45.5MB/s
-      - 中转节点-303.7KB/s
-      - 中转节点-908.3KB/s
-      - 未知国家-2.13MB/s
-      - 中转节点-3.22MB/s
+      - 西班牙-50.9MB/s
+      - 立陶宛-56.5MB/s
+      - 韩国-669.8KB/s
+      - 法国-21.1MB/s
+      - 美国-18.2MB/s
+      - 美国-523.9KB/s
+      - 日本-2.12MB/s
+      - 法国-494.4KB/s
+      - 中转节点-651.3KB/s
+      - 中转节点-3.30MB/s
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 美国-287.4KB/s
-      - 巴拿马-1.66MB/s
-      - 立陶宛-81.8MB/s
-      - 立陶宛-48.4MB/s
-      - 立陶宛-43.5MB/s
-      - 立陶宛-105.6KB/s
-      - 美国-846.2KB/s
-      - 立陶宛-53.6MB/s
-      - 英国-9.0MB/s
-      - 立陶宛-48.3MB/s
-      - 立陶宛-62.0MB/s
-      - 立陶宛-32.5MB/s
-      - 英国-2.36MB/s
-      - 拉脱维亚-14.8MB/s
-      - 英国-1.89MB/s
-      - 立陶宛-111.8KB/s
-      - 中转节点-1.97MB/s
-      - 未知国家-1.10MB/s
-      - 美国-5.00MB/s
-      - 英国-3.20MB/s
-      - 荷兰-45.5MB/s
-      - 中转节点-303.7KB/s
-      - 中转节点-908.3KB/s
-      - 未知国家-2.13MB/s
-      - 中转节点-3.22MB/s
+      - 西班牙-50.9MB/s
+      - 立陶宛-56.5MB/s
+      - 韩国-669.8KB/s
+      - 法国-21.1MB/s
+      - 美国-18.2MB/s
+      - 美国-523.9KB/s
+      - 日本-2.12MB/s
+      - 法国-494.4KB/s
+      - 中转节点-651.3KB/s
+      - 中转节点-3.30MB/s
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -140,31 +80,16 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 美国-287.4KB/s
-      - 巴拿马-1.66MB/s
-      - 立陶宛-81.8MB/s
-      - 立陶宛-48.4MB/s
-      - 立陶宛-43.5MB/s
-      - 立陶宛-105.6KB/s
-      - 美国-846.2KB/s
-      - 立陶宛-53.6MB/s
-      - 英国-9.0MB/s
-      - 立陶宛-48.3MB/s
-      - 立陶宛-62.0MB/s
-      - 立陶宛-32.5MB/s
-      - 英国-2.36MB/s
-      - 拉脱维亚-14.8MB/s
-      - 英国-1.89MB/s
-      - 立陶宛-111.8KB/s
-      - 中转节点-1.97MB/s
-      - 未知国家-1.10MB/s
-      - 美国-5.00MB/s
-      - 英国-3.20MB/s
-      - 荷兰-45.5MB/s
-      - 中转节点-303.7KB/s
-      - 中转节点-908.3KB/s
-      - 未知国家-2.13MB/s
-      - 中转节点-3.22MB/s
+      - 西班牙-50.9MB/s
+      - 立陶宛-56.5MB/s
+      - 韩国-669.8KB/s
+      - 法国-21.1MB/s
+      - 美国-18.2MB/s
+      - 美国-523.9KB/s
+      - 日本-2.12MB/s
+      - 法国-494.4KB/s
+      - 中转节点-651.3KB/s
+      - 中转节点-3.30MB/s
   - name: 🌏 国内媒体
     type: select
     proxies:
@@ -175,92 +100,47 @@ proxy-groups:
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - 美国-287.4KB/s
-      - 巴拿马-1.66MB/s
-      - 立陶宛-81.8MB/s
-      - 立陶宛-48.4MB/s
-      - 立陶宛-43.5MB/s
-      - 立陶宛-105.6KB/s
-      - 美国-846.2KB/s
-      - 立陶宛-53.6MB/s
-      - 英国-9.0MB/s
-      - 立陶宛-48.3MB/s
-      - 立陶宛-62.0MB/s
-      - 立陶宛-32.5MB/s
-      - 英国-2.36MB/s
-      - 拉脱维亚-14.8MB/s
-      - 英国-1.89MB/s
-      - 立陶宛-111.8KB/s
-      - 中转节点-1.97MB/s
-      - 未知国家-1.10MB/s
-      - 美国-5.00MB/s
-      - 英国-3.20MB/s
-      - 荷兰-45.5MB/s
-      - 中转节点-303.7KB/s
-      - 中转节点-908.3KB/s
-      - 未知国家-2.13MB/s
-      - 中转节点-3.22MB/s
+      - 西班牙-50.9MB/s
+      - 立陶宛-56.5MB/s
+      - 韩国-669.8KB/s
+      - 法国-21.1MB/s
+      - 美国-18.2MB/s
+      - 美国-523.9KB/s
+      - 日本-2.12MB/s
+      - 法国-494.4KB/s
+      - 中转节点-651.3KB/s
+      - 中转节点-3.30MB/s
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - 美国-287.4KB/s
-      - 巴拿马-1.66MB/s
-      - 立陶宛-81.8MB/s
-      - 立陶宛-48.4MB/s
-      - 立陶宛-43.5MB/s
-      - 立陶宛-105.6KB/s
-      - 美国-846.2KB/s
-      - 立陶宛-53.6MB/s
-      - 英国-9.0MB/s
-      - 立陶宛-48.3MB/s
-      - 立陶宛-62.0MB/s
-      - 立陶宛-32.5MB/s
-      - 英国-2.36MB/s
-      - 拉脱维亚-14.8MB/s
-      - 英国-1.89MB/s
-      - 立陶宛-111.8KB/s
-      - 中转节点-1.97MB/s
-      - 未知国家-1.10MB/s
-      - 美国-5.00MB/s
-      - 英国-3.20MB/s
-      - 荷兰-45.5MB/s
-      - 中转节点-303.7KB/s
-      - 中转节点-908.3KB/s
-      - 未知国家-2.13MB/s
-      - 中转节点-3.22MB/s
+      - 西班牙-50.9MB/s
+      - 立陶宛-56.5MB/s
+      - 韩国-669.8KB/s
+      - 法国-21.1MB/s
+      - 美国-18.2MB/s
+      - 美国-523.9KB/s
+      - 日本-2.12MB/s
+      - 法国-494.4KB/s
+      - 中转节点-651.3KB/s
+      - 中转节点-3.30MB/s
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 美国-287.4KB/s
-      - 巴拿马-1.66MB/s
-      - 立陶宛-81.8MB/s
-      - 立陶宛-48.4MB/s
-      - 立陶宛-43.5MB/s
-      - 立陶宛-105.6KB/s
-      - 美国-846.2KB/s
-      - 立陶宛-53.6MB/s
-      - 英国-9.0MB/s
-      - 立陶宛-48.3MB/s
-      - 立陶宛-62.0MB/s
-      - 立陶宛-32.5MB/s
-      - 英国-2.36MB/s
-      - 拉脱维亚-14.8MB/s
-      - 英国-1.89MB/s
-      - 立陶宛-111.8KB/s
-      - 中转节点-1.97MB/s
-      - 未知国家-1.10MB/s
-      - 美国-5.00MB/s
-      - 英国-3.20MB/s
-      - 荷兰-45.5MB/s
-      - 中转节点-303.7KB/s
-      - 中转节点-908.3KB/s
-      - 未知国家-2.13MB/s
-      - 中转节点-3.22MB/s
+      - 西班牙-50.9MB/s
+      - 立陶宛-56.5MB/s
+      - 韩国-669.8KB/s
+      - 法国-21.1MB/s
+      - 美国-18.2MB/s
+      - 美国-523.9KB/s
+      - 日本-2.12MB/s
+      - 法国-494.4KB/s
+      - 中转节点-651.3KB/s
+      - 中转节点-3.30MB/s
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -276,31 +156,16 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 美国-287.4KB/s
-      - 巴拿马-1.66MB/s
-      - 立陶宛-81.8MB/s
-      - 立陶宛-48.4MB/s
-      - 立陶宛-43.5MB/s
-      - 立陶宛-105.6KB/s
-      - 美国-846.2KB/s
-      - 立陶宛-53.6MB/s
-      - 英国-9.0MB/s
-      - 立陶宛-48.3MB/s
-      - 立陶宛-62.0MB/s
-      - 立陶宛-32.5MB/s
-      - 英国-2.36MB/s
-      - 拉脱维亚-14.8MB/s
-      - 英国-1.89MB/s
-      - 立陶宛-111.8KB/s
-      - 中转节点-1.97MB/s
-      - 未知国家-1.10MB/s
-      - 美国-5.00MB/s
-      - 英国-3.20MB/s
-      - 荷兰-45.5MB/s
-      - 中转节点-303.7KB/s
-      - 中转节点-908.3KB/s
-      - 未知国家-2.13MB/s
-      - 中转节点-3.22MB/s
+      - 西班牙-50.9MB/s
+      - 立陶宛-56.5MB/s
+      - 韩国-669.8KB/s
+      - 法国-21.1MB/s
+      - 美国-18.2MB/s
+      - 美国-523.9KB/s
+      - 日本-2.12MB/s
+      - 法国-494.4KB/s
+      - 中转节点-651.3KB/s
+      - 中转节点-3.30MB/s
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
