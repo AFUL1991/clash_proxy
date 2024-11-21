@@ -1,6 +1,6 @@
 # 生成地址：v2rayse.com
 # 模版名称：defaultName
-# 生成时间：2024-11-21 21:37:26
+# 生成时间：2024-11-22 05:30:40
 # 不要随意改变关键字，否则会导致出错
 # acl4SSR规则
 # 去广告：支持
@@ -58,29 +58,61 @@ tun:
     - 1.1.1.1
     - 1.0.0.1
 proxies:
-  - name: 🇩🇪_DE_德国_1
-    port: 22222
-    server: 18.197.234.12
-    type: trojan
-    network: tcp
-    udp: true
-    sni: trojan.burgerip.co.uk
-    password: telegram-id-privatevpns
-    alpn:
-      - http/1.1
-  - name: 🇩🇪_DE_德国_2
-    port: 8080
-    server: 45.87.175.199
-    type: ss
-    udp: true
-    password: 1RWwXhwfAB5gAEozU4G2Pg
-    cipher: chacha20-ietf-poly1305
   - name: 🇺🇸_US_美国_1
-    port: 443
-    server: 52.33.189.33
+    port: 8008
+    server: 142.202.49.84
     type: ss
     udp: true
-    password: amazonskr05
+    password: XKFKl2rULjIp74
+    cipher: aes-256-gcm
+  - name: 🇬🇧_GB_英国_1
+    port: 443
+    server: series-a2.varzesh360.co
+    type: ss
+    udp: true
+    password: mps3FwmDjLrWaOVg
+    cipher: chacha20-ietf-poly1305
+  - name: 🇺🇸_US_美国_2
+    port: 5001
+    server: 142.202.49.84
+    type: ss
+    udp: true
+    password: Y6R9pAtvxxzmGC
+    cipher: aes-256-gcm
+  - name: 🇨🇳_CN_中国
+    port: 45016
+    server: sy2.xinyeo.cc
+    type: ss
+    udp: true
+    password: 186d82fb-7cd4-45f5-b519-4e95f726cdc1
+    cipher: aes-256-gcm
+  - name: 🇷🇺_RU_俄罗斯_1
+    port: 9060
+    server: 217.30.10.18
+    type: ss
+    udp: true
+    password: ueLXVkvh4hckhErQ
+    cipher: aes-256-cfb
+  - name: 🇬🇧_GB_英国_2
+    port: 443
+    server: series-a2.samanehha.co
+    type: ss
+    udp: true
+    password: mps3FwmDjLrWaOVg
+    cipher: chacha20-ietf-poly1305
+  - name: 🇷🇺_RU_俄罗斯_2
+    port: 9060
+    server: 217.30.10.18
+    type: ss
+    udp: true
+    password: ueLXVkvh4hckhErQ
+    cipher: aes-256-cfb
+  - name: 🇵🇦_PA_巴拿马
+    port: 989
+    server: 138.186.142.4
+    type: ss
+    udp: true
+    password: f8f7aCzcPKbsF8p3
     cipher: aes-256-cfb
 proxy-groups:
   - name: 🚀 节点选择
@@ -88,51 +120,81 @@ proxy-groups:
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - 🇩🇪_DE_德国_1
-      - 🇩🇪_DE_德国_2
       - 🇺🇸_US_美国_1
+      - 🇬🇧_GB_英国_1
+      - 🇺🇸_US_美国_2
+      - 🇨🇳_CN_中国
+      - 🇷🇺_RU_俄罗斯_1
+      - 🇬🇧_GB_英国_2
+      - 🇷🇺_RU_俄罗斯_2
+      - 🇵🇦_PA_巴拿马
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - 🇩🇪_DE_德国_1
-      - 🇩🇪_DE_德国_2
       - 🇺🇸_US_美国_1
+      - 🇬🇧_GB_英国_1
+      - 🇺🇸_US_美国_2
+      - 🇨🇳_CN_中国
+      - 🇷🇺_RU_俄罗斯_1
+      - 🇬🇧_GB_英国_2
+      - 🇷🇺_RU_俄罗斯_2
+      - 🇵🇦_PA_巴拿马
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇩🇪_DE_德国_1
-      - 🇩🇪_DE_德国_2
       - 🇺🇸_US_美国_1
+      - 🇬🇧_GB_英国_1
+      - 🇺🇸_US_美国_2
+      - 🇨🇳_CN_中国
+      - 🇷🇺_RU_俄罗斯_1
+      - 🇬🇧_GB_英国_2
+      - 🇷🇺_RU_俄罗斯_2
+      - 🇵🇦_PA_巴拿马
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 🇩🇪_DE_德国_1
-      - 🇩🇪_DE_德国_2
       - 🇺🇸_US_美国_1
+      - 🇬🇧_GB_英国_1
+      - 🇺🇸_US_美国_2
+      - 🇨🇳_CN_中国
+      - 🇷🇺_RU_俄罗斯_1
+      - 🇬🇧_GB_英国_2
+      - 🇷🇺_RU_俄罗斯_2
+      - 🇵🇦_PA_巴拿马
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - 🇩🇪_DE_德国_1
-      - 🇩🇪_DE_德国_2
       - 🇺🇸_US_美国_1
+      - 🇬🇧_GB_英国_1
+      - 🇺🇸_US_美国_2
+      - 🇨🇳_CN_中国
+      - 🇷🇺_RU_俄罗斯_1
+      - 🇬🇧_GB_英国_2
+      - 🇷🇺_RU_俄罗斯_2
+      - 🇵🇦_PA_巴拿马
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 🇩🇪_DE_德国_1
-      - 🇩🇪_DE_德国_2
       - 🇺🇸_US_美国_1
+      - 🇬🇧_GB_英国_1
+      - 🇺🇸_US_美国_2
+      - 🇨🇳_CN_中国
+      - 🇷🇺_RU_俄罗斯_1
+      - 🇬🇧_GB_英国_2
+      - 🇷🇺_RU_俄罗斯_2
+      - 🇵🇦_PA_巴拿马
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -155,9 +217,14 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇩🇪_DE_德国_1
-      - 🇩🇪_DE_德国_2
       - 🇺🇸_US_美国_1
+      - 🇬🇧_GB_英国_1
+      - 🇺🇸_US_美国_2
+      - 🇨🇳_CN_中国
+      - 🇷🇺_RU_俄罗斯_1
+      - 🇬🇧_GB_英国_2
+      - 🇷🇺_RU_俄罗斯_2
+      - 🇵🇦_PA_巴拿马
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
   - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
