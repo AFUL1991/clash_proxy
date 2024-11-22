@@ -1,6 +1,6 @@
 # 生成地址：v2rayse.com
 # 模版名称：defaultName
-# 生成时间：2024-11-22 15:31:54
+# 生成时间：2024-11-22 21:36:55
 # 不要随意改变关键字，否则会导致出错
 # acl4SSR规则
 # 去广告：支持
@@ -58,131 +58,170 @@ tun:
     - 1.1.1.1
     - 1.0.0.1
 proxies:
-  - name: 🇨🇦_CA_加拿大
-    port: 22222
-    server: 99.79.116.196
-    type: trojan
-    network: tcp
+  - name: 🇺🇸_US_美国_1
+    port: 5000
+    server: 38.75.136.21
+    type: ss
     udp: true
-    sni: trojan.burgerip.co.uk
-    password: telegram-id-directvpn
-    alpn:
-      - http/1.1
+    password: Y6R9pAtvxxzmGC
+    cipher: aes-256-gcm
   - name: 🇺🇸_US_美国_2
-    port: 443
-    server: 185.143.235.200
-    type: trojan
-    network: ws
+    port: 8080
+    server: 38.75.136.21
+    type: ss
     udp: true
-    sni: nginx-4561f180e2-anssdsfsdf.apps.ir-northwest1.arvancaas.ir
-    password: dTaXAtuoQF
-    ws-opts:
-      path: /downloadgame
-      headers:
-        host: nginx-4561f180e2-anssdsfsdf.apps.ir-northwest1.arvancaas.ir
+    password: KixLvKzwjekG00rm
+    cipher: aes-256-gcm
   - name: 🇺🇸_US_美国_3
-    port: 443
-    server: 185.143.235.200
-    type: trojan
-    network: ws
+    port: 3389
+    server: 38.75.136.21
+    type: ss
     udp: true
-    sni: nginx-4561f180e2-anssdsfsdf.apps.ir-northwest1.arvancaas.ir
-    password: dTaXAtuoQF
-    ws-opts:
-      path: /downloadgame
-      headers:
-        host: nginx-4561f180e2-anssdsfsdf.apps.ir-northwest1.arvancaas.ir
-  - name: 🇩🇪_DE_德国_1
+    password: Y6R9pAtvxxzmGC
+    cipher: aes-256-gcm
+  - name: 🇺🇸_US_美国_4
+    port: 9101
+    server: 38.75.136.21
+    type: ss
+    udp: true
+    password: e4FCWrgpkji3QY
+    cipher: aes-256-gcm
+  - name: 🇩🇪_DE_德国
     port: 8080
     server: 45.87.175.199
     type: ss
     udp: true
-    password: 4a2rfixophdjffa8KVA4Aa
-    cipher: chacha20-ietf-poly1305
-  - name: 🇩🇪_DE_德国_2
-    port: 8080
-    server: 45.87.175.188
-    type: ss
-    udp: true
     password: 1RWwXhwfAB5gAEozU4G2Pg
     cipher: chacha20-ietf-poly1305
-  - name: 🇺🇸_US_美国_4
+  - name: 🇺🇸_US_美国_5
     port: 22222
-    server: 18.157.170.82
+    server: 3.77.194.77
     type: trojan
     udp: true
     sni: trojan.burgerip.co.uk
     password: telegram-id-privatevpns
     skip-cert-verify: false
+  - name: 🇺🇸_US_美国_6
+    port: 9101
+    server: 38.75.136.21
+    type: ss
+    udp: true
+    password: e4FCWrgpkji3QY
+    cipher: aes-256-gcm
+  - name: 🇬🇧_GB_英国->🇺🇸_US_美国
+    port: 443
+    server: series-a2.varzesh360.co
+    type: ss
+    udp: true
+    password: mps3FwmDjLrWaOVg
+    cipher: chacha20-ietf-poly1305
+  - name: 🇺🇸_US_美国_7
+    port: 8881
+    server: 38.75.136.21
+    type: ss
+    udp: true
+    password: kDWvXYZoTBcGkC4
+    cipher: aes-256-gcm
+  - name: 🇺🇸_US_美国_8
+    port: 8882
+    server: 38.75.136.21
+    type: ss
+    udp: true
+    password: kDWvXYZoTBcGkC4
+    cipher: aes-256-gcm
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - 🇨🇦_CA_加拿大
+      - 🇺🇸_US_美国_1
       - 🇺🇸_US_美国_2
       - 🇺🇸_US_美国_3
-      - 🇩🇪_DE_德国_1
-      - 🇩🇪_DE_德国_2
       - 🇺🇸_US_美国_4
+      - 🇩🇪_DE_德国
+      - 🇺🇸_US_美国_5
+      - 🇺🇸_US_美国_6
+      - 🇬🇧_GB_英国->🇺🇸_US_美国
+      - 🇺🇸_US_美国_7
+      - 🇺🇸_US_美国_8
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - 🇨🇦_CA_加拿大
+      - 🇺🇸_US_美国_1
       - 🇺🇸_US_美国_2
       - 🇺🇸_US_美国_3
-      - 🇩🇪_DE_德国_1
-      - 🇩🇪_DE_德国_2
       - 🇺🇸_US_美国_4
+      - 🇩🇪_DE_德国
+      - 🇺🇸_US_美国_5
+      - 🇺🇸_US_美国_6
+      - 🇬🇧_GB_英国->🇺🇸_US_美国
+      - 🇺🇸_US_美国_7
+      - 🇺🇸_US_美国_8
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇨🇦_CA_加拿大
+      - 🇺🇸_US_美国_1
       - 🇺🇸_US_美国_2
       - 🇺🇸_US_美国_3
-      - 🇩🇪_DE_德国_1
-      - 🇩🇪_DE_德国_2
       - 🇺🇸_US_美国_4
+      - 🇩🇪_DE_德国
+      - 🇺🇸_US_美国_5
+      - 🇺🇸_US_美国_6
+      - 🇬🇧_GB_英国->🇺🇸_US_美国
+      - 🇺🇸_US_美国_7
+      - 🇺🇸_US_美国_8
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 🇨🇦_CA_加拿大
+      - 🇺🇸_US_美国_1
       - 🇺🇸_US_美国_2
       - 🇺🇸_US_美国_3
-      - 🇩🇪_DE_德国_1
-      - 🇩🇪_DE_德国_2
       - 🇺🇸_US_美国_4
+      - 🇩🇪_DE_德国
+      - 🇺🇸_US_美国_5
+      - 🇺🇸_US_美国_6
+      - 🇬🇧_GB_英国->🇺🇸_US_美国
+      - 🇺🇸_US_美国_7
+      - 🇺🇸_US_美国_8
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - 🇨🇦_CA_加拿大
+      - 🇺🇸_US_美国_1
       - 🇺🇸_US_美国_2
       - 🇺🇸_US_美国_3
-      - 🇩🇪_DE_德国_1
-      - 🇩🇪_DE_德国_2
       - 🇺🇸_US_美国_4
+      - 🇩🇪_DE_德国
+      - 🇺🇸_US_美国_5
+      - 🇺🇸_US_美国_6
+      - 🇬🇧_GB_英国->🇺🇸_US_美国
+      - 🇺🇸_US_美国_7
+      - 🇺🇸_US_美国_8
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 🇨🇦_CA_加拿大
+      - 🇺🇸_US_美国_1
       - 🇺🇸_US_美国_2
       - 🇺🇸_US_美国_3
-      - 🇩🇪_DE_德国_1
-      - 🇩🇪_DE_德国_2
       - 🇺🇸_US_美国_4
+      - 🇩🇪_DE_德国
+      - 🇺🇸_US_美国_5
+      - 🇺🇸_US_美国_6
+      - 🇬🇧_GB_英国->🇺🇸_US_美国
+      - 🇺🇸_US_美国_7
+      - 🇺🇸_US_美国_8
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -205,12 +244,16 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇨🇦_CA_加拿大
+      - 🇺🇸_US_美国_1
       - 🇺🇸_US_美国_2
       - 🇺🇸_US_美国_3
-      - 🇩🇪_DE_德国_1
-      - 🇩🇪_DE_德国_2
       - 🇺🇸_US_美国_4
+      - 🇩🇪_DE_德国
+      - 🇺🇸_US_美国_5
+      - 🇺🇸_US_美国_6
+      - 🇬🇧_GB_英国->🇺🇸_US_美国
+      - 🇺🇸_US_美国_7
+      - 🇺🇸_US_美国_8
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
   - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
