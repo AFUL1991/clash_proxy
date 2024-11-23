@@ -1,6 +1,6 @@
 # 生成地址：v2rayse.com
 # 模版名称：defaultName
-# 生成时间：2024-11-23 05:29:46
+# 生成时间：2024-11-23 15:30:00
 # 不要随意改变关键字，否则会导致出错
 # acl4SSR规则
 # 去广告：支持
@@ -58,117 +58,119 @@ tun:
     - 1.1.1.1
     - 1.0.0.1
 proxies:
-  - name: 🇵🇦_PA_巴拿马
-    port: 989
-    server: 138.186.142.4
-    type: ss
+  - name: 🇺🇸_US_美国->🇰🇷_KR_韩国
+    port: 22222
+    server: 13.37.39.6
+    type: trojan
+    network: tcp
     udp: true
-    password: f8f7aCzcPKbsF8p3
-    cipher: aes-256-cfb
-  - name: 🇺🇸_US_美国->🇧🇭_BH_巴林
-    port: 443
-    server: series-a2-me.varzesh360.co
-    type: ss
+    sni: trojan.burgerip.co.uk
+    password: telegram-id-privatevpns
+    alpn:
+      - http/1.1
+  - name: 🇬🇧_GB_英国
+    port: 22222
+    server: 18.132.222.222
+    type: trojan
+    network: tcp
     udp: true
-    password: Bog0ELmMM9DSxDdQ
-    cipher: chacha20-ietf-poly1305
-  - name: 🇬🇧_GB_英国->🇨🇳_CN_中国
-    port: 443
-    server: series-a1.samanehha.co
-    type: ss
-    udp: true
-    password: W74XFALLLuw6m5IA
-    cipher: chacha20-ietf-poly1305
+    sni: trojan.burgerip.co.uk
+    password: telegram-id-privatevpns
+    alpn:
+      - http/1.1
   - name: 🇺🇸_US_美国_2
     port: 443
-    server: 52.33.189.33
-    type: ss
+    server: 104.17.49.240
+    type: trojan
+    network: ws
     udp: true
-    password: amazonskr05
-    cipher: aes-256-cfb
-  - name: 🇷🇺_RU_俄罗斯
-    port: 33068
-    server: 193.124.22.253
-    type: ss
+    sni: 09jzus.zdzdzd.xyz
+    password: WOeXShhJpL
+    ws-opts:
+      path: /juzigongyi
+      headers:
+        host: 09jzus.zdzdzd.xyz
+  - name: 🇨🇳_CN_中国->🇺🇸_US_美国_1
+    port: 58831
+    server: 183.236.48.163
+    type: vmess
+    network: tcp
     udp: true
-    password: 3MgIhqwp4pjM8SKwixNkYZ
-    cipher: chacha20-ietf-poly1305
-  - name: 🇩🇪_DE_德国->🇺🇸_US_美国
-    port: 8080
-    server: beesyar.org
-    type: ss
+    cipher: auto
+    uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+    alterId: 64
+  - name: 🇨🇳_CN_中国->🇺🇸_US_美国_2
+    port: 58831
+    server: 183.236.48.163
+    type: vmess
+    network: tcp
     udp: true
-    password: 4a2rfixophdjffa8KVA4Aa
-    cipher: chacha20-ietf-poly1305
+    cipher: auto
+    uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+    alterId: 64
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - 🇵🇦_PA_巴拿马
-      - 🇺🇸_US_美国->🇧🇭_BH_巴林
-      - 🇬🇧_GB_英国->🇨🇳_CN_中国
+      - 🇺🇸_US_美国->🇰🇷_KR_韩国
+      - 🇬🇧_GB_英国
       - 🇺🇸_US_美国_2
-      - 🇷🇺_RU_俄罗斯
-      - 🇩🇪_DE_德国->🇺🇸_US_美国
+      - 🇨🇳_CN_中国->🇺🇸_US_美国_1
+      - 🇨🇳_CN_中国->🇺🇸_US_美国_2
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - 🇵🇦_PA_巴拿马
-      - 🇺🇸_US_美国->🇧🇭_BH_巴林
-      - 🇬🇧_GB_英国->🇨🇳_CN_中国
+      - 🇺🇸_US_美国->🇰🇷_KR_韩国
+      - 🇬🇧_GB_英国
       - 🇺🇸_US_美国_2
-      - 🇷🇺_RU_俄罗斯
-      - 🇩🇪_DE_德国->🇺🇸_US_美国
+      - 🇨🇳_CN_中国->🇺🇸_US_美国_1
+      - 🇨🇳_CN_中国->🇺🇸_US_美国_2
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇵🇦_PA_巴拿马
-      - 🇺🇸_US_美国->🇧🇭_BH_巴林
-      - 🇬🇧_GB_英国->🇨🇳_CN_中国
+      - 🇺🇸_US_美国->🇰🇷_KR_韩国
+      - 🇬🇧_GB_英国
       - 🇺🇸_US_美国_2
-      - 🇷🇺_RU_俄罗斯
-      - 🇩🇪_DE_德国->🇺🇸_US_美国
+      - 🇨🇳_CN_中国->🇺🇸_US_美国_1
+      - 🇨🇳_CN_中国->🇺🇸_US_美国_2
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 🇵🇦_PA_巴拿马
-      - 🇺🇸_US_美国->🇧🇭_BH_巴林
-      - 🇬🇧_GB_英国->🇨🇳_CN_中国
+      - 🇺🇸_US_美国->🇰🇷_KR_韩国
+      - 🇬🇧_GB_英国
       - 🇺🇸_US_美国_2
-      - 🇷🇺_RU_俄罗斯
-      - 🇩🇪_DE_德国->🇺🇸_US_美国
+      - 🇨🇳_CN_中国->🇺🇸_US_美国_1
+      - 🇨🇳_CN_中国->🇺🇸_US_美国_2
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - 🇵🇦_PA_巴拿马
-      - 🇺🇸_US_美国->🇧🇭_BH_巴林
-      - 🇬🇧_GB_英国->🇨🇳_CN_中国
+      - 🇺🇸_US_美国->🇰🇷_KR_韩国
+      - 🇬🇧_GB_英国
       - 🇺🇸_US_美国_2
-      - 🇷🇺_RU_俄罗斯
-      - 🇩🇪_DE_德国->🇺🇸_US_美国
+      - 🇨🇳_CN_中国->🇺🇸_US_美国_1
+      - 🇨🇳_CN_中国->🇺🇸_US_美国_2
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 🇵🇦_PA_巴拿马
-      - 🇺🇸_US_美国->🇧🇭_BH_巴林
-      - 🇬🇧_GB_英国->🇨🇳_CN_中国
+      - 🇺🇸_US_美国->🇰🇷_KR_韩国
+      - 🇬🇧_GB_英国
       - 🇺🇸_US_美国_2
-      - 🇷🇺_RU_俄罗斯
-      - 🇩🇪_DE_德国->🇺🇸_US_美国
+      - 🇨🇳_CN_中国->🇺🇸_US_美国_1
+      - 🇨🇳_CN_中国->🇺🇸_US_美国_2
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -191,12 +193,11 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇵🇦_PA_巴拿马
-      - 🇺🇸_US_美国->🇧🇭_BH_巴林
-      - 🇬🇧_GB_英国->🇨🇳_CN_中国
+      - 🇺🇸_US_美国->🇰🇷_KR_韩国
+      - 🇬🇧_GB_英国
       - 🇺🇸_US_美国_2
-      - 🇷🇺_RU_俄罗斯
-      - 🇩🇪_DE_德国->🇺🇸_US_美国
+      - 🇨🇳_CN_中国->🇺🇸_US_美国_1
+      - 🇨🇳_CN_中国->🇺🇸_US_美国_2
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
   - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
