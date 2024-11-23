@@ -1,6 +1,6 @@
 # 生成地址：v2rayse.com
 # 模版名称：defaultName
-# 生成时间：2024-11-23 21:33:34
+# 生成时间：2024-11-24 05:30:32
 # 不要随意改变关键字，否则会导致出错
 # acl4SSR规则
 # 去广告：支持
@@ -58,21 +58,58 @@ tun:
     - 1.1.1.1
     - 1.0.0.1
 proxies:
-  - name: 未知
-    port: 13021
-    server: naiu-us.05vr9nyqg5.download
-    type: trojan
+  - name: 🇨🇦_CA_加拿大
+    port: 990
+    server: 64.74.163.130
+    type: ss
     udp: true
-    sni: cloudflare.node-ssl.cdn-alibaba.com
-    password: ad6e2bae-d580-4117-aa37-a8c111100740
-    skip-cert-verify: false
+    password: f8f7aCzcPKbsF8p3
+    cipher: chacha20-ietf-poly1305
+  - name: 🇺🇸_US_美国_1
+    port: 443
+    server: series-a2-mec.varzesh360.co
+    type: ss
+    udp: true
+    password: u17T3BvpYaaiuW2c
+    cipher: chacha20-ietf-poly1305
   - name: 🇩🇪_DE_德国
     port: 8080
     server: 45.87.175.178
     type: ss
     udp: true
-    password: cvII85TrW6n0OGyfpHVS1u
+    password: 4a2rfixophdjffa8KVA4Aa
     cipher: chacha20-ietf-poly1305
+  - name: 🇺🇸_US_美国_2
+    port: 443
+    server: 104.17.49.240
+    type: trojan
+    network: ws
+    udp: true
+    sni: 09jzus.zdzdzd.xyz
+    password: WOeXShhJpL
+    ws-opts:
+      path: /juzigongyi
+      headers:
+        host: 09jzus.zdzdzd.xyz
+  - name: 🇵🇦_PA_巴拿马
+    port: 989
+    server: 138.186.142.4
+    type: ss
+    udp: true
+    password: f8f7aCzcPKbsF8p3
+    cipher: aes-256-cfb
+  - name: 🇺🇸_US_美国->🇬🇧_GB_英国
+    port: 443
+    server: 172.67.67.64
+    type: trojan
+    network: ws
+    udp: true
+    sni: 09jzus.zdzdzd.xyz
+    password: WOeXShhJpL
+    ws-opts:
+      path: /juzigongyi
+      headers:
+        host: 09jzus.zdzdzd.xyz
   - name: 🇨🇳_CN_中国->🇺🇸_US_美国
     port: 58831
     server: 120.232.153.27
@@ -82,70 +119,81 @@ proxies:
     cipher: auto
     uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
     alterId: 64
-  - name: 🇬🇧_GB_英国
-    port: 443
-    server: series-a2.samanehha.co
-    type: ss
-    udp: true
-    password: mps3FwmDjLrWaOVg
-    cipher: chacha20-ietf-poly1305
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - 未知
+      - 🇨🇦_CA_加拿大
+      - 🇺🇸_US_美国_1
       - 🇩🇪_DE_德国
+      - 🇺🇸_US_美国_2
+      - 🇵🇦_PA_巴拿马
+      - 🇺🇸_US_美国->🇬🇧_GB_英国
       - 🇨🇳_CN_中国->🇺🇸_US_美国
-      - 🇬🇧_GB_英国
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - 未知
+      - 🇨🇦_CA_加拿大
+      - 🇺🇸_US_美国_1
       - 🇩🇪_DE_德国
+      - 🇺🇸_US_美国_2
+      - 🇵🇦_PA_巴拿马
+      - 🇺🇸_US_美国->🇬🇧_GB_英国
       - 🇨🇳_CN_中国->🇺🇸_US_美国
-      - 🇬🇧_GB_英国
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 未知
+      - 🇨🇦_CA_加拿大
+      - 🇺🇸_US_美国_1
       - 🇩🇪_DE_德国
+      - 🇺🇸_US_美国_2
+      - 🇵🇦_PA_巴拿马
+      - 🇺🇸_US_美国->🇬🇧_GB_英国
       - 🇨🇳_CN_中国->🇺🇸_US_美国
-      - 🇬🇧_GB_英国
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 未知
+      - 🇨🇦_CA_加拿大
+      - 🇺🇸_US_美国_1
       - 🇩🇪_DE_德国
+      - 🇺🇸_US_美国_2
+      - 🇵🇦_PA_巴拿马
+      - 🇺🇸_US_美国->🇬🇧_GB_英国
       - 🇨🇳_CN_中国->🇺🇸_US_美国
-      - 🇬🇧_GB_英国
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - 未知
+      - 🇨🇦_CA_加拿大
+      - 🇺🇸_US_美国_1
       - 🇩🇪_DE_德国
+      - 🇺🇸_US_美国_2
+      - 🇵🇦_PA_巴拿马
+      - 🇺🇸_US_美国->🇬🇧_GB_英国
       - 🇨🇳_CN_中国->🇺🇸_US_美国
-      - 🇬🇧_GB_英国
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 未知
+      - 🇨🇦_CA_加拿大
+      - 🇺🇸_US_美国_1
       - 🇩🇪_DE_德国
+      - 🇺🇸_US_美国_2
+      - 🇵🇦_PA_巴拿马
+      - 🇺🇸_US_美国->🇬🇧_GB_英国
       - 🇨🇳_CN_中国->🇺🇸_US_美国
-      - 🇬🇧_GB_英国
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -168,10 +216,13 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 未知
+      - 🇨🇦_CA_加拿大
+      - 🇺🇸_US_美国_1
       - 🇩🇪_DE_德国
+      - 🇺🇸_US_美国_2
+      - 🇵🇦_PA_巴拿马
+      - 🇺🇸_US_美国->🇬🇧_GB_英国
       - 🇨🇳_CN_中国->🇺🇸_US_美国
-      - 🇬🇧_GB_英国
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
   - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
