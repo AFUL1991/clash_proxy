@@ -1,6 +1,6 @@
 # 生成地址：v2rayse.com
 # 模版名称：defaultName
-# 生成时间：2024-11-23 15:30:00
+# 生成时间：2024-11-23 21:33:34
 # 不要随意改变关键字，否则会导致出错
 # acl4SSR规则
 # 去广告：支持
@@ -58,119 +58,94 @@ tun:
     - 1.1.1.1
     - 1.0.0.1
 proxies:
-  - name: 🇺🇸_US_美国->🇰🇷_KR_韩国
-    port: 22222
-    server: 13.37.39.6
+  - name: 未知
+    port: 13021
+    server: naiu-us.05vr9nyqg5.download
     type: trojan
+    udp: true
+    sni: cloudflare.node-ssl.cdn-alibaba.com
+    password: ad6e2bae-d580-4117-aa37-a8c111100740
+    skip-cert-verify: false
+  - name: 🇩🇪_DE_德国
+    port: 8080
+    server: 45.87.175.178
+    type: ss
+    udp: true
+    password: cvII85TrW6n0OGyfpHVS1u
+    cipher: chacha20-ietf-poly1305
+  - name: 🇨🇳_CN_中国->🇺🇸_US_美国
+    port: 58831
+    server: 120.232.153.27
+    type: vmess
     network: tcp
     udp: true
-    sni: trojan.burgerip.co.uk
-    password: telegram-id-privatevpns
-    alpn:
-      - http/1.1
+    cipher: auto
+    uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+    alterId: 64
   - name: 🇬🇧_GB_英国
-    port: 22222
-    server: 18.132.222.222
-    type: trojan
-    network: tcp
-    udp: true
-    sni: trojan.burgerip.co.uk
-    password: telegram-id-privatevpns
-    alpn:
-      - http/1.1
-  - name: 🇺🇸_US_美国_2
     port: 443
-    server: 104.17.49.240
-    type: trojan
-    network: ws
+    server: series-a2.samanehha.co
+    type: ss
     udp: true
-    sni: 09jzus.zdzdzd.xyz
-    password: WOeXShhJpL
-    ws-opts:
-      path: /juzigongyi
-      headers:
-        host: 09jzus.zdzdzd.xyz
-  - name: 🇨🇳_CN_中国->🇺🇸_US_美国_1
-    port: 58831
-    server: 183.236.48.163
-    type: vmess
-    network: tcp
-    udp: true
-    cipher: auto
-    uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-    alterId: 64
-  - name: 🇨🇳_CN_中国->🇺🇸_US_美国_2
-    port: 58831
-    server: 183.236.48.163
-    type: vmess
-    network: tcp
-    udp: true
-    cipher: auto
-    uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-    alterId: 64
+    password: mps3FwmDjLrWaOVg
+    cipher: chacha20-ietf-poly1305
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - 🇺🇸_US_美国->🇰🇷_KR_韩国
+      - 未知
+      - 🇩🇪_DE_德国
+      - 🇨🇳_CN_中国->🇺🇸_US_美国
       - 🇬🇧_GB_英国
-      - 🇺🇸_US_美国_2
-      - 🇨🇳_CN_中国->🇺🇸_US_美国_1
-      - 🇨🇳_CN_中国->🇺🇸_US_美国_2
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - 🇺🇸_US_美国->🇰🇷_KR_韩国
+      - 未知
+      - 🇩🇪_DE_德国
+      - 🇨🇳_CN_中国->🇺🇸_US_美国
       - 🇬🇧_GB_英国
-      - 🇺🇸_US_美国_2
-      - 🇨🇳_CN_中国->🇺🇸_US_美国_1
-      - 🇨🇳_CN_中国->🇺🇸_US_美国_2
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇺🇸_US_美国->🇰🇷_KR_韩国
+      - 未知
+      - 🇩🇪_DE_德国
+      - 🇨🇳_CN_中国->🇺🇸_US_美国
       - 🇬🇧_GB_英国
-      - 🇺🇸_US_美国_2
-      - 🇨🇳_CN_中国->🇺🇸_US_美国_1
-      - 🇨🇳_CN_中国->🇺🇸_US_美国_2
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 🇺🇸_US_美国->🇰🇷_KR_韩国
+      - 未知
+      - 🇩🇪_DE_德国
+      - 🇨🇳_CN_中国->🇺🇸_US_美国
       - 🇬🇧_GB_英国
-      - 🇺🇸_US_美国_2
-      - 🇨🇳_CN_中国->🇺🇸_US_美国_1
-      - 🇨🇳_CN_中国->🇺🇸_US_美国_2
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - 🇺🇸_US_美国->🇰🇷_KR_韩国
+      - 未知
+      - 🇩🇪_DE_德国
+      - 🇨🇳_CN_中国->🇺🇸_US_美国
       - 🇬🇧_GB_英国
-      - 🇺🇸_US_美国_2
-      - 🇨🇳_CN_中国->🇺🇸_US_美国_1
-      - 🇨🇳_CN_中国->🇺🇸_US_美国_2
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 🇺🇸_US_美国->🇰🇷_KR_韩国
+      - 未知
+      - 🇩🇪_DE_德国
+      - 🇨🇳_CN_中国->🇺🇸_US_美国
       - 🇬🇧_GB_英国
-      - 🇺🇸_US_美国_2
-      - 🇨🇳_CN_中国->🇺🇸_US_美国_1
-      - 🇨🇳_CN_中国->🇺🇸_US_美国_2
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -193,11 +168,10 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇺🇸_US_美国->🇰🇷_KR_韩国
+      - 未知
+      - 🇩🇪_DE_德国
+      - 🇨🇳_CN_中国->🇺🇸_US_美国
       - 🇬🇧_GB_英国
-      - 🇺🇸_US_美国_2
-      - 🇨🇳_CN_中国->🇺🇸_US_美国_1
-      - 🇨🇳_CN_中国->🇺🇸_US_美国_2
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
   - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
