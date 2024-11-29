@@ -5,15 +5,19 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: 中转节点-33.5MB/s, server: soonhk.soon.guru, port: 40000, type: ss, cipher: chacha20-ietf-poly1305, password: F585FCDB-6351-48D4-82C1-599B5447A589, udp: true}
   - {name: 美国-235.6KB/s, server: admin.c2.havij.co, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: btF2uCBn2Cz11kIA, udp: true}
   - {name: 拉脱维亚-22.1MB/s, server: 193.124.22.253, port: 33068, type: ss, cipher: chacha20-ietf-poly1305, password: 3MgIhqwp4pjM8SKwixNkYZ, udp: true}
   - {name: 中转节点-49.2MB/s, server: soontw.soon.guru, port: 40020, type: ss, cipher: chacha20-ietf-poly1305, password: F585FCDB-6351-48D4-82C1-599B5447A589, udp: true}
+  - {name: 中转节点-33.5MB/s, server: soonhk.soon.guru, port: 40000, type: ss, cipher: chacha20-ietf-poly1305, password: F585FCDB-6351-48D4-82C1-599B5447A589, udp: true}
+  - {name: 中转节点-10.4MB/s, server: 95b1cd85a0968ff2.cdn.jiashule.com, port: 40251, type: ssr, cipher: rc4-md5, password: ENZ52K, protocol: auth_aes128_md5, obfs: plain, protocol-param: 112598:vcy7qi, obfs-param: 255e7112598.6602b8463464108506.microsoft.com, udp: true}
+  - {name: 未知国家-884.0KB/s, server: 104.18.114.94, port: 8880, type: vmess, uuid: 90f8f4dc-8092-4355-9047-05f506f5e9ab, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: m1.106778.xyz}}, udp: true}
   - {name: 未知国家-885.8KB/s, server: 104.21.238.238, port: 2095, type: vmess, uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: c3.6016725.xyz}}, udp: true}
   - {name: 未知国家-1.91MB/s, server: 104.18.114.87, port: 2086, type: vmess, uuid: bc65fac2-7dc7-426f-acdd-0779a5035bde, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: p1.613055.xyz}}, udp: true}
-  - {name: 未知国家-884.0KB/s, server: 104.18.114.94, port: 8880, type: vmess, uuid: 90f8f4dc-8092-4355-9047-05f506f5e9ab, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: m1.106778.xyz}}, udp: true}
   - {name: 未知国家-514.5KB/s, server: 104.21.238.105, port: 2086, type: vmess, uuid: bc65fac2-7dc7-426f-acdd-0779a5035bde, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: p1.613055.xyz}}, udp: true}
   - {name: 未知国家-1.80MB/s, server: 104.18.114.177, port: 2086, type: vmess, uuid: bc65fac2-7dc7-426f-acdd-0779a5035bde, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: p1.613055.xyz}}, udp: true}
+  - {name: 中转节点-8.1MB/s, server: 183.236.48.163, port: 58831, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 美国-81.3MB/s, server: 38.99.82.203, port: 443, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /linkvws}, udp: true}
+  - {name: 中转节点-1.38MB/s, server: 36.151.192.203, port: 44673, type: trojan, password: QwwHvrnN, skip-cert-verify: true, udp: true}
   - {name: 美国-3.91MB/s, server: 63.176.118.60, port: 22222, type: trojan, password: telegram-id-directvpn, sni: trojan.burgerip.co.uk, skip-cert-verify: true, udp: true}
 proxy-groups:
   - name: 🔰 节点选择
@@ -21,30 +25,38 @@ proxy-groups:
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 中转节点-33.5MB/s
       - 美国-235.6KB/s
       - 拉脱维亚-22.1MB/s
       - 中转节点-49.2MB/s
+      - 中转节点-33.5MB/s
+      - 中转节点-10.4MB/s
+      - 未知国家-884.0KB/s
       - 未知国家-885.8KB/s
       - 未知国家-1.91MB/s
-      - 未知国家-884.0KB/s
       - 未知国家-514.5KB/s
       - 未知国家-1.80MB/s
+      - 中转节点-8.1MB/s
+      - 美国-81.3MB/s
+      - 中转节点-1.38MB/s
       - 美国-3.91MB/s
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - 中转节点-33.5MB/s
       - 美国-235.6KB/s
       - 拉脱维亚-22.1MB/s
       - 中转节点-49.2MB/s
+      - 中转节点-33.5MB/s
+      - 中转节点-10.4MB/s
+      - 未知国家-884.0KB/s
       - 未知国家-885.8KB/s
       - 未知国家-1.91MB/s
-      - 未知国家-884.0KB/s
       - 未知国家-514.5KB/s
       - 未知国家-1.80MB/s
+      - 中转节点-8.1MB/s
+      - 美国-81.3MB/s
+      - 中转节点-1.38MB/s
       - 美国-3.91MB/s
   - name: 🎥 NETFLIX
     type: select
@@ -52,15 +64,19 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 中转节点-33.5MB/s
       - 美国-235.6KB/s
       - 拉脱维亚-22.1MB/s
       - 中转节点-49.2MB/s
+      - 中转节点-33.5MB/s
+      - 中转节点-10.4MB/s
+      - 未知国家-884.0KB/s
       - 未知国家-885.8KB/s
       - 未知国家-1.91MB/s
-      - 未知国家-884.0KB/s
       - 未知国家-514.5KB/s
       - 未知国家-1.80MB/s
+      - 中转节点-8.1MB/s
+      - 美国-81.3MB/s
+      - 中转节点-1.38MB/s
       - 美国-3.91MB/s
   - name: ⛔️ 广告拦截
     type: select
@@ -80,15 +96,19 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 中转节点-33.5MB/s
       - 美国-235.6KB/s
       - 拉脱维亚-22.1MB/s
       - 中转节点-49.2MB/s
+      - 中转节点-33.5MB/s
+      - 中转节点-10.4MB/s
+      - 未知国家-884.0KB/s
       - 未知国家-885.8KB/s
       - 未知国家-1.91MB/s
-      - 未知国家-884.0KB/s
       - 未知国家-514.5KB/s
       - 未知国家-1.80MB/s
+      - 中转节点-8.1MB/s
+      - 美国-81.3MB/s
+      - 中转节点-1.38MB/s
       - 美国-3.91MB/s
   - name: 🌏 国内媒体
     type: select
@@ -100,30 +120,38 @@ proxy-groups:
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - 中转节点-33.5MB/s
       - 美国-235.6KB/s
       - 拉脱维亚-22.1MB/s
       - 中转节点-49.2MB/s
+      - 中转节点-33.5MB/s
+      - 中转节点-10.4MB/s
+      - 未知国家-884.0KB/s
       - 未知国家-885.8KB/s
       - 未知国家-1.91MB/s
-      - 未知国家-884.0KB/s
       - 未知国家-514.5KB/s
       - 未知国家-1.80MB/s
+      - 中转节点-8.1MB/s
+      - 美国-81.3MB/s
+      - 中转节点-1.38MB/s
       - 美国-3.91MB/s
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - 中转节点-33.5MB/s
       - 美国-235.6KB/s
       - 拉脱维亚-22.1MB/s
       - 中转节点-49.2MB/s
+      - 中转节点-33.5MB/s
+      - 中转节点-10.4MB/s
+      - 未知国家-884.0KB/s
       - 未知国家-885.8KB/s
       - 未知国家-1.91MB/s
-      - 未知国家-884.0KB/s
       - 未知国家-514.5KB/s
       - 未知国家-1.80MB/s
+      - 中转节点-8.1MB/s
+      - 美国-81.3MB/s
+      - 中转节点-1.38MB/s
       - 美国-3.91MB/s
   - name: 🍎 苹果服务
     type: select
@@ -131,15 +159,19 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 中转节点-33.5MB/s
       - 美国-235.6KB/s
       - 拉脱维亚-22.1MB/s
       - 中转节点-49.2MB/s
+      - 中转节点-33.5MB/s
+      - 中转节点-10.4MB/s
+      - 未知国家-884.0KB/s
       - 未知国家-885.8KB/s
       - 未知国家-1.91MB/s
-      - 未知国家-884.0KB/s
       - 未知国家-514.5KB/s
       - 未知国家-1.80MB/s
+      - 中转节点-8.1MB/s
+      - 美国-81.3MB/s
+      - 中转节点-1.38MB/s
       - 美国-3.91MB/s
   - name: 🎯 全球直连
     type: select
@@ -156,15 +188,19 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 中转节点-33.5MB/s
       - 美国-235.6KB/s
       - 拉脱维亚-22.1MB/s
       - 中转节点-49.2MB/s
+      - 中转节点-33.5MB/s
+      - 中转节点-10.4MB/s
+      - 未知国家-884.0KB/s
       - 未知国家-885.8KB/s
       - 未知国家-1.91MB/s
-      - 未知国家-884.0KB/s
       - 未知国家-514.5KB/s
       - 未知国家-1.80MB/s
+      - 中转节点-8.1MB/s
+      - 美国-81.3MB/s
+      - 中转节点-1.38MB/s
       - 美国-3.91MB/s
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
