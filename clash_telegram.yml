@@ -5,15 +5,24 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: 美国-7.9MB/s, server: 38.75.136.21, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
-  - {name: 美国-28.5MB/s, server: 38.75.136.21, port: 9102, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
-  - {name: 英国-2.02MB/s, server: 45.150.32.39, port: 45721, type: ss, cipher: chacha20-ietf-poly1305, password: hC4OGXBemd+DWhe7O5krd3GGtcQ3yoPGF+fjcg+ob3c=, udp: true}
-  - {name: 美国-86.3MB/s, server: 38.75.136.21, port: 5600, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: 拉脱维亚-9.0MB/s, server: 193.124.22.253, port: 33068, type: ss, cipher: chacha20-ietf-poly1305, password: 3MgIhqwp4pjM8SKwixNkYZ, udp: true}
-  - {name: 美国-608.4KB/s, server: 142.202.49.122, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
-  - {name: 美国-635.9KB/s, server: 142.202.49.122, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: 拉脱维亚-7.9MB/s, server: 193.124.22.253, port: 33068, type: ss, cipher: chacha20-ietf-poly1305, password: 3MgIhqwp4pjM8SKwixNkYZ, udp: true}
   - {name: 美国-11.7MB/s, server: 38.75.136.21, port: 8888, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
   - {name: 中转节点-1.79MB/s, server: group-aipop-81492.nutbit-node.lat, port: 11011, type: ss, cipher: aes-128-gcm, password: db6de241-8d8f-4c04-93f8-97e5ee13b349, udp: true}
+  - {name: 新加坡-6.1MB/s, server: 68.183.227.45, port: 8080, type: ss, cipher: rc4-md5, password: 14fFPrbezE3HDZzsMOr6, udp: true}
+  - {name: 美国-118.9KB/s, server: 52.88.193.52, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+  - {name: 拉脱维亚-9.0MB/s, server: 193.124.22.253, port: 33068, type: ss, cipher: chacha20-ietf-poly1305, password: 3MgIhqwp4pjM8SKwixNkYZ, udp: true}
+  - {name: 英国-316.4KB/s, server: 45.150.32.39, port: 45721, type: ss, cipher: chacha20-ietf-poly1305, password: hC4OGXBemd+DWhe7O5krd3GGtcQ3yoPGF+fjcg+ob3c=, udp: true}
+  - {name: 美国-1.84MB/s, server: 35.95.35.11, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+  - {name: 美国-608.4KB/s, server: 142.202.49.122, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
+  - {name: 美国-28.5MB/s, server: 38.75.136.21, port: 9102, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
+  - {name: 美国-7.9MB/s, server: 38.75.136.21, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: 美国-290.1KB/s, server: 142.202.49.122, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
+  - {name: 美国-635.9KB/s, server: 142.202.49.122, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: 英国-2.02MB/s, server: 45.150.32.39, port: 45721, type: ss, cipher: chacha20-ietf-poly1305, password: hC4OGXBemd+DWhe7O5krd3GGtcQ3yoPGF+fjcg+ob3c=, udp: true}
+  - {name: 法国-7.9MB/s, server: 51.195.220.179, port: 1080, type: ss, cipher: chacha20-ietf-poly1305, password: vntxqHhPINXu5Ag6876fXO, udp: true}
+  - {name: 美国-86.3MB/s, server: 38.75.136.21, port: 5600, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: 美国-264.8KB/s, server: 142.202.49.122, port: 9102, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
+  - {name: 中转节点-39.8MB/s, server: 183.236.48.163, port: 58831, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 中转节点-8.85MB/s, server: 36.151.192.239, port: 42395, type: trojan, password: QwwHvrnN, skip-cert-verify: true, udp: true}
 proxy-groups:
   - name: 🔰 节点选择
@@ -21,30 +30,48 @@ proxy-groups:
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 美国-7.9MB/s
-      - 美国-28.5MB/s
-      - 英国-2.02MB/s
-      - 美国-86.3MB/s
-      - 拉脱维亚-9.0MB/s
-      - 美国-608.4KB/s
-      - 美国-635.9KB/s
+      - 拉脱维亚-7.9MB/s
       - 美国-11.7MB/s
       - 中转节点-1.79MB/s
+      - 新加坡-6.1MB/s
+      - 美国-118.9KB/s
+      - 拉脱维亚-9.0MB/s
+      - 英国-316.4KB/s
+      - 美国-1.84MB/s
+      - 美国-608.4KB/s
+      - 美国-28.5MB/s
+      - 美国-7.9MB/s
+      - 美国-290.1KB/s
+      - 美国-635.9KB/s
+      - 英国-2.02MB/s
+      - 法国-7.9MB/s
+      - 美国-86.3MB/s
+      - 美国-264.8KB/s
+      - 中转节点-39.8MB/s
       - 中转节点-8.85MB/s
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - 美国-7.9MB/s
-      - 美国-28.5MB/s
-      - 英国-2.02MB/s
-      - 美国-86.3MB/s
-      - 拉脱维亚-9.0MB/s
-      - 美国-608.4KB/s
-      - 美国-635.9KB/s
+      - 拉脱维亚-7.9MB/s
       - 美国-11.7MB/s
       - 中转节点-1.79MB/s
+      - 新加坡-6.1MB/s
+      - 美国-118.9KB/s
+      - 拉脱维亚-9.0MB/s
+      - 英国-316.4KB/s
+      - 美国-1.84MB/s
+      - 美国-608.4KB/s
+      - 美国-28.5MB/s
+      - 美国-7.9MB/s
+      - 美国-290.1KB/s
+      - 美国-635.9KB/s
+      - 英国-2.02MB/s
+      - 法国-7.9MB/s
+      - 美国-86.3MB/s
+      - 美国-264.8KB/s
+      - 中转节点-39.8MB/s
       - 中转节点-8.85MB/s
   - name: 🎥 NETFLIX
     type: select
@@ -52,15 +79,24 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 美国-7.9MB/s
-      - 美国-28.5MB/s
-      - 英国-2.02MB/s
-      - 美国-86.3MB/s
-      - 拉脱维亚-9.0MB/s
-      - 美国-608.4KB/s
-      - 美国-635.9KB/s
+      - 拉脱维亚-7.9MB/s
       - 美国-11.7MB/s
       - 中转节点-1.79MB/s
+      - 新加坡-6.1MB/s
+      - 美国-118.9KB/s
+      - 拉脱维亚-9.0MB/s
+      - 英国-316.4KB/s
+      - 美国-1.84MB/s
+      - 美国-608.4KB/s
+      - 美国-28.5MB/s
+      - 美国-7.9MB/s
+      - 美国-290.1KB/s
+      - 美国-635.9KB/s
+      - 英国-2.02MB/s
+      - 法国-7.9MB/s
+      - 美国-86.3MB/s
+      - 美国-264.8KB/s
+      - 中转节点-39.8MB/s
       - 中转节点-8.85MB/s
   - name: ⛔️ 广告拦截
     type: select
@@ -80,15 +116,24 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 美国-7.9MB/s
-      - 美国-28.5MB/s
-      - 英国-2.02MB/s
-      - 美国-86.3MB/s
-      - 拉脱维亚-9.0MB/s
-      - 美国-608.4KB/s
-      - 美国-635.9KB/s
+      - 拉脱维亚-7.9MB/s
       - 美国-11.7MB/s
       - 中转节点-1.79MB/s
+      - 新加坡-6.1MB/s
+      - 美国-118.9KB/s
+      - 拉脱维亚-9.0MB/s
+      - 英国-316.4KB/s
+      - 美国-1.84MB/s
+      - 美国-608.4KB/s
+      - 美国-28.5MB/s
+      - 美国-7.9MB/s
+      - 美国-290.1KB/s
+      - 美国-635.9KB/s
+      - 英国-2.02MB/s
+      - 法国-7.9MB/s
+      - 美国-86.3MB/s
+      - 美国-264.8KB/s
+      - 中转节点-39.8MB/s
       - 中转节点-8.85MB/s
   - name: 🌏 国内媒体
     type: select
@@ -100,30 +145,48 @@ proxy-groups:
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - 美国-7.9MB/s
-      - 美国-28.5MB/s
-      - 英国-2.02MB/s
-      - 美国-86.3MB/s
-      - 拉脱维亚-9.0MB/s
-      - 美国-608.4KB/s
-      - 美国-635.9KB/s
+      - 拉脱维亚-7.9MB/s
       - 美国-11.7MB/s
       - 中转节点-1.79MB/s
+      - 新加坡-6.1MB/s
+      - 美国-118.9KB/s
+      - 拉脱维亚-9.0MB/s
+      - 英国-316.4KB/s
+      - 美国-1.84MB/s
+      - 美国-608.4KB/s
+      - 美国-28.5MB/s
+      - 美国-7.9MB/s
+      - 美国-290.1KB/s
+      - 美国-635.9KB/s
+      - 英国-2.02MB/s
+      - 法国-7.9MB/s
+      - 美国-86.3MB/s
+      - 美国-264.8KB/s
+      - 中转节点-39.8MB/s
       - 中转节点-8.85MB/s
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - 美国-7.9MB/s
-      - 美国-28.5MB/s
-      - 英国-2.02MB/s
-      - 美国-86.3MB/s
-      - 拉脱维亚-9.0MB/s
-      - 美国-608.4KB/s
-      - 美国-635.9KB/s
+      - 拉脱维亚-7.9MB/s
       - 美国-11.7MB/s
       - 中转节点-1.79MB/s
+      - 新加坡-6.1MB/s
+      - 美国-118.9KB/s
+      - 拉脱维亚-9.0MB/s
+      - 英国-316.4KB/s
+      - 美国-1.84MB/s
+      - 美国-608.4KB/s
+      - 美国-28.5MB/s
+      - 美国-7.9MB/s
+      - 美国-290.1KB/s
+      - 美国-635.9KB/s
+      - 英国-2.02MB/s
+      - 法国-7.9MB/s
+      - 美国-86.3MB/s
+      - 美国-264.8KB/s
+      - 中转节点-39.8MB/s
       - 中转节点-8.85MB/s
   - name: 🍎 苹果服务
     type: select
@@ -131,15 +194,24 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 美国-7.9MB/s
-      - 美国-28.5MB/s
-      - 英国-2.02MB/s
-      - 美国-86.3MB/s
-      - 拉脱维亚-9.0MB/s
-      - 美国-608.4KB/s
-      - 美国-635.9KB/s
+      - 拉脱维亚-7.9MB/s
       - 美国-11.7MB/s
       - 中转节点-1.79MB/s
+      - 新加坡-6.1MB/s
+      - 美国-118.9KB/s
+      - 拉脱维亚-9.0MB/s
+      - 英国-316.4KB/s
+      - 美国-1.84MB/s
+      - 美国-608.4KB/s
+      - 美国-28.5MB/s
+      - 美国-7.9MB/s
+      - 美国-290.1KB/s
+      - 美国-635.9KB/s
+      - 英国-2.02MB/s
+      - 法国-7.9MB/s
+      - 美国-86.3MB/s
+      - 美国-264.8KB/s
+      - 中转节点-39.8MB/s
       - 中转节点-8.85MB/s
   - name: 🎯 全球直连
     type: select
@@ -156,15 +228,24 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 美国-7.9MB/s
-      - 美国-28.5MB/s
-      - 英国-2.02MB/s
-      - 美国-86.3MB/s
-      - 拉脱维亚-9.0MB/s
-      - 美国-608.4KB/s
-      - 美国-635.9KB/s
+      - 拉脱维亚-7.9MB/s
       - 美国-11.7MB/s
       - 中转节点-1.79MB/s
+      - 新加坡-6.1MB/s
+      - 美国-118.9KB/s
+      - 拉脱维亚-9.0MB/s
+      - 英国-316.4KB/s
+      - 美国-1.84MB/s
+      - 美国-608.4KB/s
+      - 美国-28.5MB/s
+      - 美国-7.9MB/s
+      - 美国-290.1KB/s
+      - 美国-635.9KB/s
+      - 英国-2.02MB/s
+      - 法国-7.9MB/s
+      - 美国-86.3MB/s
+      - 美国-264.8KB/s
+      - 中转节点-39.8MB/s
       - 中转节点-8.85MB/s
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
