@@ -1,6 +1,6 @@
 # 生成地址：v2rayse.com
 # 模版名称：defaultName
-# 生成时间：2024-12-05 15:32:24
+# 生成时间：2024-12-05 21:40:44
 # 不要随意改变关键字，否则会导致出错
 # acl4SSR规则
 # 去广告：支持
@@ -58,9 +58,24 @@ tun:
     - 1.1.1.1
     - 1.0.0.1
 proxies:
-  - name: 🇷🇺_RU_俄罗斯->🇨🇦_CA_加拿大
+  - name: 🇱🇺_LU_卢森堡->🇨🇦_CA_加拿大
     port: 2082
-    server: 94.247.142.209
+    server: 188.42.89.14
+    type: vmess
+    network: ws
+    udp: true
+    sni: ""
+    skip-cert-verify: true
+    ws-opts:
+      path: /github.com/Alvin9999
+      headers:
+        host: ip18.6929198.xyz
+    cipher: auto
+    uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555
+    alterId: 0
+  - name: 🇩🇰_DK_丹麦->🇨🇦_CA_加拿大
+    port: 2082
+    server: 195.85.59.158
     type: vmess
     network: ws
     udp: true
@@ -74,61 +89,32 @@ proxies:
     uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555
     alterId: 0
   - name: 🇺🇸_US_美国_1
-    port: 9102
-    server: 38.114.114.69
+    port: 8080
+    server: 38.110.1.46
     type: ss
     udp: true
-    password: e4FCWrgpkji3QY
+    password: KixLvKzwjekG00rm
     cipher: aes-256-gcm
-  - name: 🇪🇸_ES_西班牙->🇨🇦_CA_加拿大_1
-    port: 2082
-    server: 185.251.83.156
-    type: vmess
-    network: ws
+  - name: 🇺🇸_US_美国_2
+    port: 443
+    server: 54.184.77.199
+    type: ss
     udp: true
-    ws-opts:
-      path: /github.com/Alvin9999
-      headers:
-        host: ip18.6929198.xyz
-    cipher: auto
-    uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555
-    alterId: 0
+    password: amazonskr05
+    cipher: aes-256-cfb
+  - name: 🇬🇧_GB_英国->🇺🇸_US_美国
+    port: 443
+    server: series-a1.samanehha.co
+    type: ss
+    udp: true
+    password: W74XFALLLuw6m5IA
+    cipher: chacha20-ietf-poly1305
   - name: 🇨🇷_CR_哥斯达黎加->🇨🇦_CA_加拿大
     port: 2082
-    server: 190.93.246.226
+    server: 190.93.247.127
     type: vmess
     network: ws
     udp: true
-    sni: ""
-    skip-cert-verify: true
-    ws-opts:
-      path: /github.com/Alvin9999
-      headers:
-        host: ip18.6929198.xyz
-    cipher: auto
-    uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555
-    alterId: 0
-  - name: 🇱🇹_LT_立陶宛->🇨🇦_CA_加拿大
-    port: 2082
-    server: 89.116.250.94
-    type: vmess
-    network: ws
-    udp: true
-    ws-opts:
-      path: /github.com/Alvin9999
-      headers:
-        host: ip18.6929198.xyz
-    cipher: auto
-    uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555
-    alterId: 0
-  - name: 🇪🇸_ES_西班牙->🇨🇦_CA_加拿大_2
-    port: 2082
-    server: 185.238.228.210
-    type: vmess
-    network: ws
-    udp: true
-    sni: ""
-    skip-cert-verify: true
     ws-opts:
       path: /github.com/Alvin9999
       headers:
@@ -138,25 +124,25 @@ proxies:
     alterId: 0
   - name: 🇺🇸_US_美国_4
     port: 443
-    server: 54.191.9.106
+    server: 34.208.196.91
     type: ss
     udp: true
     password: amazonskr05
     cipher: aes-256-cfb
-  - name: 🇬🇧_GB_英国->🇨🇦_CA_加拿大
-    port: 2082
-    server: 188.244.122.175
+  - name: 🇺🇸_US_美国_5
+    port: 8880
+    server: 104.18.114.56
     type: vmess
     network: ws
     udp: true
     sni: ""
     skip-cert-verify: true
     ws-opts:
-      path: /github.com/Alvin9999
+      path: github.com/Alvin9999
       headers:
-        host: ip18.6929198.xyz
+        host: m1.106778.xyz
     cipher: auto
-    uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555
+    uuid: 90f8f4dc-8092-4355-9047-05f506f5e9ab
     alterId: 0
 proxy-groups:
   - name: 🚀 节点选择
@@ -164,81 +150,81 @@ proxy-groups:
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - 🇷🇺_RU_俄罗斯->🇨🇦_CA_加拿大
+      - 🇱🇺_LU_卢森堡->🇨🇦_CA_加拿大
+      - 🇩🇰_DK_丹麦->🇨🇦_CA_加拿大
       - 🇺🇸_US_美国_1
-      - 🇪🇸_ES_西班牙->🇨🇦_CA_加拿大_1
+      - 🇺🇸_US_美国_2
+      - 🇬🇧_GB_英国->🇺🇸_US_美国
       - 🇨🇷_CR_哥斯达黎加->🇨🇦_CA_加拿大
-      - 🇱🇹_LT_立陶宛->🇨🇦_CA_加拿大
-      - 🇪🇸_ES_西班牙->🇨🇦_CA_加拿大_2
       - 🇺🇸_US_美国_4
-      - 🇬🇧_GB_英国->🇨🇦_CA_加拿大
+      - 🇺🇸_US_美国_5
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - 🇷🇺_RU_俄罗斯->🇨🇦_CA_加拿大
+      - 🇱🇺_LU_卢森堡->🇨🇦_CA_加拿大
+      - 🇩🇰_DK_丹麦->🇨🇦_CA_加拿大
       - 🇺🇸_US_美国_1
-      - 🇪🇸_ES_西班牙->🇨🇦_CA_加拿大_1
+      - 🇺🇸_US_美国_2
+      - 🇬🇧_GB_英国->🇺🇸_US_美国
       - 🇨🇷_CR_哥斯达黎加->🇨🇦_CA_加拿大
-      - 🇱🇹_LT_立陶宛->🇨🇦_CA_加拿大
-      - 🇪🇸_ES_西班牙->🇨🇦_CA_加拿大_2
       - 🇺🇸_US_美国_4
-      - 🇬🇧_GB_英国->🇨🇦_CA_加拿大
+      - 🇺🇸_US_美国_5
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇷🇺_RU_俄罗斯->🇨🇦_CA_加拿大
+      - 🇱🇺_LU_卢森堡->🇨🇦_CA_加拿大
+      - 🇩🇰_DK_丹麦->🇨🇦_CA_加拿大
       - 🇺🇸_US_美国_1
-      - 🇪🇸_ES_西班牙->🇨🇦_CA_加拿大_1
+      - 🇺🇸_US_美国_2
+      - 🇬🇧_GB_英国->🇺🇸_US_美国
       - 🇨🇷_CR_哥斯达黎加->🇨🇦_CA_加拿大
-      - 🇱🇹_LT_立陶宛->🇨🇦_CA_加拿大
-      - 🇪🇸_ES_西班牙->🇨🇦_CA_加拿大_2
       - 🇺🇸_US_美国_4
-      - 🇬🇧_GB_英国->🇨🇦_CA_加拿大
+      - 🇺🇸_US_美国_5
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 🇷🇺_RU_俄罗斯->🇨🇦_CA_加拿大
+      - 🇱🇺_LU_卢森堡->🇨🇦_CA_加拿大
+      - 🇩🇰_DK_丹麦->🇨🇦_CA_加拿大
       - 🇺🇸_US_美国_1
-      - 🇪🇸_ES_西班牙->🇨🇦_CA_加拿大_1
+      - 🇺🇸_US_美国_2
+      - 🇬🇧_GB_英国->🇺🇸_US_美国
       - 🇨🇷_CR_哥斯达黎加->🇨🇦_CA_加拿大
-      - 🇱🇹_LT_立陶宛->🇨🇦_CA_加拿大
-      - 🇪🇸_ES_西班牙->🇨🇦_CA_加拿大_2
       - 🇺🇸_US_美国_4
-      - 🇬🇧_GB_英国->🇨🇦_CA_加拿大
+      - 🇺🇸_US_美国_5
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - 🇷🇺_RU_俄罗斯->🇨🇦_CA_加拿大
+      - 🇱🇺_LU_卢森堡->🇨🇦_CA_加拿大
+      - 🇩🇰_DK_丹麦->🇨🇦_CA_加拿大
       - 🇺🇸_US_美国_1
-      - 🇪🇸_ES_西班牙->🇨🇦_CA_加拿大_1
+      - 🇺🇸_US_美国_2
+      - 🇬🇧_GB_英国->🇺🇸_US_美国
       - 🇨🇷_CR_哥斯达黎加->🇨🇦_CA_加拿大
-      - 🇱🇹_LT_立陶宛->🇨🇦_CA_加拿大
-      - 🇪🇸_ES_西班牙->🇨🇦_CA_加拿大_2
       - 🇺🇸_US_美国_4
-      - 🇬🇧_GB_英国->🇨🇦_CA_加拿大
+      - 🇺🇸_US_美国_5
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 🇷🇺_RU_俄罗斯->🇨🇦_CA_加拿大
+      - 🇱🇺_LU_卢森堡->🇨🇦_CA_加拿大
+      - 🇩🇰_DK_丹麦->🇨🇦_CA_加拿大
       - 🇺🇸_US_美国_1
-      - 🇪🇸_ES_西班牙->🇨🇦_CA_加拿大_1
+      - 🇺🇸_US_美国_2
+      - 🇬🇧_GB_英国->🇺🇸_US_美国
       - 🇨🇷_CR_哥斯达黎加->🇨🇦_CA_加拿大
-      - 🇱🇹_LT_立陶宛->🇨🇦_CA_加拿大
-      - 🇪🇸_ES_西班牙->🇨🇦_CA_加拿大_2
       - 🇺🇸_US_美国_4
-      - 🇬🇧_GB_英国->🇨🇦_CA_加拿大
+      - 🇺🇸_US_美国_5
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -261,14 +247,14 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇷🇺_RU_俄罗斯->🇨🇦_CA_加拿大
+      - 🇱🇺_LU_卢森堡->🇨🇦_CA_加拿大
+      - 🇩🇰_DK_丹麦->🇨🇦_CA_加拿大
       - 🇺🇸_US_美国_1
-      - 🇪🇸_ES_西班牙->🇨🇦_CA_加拿大_1
+      - 🇺🇸_US_美国_2
+      - 🇬🇧_GB_英国->🇺🇸_US_美国
       - 🇨🇷_CR_哥斯达黎加->🇨🇦_CA_加拿大
-      - 🇱🇹_LT_立陶宛->🇨🇦_CA_加拿大
-      - 🇪🇸_ES_西班牙->🇨🇦_CA_加拿大_2
       - 🇺🇸_US_美国_4
-      - 🇬🇧_GB_英国->🇨🇦_CA_加拿大
+      - 🇺🇸_US_美国_5
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
   - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
