@@ -1,6 +1,6 @@
 # 生成地址：v2rayse.com
 # 模版名称：defaultName
-# 生成时间：2024-12-07 21:35:23
+# 生成时间：2024-12-08 05:28:39
 # 不要随意改变关键字，否则会导致出错
 # acl4SSR规则
 # 去广告：支持
@@ -58,12 +58,33 @@ tun:
     - 1.1.1.1
     - 1.0.0.1
 proxies:
-  - name: 🇳🇱_NL_荷兰
-    port: 2082
-    server: 45.131.208.116
+  - name: 🇬🇧_GB_英国
+    port: 23118
+    server: 5.39.254.196
     type: vmess
     network: ws
     udp: true
+    sni: ""
+    ws-opts:
+      path: /
+    cipher: auto
+    uuid: 398ce84e-4849-4e5f-9b1a-a56fbe233b81
+    alterId: 0
+    fingerprint: ""
+  - name: 🇺🇸_US_美国->🇸🇬_SG_新加坡
+    port: 443
+    server: 54.200.220.184
+    type: ss
+    udp: true
+    password: amazonskr05
+    cipher: aes-256-cfb
+  - name: 🇺🇸_US_美国_1
+    port: 2082
+    server: 66.81.247.47
+    type: vmess
+    network: ws
+    udp: true
+    sni: ""
     ws-opts:
       path: /github.com/Alvin9999
       headers:
@@ -71,37 +92,45 @@ proxies:
     cipher: auto
     uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555
     alterId: 0
-  - name: 🇺🇸_US_美国_2
-    port: 8090
-    server: 38.75.136.21
-    type: ss
-    udp: true
-    password: PCnnH6SQSnfoS27
-    cipher: aes-256-gcm
   - name: 🇺🇸_US_美国_4
-    port: 9102
-    server: 38.75.136.21
+    port: 5500
+    server: 142.202.49.122
     type: ss
     udp: true
-    password: e4FCWrgpkji3QY
+    password: KixLvKzwjekG00rm
     cipher: aes-256-gcm
   - name: 🇺🇸_US_美国_5
-    port: 6679
+    port: 5004
     server: 38.75.136.21
     type: ss
     udp: true
-    password: TEzjfAYq2IjtuoS
+    password: g5MeD6Ft3CWlJId
     cipher: aes-256-gcm
   - name: 🇺🇸_US_美国_6
-    port: 443
-    server: 34.222.145.191
+    port: 2082
+    server: 154.83.2.121
+    type: vmess
+    network: ws
+    udp: true
+    sni: ""
+    skip-cert-verify: true
+    ws-opts:
+      path: /github.com/Alvin9999
+      headers:
+        host: ip18.6929198.xyz
+    cipher: auto
+    uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555
+    alterId: 0
+  - name: 🇺🇸_US_美国_7
+    port: 3306
+    server: 38.75.136.21
     type: ss
     udp: true
-    password: amazonskr05
-    cipher: aes-256-cfb
-  - name: 🇺🇦_UA_乌克兰->🇨🇦_CA_加拿大
+    password: Y6R9pAtvxxzmGC
+    cipher: aes-256-gcm
+  - name: 🇳🇱_NL_荷兰->🇨🇦_CA_加拿大
     port: 2082
-    server: 195.245.221.107
+    server: 45.159.219.89
     type: vmess
     network: ws
     udp: true
@@ -120,69 +149,81 @@ proxy-groups:
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - 🇳🇱_NL_荷兰
-      - 🇺🇸_US_美国_2
+      - 🇬🇧_GB_英国
+      - 🇺🇸_US_美国->🇸🇬_SG_新加坡
+      - 🇺🇸_US_美国_1
       - 🇺🇸_US_美国_4
       - 🇺🇸_US_美国_5
       - 🇺🇸_US_美国_6
-      - 🇺🇦_UA_乌克兰->🇨🇦_CA_加拿大
+      - 🇺🇸_US_美国_7
+      - 🇳🇱_NL_荷兰->🇨🇦_CA_加拿大
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - 🇳🇱_NL_荷兰
-      - 🇺🇸_US_美国_2
+      - 🇬🇧_GB_英国
+      - 🇺🇸_US_美国->🇸🇬_SG_新加坡
+      - 🇺🇸_US_美国_1
       - 🇺🇸_US_美国_4
       - 🇺🇸_US_美国_5
       - 🇺🇸_US_美国_6
-      - 🇺🇦_UA_乌克兰->🇨🇦_CA_加拿大
+      - 🇺🇸_US_美国_7
+      - 🇳🇱_NL_荷兰->🇨🇦_CA_加拿大
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇳🇱_NL_荷兰
-      - 🇺🇸_US_美国_2
+      - 🇬🇧_GB_英国
+      - 🇺🇸_US_美国->🇸🇬_SG_新加坡
+      - 🇺🇸_US_美国_1
       - 🇺🇸_US_美国_4
       - 🇺🇸_US_美国_5
       - 🇺🇸_US_美国_6
-      - 🇺🇦_UA_乌克兰->🇨🇦_CA_加拿大
+      - 🇺🇸_US_美国_7
+      - 🇳🇱_NL_荷兰->🇨🇦_CA_加拿大
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 🇳🇱_NL_荷兰
-      - 🇺🇸_US_美国_2
+      - 🇬🇧_GB_英国
+      - 🇺🇸_US_美国->🇸🇬_SG_新加坡
+      - 🇺🇸_US_美国_1
       - 🇺🇸_US_美国_4
       - 🇺🇸_US_美国_5
       - 🇺🇸_US_美国_6
-      - 🇺🇦_UA_乌克兰->🇨🇦_CA_加拿大
+      - 🇺🇸_US_美国_7
+      - 🇳🇱_NL_荷兰->🇨🇦_CA_加拿大
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - 🇳🇱_NL_荷兰
-      - 🇺🇸_US_美国_2
+      - 🇬🇧_GB_英国
+      - 🇺🇸_US_美国->🇸🇬_SG_新加坡
+      - 🇺🇸_US_美国_1
       - 🇺🇸_US_美国_4
       - 🇺🇸_US_美国_5
       - 🇺🇸_US_美国_6
-      - 🇺🇦_UA_乌克兰->🇨🇦_CA_加拿大
+      - 🇺🇸_US_美国_7
+      - 🇳🇱_NL_荷兰->🇨🇦_CA_加拿大
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 🇳🇱_NL_荷兰
-      - 🇺🇸_US_美国_2
+      - 🇬🇧_GB_英国
+      - 🇺🇸_US_美国->🇸🇬_SG_新加坡
+      - 🇺🇸_US_美国_1
       - 🇺🇸_US_美国_4
       - 🇺🇸_US_美国_5
       - 🇺🇸_US_美国_6
-      - 🇺🇦_UA_乌克兰->🇨🇦_CA_加拿大
+      - 🇺🇸_US_美国_7
+      - 🇳🇱_NL_荷兰->🇨🇦_CA_加拿大
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -205,12 +246,14 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇳🇱_NL_荷兰
-      - 🇺🇸_US_美国_2
+      - 🇬🇧_GB_英国
+      - 🇺🇸_US_美国->🇸🇬_SG_新加坡
+      - 🇺🇸_US_美国_1
       - 🇺🇸_US_美国_4
       - 🇺🇸_US_美国_5
       - 🇺🇸_US_美国_6
-      - 🇺🇦_UA_乌克兰->🇨🇦_CA_加拿大
+      - 🇺🇸_US_美国_7
+      - 🇳🇱_NL_荷兰->🇨🇦_CA_加拿大
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
   - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
