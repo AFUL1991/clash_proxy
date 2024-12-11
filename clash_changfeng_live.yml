@@ -1,6 +1,6 @@
 # 生成地址：v2rayse.com
 # 模版名称：defaultName
-# 生成时间：2024-12-11 05:30:45
+# 生成时间：2024-12-11 15:31:45
 # 不要随意改变关键字，否则会导致出错
 # acl4SSR规则
 # 去广告：支持
@@ -59,62 +59,43 @@ tun:
     - 1.0.0.1
 proxies:
   - name: 🇺🇸_US_美国_1
-    port: 2086
-    server: 104.18.114.41
-    type: vmess
-    network: ws
+    port: 5601
+    server: 67.220.95.102
+    type: ss
     udp: true
-    ws-opts:
-      path: github.com/Alvin9999
-      headers:
-        host: e5.808075.xyz
-    cipher: auto
-    uuid: 7d92ffc9-02e1-4087-8a46-cc4d76560917
-    alterId: 0
-  - name: 🇨🇷_CR_哥斯达黎加->🇨🇦_CA_加拿大
-    port: 2082
-    server: 190.93.246.226
-    type: vmess
-    network: ws
+    password: Y6R9pAtvxxzmGC
+    cipher: aes-256-gcm
+  - name: 🇨🇳_CN_中国
+    port: 21126
+    server: 219.135.231.205
+    type: trojan
     udp: true
-    sni: ""
+    password: 6307d00e-56e0-4d0d-afe9-254155638bdf
     skip-cert-verify: true
-    ws-opts:
-      path: /github.com/Alvin9999
-      headers:
-        host: ip18.6929198.xyz
-    cipher: auto
-    uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555
-    alterId: 0
   - name: 🇺🇸_US_美国_2
-    port: 2086
-    server: 104.21.238.108
-    type: vmess
-    network: ws
+    port: 8091
+    server: 67.220.95.102
+    type: ss
     udp: true
-    ws-opts:
-      path: github.com/Alvin9999
-      headers:
-        host: e5.808075.xyz
-    cipher: auto
-    uuid: 7d92ffc9-02e1-4087-8a46-cc4d76560917
-    alterId: 0
+    password: PCnnH6SQSnfoS27
+    cipher: aes-256-gcm
+  - name: 🇷🇺_RU_俄罗斯
+    port: 9024
+    server: 217.30.10.18
+    type: ss
+    udp: true
+    password: BejrQvtu9sqUeNuZ
+    cipher: aes-256-cfb
   - name: 🇺🇸_US_美国_3
-    port: 2086
-    server: 104.26.0.63
-    type: vmess
-    network: ws
+    port: 5000
+    server: 38.110.1.252
+    type: ss
     udp: true
-    ws-opts:
-      path: github.com/Alvin9999
-      headers:
-        host: e5.808075.xyz
-    cipher: auto
-    uuid: 7d92ffc9-02e1-4087-8a46-cc4d76560917
-    alterId: 0
-  - name: 🇺🇦_UA_乌克兰->🇨🇦_CA_加拿大
+    password: Y6R9pAtvxxzmGC
+    cipher: aes-256-gcm
+  - name: 🇱🇹_LT_立陶宛->🇨🇦_CA_加拿大
     port: 2082
-    server: 31.43.179.32
+    server: 185.148.105.154
     type: vmess
     network: ws
     udp: true
@@ -129,73 +110,40 @@ proxies:
     alterId: 0
   - name: 🇺🇸_US_美国_4
     port: 2086
-    server: 104.18.114.199
+    server: 104.26.0.206
     type: vmess
     network: ws
     udp: true
+    sni: p1.613055.xyz
+    skip-cert-verify: false
     ws-opts:
       path: github.com/Alvin9999
       headers:
-        host: e5.808075.xyz
+        host: p1.613055.xyz
     cipher: auto
-    uuid: 7d92ffc9-02e1-4087-8a46-cc4d76560917
+    uuid: bc65fac2-7dc7-426f-acdd-0779a5035bde
     alterId: 0
   - name: 🇺🇸_US_美国_5
-    port: 2086
-    server: 104.21.238.50
-    type: vmess
-    network: ws
+    port: 7001
+    server: 67.220.95.102
+    type: ss
     udp: true
-    ws-opts:
-      path: github.com/Alvin9999
-      headers:
-        host: e5.808075.xyz
-    cipher: auto
-    uuid: 7d92ffc9-02e1-4087-8a46-cc4d76560917
-    alterId: 0
+    password: RexnBgU7EV5ADxG
+    cipher: aes-256-gcm
   - name: 🇺🇸_US_美国_6
-    port: 2086
-    server: 104.18.114.19
-    type: vmess
-    network: ws
+    port: 7002
+    server: 67.220.95.102
+    type: ss
     udp: true
-    ws-opts:
-      path: github.com/Alvin9999
-      headers:
-        host: e5.808075.xyz
-    cipher: auto
-    uuid: 7d92ffc9-02e1-4087-8a46-cc4d76560917
-    alterId: 0
+    password: RexnBgU7EV5ADxG
+    cipher: aes-256-gcm
   - name: 🇺🇸_US_美国_7
-    port: 2086
-    server: 104.21.238.28
-    type: vmess
-    network: ws
+    port: 7002
+    server: 67.220.95.102
+    type: ss
     udp: true
-    sni: ""
-    skip-cert-verify: true
-    ws-opts:
-      path: github.com/Alvin9999
-      headers:
-        host: e5.808075.xyz
-    cipher: auto
-    uuid: 7d92ffc9-02e1-4087-8a46-cc4d76560917
-    alterId: 0
-  - name: 🇺🇸_US_美国_8
-    port: 2086
-    server: 104.21.238.40
-    type: vmess
-    network: ws
-    udp: true
-    sni: ""
-    skip-cert-verify: true
-    ws-opts:
-      path: github.com/Alvin9999
-      headers:
-        host: e5.808075.xyz
-    cipher: auto
-    uuid: 7d92ffc9-02e1-4087-8a46-cc4d76560917
-    alterId: 0
+    password: RexnBgU7EV5ADxG
+    cipher: aes-256-gcm
 proxy-groups:
   - name: 🚀 节点选择
     type: select
@@ -203,15 +151,15 @@ proxy-groups:
       - ♻️ 自动选择
       - DIRECT
       - 🇺🇸_US_美国_1
-      - 🇨🇷_CR_哥斯达黎加->🇨🇦_CA_加拿大
+      - 🇨🇳_CN_中国
       - 🇺🇸_US_美国_2
+      - 🇷🇺_RU_俄罗斯
       - 🇺🇸_US_美国_3
-      - 🇺🇦_UA_乌克兰->🇨🇦_CA_加拿大
+      - 🇱🇹_LT_立陶宛->🇨🇦_CA_加拿大
       - 🇺🇸_US_美国_4
       - 🇺🇸_US_美国_5
       - 🇺🇸_US_美国_6
       - 🇺🇸_US_美国_7
-      - 🇺🇸_US_美国_8
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -219,15 +167,15 @@ proxy-groups:
     tolerance: 50
     proxies:
       - 🇺🇸_US_美国_1
-      - 🇨🇷_CR_哥斯达黎加->🇨🇦_CA_加拿大
+      - 🇨🇳_CN_中国
       - 🇺🇸_US_美国_2
+      - 🇷🇺_RU_俄罗斯
       - 🇺🇸_US_美国_3
-      - 🇺🇦_UA_乌克兰->🇨🇦_CA_加拿大
+      - 🇱🇹_LT_立陶宛->🇨🇦_CA_加拿大
       - 🇺🇸_US_美国_4
       - 🇺🇸_US_美国_5
       - 🇺🇸_US_美国_6
       - 🇺🇸_US_美国_7
-      - 🇺🇸_US_美国_8
   - name: 🌍 国外媒体
     type: select
     proxies:
@@ -235,60 +183,60 @@ proxy-groups:
       - ♻️ 自动选择
       - 🎯 全球直连
       - 🇺🇸_US_美国_1
-      - 🇨🇷_CR_哥斯达黎加->🇨🇦_CA_加拿大
+      - 🇨🇳_CN_中国
       - 🇺🇸_US_美国_2
+      - 🇷🇺_RU_俄罗斯
       - 🇺🇸_US_美国_3
-      - 🇺🇦_UA_乌克兰->🇨🇦_CA_加拿大
+      - 🇱🇹_LT_立陶宛->🇨🇦_CA_加拿大
       - 🇺🇸_US_美国_4
       - 🇺🇸_US_美国_5
       - 🇺🇸_US_美国_6
       - 🇺🇸_US_美国_7
-      - 🇺🇸_US_美国_8
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
       - 🇺🇸_US_美国_1
-      - 🇨🇷_CR_哥斯达黎加->🇨🇦_CA_加拿大
+      - 🇨🇳_CN_中国
       - 🇺🇸_US_美国_2
+      - 🇷🇺_RU_俄罗斯
       - 🇺🇸_US_美国_3
-      - 🇺🇦_UA_乌克兰->🇨🇦_CA_加拿大
+      - 🇱🇹_LT_立陶宛->🇨🇦_CA_加拿大
       - 🇺🇸_US_美国_4
       - 🇺🇸_US_美国_5
       - 🇺🇸_US_美国_6
       - 🇺🇸_US_美国_7
-      - 🇺🇸_US_美国_8
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
       - 🇺🇸_US_美国_1
-      - 🇨🇷_CR_哥斯达黎加->🇨🇦_CA_加拿大
+      - 🇨🇳_CN_中国
       - 🇺🇸_US_美国_2
+      - 🇷🇺_RU_俄罗斯
       - 🇺🇸_US_美国_3
-      - 🇺🇦_UA_乌克兰->🇨🇦_CA_加拿大
+      - 🇱🇹_LT_立陶宛->🇨🇦_CA_加拿大
       - 🇺🇸_US_美国_4
       - 🇺🇸_US_美国_5
       - 🇺🇸_US_美国_6
       - 🇺🇸_US_美国_7
-      - 🇺🇸_US_美国_8
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
       - 🇺🇸_US_美国_1
-      - 🇨🇷_CR_哥斯达黎加->🇨🇦_CA_加拿大
+      - 🇨🇳_CN_中国
       - 🇺🇸_US_美国_2
+      - 🇷🇺_RU_俄罗斯
       - 🇺🇸_US_美国_3
-      - 🇺🇦_UA_乌克兰->🇨🇦_CA_加拿大
+      - 🇱🇹_LT_立陶宛->🇨🇦_CA_加拿大
       - 🇺🇸_US_美国_4
       - 🇺🇸_US_美国_5
       - 🇺🇸_US_美国_6
       - 🇺🇸_US_美国_7
-      - 🇺🇸_US_美国_8
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -312,15 +260,15 @@ proxy-groups:
       - 🎯 全球直连
       - ♻️ 自动选择
       - 🇺🇸_US_美国_1
-      - 🇨🇷_CR_哥斯达黎加->🇨🇦_CA_加拿大
+      - 🇨🇳_CN_中国
       - 🇺🇸_US_美国_2
+      - 🇷🇺_RU_俄罗斯
       - 🇺🇸_US_美国_3
-      - 🇺🇦_UA_乌克兰->🇨🇦_CA_加拿大
+      - 🇱🇹_LT_立陶宛->🇨🇦_CA_加拿大
       - 🇺🇸_US_美国_4
       - 🇺🇸_US_美国_5
       - 🇺🇸_US_美国_6
       - 🇺🇸_US_美国_7
-      - 🇺🇸_US_美国_8
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
   - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
