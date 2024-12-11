@@ -5,103 +5,143 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: 未知国家-572.7KB/s, server: 162.159.45.141, port: 2086, type: vmess, uuid: 7d92ffc9-02e1-4087-8a46-cc4d76560917, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: e5.808075.xyz}}, udp: true}
-  - {name: 未知国家-423.8KB/s, server: 104.18.114.204, port: 2086, type: vmess, uuid: 7d92ffc9-02e1-4087-8a46-cc4d76560917, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: e5.808075.xyz}}, udp: true}
   - {name: 未知国家-1.88MB/s, server: 104.26.0.142, port: 2086, type: vmess, uuid: 7d92ffc9-02e1-4087-8a46-cc4d76560917, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: e5.808075.xyz}}, udp: true}
-  - {name: 未知国家-309.0KB/s, server: 104.18.114.246, port: 2086, type: vmess, uuid: 7d92ffc9-02e1-4087-8a46-cc4d76560917, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: e5.808075.xyz}}, udp: true}
-  - {name: 未知国家-1.66MB/s, server: 104.26.0.190, port: 2086, type: vmess, uuid: 7d92ffc9-02e1-4087-8a46-cc4d76560917, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: e5.808075.xyz}}, udp: true}
-  - {name: 未知国家-1.73MB/s, server: 104.18.114.162, port: 2086, type: vmess, uuid: 7d92ffc9-02e1-4087-8a46-cc4d76560917, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: e5.808075.xyz}}, udp: true}
   - {name: 未知国家-357.0KB/s, server: 104.18.114.93, port: 2086, type: vmess, uuid: 7d92ffc9-02e1-4087-8a46-cc4d76560917, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: e5.808075.xyz}}, udp: true}
-  - {name: 未知国家-1.96MB/s, server: 104.18.114.124, port: 2086, type: vmess, uuid: 7d92ffc9-02e1-4087-8a46-cc4d76560917, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: e5.808075.xyz}}, udp: true}
-  - {name: 未知国家-581.2KB/s, server: 104.18.114.199, port: 2086, type: vmess, uuid: 7d92ffc9-02e1-4087-8a46-cc4d76560917, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: e5.808075.xyz}}, udp: true}
-  - {name: 未知国家-302.7KB/s, server: 104.18.114.149, port: 2086, type: vmess, uuid: 7d92ffc9-02e1-4087-8a46-cc4d76560917, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: e5.808075.xyz}}, udp: true}
-  - {name: 未知国家-403.9KB/s, server: 104.21.238.230, port: 2086, type: vmess, uuid: 7d92ffc9-02e1-4087-8a46-cc4d76560917, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: e5.808075.xyz}}, udp: true}
-  - {name: 未知国家-1.96MB/s 2, server: 104.18.114.69, port: 2086, type: vmess, uuid: 7d92ffc9-02e1-4087-8a46-cc4d76560917, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: e5.808075.xyz}}, udp: true}
-  - {name: 未知国家-1.84MB/s, server: 104.18.114.179, port: 2086, type: vmess, uuid: 7d92ffc9-02e1-4087-8a46-cc4d76560917, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: e5.808075.xyz}}, udp: true}
-  - {name: 未知国家-1.86MB/s, server: 104.26.0.20, port: 2086, type: vmess, uuid: 7d92ffc9-02e1-4087-8a46-cc4d76560917, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: e5.808075.xyz}}, udp: true}
-  - {name: 未知国家-1.79MB/s, server: 104.26.0.16, port: 2086, type: vmess, uuid: 7d92ffc9-02e1-4087-8a46-cc4d76560917, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: e5.808075.xyz}}, udp: true}
-  - {name: 未知国家-1.89MB/s, server: 104.26.0.154, port: 2086, type: vmess, uuid: 7d92ffc9-02e1-4087-8a46-cc4d76560917, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: e5.808075.xyz}}, udp: true}
-  - {name: 未知国家-255.0KB/s, server: 104.21.238.204, port: 2086, type: vmess, uuid: 7d92ffc9-02e1-4087-8a46-cc4d76560917, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: e5.808075.xyz}}, udp: true}
-  - {name: 未知国家-1.89MB/s 2, server: 104.26.0.238, port: 2086, type: vmess, uuid: 7d92ffc9-02e1-4087-8a46-cc4d76560917, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: e5.808075.xyz}}, udp: true}
+  - {name: 未知国家-1.86MB/s, server: 104.18.114.231, port: 2086, type: vmess, uuid: 7d92ffc9-02e1-4087-8a46-cc4d76560917, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: e5.808075.xyz}}, udp: true}
+  - {name: 未知国家-1.94MB/s, server: 104.21.238.108, port: 2086, type: vmess, uuid: 7d92ffc9-02e1-4087-8a46-cc4d76560917, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: e5.808075.xyz}}, udp: true}
   - {name: 未知国家-383.4KB/s, server: 104.18.114.222, port: 2086, type: vmess, uuid: 7d92ffc9-02e1-4087-8a46-cc4d76560917, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: e5.808075.xyz}}, udp: true}
-  - {name: 未知国家-1.86MB/s 2, server: 104.18.114.231, port: 2086, type: vmess, uuid: 7d92ffc9-02e1-4087-8a46-cc4d76560917, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: e5.808075.xyz}}, udp: true}
+  - {name: 未知国家-1.89MB/s, server: 104.26.0.212, port: 2086, type: vmess, uuid: 7d92ffc9-02e1-4087-8a46-cc4d76560917, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: e5.808075.xyz}}, udp: true}
+  - {name: 未知国家-1.89MB/s 2, server: 104.26.0.238, port: 2086, type: vmess, uuid: 7d92ffc9-02e1-4087-8a46-cc4d76560917, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: e5.808075.xyz}}, udp: true}
+  - {name: 未知国家-964.6KB/s, server: 104.21.238.231, port: 2086, type: vmess, uuid: 7d92ffc9-02e1-4087-8a46-cc4d76560917, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: e5.808075.xyz}}, udp: true}
+  - {name: 未知国家-1.92MB/s, server: 104.21.238.182, port: 2086, type: vmess, uuid: 7d92ffc9-02e1-4087-8a46-cc4d76560917, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: e5.808075.xyz}}, udp: true}
+  - {name: 未知国家-423.8KB/s, server: 104.18.114.204, port: 2086, type: vmess, uuid: 7d92ffc9-02e1-4087-8a46-cc4d76560917, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: e5.808075.xyz}}, udp: true}
+  - {name: 未知国家-1.34MB/s, server: 104.26.0.231, port: 2086, type: vmess, uuid: 7d92ffc9-02e1-4087-8a46-cc4d76560917, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: e5.808075.xyz}}, udp: true}
+  - {name: 未知国家-572.7KB/s, server: 162.159.45.141, port: 2086, type: vmess, uuid: 7d92ffc9-02e1-4087-8a46-cc4d76560917, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: e5.808075.xyz}}, udp: true}
+  - {name: 未知国家-1.89MB/s 3, server: 104.26.0.154, port: 2086, type: vmess, uuid: 7d92ffc9-02e1-4087-8a46-cc4d76560917, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: e5.808075.xyz}}, udp: true}
+  - {name: 未知国家-1.93MB/s, server: 104.21.238.10, port: 2086, type: vmess, uuid: 7d92ffc9-02e1-4087-8a46-cc4d76560917, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: e5.808075.xyz}}, udp: true}
+  - {name: 未知国家-1.96MB/s, server: 104.18.114.124, port: 2086, type: vmess, uuid: 7d92ffc9-02e1-4087-8a46-cc4d76560917, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: e5.808075.xyz}}, udp: true}
+  - {name: 未知国家-1.86MB/s 2, server: 104.26.0.20, port: 2086, type: vmess, uuid: 7d92ffc9-02e1-4087-8a46-cc4d76560917, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: e5.808075.xyz}}, udp: true}
+  - {name: 未知国家-309.0KB/s, server: 104.18.114.246, port: 2086, type: vmess, uuid: 7d92ffc9-02e1-4087-8a46-cc4d76560917, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: e5.808075.xyz}}, udp: true}
+  - {name: 未知国家-302.7KB/s, server: 104.18.114.149, port: 2086, type: vmess, uuid: 7d92ffc9-02e1-4087-8a46-cc4d76560917, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: e5.808075.xyz}}, udp: true}
+  - {name: 未知国家-1.34MB/s 2, server: 104.26.0.199, port: 2086, type: vmess, uuid: 7d92ffc9-02e1-4087-8a46-cc4d76560917, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: e5.808075.xyz}}, udp: true}
+  - {name: 未知国家-1.95MB/s, server: 104.21.238.69, port: 2086, type: vmess, uuid: 7d92ffc9-02e1-4087-8a46-cc4d76560917, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: e5.808075.xyz}}, udp: true}
+  - {name: 未知国家-3.86MB/s, server: 104.26.0.126, port: 8880, type: vmess, uuid: 90f8f4dc-8092-4355-9047-05f506f5e9ab, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: m1.106778.xyz}}, udp: true}
+  - {name: 未知国家-1.84MB/s, server: 104.18.114.179, port: 2086, type: vmess, uuid: 7d92ffc9-02e1-4087-8a46-cc4d76560917, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: e5.808075.xyz}}, udp: true}
+  - {name: 未知国家-1.96MB/s 2, server: 104.18.114.69, port: 2086, type: vmess, uuid: 7d92ffc9-02e1-4087-8a46-cc4d76560917, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: e5.808075.xyz}}, udp: true}
+  - {name: 未知国家-1.66MB/s, server: 104.26.0.190, port: 2086, type: vmess, uuid: 7d92ffc9-02e1-4087-8a46-cc4d76560917, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: e5.808075.xyz}}, udp: true}
+  - {name: 未知国家-581.2KB/s, server: 104.18.114.199, port: 2086, type: vmess, uuid: 7d92ffc9-02e1-4087-8a46-cc4d76560917, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: e5.808075.xyz}}, udp: true}
+  - {name: 未知国家-1.21MB/s, server: 104.18.114.122, port: 2086, type: vmess, uuid: 7d92ffc9-02e1-4087-8a46-cc4d76560917, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: e5.808075.xyz}}, udp: true}
+  - {name: 未知国家-403.9KB/s, server: 104.21.238.230, port: 2086, type: vmess, uuid: 7d92ffc9-02e1-4087-8a46-cc4d76560917, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: e5.808075.xyz}}, udp: true}
+  - {name: 未知国家-1.79MB/s, server: 104.26.0.16, port: 2086, type: vmess, uuid: 7d92ffc9-02e1-4087-8a46-cc4d76560917, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: e5.808075.xyz}}, udp: true}
+  - {name: 未知国家-1.73MB/s, server: 104.18.114.162, port: 2086, type: vmess, uuid: 7d92ffc9-02e1-4087-8a46-cc4d76560917, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: e5.808075.xyz}}, udp: true}
+  - {name: 未知国家-255.0KB/s, server: 104.21.238.204, port: 2086, type: vmess, uuid: 7d92ffc9-02e1-4087-8a46-cc4d76560917, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: e5.808075.xyz}}, udp: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 未知国家-572.7KB/s
-      - 未知国家-423.8KB/s
       - 未知国家-1.88MB/s
-      - 未知国家-309.0KB/s
-      - 未知国家-1.66MB/s
-      - 未知国家-1.73MB/s
       - 未知国家-357.0KB/s
-      - 未知国家-1.96MB/s
-      - 未知国家-581.2KB/s
-      - 未知国家-302.7KB/s
-      - 未知国家-403.9KB/s
-      - 未知国家-1.96MB/s 2
-      - 未知国家-1.84MB/s
       - 未知国家-1.86MB/s
-      - 未知国家-1.79MB/s
-      - 未知国家-1.89MB/s
-      - 未知国家-255.0KB/s
-      - 未知国家-1.89MB/s 2
+      - 未知国家-1.94MB/s
       - 未知国家-383.4KB/s
+      - 未知国家-1.89MB/s
+      - 未知国家-1.89MB/s 2
+      - 未知国家-964.6KB/s
+      - 未知国家-1.92MB/s
+      - 未知国家-423.8KB/s
+      - 未知国家-1.34MB/s
+      - 未知国家-572.7KB/s
+      - 未知国家-1.89MB/s 3
+      - 未知国家-1.93MB/s
+      - 未知国家-1.96MB/s
       - 未知国家-1.86MB/s 2
+      - 未知国家-309.0KB/s
+      - 未知国家-302.7KB/s
+      - 未知国家-1.34MB/s 2
+      - 未知国家-1.95MB/s
+      - 未知国家-3.86MB/s
+      - 未知国家-1.84MB/s
+      - 未知国家-1.96MB/s 2
+      - 未知国家-1.66MB/s
+      - 未知国家-581.2KB/s
+      - 未知国家-1.21MB/s
+      - 未知国家-403.9KB/s
+      - 未知国家-1.79MB/s
+      - 未知国家-1.73MB/s
+      - 未知国家-255.0KB/s
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - 未知国家-572.7KB/s
-      - 未知国家-423.8KB/s
       - 未知国家-1.88MB/s
-      - 未知国家-309.0KB/s
-      - 未知国家-1.66MB/s
-      - 未知国家-1.73MB/s
       - 未知国家-357.0KB/s
-      - 未知国家-1.96MB/s
-      - 未知国家-581.2KB/s
-      - 未知国家-302.7KB/s
-      - 未知国家-403.9KB/s
-      - 未知国家-1.96MB/s 2
-      - 未知国家-1.84MB/s
       - 未知国家-1.86MB/s
-      - 未知国家-1.79MB/s
-      - 未知国家-1.89MB/s
-      - 未知国家-255.0KB/s
-      - 未知国家-1.89MB/s 2
+      - 未知国家-1.94MB/s
       - 未知国家-383.4KB/s
+      - 未知国家-1.89MB/s
+      - 未知国家-1.89MB/s 2
+      - 未知国家-964.6KB/s
+      - 未知国家-1.92MB/s
+      - 未知国家-423.8KB/s
+      - 未知国家-1.34MB/s
+      - 未知国家-572.7KB/s
+      - 未知国家-1.89MB/s 3
+      - 未知国家-1.93MB/s
+      - 未知国家-1.96MB/s
       - 未知国家-1.86MB/s 2
+      - 未知国家-309.0KB/s
+      - 未知国家-302.7KB/s
+      - 未知国家-1.34MB/s 2
+      - 未知国家-1.95MB/s
+      - 未知国家-3.86MB/s
+      - 未知国家-1.84MB/s
+      - 未知国家-1.96MB/s 2
+      - 未知国家-1.66MB/s
+      - 未知国家-581.2KB/s
+      - 未知国家-1.21MB/s
+      - 未知国家-403.9KB/s
+      - 未知国家-1.79MB/s
+      - 未知国家-1.73MB/s
+      - 未知国家-255.0KB/s
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 未知国家-572.7KB/s
-      - 未知国家-423.8KB/s
       - 未知国家-1.88MB/s
-      - 未知国家-309.0KB/s
-      - 未知国家-1.66MB/s
-      - 未知国家-1.73MB/s
       - 未知国家-357.0KB/s
-      - 未知国家-1.96MB/s
-      - 未知国家-581.2KB/s
-      - 未知国家-302.7KB/s
-      - 未知国家-403.9KB/s
-      - 未知国家-1.96MB/s 2
-      - 未知国家-1.84MB/s
       - 未知国家-1.86MB/s
-      - 未知国家-1.79MB/s
-      - 未知国家-1.89MB/s
-      - 未知国家-255.0KB/s
-      - 未知国家-1.89MB/s 2
+      - 未知国家-1.94MB/s
       - 未知国家-383.4KB/s
+      - 未知国家-1.89MB/s
+      - 未知国家-1.89MB/s 2
+      - 未知国家-964.6KB/s
+      - 未知国家-1.92MB/s
+      - 未知国家-423.8KB/s
+      - 未知国家-1.34MB/s
+      - 未知国家-572.7KB/s
+      - 未知国家-1.89MB/s 3
+      - 未知国家-1.93MB/s
+      - 未知国家-1.96MB/s
       - 未知国家-1.86MB/s 2
+      - 未知国家-309.0KB/s
+      - 未知国家-302.7KB/s
+      - 未知国家-1.34MB/s 2
+      - 未知国家-1.95MB/s
+      - 未知国家-3.86MB/s
+      - 未知国家-1.84MB/s
+      - 未知国家-1.96MB/s 2
+      - 未知国家-1.66MB/s
+      - 未知国家-581.2KB/s
+      - 未知国家-1.21MB/s
+      - 未知国家-403.9KB/s
+      - 未知国家-1.79MB/s
+      - 未知国家-1.73MB/s
+      - 未知国家-255.0KB/s
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -120,26 +160,36 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 未知国家-572.7KB/s
-      - 未知国家-423.8KB/s
       - 未知国家-1.88MB/s
-      - 未知国家-309.0KB/s
-      - 未知国家-1.66MB/s
-      - 未知国家-1.73MB/s
       - 未知国家-357.0KB/s
-      - 未知国家-1.96MB/s
-      - 未知国家-581.2KB/s
-      - 未知国家-302.7KB/s
-      - 未知国家-403.9KB/s
-      - 未知国家-1.96MB/s 2
-      - 未知国家-1.84MB/s
       - 未知国家-1.86MB/s
-      - 未知国家-1.79MB/s
-      - 未知国家-1.89MB/s
-      - 未知国家-255.0KB/s
-      - 未知国家-1.89MB/s 2
+      - 未知国家-1.94MB/s
       - 未知国家-383.4KB/s
+      - 未知国家-1.89MB/s
+      - 未知国家-1.89MB/s 2
+      - 未知国家-964.6KB/s
+      - 未知国家-1.92MB/s
+      - 未知国家-423.8KB/s
+      - 未知国家-1.34MB/s
+      - 未知国家-572.7KB/s
+      - 未知国家-1.89MB/s 3
+      - 未知国家-1.93MB/s
+      - 未知国家-1.96MB/s
       - 未知国家-1.86MB/s 2
+      - 未知国家-309.0KB/s
+      - 未知国家-302.7KB/s
+      - 未知国家-1.34MB/s 2
+      - 未知国家-1.95MB/s
+      - 未知国家-3.86MB/s
+      - 未知国家-1.84MB/s
+      - 未知国家-1.96MB/s 2
+      - 未知国家-1.66MB/s
+      - 未知国家-581.2KB/s
+      - 未知国家-1.21MB/s
+      - 未知国家-403.9KB/s
+      - 未知国家-1.79MB/s
+      - 未知国家-1.73MB/s
+      - 未知国家-255.0KB/s
   - name: 🌏 国内媒体
     type: select
     proxies:
@@ -150,77 +200,107 @@ proxy-groups:
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - 未知国家-572.7KB/s
-      - 未知国家-423.8KB/s
       - 未知国家-1.88MB/s
-      - 未知国家-309.0KB/s
-      - 未知国家-1.66MB/s
-      - 未知国家-1.73MB/s
       - 未知国家-357.0KB/s
-      - 未知国家-1.96MB/s
-      - 未知国家-581.2KB/s
-      - 未知国家-302.7KB/s
-      - 未知国家-403.9KB/s
-      - 未知国家-1.96MB/s 2
-      - 未知国家-1.84MB/s
       - 未知国家-1.86MB/s
-      - 未知国家-1.79MB/s
-      - 未知国家-1.89MB/s
-      - 未知国家-255.0KB/s
-      - 未知国家-1.89MB/s 2
+      - 未知国家-1.94MB/s
       - 未知国家-383.4KB/s
+      - 未知国家-1.89MB/s
+      - 未知国家-1.89MB/s 2
+      - 未知国家-964.6KB/s
+      - 未知国家-1.92MB/s
+      - 未知国家-423.8KB/s
+      - 未知国家-1.34MB/s
+      - 未知国家-572.7KB/s
+      - 未知国家-1.89MB/s 3
+      - 未知国家-1.93MB/s
+      - 未知国家-1.96MB/s
       - 未知国家-1.86MB/s 2
+      - 未知国家-309.0KB/s
+      - 未知国家-302.7KB/s
+      - 未知国家-1.34MB/s 2
+      - 未知国家-1.95MB/s
+      - 未知国家-3.86MB/s
+      - 未知国家-1.84MB/s
+      - 未知国家-1.96MB/s 2
+      - 未知国家-1.66MB/s
+      - 未知国家-581.2KB/s
+      - 未知国家-1.21MB/s
+      - 未知国家-403.9KB/s
+      - 未知国家-1.79MB/s
+      - 未知国家-1.73MB/s
+      - 未知国家-255.0KB/s
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - 未知国家-572.7KB/s
-      - 未知国家-423.8KB/s
       - 未知国家-1.88MB/s
-      - 未知国家-309.0KB/s
-      - 未知国家-1.66MB/s
-      - 未知国家-1.73MB/s
       - 未知国家-357.0KB/s
-      - 未知国家-1.96MB/s
-      - 未知国家-581.2KB/s
-      - 未知国家-302.7KB/s
-      - 未知国家-403.9KB/s
-      - 未知国家-1.96MB/s 2
-      - 未知国家-1.84MB/s
       - 未知国家-1.86MB/s
-      - 未知国家-1.79MB/s
-      - 未知国家-1.89MB/s
-      - 未知国家-255.0KB/s
-      - 未知国家-1.89MB/s 2
+      - 未知国家-1.94MB/s
       - 未知国家-383.4KB/s
+      - 未知国家-1.89MB/s
+      - 未知国家-1.89MB/s 2
+      - 未知国家-964.6KB/s
+      - 未知国家-1.92MB/s
+      - 未知国家-423.8KB/s
+      - 未知国家-1.34MB/s
+      - 未知国家-572.7KB/s
+      - 未知国家-1.89MB/s 3
+      - 未知国家-1.93MB/s
+      - 未知国家-1.96MB/s
       - 未知国家-1.86MB/s 2
+      - 未知国家-309.0KB/s
+      - 未知国家-302.7KB/s
+      - 未知国家-1.34MB/s 2
+      - 未知国家-1.95MB/s
+      - 未知国家-3.86MB/s
+      - 未知国家-1.84MB/s
+      - 未知国家-1.96MB/s 2
+      - 未知国家-1.66MB/s
+      - 未知国家-581.2KB/s
+      - 未知国家-1.21MB/s
+      - 未知国家-403.9KB/s
+      - 未知国家-1.79MB/s
+      - 未知国家-1.73MB/s
+      - 未知国家-255.0KB/s
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 未知国家-572.7KB/s
-      - 未知国家-423.8KB/s
       - 未知国家-1.88MB/s
-      - 未知国家-309.0KB/s
-      - 未知国家-1.66MB/s
-      - 未知国家-1.73MB/s
       - 未知国家-357.0KB/s
-      - 未知国家-1.96MB/s
-      - 未知国家-581.2KB/s
-      - 未知国家-302.7KB/s
-      - 未知国家-403.9KB/s
-      - 未知国家-1.96MB/s 2
-      - 未知国家-1.84MB/s
       - 未知国家-1.86MB/s
-      - 未知国家-1.79MB/s
-      - 未知国家-1.89MB/s
-      - 未知国家-255.0KB/s
-      - 未知国家-1.89MB/s 2
+      - 未知国家-1.94MB/s
       - 未知国家-383.4KB/s
+      - 未知国家-1.89MB/s
+      - 未知国家-1.89MB/s 2
+      - 未知国家-964.6KB/s
+      - 未知国家-1.92MB/s
+      - 未知国家-423.8KB/s
+      - 未知国家-1.34MB/s
+      - 未知国家-572.7KB/s
+      - 未知国家-1.89MB/s 3
+      - 未知国家-1.93MB/s
+      - 未知国家-1.96MB/s
       - 未知国家-1.86MB/s 2
+      - 未知国家-309.0KB/s
+      - 未知国家-302.7KB/s
+      - 未知国家-1.34MB/s 2
+      - 未知国家-1.95MB/s
+      - 未知国家-3.86MB/s
+      - 未知国家-1.84MB/s
+      - 未知国家-1.96MB/s 2
+      - 未知国家-1.66MB/s
+      - 未知国家-581.2KB/s
+      - 未知国家-1.21MB/s
+      - 未知国家-403.9KB/s
+      - 未知国家-1.79MB/s
+      - 未知国家-1.73MB/s
+      - 未知国家-255.0KB/s
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -236,26 +316,36 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 未知国家-572.7KB/s
-      - 未知国家-423.8KB/s
       - 未知国家-1.88MB/s
-      - 未知国家-309.0KB/s
-      - 未知国家-1.66MB/s
-      - 未知国家-1.73MB/s
       - 未知国家-357.0KB/s
-      - 未知国家-1.96MB/s
-      - 未知国家-581.2KB/s
-      - 未知国家-302.7KB/s
-      - 未知国家-403.9KB/s
-      - 未知国家-1.96MB/s 2
-      - 未知国家-1.84MB/s
       - 未知国家-1.86MB/s
-      - 未知国家-1.79MB/s
-      - 未知国家-1.89MB/s
-      - 未知国家-255.0KB/s
-      - 未知国家-1.89MB/s 2
+      - 未知国家-1.94MB/s
       - 未知国家-383.4KB/s
+      - 未知国家-1.89MB/s
+      - 未知国家-1.89MB/s 2
+      - 未知国家-964.6KB/s
+      - 未知国家-1.92MB/s
+      - 未知国家-423.8KB/s
+      - 未知国家-1.34MB/s
+      - 未知国家-572.7KB/s
+      - 未知国家-1.89MB/s 3
+      - 未知国家-1.93MB/s
+      - 未知国家-1.96MB/s
       - 未知国家-1.86MB/s 2
+      - 未知国家-309.0KB/s
+      - 未知国家-302.7KB/s
+      - 未知国家-1.34MB/s 2
+      - 未知国家-1.95MB/s
+      - 未知国家-3.86MB/s
+      - 未知国家-1.84MB/s
+      - 未知国家-1.96MB/s 2
+      - 未知国家-1.66MB/s
+      - 未知国家-581.2KB/s
+      - 未知国家-1.21MB/s
+      - 未知国家-403.9KB/s
+      - 未知国家-1.79MB/s
+      - 未知国家-1.73MB/s
+      - 未知国家-255.0KB/s
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
