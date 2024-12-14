@@ -5,63 +5,103 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
+  - {name: 中转节点-12.2MB/s, server: 219.135.227.209, port: 16015, type: ss, cipher: aes-256-gcm, password: OWLCP6DOQ4PZ5M7G, udp: true}
+  - {name: 波兰-24.6MB/s, server: 217.30.10.18, port: 9060, type: ss, cipher: aes-256-cfb, password: ueLXVkvh4hckhErQ, udp: true}
+  - {name: 德国-3.1MB/s, server: 84.19.31.63, port: 50841, type: ss, cipher: chacha20-ietf-poly1305, password: 2EtPqn6HYjUNcHohLfUpFQwnfjCCQ5mh1mJdEMCBucuWZ9P1udkRKHnVxuo55k1KXz2Fo6jrgt18W66opty1e4bm1jzfCfBb, udp: true}
+  - {name: 加拿大-64.6MB/s, server: 138.124.51.236, port: 59923, type: ss, cipher: chacha20-ietf-poly1305, password: HGME+iDoOozFdFkNkq1J/0aVlg6USr67rdlGyK9l5Oo=, udp: true}
+  - {name: 伊朗-89.4MB/s, server: 91.216.171.91, port: 7878, type: ss, cipher: chacha20-ietf-poly1305, password: V1HpYo88pVYPbS4OfRPD9Q, udp: true}
+  - {name: 波兰-111.5KB/s, server: 217.30.10.18, port: 9088, type: ss, cipher: aes-256-cfb, password: f8npKgNzdkss2ytn, udp: true}
+  - {name: 新加坡-66.1MB/s, server: 18.143.139.72, port: 443, type: ss, cipher: ss, password: //YWVzLTI1Ni1jZmI6YW1hem9uc2tyMDU, udp: true}
+  - {name: 伊朗-88.9MB/s, server: 91.216.171.94, port: 7879, type: ss, cipher: chacha20-ietf-poly1305, password: V1HpYo88pVYPbS4OfRPD9Q, udp: true}
   - {name: 中转节点-20.7MB/s, server: 219.135.227.209, port: 17003, type: ss, cipher: aes-256-gcm, password: TTK8DSO6MZREEJQ1, udp: true}
+  - {name: 中转节点-11.7MB/s, server: 219.135.227.209, port: 18011, type: ss, cipher: aes-256-gcm, password: 364S7BOP8HTUCLZP, udp: true}
   - {name: 中转节点-24.9MB/s, server: 219.135.227.209, port: 18011, type: ss, cipher: aes-256-gcm, password: 364S7BOP8HTUCLZP, udp: true}
-  - {name: 未知国家-2.13MB/s, server: 104.18.114.248, port: 2095, type: vmess, uuid: f0758bf9-454b-4331-bb45-e56dd390f743, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: a1.984952.xyz}}, udp: true}
+  - {name: 美国-593.4KB/s, server: cdn1.bpcdn.cc, port: 2086, type: vmess, uuid: b2295415-b953-4959-8be0-88b358111e95, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: jpjhve0r3125kg1xmz.lovebaipiao.com}}, udp: true}
+  - {name: 德国-48.1MB/s, server: 23.158.56.227, port: 443, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /linkvws}, udp: true}
+  - {name: 德国-3.12MB/s, server: 23.158.56.227, port: 443, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /linkvws}, udp: true}
+  - {name: 未知国家-3.02MB/s, server: 104.18.114.119, port: 2095, type: vmess, uuid: f0758bf9-454b-4331-bb45-e56dd390f743, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: a1.984952.xyz}}, udp: true}
+  - {name: 未知国家-1.19MB/s, server: 162.159.45.100, port: 2095, type: vmess, uuid: f0758bf9-454b-4331-bb45-e56dd390f743, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: a1.984952.xyz}}, udp: true}
+  - {name: 未知国家-2.13MB/s, server: 104.18.114.24, port: 2095, type: vmess, uuid: f0758bf9-454b-4331-bb45-e56dd390f743, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: a1.984952.xyz}}, udp: true}
   - {name: 未知国家-3.69MB/s, server: 104.18.114.189, port: 2095, type: vmess, uuid: f0758bf9-454b-4331-bb45-e56dd390f743, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: a1.984952.xyz}}, udp: true}
   - {name: 未知国家-2.17MB/s, server: 104.18.114.82, port: 2095, type: vmess, uuid: f0758bf9-454b-4331-bb45-e56dd390f743, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: a1.984952.xyz}}, udp: true}
-  - {name: 德国-3.12MB/s, server: 23.158.56.227, port: 443, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /linkvws}, udp: true}
-  - {name: 未知国家-2.13MB/s 2, server: 104.18.114.24, port: 2095, type: vmess, uuid: f0758bf9-454b-4331-bb45-e56dd390f743, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: a1.984952.xyz}}, udp: true}
-  - {name: 未知国家-1.19MB/s, server: 162.159.45.100, port: 2095, type: vmess, uuid: f0758bf9-454b-4331-bb45-e56dd390f743, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: a1.984952.xyz}}, udp: true}
-  - {name: 未知国家-3.02MB/s, server: 104.18.114.119, port: 2095, type: vmess, uuid: f0758bf9-454b-4331-bb45-e56dd390f743, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: a1.984952.xyz}}, udp: true}
-  - {name: 美国-593.4KB/s, server: cdn1.bpcdn.cc, port: 2086, type: vmess, uuid: b2295415-b953-4959-8be0-88b358111e95, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: jpjhve0r3125kg1xmz.lovebaipiao.com}}, udp: true}
+  - {name: 未知国家-2.13MB/s 2, server: 104.18.114.248, port: 2095, type: vmess, uuid: f0758bf9-454b-4331-bb45-e56dd390f743, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: a1.984952.xyz}}, udp: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
+      - 中转节点-12.2MB/s
+      - 波兰-24.6MB/s
+      - 德国-3.1MB/s
+      - 加拿大-64.6MB/s
+      - 伊朗-89.4MB/s
+      - 波兰-111.5KB/s
+      - 新加坡-66.1MB/s
+      - 伊朗-88.9MB/s
       - 中转节点-20.7MB/s
+      - 中转节点-11.7MB/s
       - 中转节点-24.9MB/s
+      - 美国-593.4KB/s
+      - 德国-48.1MB/s
+      - 德国-3.12MB/s
+      - 未知国家-3.02MB/s
+      - 未知国家-1.19MB/s
       - 未知国家-2.13MB/s
       - 未知国家-3.69MB/s
       - 未知国家-2.17MB/s
-      - 德国-3.12MB/s
       - 未知国家-2.13MB/s 2
-      - 未知国家-1.19MB/s
-      - 未知国家-3.02MB/s
-      - 美国-593.4KB/s
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
+      - 中转节点-12.2MB/s
+      - 波兰-24.6MB/s
+      - 德国-3.1MB/s
+      - 加拿大-64.6MB/s
+      - 伊朗-89.4MB/s
+      - 波兰-111.5KB/s
+      - 新加坡-66.1MB/s
+      - 伊朗-88.9MB/s
       - 中转节点-20.7MB/s
+      - 中转节点-11.7MB/s
       - 中转节点-24.9MB/s
+      - 美国-593.4KB/s
+      - 德国-48.1MB/s
+      - 德国-3.12MB/s
+      - 未知国家-3.02MB/s
+      - 未知国家-1.19MB/s
       - 未知国家-2.13MB/s
       - 未知国家-3.69MB/s
       - 未知国家-2.17MB/s
-      - 德国-3.12MB/s
       - 未知国家-2.13MB/s 2
-      - 未知国家-1.19MB/s
-      - 未知国家-3.02MB/s
-      - 美国-593.4KB/s
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
+      - 中转节点-12.2MB/s
+      - 波兰-24.6MB/s
+      - 德国-3.1MB/s
+      - 加拿大-64.6MB/s
+      - 伊朗-89.4MB/s
+      - 波兰-111.5KB/s
+      - 新加坡-66.1MB/s
+      - 伊朗-88.9MB/s
       - 中转节点-20.7MB/s
+      - 中转节点-11.7MB/s
       - 中转节点-24.9MB/s
+      - 美国-593.4KB/s
+      - 德国-48.1MB/s
+      - 德国-3.12MB/s
+      - 未知国家-3.02MB/s
+      - 未知国家-1.19MB/s
       - 未知国家-2.13MB/s
       - 未知国家-3.69MB/s
       - 未知国家-2.17MB/s
-      - 德国-3.12MB/s
       - 未知国家-2.13MB/s 2
-      - 未知国家-1.19MB/s
-      - 未知国家-3.02MB/s
-      - 美国-593.4KB/s
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -80,16 +120,26 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
+      - 中转节点-12.2MB/s
+      - 波兰-24.6MB/s
+      - 德国-3.1MB/s
+      - 加拿大-64.6MB/s
+      - 伊朗-89.4MB/s
+      - 波兰-111.5KB/s
+      - 新加坡-66.1MB/s
+      - 伊朗-88.9MB/s
       - 中转节点-20.7MB/s
+      - 中转节点-11.7MB/s
       - 中转节点-24.9MB/s
+      - 美国-593.4KB/s
+      - 德国-48.1MB/s
+      - 德国-3.12MB/s
+      - 未知国家-3.02MB/s
+      - 未知国家-1.19MB/s
       - 未知国家-2.13MB/s
       - 未知国家-3.69MB/s
       - 未知国家-2.17MB/s
-      - 德国-3.12MB/s
       - 未知国家-2.13MB/s 2
-      - 未知国家-1.19MB/s
-      - 未知国家-3.02MB/s
-      - 美国-593.4KB/s
   - name: 🌏 国内媒体
     type: select
     proxies:
@@ -100,47 +150,77 @@ proxy-groups:
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
+      - 中转节点-12.2MB/s
+      - 波兰-24.6MB/s
+      - 德国-3.1MB/s
+      - 加拿大-64.6MB/s
+      - 伊朗-89.4MB/s
+      - 波兰-111.5KB/s
+      - 新加坡-66.1MB/s
+      - 伊朗-88.9MB/s
       - 中转节点-20.7MB/s
+      - 中转节点-11.7MB/s
       - 中转节点-24.9MB/s
+      - 美国-593.4KB/s
+      - 德国-48.1MB/s
+      - 德国-3.12MB/s
+      - 未知国家-3.02MB/s
+      - 未知国家-1.19MB/s
       - 未知国家-2.13MB/s
       - 未知国家-3.69MB/s
       - 未知国家-2.17MB/s
-      - 德国-3.12MB/s
       - 未知国家-2.13MB/s 2
-      - 未知国家-1.19MB/s
-      - 未知国家-3.02MB/s
-      - 美国-593.4KB/s
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
+      - 中转节点-12.2MB/s
+      - 波兰-24.6MB/s
+      - 德国-3.1MB/s
+      - 加拿大-64.6MB/s
+      - 伊朗-89.4MB/s
+      - 波兰-111.5KB/s
+      - 新加坡-66.1MB/s
+      - 伊朗-88.9MB/s
       - 中转节点-20.7MB/s
+      - 中转节点-11.7MB/s
       - 中转节点-24.9MB/s
+      - 美国-593.4KB/s
+      - 德国-48.1MB/s
+      - 德国-3.12MB/s
+      - 未知国家-3.02MB/s
+      - 未知国家-1.19MB/s
       - 未知国家-2.13MB/s
       - 未知国家-3.69MB/s
       - 未知国家-2.17MB/s
-      - 德国-3.12MB/s
       - 未知国家-2.13MB/s 2
-      - 未知国家-1.19MB/s
-      - 未知国家-3.02MB/s
-      - 美国-593.4KB/s
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
+      - 中转节点-12.2MB/s
+      - 波兰-24.6MB/s
+      - 德国-3.1MB/s
+      - 加拿大-64.6MB/s
+      - 伊朗-89.4MB/s
+      - 波兰-111.5KB/s
+      - 新加坡-66.1MB/s
+      - 伊朗-88.9MB/s
       - 中转节点-20.7MB/s
+      - 中转节点-11.7MB/s
       - 中转节点-24.9MB/s
+      - 美国-593.4KB/s
+      - 德国-48.1MB/s
+      - 德国-3.12MB/s
+      - 未知国家-3.02MB/s
+      - 未知国家-1.19MB/s
       - 未知国家-2.13MB/s
       - 未知国家-3.69MB/s
       - 未知国家-2.17MB/s
-      - 德国-3.12MB/s
       - 未知国家-2.13MB/s 2
-      - 未知国家-1.19MB/s
-      - 未知国家-3.02MB/s
-      - 美国-593.4KB/s
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -156,16 +236,26 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
+      - 中转节点-12.2MB/s
+      - 波兰-24.6MB/s
+      - 德国-3.1MB/s
+      - 加拿大-64.6MB/s
+      - 伊朗-89.4MB/s
+      - 波兰-111.5KB/s
+      - 新加坡-66.1MB/s
+      - 伊朗-88.9MB/s
       - 中转节点-20.7MB/s
+      - 中转节点-11.7MB/s
       - 中转节点-24.9MB/s
+      - 美国-593.4KB/s
+      - 德国-48.1MB/s
+      - 德国-3.12MB/s
+      - 未知国家-3.02MB/s
+      - 未知国家-1.19MB/s
       - 未知国家-2.13MB/s
       - 未知国家-3.69MB/s
       - 未知国家-2.17MB/s
-      - 德国-3.12MB/s
       - 未知国家-2.13MB/s 2
-      - 未知国家-1.19MB/s
-      - 未知国家-3.02MB/s
-      - 美国-593.4KB/s
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
