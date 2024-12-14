@@ -1,6 +1,6 @@
 # 生成地址：v2rayse.com
 # 模版名称：defaultName
-# 生成时间：2024-12-14 15:28:54
+# 生成时间：2024-12-14 21:33:30
 # 不要随意改变关键字，否则会导致出错
 # acl4SSR规则
 # 去广告：支持
@@ -60,7 +60,7 @@ tun:
 proxies:
   - name: 🇺🇸_US_美国->🇨🇦_CA_加拿大_1
     port: 2095
-    server: 104.18.114.60
+    server: 104.21.238.102
     type: vmess
     network: ws
     udp: true
@@ -73,7 +73,7 @@ proxies:
     alterId: 0
   - name: 🇺🇸_US_美国->🇨🇦_CA_加拿大_2
     port: 2095
-    server: 104.26.0.109
+    server: 104.26.0.38
     type: vmess
     network: ws
     udp: true
@@ -86,7 +86,7 @@ proxies:
     alterId: 0
   - name: 🇺🇸_US_美国->🇨🇦_CA_加拿大_3
     port: 2095
-    server: 104.18.114.191
+    server: 104.21.238.43
     type: vmess
     network: ws
     udp: true
@@ -97,16 +97,9 @@ proxies:
     cipher: auto
     uuid: f0758bf9-454b-4331-bb45-e56dd390f743
     alterId: 0
-  - name: 🇺🇸_US_美国_1
-    port: 34137
-    server: 51.120.12.78
-    type: ss
-    udp: true
-    password: KrIV7QIoQmMps6L21IrbLv
-    cipher: chacha20-ietf-poly1305
   - name: 🇺🇸_US_美国->🇨🇦_CA_加拿大_4
     port: 2095
-    server: 104.18.114.34
+    server: 104.21.238.126
     type: vmess
     network: ws
     udp: true
@@ -119,7 +112,7 @@ proxies:
     alterId: 0
   - name: 🇺🇸_US_美国->🇨🇦_CA_加拿大_5
     port: 2095
-    server: 104.18.114.197
+    server: 162.159.45.194
     type: vmess
     network: ws
     udp: true
@@ -132,20 +125,7 @@ proxies:
     alterId: 0
   - name: 🇺🇸_US_美国->🇨🇦_CA_加拿大_6
     port: 2095
-    server: 104.18.114.5
-    type: vmess
-    network: ws
-    udp: true
-    ws-opts:
-      path: github.com/Alvin9999
-      headers:
-        host: a1.984952.xyz
-    cipher: auto
-    uuid: f0758bf9-454b-4331-bb45-e56dd390f743
-    alterId: 0
-  - name: 🇺🇸_US_美国_2
-    port: 2095
-    server: 104.18.114.112
+    server: 104.18.114.181
     type: vmess
     network: ws
     udp: true
@@ -158,7 +138,7 @@ proxies:
     alterId: 0
   - name: 🇺🇸_US_美国->🇨🇦_CA_加拿大_7
     port: 2095
-    server: 104.18.114.189
+    server: 104.21.238.29
     type: vmess
     network: ws
     udp: true
@@ -171,7 +151,7 @@ proxies:
     alterId: 0
   - name: 🇺🇸_US_美国->🇨🇦_CA_加拿大_8
     port: 2095
-    server: 104.18.114.175
+    server: 104.26.0.48
     type: vmess
     network: ws
     udp: true
@@ -182,6 +162,26 @@ proxies:
     cipher: auto
     uuid: f0758bf9-454b-4331-bb45-e56dd390f743
     alterId: 0
+  - name: 🇺🇸_US_美国->🇨🇦_CA_加拿大_9
+    port: 2095
+    server: 104.18.114.158
+    type: vmess
+    network: ws
+    udp: true
+    ws-opts:
+      path: github.com/Alvin9999
+      headers:
+        host: a1.984952.xyz
+    cipher: auto
+    uuid: f0758bf9-454b-4331-bb45-e56dd390f743
+    alterId: 0
+  - name: 🇺🇸_US_美国
+    port: 8080
+    server: 23.251.121.242
+    type: ss
+    udp: true
+    password: 14fFPrbezE3HDZzsMOr6
+    cipher: rc4-md5
 proxy-groups:
   - name: 🚀 节点选择
     type: select
@@ -191,13 +191,13 @@ proxy-groups:
       - 🇺🇸_US_美国->🇨🇦_CA_加拿大_1
       - 🇺🇸_US_美国->🇨🇦_CA_加拿大_2
       - 🇺🇸_US_美国->🇨🇦_CA_加拿大_3
-      - 🇺🇸_US_美国_1
       - 🇺🇸_US_美国->🇨🇦_CA_加拿大_4
       - 🇺🇸_US_美国->🇨🇦_CA_加拿大_5
       - 🇺🇸_US_美国->🇨🇦_CA_加拿大_6
-      - 🇺🇸_US_美国_2
       - 🇺🇸_US_美国->🇨🇦_CA_加拿大_7
       - 🇺🇸_US_美国->🇨🇦_CA_加拿大_8
+      - 🇺🇸_US_美国->🇨🇦_CA_加拿大_9
+      - 🇺🇸_US_美国
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -207,13 +207,13 @@ proxy-groups:
       - 🇺🇸_US_美国->🇨🇦_CA_加拿大_1
       - 🇺🇸_US_美国->🇨🇦_CA_加拿大_2
       - 🇺🇸_US_美国->🇨🇦_CA_加拿大_3
-      - 🇺🇸_US_美国_1
       - 🇺🇸_US_美国->🇨🇦_CA_加拿大_4
       - 🇺🇸_US_美国->🇨🇦_CA_加拿大_5
       - 🇺🇸_US_美国->🇨🇦_CA_加拿大_6
-      - 🇺🇸_US_美国_2
       - 🇺🇸_US_美国->🇨🇦_CA_加拿大_7
       - 🇺🇸_US_美国->🇨🇦_CA_加拿大_8
+      - 🇺🇸_US_美国->🇨🇦_CA_加拿大_9
+      - 🇺🇸_US_美国
   - name: 🌍 国外媒体
     type: select
     proxies:
@@ -223,13 +223,13 @@ proxy-groups:
       - 🇺🇸_US_美国->🇨🇦_CA_加拿大_1
       - 🇺🇸_US_美国->🇨🇦_CA_加拿大_2
       - 🇺🇸_US_美国->🇨🇦_CA_加拿大_3
-      - 🇺🇸_US_美国_1
       - 🇺🇸_US_美国->🇨🇦_CA_加拿大_4
       - 🇺🇸_US_美国->🇨🇦_CA_加拿大_5
       - 🇺🇸_US_美国->🇨🇦_CA_加拿大_6
-      - 🇺🇸_US_美国_2
       - 🇺🇸_US_美国->🇨🇦_CA_加拿大_7
       - 🇺🇸_US_美国->🇨🇦_CA_加拿大_8
+      - 🇺🇸_US_美国->🇨🇦_CA_加拿大_9
+      - 🇺🇸_US_美国
   - name: 📲 电报信息
     type: select
     proxies:
@@ -238,13 +238,13 @@ proxy-groups:
       - 🇺🇸_US_美国->🇨🇦_CA_加拿大_1
       - 🇺🇸_US_美国->🇨🇦_CA_加拿大_2
       - 🇺🇸_US_美国->🇨🇦_CA_加拿大_3
-      - 🇺🇸_US_美国_1
       - 🇺🇸_US_美国->🇨🇦_CA_加拿大_4
       - 🇺🇸_US_美国->🇨🇦_CA_加拿大_5
       - 🇺🇸_US_美国->🇨🇦_CA_加拿大_6
-      - 🇺🇸_US_美国_2
       - 🇺🇸_US_美国->🇨🇦_CA_加拿大_7
       - 🇺🇸_US_美国->🇨🇦_CA_加拿大_8
+      - 🇺🇸_US_美国->🇨🇦_CA_加拿大_9
+      - 🇺🇸_US_美国
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
@@ -253,13 +253,13 @@ proxy-groups:
       - 🇺🇸_US_美国->🇨🇦_CA_加拿大_1
       - 🇺🇸_US_美国->🇨🇦_CA_加拿大_2
       - 🇺🇸_US_美国->🇨🇦_CA_加拿大_3
-      - 🇺🇸_US_美国_1
       - 🇺🇸_US_美国->🇨🇦_CA_加拿大_4
       - 🇺🇸_US_美国->🇨🇦_CA_加拿大_5
       - 🇺🇸_US_美国->🇨🇦_CA_加拿大_6
-      - 🇺🇸_US_美国_2
       - 🇺🇸_US_美国->🇨🇦_CA_加拿大_7
       - 🇺🇸_US_美国->🇨🇦_CA_加拿大_8
+      - 🇺🇸_US_美国->🇨🇦_CA_加拿大_9
+      - 🇺🇸_US_美国
   - name: 🍎 苹果服务
     type: select
     proxies:
@@ -268,13 +268,13 @@ proxy-groups:
       - 🇺🇸_US_美国->🇨🇦_CA_加拿大_1
       - 🇺🇸_US_美国->🇨🇦_CA_加拿大_2
       - 🇺🇸_US_美国->🇨🇦_CA_加拿大_3
-      - 🇺🇸_US_美国_1
       - 🇺🇸_US_美国->🇨🇦_CA_加拿大_4
       - 🇺🇸_US_美国->🇨🇦_CA_加拿大_5
       - 🇺🇸_US_美国->🇨🇦_CA_加拿大_6
-      - 🇺🇸_US_美国_2
       - 🇺🇸_US_美国->🇨🇦_CA_加拿大_7
       - 🇺🇸_US_美国->🇨🇦_CA_加拿大_8
+      - 🇺🇸_US_美国->🇨🇦_CA_加拿大_9
+      - 🇺🇸_US_美国
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -300,13 +300,13 @@ proxy-groups:
       - 🇺🇸_US_美国->🇨🇦_CA_加拿大_1
       - 🇺🇸_US_美国->🇨🇦_CA_加拿大_2
       - 🇺🇸_US_美国->🇨🇦_CA_加拿大_3
-      - 🇺🇸_US_美国_1
       - 🇺🇸_US_美国->🇨🇦_CA_加拿大_4
       - 🇺🇸_US_美国->🇨🇦_CA_加拿大_5
       - 🇺🇸_US_美国->🇨🇦_CA_加拿大_6
-      - 🇺🇸_US_美国_2
       - 🇺🇸_US_美国->🇨🇦_CA_加拿大_7
       - 🇺🇸_US_美国->🇨🇦_CA_加拿大_8
+      - 🇺🇸_US_美国->🇨🇦_CA_加拿大_9
+      - 🇺🇸_US_美国
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
   - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
