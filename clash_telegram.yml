@@ -5,63 +5,103 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
+  - {name: 中转节点-20.6MB/s, server: 113.99.142.152, port: 17008, type: ss, cipher: aes-256-gcm, password: P4RAHM7S01HTCHPW, udp: true}
+  - {name: 美国-1.71MB/s, server: 79.110.53.169, port: 8080, type: ss, cipher: rc4-md5, password: 14fFPrbezE3HDZzsMOr6, udp: true}
+  - {name: 美国-527.4KB/s, server: 142.202.49.122, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
   - {name: 日本-426.7KB/s, server: 43.207.81.209, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+  - {name: 美国-579.3KB/s, server: 142.202.49.122, port: 9102, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
   - {name: 美国-2.83MB/s, server: 194.5.215.59, port: 8080, type: ss, cipher: rc4-md5, password: 14fFPrbezE3HDZzsMOr6, udp: true}
-  - {name: 未知国家-1.96MB/s, server: 104.18.114.119, port: 2086, type: vmess, uuid: 7d92ffc9-02e1-4087-8a46-cc4d76560917, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /github.com/Alvin9999, headers: {Host: e1.285581.xyz}}, udp: true}
-  - {name: 未知国家-733.4KB/s, server: 104.21.238.10, port: 8880, type: vmess, uuid: 90f8f4dc-8092-4355-9047-05f506f5e9ab, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /github.com/Alvin9999, headers: {Host: m20.155857.xyz}}, udp: true}
-  - {name: 未知国家-62.0MB/s, server: 104.26.0.40, port: 8880, type: vmess, uuid: 90f8f4dc-8092-4355-9047-05f506f5e9ab, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /github.com/Alvin9999, headers: {Host: m8.155857.xyz}}, udp: true}
-  - {name: 未知国家-657.0KB/s, server: 104.18.114.147, port: 8880, type: vmess, uuid: 90f8f4dc-8092-4355-9047-05f506f5e9ab, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /github.com/Alvin9999, headers: {Host: m20.155857.xyz}}, udp: true}
+  - {name: 英国-2.44MB/s, server: series-a1.samanehha.co, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: W74XFALLLuw6m5IA, udp: true}
+  - {name: 美国-96.9MB/s, server: 142.202.49.122, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
+  - {name: 美国-717.6KB/s, server: 142.202.49.122, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: 美国-736.5KB/s, server: 142.202.49.122, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
   - {name: 未知国家-1.94MB/s, server: 104.18.114.14, port: 2086, type: vmess, uuid: 7d92ffc9-02e1-4087-8a46-cc4d76560917, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /github.com/Alvin9999, headers: {Host: e1.285581.xyz}}, udp: true}
-  - {name: 德国-38.9MB/s, server: 49.13.126.136, port: 54031, type: vmess, uuid: 8990eb2e-510d-4431-ad8d-b5c488d03936, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: http, http-opts: {method: GET, path: [/], headers: {Host: [fast.com]}}, udp: true}
   - {name: 未知国家-655.2KB/s, server: 162.159.45.141, port: 8880, type: vmess, uuid: 90f8f4dc-8092-4355-9047-05f506f5e9ab, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /github.com/Alvin9999, headers: {Host: m8.155857.xyz}}, udp: true}
+  - {name: 未知国家-1.96MB/s, server: 104.18.114.119, port: 2086, type: vmess, uuid: 7d92ffc9-02e1-4087-8a46-cc4d76560917, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /github.com/Alvin9999, headers: {Host: e1.285581.xyz}}, udp: true}
+  - {name: 未知国家-62.0MB/s, server: 104.26.0.40, port: 8880, type: vmess, uuid: 90f8f4dc-8092-4355-9047-05f506f5e9ab, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /github.com/Alvin9999, headers: {Host: m8.155857.xyz}}, udp: true}
+  - {name: 德国-38.9MB/s, server: 49.13.126.136, port: 54031, type: vmess, uuid: 8990eb2e-510d-4431-ad8d-b5c488d03936, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: http, http-opts: {method: GET, path: [/], headers: {Host: [fast.com]}}, udp: true}
+  - {name: 未知国家-393.0KB/s, server: 162.159.45.238, port: 8880, type: vmess, uuid: 90f8f4dc-8092-4355-9047-05f506f5e9ab, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /github.com/Alvin9999, headers: {Host: m20.155857.xyz}}, udp: true}
+  - {name: 未知国家-657.0KB/s, server: 104.18.114.147, port: 8880, type: vmess, uuid: 90f8f4dc-8092-4355-9047-05f506f5e9ab, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /github.com/Alvin9999, headers: {Host: m20.155857.xyz}}, udp: true}
+  - {name: 未知国家-733.4KB/s, server: 104.21.238.10, port: 8880, type: vmess, uuid: 90f8f4dc-8092-4355-9047-05f506f5e9ab, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /github.com/Alvin9999, headers: {Host: m20.155857.xyz}}, udp: true}
   - {name: 未知国家-1.34MB/s, server: 162.159.45.100, port: 8880, type: vmess, uuid: 90f8f4dc-8092-4355-9047-05f506f5e9ab, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /github.com/Alvin9999, headers: {Host: m20.155857.xyz}}, udp: true}
+  - {name: 中转节点-74.4MB/s, server: zfa04.333210.xyz, port: 40380, type: vmess, uuid: 13364789-a8b2-4bcd-8df7-a794fb6f87e5, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
+      - 中转节点-20.6MB/s
+      - 美国-1.71MB/s
+      - 美国-527.4KB/s
       - 日本-426.7KB/s
+      - 美国-579.3KB/s
       - 美国-2.83MB/s
-      - 未知国家-1.96MB/s
-      - 未知国家-733.4KB/s
-      - 未知国家-62.0MB/s
-      - 未知国家-657.0KB/s
+      - 英国-2.44MB/s
+      - 美国-96.9MB/s
+      - 美国-717.6KB/s
+      - 美国-736.5KB/s
       - 未知国家-1.94MB/s
-      - 德国-38.9MB/s
       - 未知国家-655.2KB/s
+      - 未知国家-1.96MB/s
+      - 未知国家-62.0MB/s
+      - 德国-38.9MB/s
+      - 未知国家-393.0KB/s
+      - 未知国家-657.0KB/s
+      - 未知国家-733.4KB/s
       - 未知国家-1.34MB/s
+      - 中转节点-74.4MB/s
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
+      - 中转节点-20.6MB/s
+      - 美国-1.71MB/s
+      - 美国-527.4KB/s
       - 日本-426.7KB/s
+      - 美国-579.3KB/s
       - 美国-2.83MB/s
-      - 未知国家-1.96MB/s
-      - 未知国家-733.4KB/s
-      - 未知国家-62.0MB/s
-      - 未知国家-657.0KB/s
+      - 英国-2.44MB/s
+      - 美国-96.9MB/s
+      - 美国-717.6KB/s
+      - 美国-736.5KB/s
       - 未知国家-1.94MB/s
-      - 德国-38.9MB/s
       - 未知国家-655.2KB/s
+      - 未知国家-1.96MB/s
+      - 未知国家-62.0MB/s
+      - 德国-38.9MB/s
+      - 未知国家-393.0KB/s
+      - 未知国家-657.0KB/s
+      - 未知国家-733.4KB/s
       - 未知国家-1.34MB/s
+      - 中转节点-74.4MB/s
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
+      - 中转节点-20.6MB/s
+      - 美国-1.71MB/s
+      - 美国-527.4KB/s
       - 日本-426.7KB/s
+      - 美国-579.3KB/s
       - 美国-2.83MB/s
-      - 未知国家-1.96MB/s
-      - 未知国家-733.4KB/s
-      - 未知国家-62.0MB/s
-      - 未知国家-657.0KB/s
+      - 英国-2.44MB/s
+      - 美国-96.9MB/s
+      - 美国-717.6KB/s
+      - 美国-736.5KB/s
       - 未知国家-1.94MB/s
-      - 德国-38.9MB/s
       - 未知国家-655.2KB/s
+      - 未知国家-1.96MB/s
+      - 未知国家-62.0MB/s
+      - 德国-38.9MB/s
+      - 未知国家-393.0KB/s
+      - 未知国家-657.0KB/s
+      - 未知国家-733.4KB/s
       - 未知国家-1.34MB/s
+      - 中转节点-74.4MB/s
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -80,16 +120,26 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
+      - 中转节点-20.6MB/s
+      - 美国-1.71MB/s
+      - 美国-527.4KB/s
       - 日本-426.7KB/s
+      - 美国-579.3KB/s
       - 美国-2.83MB/s
-      - 未知国家-1.96MB/s
-      - 未知国家-733.4KB/s
-      - 未知国家-62.0MB/s
-      - 未知国家-657.0KB/s
+      - 英国-2.44MB/s
+      - 美国-96.9MB/s
+      - 美国-717.6KB/s
+      - 美国-736.5KB/s
       - 未知国家-1.94MB/s
-      - 德国-38.9MB/s
       - 未知国家-655.2KB/s
+      - 未知国家-1.96MB/s
+      - 未知国家-62.0MB/s
+      - 德国-38.9MB/s
+      - 未知国家-393.0KB/s
+      - 未知国家-657.0KB/s
+      - 未知国家-733.4KB/s
       - 未知国家-1.34MB/s
+      - 中转节点-74.4MB/s
   - name: 🌏 国内媒体
     type: select
     proxies:
@@ -100,47 +150,77 @@ proxy-groups:
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
+      - 中转节点-20.6MB/s
+      - 美国-1.71MB/s
+      - 美国-527.4KB/s
       - 日本-426.7KB/s
+      - 美国-579.3KB/s
       - 美国-2.83MB/s
-      - 未知国家-1.96MB/s
-      - 未知国家-733.4KB/s
-      - 未知国家-62.0MB/s
-      - 未知国家-657.0KB/s
+      - 英国-2.44MB/s
+      - 美国-96.9MB/s
+      - 美国-717.6KB/s
+      - 美国-736.5KB/s
       - 未知国家-1.94MB/s
-      - 德国-38.9MB/s
       - 未知国家-655.2KB/s
+      - 未知国家-1.96MB/s
+      - 未知国家-62.0MB/s
+      - 德国-38.9MB/s
+      - 未知国家-393.0KB/s
+      - 未知国家-657.0KB/s
+      - 未知国家-733.4KB/s
       - 未知国家-1.34MB/s
+      - 中转节点-74.4MB/s
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
+      - 中转节点-20.6MB/s
+      - 美国-1.71MB/s
+      - 美国-527.4KB/s
       - 日本-426.7KB/s
+      - 美国-579.3KB/s
       - 美国-2.83MB/s
-      - 未知国家-1.96MB/s
-      - 未知国家-733.4KB/s
-      - 未知国家-62.0MB/s
-      - 未知国家-657.0KB/s
+      - 英国-2.44MB/s
+      - 美国-96.9MB/s
+      - 美国-717.6KB/s
+      - 美国-736.5KB/s
       - 未知国家-1.94MB/s
-      - 德国-38.9MB/s
       - 未知国家-655.2KB/s
+      - 未知国家-1.96MB/s
+      - 未知国家-62.0MB/s
+      - 德国-38.9MB/s
+      - 未知国家-393.0KB/s
+      - 未知国家-657.0KB/s
+      - 未知国家-733.4KB/s
       - 未知国家-1.34MB/s
+      - 中转节点-74.4MB/s
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
+      - 中转节点-20.6MB/s
+      - 美国-1.71MB/s
+      - 美国-527.4KB/s
       - 日本-426.7KB/s
+      - 美国-579.3KB/s
       - 美国-2.83MB/s
-      - 未知国家-1.96MB/s
-      - 未知国家-733.4KB/s
-      - 未知国家-62.0MB/s
-      - 未知国家-657.0KB/s
+      - 英国-2.44MB/s
+      - 美国-96.9MB/s
+      - 美国-717.6KB/s
+      - 美国-736.5KB/s
       - 未知国家-1.94MB/s
-      - 德国-38.9MB/s
       - 未知国家-655.2KB/s
+      - 未知国家-1.96MB/s
+      - 未知国家-62.0MB/s
+      - 德国-38.9MB/s
+      - 未知国家-393.0KB/s
+      - 未知国家-657.0KB/s
+      - 未知国家-733.4KB/s
       - 未知国家-1.34MB/s
+      - 中转节点-74.4MB/s
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -156,16 +236,26 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
+      - 中转节点-20.6MB/s
+      - 美国-1.71MB/s
+      - 美国-527.4KB/s
       - 日本-426.7KB/s
+      - 美国-579.3KB/s
       - 美国-2.83MB/s
-      - 未知国家-1.96MB/s
-      - 未知国家-733.4KB/s
-      - 未知国家-62.0MB/s
-      - 未知国家-657.0KB/s
+      - 英国-2.44MB/s
+      - 美国-96.9MB/s
+      - 美国-717.6KB/s
+      - 美国-736.5KB/s
       - 未知国家-1.94MB/s
-      - 德国-38.9MB/s
       - 未知国家-655.2KB/s
+      - 未知国家-1.96MB/s
+      - 未知国家-62.0MB/s
+      - 德国-38.9MB/s
+      - 未知国家-393.0KB/s
+      - 未知国家-657.0KB/s
+      - 未知国家-733.4KB/s
       - 未知国家-1.34MB/s
+      - 中转节点-74.4MB/s
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
