@@ -1,6 +1,6 @@
 # 生成地址：v2rayse.com
 # 模版名称：defaultName
-# 生成时间：2024-12-16 15:32:43
+# 生成时间：2024-12-16 21:40:24
 # 不要随意改变关键字，否则会导致出错
 # acl4SSR规则
 # 去广告：支持
@@ -57,66 +57,41 @@ tun:
     - 8.8.4.4
     - 1.1.1.1
     - 1.0.0.1
-proxies:
-  - name: 🇩🇪_DE_德国
-    port: 8080
-    server: 45.87.175.164
-    type: ss
-    udp: true
-    password: cvII85TrW6n0OGyfpHVS1u
-    cipher: chacha20-ietf-poly1305
-  - name: 🇱🇻_LV_拉脱维亚
-    port: 990
-    server: 46.183.217.232
-    type: ss
-    udp: true
-    password: f8f7aCzcPKbsF8p3
-    cipher: chacha20-ietf-poly1305
+proxies: []
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - 🇩🇪_DE_德国
-      - 🇱🇻_LV_拉脱维亚
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - 🇩🇪_DE_德国
-      - 🇱🇻_LV_拉脱维亚
+      - DIRECT
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇩🇪_DE_德国
-      - 🇱🇻_LV_拉脱维亚
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 🇩🇪_DE_德国
-      - 🇱🇻_LV_拉脱维亚
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - 🇩🇪_DE_德国
-      - 🇱🇻_LV_拉脱维亚
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 🇩🇪_DE_德国
-      - 🇱🇻_LV_拉脱维亚
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -139,8 +114,6 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇩🇪_DE_德国
-      - 🇱🇻_LV_拉脱维亚
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
   - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连

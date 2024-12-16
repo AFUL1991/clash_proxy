@@ -1,6 +1,6 @@
 # 生成地址：v2rayse.com
 # 模版名称：defaultName
-# 生成时间：2024-12-16 15:32:37
+# 生成时间：2024-12-16 21:40:19
 # 不要随意改变关键字，否则会导致出错
 # acl4SSR规则
 # 去广告：支持
@@ -58,78 +58,234 @@ tun:
     - 1.1.1.1
     - 1.0.0.1
 proxies:
-  - name: 🇺🇸_US_美国_6
+  - name: 🇺🇸_US_美国_1
+    port: 443
+    server: 54.200.220.184
+    type: ss
+    udp: true
+    password: amazonskr05
+    cipher: aes-256-cfb
+  - name: 🇺🇸_US_美国_2
+    port: 443
+    server: 54.191.252.235
+    type: ss
+    udp: true
+    password: amazonskr05
+    cipher: aes-256-cfb
+  - name: 🇷🇺_RU_俄罗斯_1
+    port: 9079
+    server: 217.30.10.18
+    type: ss
+    udp: true
+    password: TPqX8edgbAURcAMb
+    cipher: aes-256-cfb
+  - name: 🇷🇺_RU_俄罗斯_2
+    port: 9060
+    server: 217.30.10.18
+    type: ss
+    udp: true
+    password: ueLXVkvh4hckhErQ
+    cipher: aes-256-cfb
+  - name: 🇬🇧_GB_英国
+    port: 989
+    server: 51.15.15.82
+    type: ss
+    udp: true
+    password: f8f7aCzcPKbsF8p3
+    cipher: aes-256-cfb
+  - name: 🇺🇸_US_美国_3
+    port: 990
+    server: 92.118.205.228
+    type: ss
+    udp: true
+    password: f8f7aCzcPKbsF8p3
+    cipher: chacha20-ietf-poly1305
+  - name: 🇷🇺_RU_俄罗斯_3
+    port: 9003
+    server: 217.30.10.18
+    type: ss
+    udp: true
+    password: JdmRK9gMEqFgs8nP
+    cipher: aes-256-cfb
+  - name: 🇺🇸_US_美国_4
+    port: 443
+    server: 54.201.174.149
+    type: ss
+    udp: true
+    password: amazonskr05
+    cipher: aes-256-cfb
+  - name: 🇷🇺_RU_俄罗斯_4
+    port: 9020
+    server: 217.30.10.18
+    type: ss
+    udp: true
+    password: BNmAXXxAHYpTRdzu
+    cipher: aes-256-cfb
+  - name: 🇺🇸_US_美国_5
     port: 8080
     server: 79.110.53.169
     type: ss
     udp: true
     password: 14fFPrbezE3HDZzsMOr6
     cipher: rc4-md5
-  - name: 🇷🇺_RU_俄罗斯
-    port: 9014
+  - name: 🇬🇧_GB_英国->🇺🇸_US_美国_1
+    port: 443
+    server: series-a2.varzesh360.co
+    type: ss
+    udp: true
+    password: mps3FwmDjLrWaOVg
+    cipher: chacha20-ietf-poly1305
+  - name: 🇬🇧_GB_英国->🇺🇸_US_美国_2
+    port: 443
+    server: series-a1.samanehha.co
+    type: ss
+    udp: true
+    password: W74XFALLLuw6m5IA
+    cipher: chacha20-ietf-poly1305
+  - name: 🇷🇺_RU_俄罗斯_5
+    port: 9024
     server: 217.30.10.18
     type: ss
     udp: true
-    password: KnJGad3FqTvjqbaX
+    password: BejrQvtu9sqUeNuZ
     cipher: aes-256-cfb
-  - name: 🇺🇸_US_美国_10
+  - name: 🇺🇸_US_美国_7
     port: 443
-    server: 18.237.72.225
+    server: 52.12.174.108
     type: ss
     udp: true
     password: amazonskr05
     cipher: aes-256-cfb
+  - name: 🇱🇻_LV_拉脱维亚
+    port: 990
+    server: 46.183.217.232
+    type: ss
+    udp: true
+    password: f8f7aCzcPKbsF8p3
+    cipher: chacha20-ietf-poly1305
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - 🇺🇸_US_美国_6
-      - 🇷🇺_RU_俄罗斯
-      - 🇺🇸_US_美国_10
+      - 🇺🇸_US_美国_1
+      - 🇺🇸_US_美国_2
+      - 🇷🇺_RU_俄罗斯_1
+      - 🇷🇺_RU_俄罗斯_2
+      - 🇬🇧_GB_英国
+      - 🇺🇸_US_美国_3
+      - 🇷🇺_RU_俄罗斯_3
+      - 🇺🇸_US_美国_4
+      - 🇷🇺_RU_俄罗斯_4
+      - 🇺🇸_US_美国_5
+      - 🇬🇧_GB_英国->🇺🇸_US_美国_1
+      - 🇬🇧_GB_英国->🇺🇸_US_美国_2
+      - 🇷🇺_RU_俄罗斯_5
+      - 🇺🇸_US_美国_7
+      - 🇱🇻_LV_拉脱维亚
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - 🇺🇸_US_美国_6
-      - 🇷🇺_RU_俄罗斯
-      - 🇺🇸_US_美国_10
+      - 🇺🇸_US_美国_1
+      - 🇺🇸_US_美国_2
+      - 🇷🇺_RU_俄罗斯_1
+      - 🇷🇺_RU_俄罗斯_2
+      - 🇬🇧_GB_英国
+      - 🇺🇸_US_美国_3
+      - 🇷🇺_RU_俄罗斯_3
+      - 🇺🇸_US_美国_4
+      - 🇷🇺_RU_俄罗斯_4
+      - 🇺🇸_US_美国_5
+      - 🇬🇧_GB_英国->🇺🇸_US_美国_1
+      - 🇬🇧_GB_英国->🇺🇸_US_美国_2
+      - 🇷🇺_RU_俄罗斯_5
+      - 🇺🇸_US_美国_7
+      - 🇱🇻_LV_拉脱维亚
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇺🇸_US_美国_6
-      - 🇷🇺_RU_俄罗斯
-      - 🇺🇸_US_美国_10
+      - 🇺🇸_US_美国_1
+      - 🇺🇸_US_美国_2
+      - 🇷🇺_RU_俄罗斯_1
+      - 🇷🇺_RU_俄罗斯_2
+      - 🇬🇧_GB_英国
+      - 🇺🇸_US_美国_3
+      - 🇷🇺_RU_俄罗斯_3
+      - 🇺🇸_US_美国_4
+      - 🇷🇺_RU_俄罗斯_4
+      - 🇺🇸_US_美国_5
+      - 🇬🇧_GB_英国->🇺🇸_US_美国_1
+      - 🇬🇧_GB_英国->🇺🇸_US_美国_2
+      - 🇷🇺_RU_俄罗斯_5
+      - 🇺🇸_US_美国_7
+      - 🇱🇻_LV_拉脱维亚
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 🇺🇸_US_美国_6
-      - 🇷🇺_RU_俄罗斯
-      - 🇺🇸_US_美国_10
+      - 🇺🇸_US_美国_1
+      - 🇺🇸_US_美国_2
+      - 🇷🇺_RU_俄罗斯_1
+      - 🇷🇺_RU_俄罗斯_2
+      - 🇬🇧_GB_英国
+      - 🇺🇸_US_美国_3
+      - 🇷🇺_RU_俄罗斯_3
+      - 🇺🇸_US_美国_4
+      - 🇷🇺_RU_俄罗斯_4
+      - 🇺🇸_US_美国_5
+      - 🇬🇧_GB_英国->🇺🇸_US_美国_1
+      - 🇬🇧_GB_英国->🇺🇸_US_美国_2
+      - 🇷🇺_RU_俄罗斯_5
+      - 🇺🇸_US_美国_7
+      - 🇱🇻_LV_拉脱维亚
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - 🇺🇸_US_美国_6
-      - 🇷🇺_RU_俄罗斯
-      - 🇺🇸_US_美国_10
+      - 🇺🇸_US_美国_1
+      - 🇺🇸_US_美国_2
+      - 🇷🇺_RU_俄罗斯_1
+      - 🇷🇺_RU_俄罗斯_2
+      - 🇬🇧_GB_英国
+      - 🇺🇸_US_美国_3
+      - 🇷🇺_RU_俄罗斯_3
+      - 🇺🇸_US_美国_4
+      - 🇷🇺_RU_俄罗斯_4
+      - 🇺🇸_US_美国_5
+      - 🇬🇧_GB_英国->🇺🇸_US_美国_1
+      - 🇬🇧_GB_英国->🇺🇸_US_美国_2
+      - 🇷🇺_RU_俄罗斯_5
+      - 🇺🇸_US_美国_7
+      - 🇱🇻_LV_拉脱维亚
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 🇺🇸_US_美国_6
-      - 🇷🇺_RU_俄罗斯
-      - 🇺🇸_US_美国_10
+      - 🇺🇸_US_美国_1
+      - 🇺🇸_US_美国_2
+      - 🇷🇺_RU_俄罗斯_1
+      - 🇷🇺_RU_俄罗斯_2
+      - 🇬🇧_GB_英国
+      - 🇺🇸_US_美国_3
+      - 🇷🇺_RU_俄罗斯_3
+      - 🇺🇸_US_美国_4
+      - 🇷🇺_RU_俄罗斯_4
+      - 🇺🇸_US_美国_5
+      - 🇬🇧_GB_英国->🇺🇸_US_美国_1
+      - 🇬🇧_GB_英国->🇺🇸_US_美国_2
+      - 🇷🇺_RU_俄罗斯_5
+      - 🇺🇸_US_美国_7
+      - 🇱🇻_LV_拉脱维亚
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -152,9 +308,21 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇺🇸_US_美国_6
-      - 🇷🇺_RU_俄罗斯
-      - 🇺🇸_US_美国_10
+      - 🇺🇸_US_美国_1
+      - 🇺🇸_US_美国_2
+      - 🇷🇺_RU_俄罗斯_1
+      - 🇷🇺_RU_俄罗斯_2
+      - 🇬🇧_GB_英国
+      - 🇺🇸_US_美国_3
+      - 🇷🇺_RU_俄罗斯_3
+      - 🇺🇸_US_美国_4
+      - 🇷🇺_RU_俄罗斯_4
+      - 🇺🇸_US_美国_5
+      - 🇬🇧_GB_英国->🇺🇸_US_美国_1
+      - 🇬🇧_GB_英国->🇺🇸_US_美国_2
+      - 🇷🇺_RU_俄罗斯_5
+      - 🇺🇸_US_美国_7
+      - 🇱🇻_LV_拉脱维亚
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
   - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
