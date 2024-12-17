@@ -5,63 +5,103 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: 韩国-86.8MB/s, server: 3.38.100.128, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-  - {name: 韩国-938.4KB/s, server: 54.180.229.222, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-  - {name: 拉脱维亚-23.8MB/s, server: 46.183.217.232, port: 990, type: ss, cipher: chacha20-ietf-poly1305, password: f8f7aCzcPKbsF8p3, udp: true}
-  - {name: 挪威-65.9MB/s, server: 51.120.1.158, port: 32091, type: ss, cipher: chacha20-ietf-poly1305, password: xjzsiMfTByKjA9URbdXWNp, udp: true}
+  - {name: 韩国-175.2KB/s, server: 54.180.229.222, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
   - {name: 波兰-10.2MB/s, server: 217.30.10.18, port: 9060, type: ss, cipher: aes-256-cfb, password: ueLXVkvh4hckhErQ, udp: true}
+  - {name: 英国-1.08MB/s, server: series-a2.samanehha.co, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: mps3FwmDjLrWaOVg, udp: true}
+  - {name: 韩国-938.4KB/s, server: 54.180.229.222, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+  - {name: 韩国-86.8MB/s, server: 3.38.100.128, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+  - {name: 英国-2.26MB/s, server: series-a2.varzesh360.co, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: mps3FwmDjLrWaOVg, udp: true}
+  - {name: 挪威-65.9MB/s, server: 51.120.1.158, port: 32091, type: ss, cipher: chacha20-ietf-poly1305, password: xjzsiMfTByKjA9URbdXWNp, udp: true}
+  - {name: 巴林-1.23MB/s, server: series-a2-me.varzesh360.co, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: Bog0ELmMM9DSxDdQ, udp: true}
+  - {name: 拉脱维亚-23.8MB/s, server: 46.183.217.232, port: 990, type: ss, cipher: chacha20-ietf-poly1305, password: f8f7aCzcPKbsF8p3, udp: true}
+  - {name: 美国-2.54MB/s, server: 35.94.51.2, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
   - {name: 未知国家-1.26MB/s, server: 104.21.89.219, port: 2086, type: vmess, uuid: 3fd7b958-2161-46e1-b6fc-bd6bb2165312, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: shs.xiaoqi666.xyz}}, udp: true}
   - {name: 美国-2.72MB/s, server: 107.167.30.126, port: 30000, type: vmess, uuid: 57f93e92-ebb9-4f16-9bdc-8225d2010995, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /path/240811062813}, udp: true}
-  - {name: 英国-1.84MB/s, server: f46b3f65e076124c635c50538527e26d.v1.cac.node-is.green, port: 41143, type: trojan, password: aa6ddd2f-d1cf-4a52-ba1b-2640c41a7856, sni: ca1.bilibili.com, skip-cert-verify: true, udp: true}
-  - {name: 英国-4.97MB/s, server: 8dab945f6519cada5b92a0149679c88d.v1.cac.node-is.green, port: 47249, type: trojan, password: aa6ddd2f-d1cf-4a52-ba1b-2640c41a7856, sni: ca1.bilibili.com, skip-cert-verify: true, udp: true}
+  - {name: 法国-146.8KB/s, server: 57.129.28.69, port: 443, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /linkvws}, udp: true}
   - {name: 英国-4.24MB/s, server: d0d104f4fa78cb0e2726e085b1ef4ed4.v1.cac.node-is.green, port: 47249, type: trojan, password: aa6ddd2f-d1cf-4a52-ba1b-2640c41a7856, sni: ca1.bilibili.com, skip-cert-verify: true, udp: true}
+  - {name: 英国-4.97MB/s, server: 8dab945f6519cada5b92a0149679c88d.v1.cac.node-is.green, port: 47249, type: trojan, password: aa6ddd2f-d1cf-4a52-ba1b-2640c41a7856, sni: ca1.bilibili.com, skip-cert-verify: true, udp: true}
+  - {name: 英国-4.49MB/s, server: f46b3f65e076124c635c50538527e26d.v1.cac.node-is.green, port: 41143, type: trojan, password: aa6ddd2f-d1cf-4a52-ba1b-2640c41a7856, sni: ca1.bilibili.com, skip-cert-verify: true, udp: true}
+  - {name: 英国-1.84MB/s, server: f46b3f65e076124c635c50538527e26d.v1.cac.node-is.green, port: 41143, type: trojan, password: aa6ddd2f-d1cf-4a52-ba1b-2640c41a7856, sni: ca1.bilibili.com, skip-cert-verify: true, udp: true}
+  - {name: 英国-9.37MB/s, server: 1906e95f0a4e34cca3d5618e3498505d.v1.cac.node-is.green, port: 48539, type: trojan, password: aa6ddd2f-d1cf-4a52-ba1b-2640c41a7856, sni: hk12.bilibili.com, skip-cert-verify: true, udp: true}
+  - {name: 美国-3.78MB/s, server: bf2cbe59ba59df8e23183167727d3f23.v1.cac.node-is.green, port: 41143, type: trojan, password: aa6ddd2f-d1cf-4a52-ba1b-2640c41a7856, sni: ca1.bilibili.com, skip-cert-verify: true, udp: true}
+  - {name: 美国-5.20MB/s, server: 4ef4a8055936f6af032689618b72de33.v1.cac.node-is.green, port: 40230, type: trojan, password: aa6ddd2f-d1cf-4a52-ba1b-2640c41a7856, sni: hk12.bilibili.com, skip-cert-verify: true, udp: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 韩国-86.8MB/s
-      - 韩国-938.4KB/s
-      - 拉脱维亚-23.8MB/s
-      - 挪威-65.9MB/s
+      - 韩国-175.2KB/s
       - 波兰-10.2MB/s
+      - 英国-1.08MB/s
+      - 韩国-938.4KB/s
+      - 韩国-86.8MB/s
+      - 英国-2.26MB/s
+      - 挪威-65.9MB/s
+      - 巴林-1.23MB/s
+      - 拉脱维亚-23.8MB/s
+      - 美国-2.54MB/s
       - 未知国家-1.26MB/s
       - 美国-2.72MB/s
-      - 英国-1.84MB/s
-      - 英国-4.97MB/s
+      - 法国-146.8KB/s
       - 英国-4.24MB/s
+      - 英国-4.97MB/s
+      - 英国-4.49MB/s
+      - 英国-1.84MB/s
+      - 英国-9.37MB/s
+      - 美国-3.78MB/s
+      - 美国-5.20MB/s
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - 韩国-86.8MB/s
-      - 韩国-938.4KB/s
-      - 拉脱维亚-23.8MB/s
-      - 挪威-65.9MB/s
+      - 韩国-175.2KB/s
       - 波兰-10.2MB/s
+      - 英国-1.08MB/s
+      - 韩国-938.4KB/s
+      - 韩国-86.8MB/s
+      - 英国-2.26MB/s
+      - 挪威-65.9MB/s
+      - 巴林-1.23MB/s
+      - 拉脱维亚-23.8MB/s
+      - 美国-2.54MB/s
       - 未知国家-1.26MB/s
       - 美国-2.72MB/s
-      - 英国-1.84MB/s
-      - 英国-4.97MB/s
+      - 法国-146.8KB/s
       - 英国-4.24MB/s
+      - 英国-4.97MB/s
+      - 英国-4.49MB/s
+      - 英国-1.84MB/s
+      - 英国-9.37MB/s
+      - 美国-3.78MB/s
+      - 美国-5.20MB/s
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 韩国-86.8MB/s
-      - 韩国-938.4KB/s
-      - 拉脱维亚-23.8MB/s
-      - 挪威-65.9MB/s
+      - 韩国-175.2KB/s
       - 波兰-10.2MB/s
+      - 英国-1.08MB/s
+      - 韩国-938.4KB/s
+      - 韩国-86.8MB/s
+      - 英国-2.26MB/s
+      - 挪威-65.9MB/s
+      - 巴林-1.23MB/s
+      - 拉脱维亚-23.8MB/s
+      - 美国-2.54MB/s
       - 未知国家-1.26MB/s
       - 美国-2.72MB/s
-      - 英国-1.84MB/s
-      - 英国-4.97MB/s
+      - 法国-146.8KB/s
       - 英国-4.24MB/s
+      - 英国-4.97MB/s
+      - 英国-4.49MB/s
+      - 英国-1.84MB/s
+      - 英国-9.37MB/s
+      - 美国-3.78MB/s
+      - 美国-5.20MB/s
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -80,16 +120,26 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 韩国-86.8MB/s
-      - 韩国-938.4KB/s
-      - 拉脱维亚-23.8MB/s
-      - 挪威-65.9MB/s
+      - 韩国-175.2KB/s
       - 波兰-10.2MB/s
+      - 英国-1.08MB/s
+      - 韩国-938.4KB/s
+      - 韩国-86.8MB/s
+      - 英国-2.26MB/s
+      - 挪威-65.9MB/s
+      - 巴林-1.23MB/s
+      - 拉脱维亚-23.8MB/s
+      - 美国-2.54MB/s
       - 未知国家-1.26MB/s
       - 美国-2.72MB/s
-      - 英国-1.84MB/s
-      - 英国-4.97MB/s
+      - 法国-146.8KB/s
       - 英国-4.24MB/s
+      - 英国-4.97MB/s
+      - 英国-4.49MB/s
+      - 英国-1.84MB/s
+      - 英国-9.37MB/s
+      - 美国-3.78MB/s
+      - 美国-5.20MB/s
   - name: 🌏 国内媒体
     type: select
     proxies:
@@ -100,47 +150,77 @@ proxy-groups:
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - 韩国-86.8MB/s
-      - 韩国-938.4KB/s
-      - 拉脱维亚-23.8MB/s
-      - 挪威-65.9MB/s
+      - 韩国-175.2KB/s
       - 波兰-10.2MB/s
+      - 英国-1.08MB/s
+      - 韩国-938.4KB/s
+      - 韩国-86.8MB/s
+      - 英国-2.26MB/s
+      - 挪威-65.9MB/s
+      - 巴林-1.23MB/s
+      - 拉脱维亚-23.8MB/s
+      - 美国-2.54MB/s
       - 未知国家-1.26MB/s
       - 美国-2.72MB/s
-      - 英国-1.84MB/s
-      - 英国-4.97MB/s
+      - 法国-146.8KB/s
       - 英国-4.24MB/s
+      - 英国-4.97MB/s
+      - 英国-4.49MB/s
+      - 英国-1.84MB/s
+      - 英国-9.37MB/s
+      - 美国-3.78MB/s
+      - 美国-5.20MB/s
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - 韩国-86.8MB/s
-      - 韩国-938.4KB/s
-      - 拉脱维亚-23.8MB/s
-      - 挪威-65.9MB/s
+      - 韩国-175.2KB/s
       - 波兰-10.2MB/s
+      - 英国-1.08MB/s
+      - 韩国-938.4KB/s
+      - 韩国-86.8MB/s
+      - 英国-2.26MB/s
+      - 挪威-65.9MB/s
+      - 巴林-1.23MB/s
+      - 拉脱维亚-23.8MB/s
+      - 美国-2.54MB/s
       - 未知国家-1.26MB/s
       - 美国-2.72MB/s
-      - 英国-1.84MB/s
-      - 英国-4.97MB/s
+      - 法国-146.8KB/s
       - 英国-4.24MB/s
+      - 英国-4.97MB/s
+      - 英国-4.49MB/s
+      - 英国-1.84MB/s
+      - 英国-9.37MB/s
+      - 美国-3.78MB/s
+      - 美国-5.20MB/s
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 韩国-86.8MB/s
-      - 韩国-938.4KB/s
-      - 拉脱维亚-23.8MB/s
-      - 挪威-65.9MB/s
+      - 韩国-175.2KB/s
       - 波兰-10.2MB/s
+      - 英国-1.08MB/s
+      - 韩国-938.4KB/s
+      - 韩国-86.8MB/s
+      - 英国-2.26MB/s
+      - 挪威-65.9MB/s
+      - 巴林-1.23MB/s
+      - 拉脱维亚-23.8MB/s
+      - 美国-2.54MB/s
       - 未知国家-1.26MB/s
       - 美国-2.72MB/s
-      - 英国-1.84MB/s
-      - 英国-4.97MB/s
+      - 法国-146.8KB/s
       - 英国-4.24MB/s
+      - 英国-4.97MB/s
+      - 英国-4.49MB/s
+      - 英国-1.84MB/s
+      - 英国-9.37MB/s
+      - 美国-3.78MB/s
+      - 美国-5.20MB/s
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -156,16 +236,26 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 韩国-86.8MB/s
-      - 韩国-938.4KB/s
-      - 拉脱维亚-23.8MB/s
-      - 挪威-65.9MB/s
+      - 韩国-175.2KB/s
       - 波兰-10.2MB/s
+      - 英国-1.08MB/s
+      - 韩国-938.4KB/s
+      - 韩国-86.8MB/s
+      - 英国-2.26MB/s
+      - 挪威-65.9MB/s
+      - 巴林-1.23MB/s
+      - 拉脱维亚-23.8MB/s
+      - 美国-2.54MB/s
       - 未知国家-1.26MB/s
       - 美国-2.72MB/s
-      - 英国-1.84MB/s
-      - 英国-4.97MB/s
+      - 法国-146.8KB/s
       - 英国-4.24MB/s
+      - 英国-4.97MB/s
+      - 英国-4.49MB/s
+      - 英国-1.84MB/s
+      - 英国-9.37MB/s
+      - 美国-3.78MB/s
+      - 美国-5.20MB/s
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
