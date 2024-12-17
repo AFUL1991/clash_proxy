@@ -1,6 +1,6 @@
 # 生成地址：v2rayse.com
 # 模版名称：defaultName
-# 生成时间：2024-12-17 05:30:21
+# 生成时间：2024-12-17 15:30:45
 # 不要随意改变关键字，否则会导致出错
 # acl4SSR规则
 # 去广告：支持
@@ -58,145 +58,158 @@ tun:
     - 1.1.1.1
     - 1.0.0.1
 proxies:
-  - name: 🇷🇺_RU_俄罗斯_1
-    port: 9045
-    server: 217.30.10.18
+  - name: 未知
+    port: 443
+    server: 3.v2.a.www.speedtest.net.2.op.jahesh-tolid.website
     type: ss
     udp: true
-    password: Lp27rqyJq72bZsqX
-    cipher: aes-256-cfb
-  - name: 🇷🇺_RU_俄罗斯_2
-    port: 9003
-    server: 217.30.10.18
-    type: ss
-    udp: true
-    password: JdmRK9gMEqFgs8nP
-    cipher: aes-256-cfb
+    password: Yeud3qg58vv3mgu/SIW/2cIphtimMYsTHGBI1jAKF/A=
+    cipher: chacha20-ietf-poly1305
   - name: 🇺🇸_US_美国_1
     port: 443
-    server: 54.184.77.199
+    server: us01.ssr.ee
+    type: trojan
+    udp: true
+    sni: us01.ssr.ee
+    password: 9d0a75d2-f747-4afa-b43f-d208af9e8f9a
+    skip-cert-verify: false
+  - name: 🇺🇸_US_美国_2
+    port: 443
+    server: us01.ssr.ee
+    type: trojan
+    udp: true
+    sni: us01.ssr.ee
+    password: 9d0a75d2-f747-4afa-b43f-d208af9e8f9a
+    skip-cert-verify: false
+  - name: 🇬🇧_GB_英国_1
+    port: 22222
+    server: 3.9.201.139
+    type: trojan
+    udp: true
+    sni: trojan.burgerip.co.uk
+    password: telegram-id-privatevpns
+  - name: 🇬🇧_GB_英国_2
+    port: 22222
+    server: 18.135.173.157
+    type: trojan
+    udp: true
+    sni: trojan.burgerip.co.uk
+    password: telegram-id-privatevpns
+  - name: 🇬🇧_GB_英国_3
+    port: 22222
+    server: 3.9.201.139
+    type: trojan
+    udp: true
+    sni: trojan.burgerip.co.uk
+    password: telegram-id-privatevpns
+  - name: 🇺🇸_US_美国->🇷🇺_RU_俄罗斯
+    port: 443
+    server: 54.201.174.149
     type: ss
     udp: true
     password: amazonskr05
     cipher: aes-256-cfb
-  - name: 🇺🇸_US_美国_2
+  - name: 🇮🇪_IE_爱尔兰
+    port: 22222
+    server: 54.217.232.179
+    type: trojan
+    udp: true
+    sni: trojan.burgerip.co.uk
+    password: telegram-id-privatevpns
+  - name: 🇺🇸_US_美国_3
     port: 32091
     server: 51.120.1.158
     type: ss
     udp: true
     password: xjzsiMfTByKjA9URbdXWNp
     cipher: chacha20-ietf-poly1305
-  - name: 🇬🇧_GB_英国
-    port: 989
-    server: 51.15.15.82
-    type: ss
-    udp: true
-    password: f8f7aCzcPKbsF8p3
-    cipher: aes-256-cfb
-  - name: 🇺🇸_US_美国->🇮🇪_IE_爱尔兰
-    port: 443
-    server: 138.2.237.121
-    type: trojan
-    network: tcp
-    udp: true
-    sni: us01.ssr.ee
-    password: 9d0a75d2-f747-4afa-b43f-d208af9e8f9a
-    skip-cert-verify: true
-  - name: 🇺🇸_US_美国_3
-    port: 443
-    server: 52.89.164.115
-    type: ss
-    udp: true
-    password: amazonskr05
-    cipher: aes-256-cfb
-  - name: 🇷🇺_RU_俄罗斯_3
-    port: 9045
-    server: 217.30.10.18
-    type: ss
-    udp: true
-    password: Lp27rqyJq72bZsqX
-    cipher: aes-256-cfb
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - 🇷🇺_RU_俄罗斯_1
-      - 🇷🇺_RU_俄罗斯_2
+      - 未知
       - 🇺🇸_US_美国_1
       - 🇺🇸_US_美国_2
-      - 🇬🇧_GB_英国
-      - 🇺🇸_US_美国->🇮🇪_IE_爱尔兰
+      - 🇬🇧_GB_英国_1
+      - 🇬🇧_GB_英国_2
+      - 🇬🇧_GB_英国_3
+      - 🇺🇸_US_美国->🇷🇺_RU_俄罗斯
+      - 🇮🇪_IE_爱尔兰
       - 🇺🇸_US_美国_3
-      - 🇷🇺_RU_俄罗斯_3
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - 🇷🇺_RU_俄罗斯_1
-      - 🇷🇺_RU_俄罗斯_2
+      - 未知
       - 🇺🇸_US_美国_1
       - 🇺🇸_US_美国_2
-      - 🇬🇧_GB_英国
-      - 🇺🇸_US_美国->🇮🇪_IE_爱尔兰
+      - 🇬🇧_GB_英国_1
+      - 🇬🇧_GB_英国_2
+      - 🇬🇧_GB_英国_3
+      - 🇺🇸_US_美国->🇷🇺_RU_俄罗斯
+      - 🇮🇪_IE_爱尔兰
       - 🇺🇸_US_美国_3
-      - 🇷🇺_RU_俄罗斯_3
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇷🇺_RU_俄罗斯_1
-      - 🇷🇺_RU_俄罗斯_2
+      - 未知
       - 🇺🇸_US_美国_1
       - 🇺🇸_US_美国_2
-      - 🇬🇧_GB_英国
-      - 🇺🇸_US_美国->🇮🇪_IE_爱尔兰
+      - 🇬🇧_GB_英国_1
+      - 🇬🇧_GB_英国_2
+      - 🇬🇧_GB_英国_3
+      - 🇺🇸_US_美国->🇷🇺_RU_俄罗斯
+      - 🇮🇪_IE_爱尔兰
       - 🇺🇸_US_美国_3
-      - 🇷🇺_RU_俄罗斯_3
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 🇷🇺_RU_俄罗斯_1
-      - 🇷🇺_RU_俄罗斯_2
+      - 未知
       - 🇺🇸_US_美国_1
       - 🇺🇸_US_美国_2
-      - 🇬🇧_GB_英国
-      - 🇺🇸_US_美国->🇮🇪_IE_爱尔兰
+      - 🇬🇧_GB_英国_1
+      - 🇬🇧_GB_英国_2
+      - 🇬🇧_GB_英国_3
+      - 🇺🇸_US_美国->🇷🇺_RU_俄罗斯
+      - 🇮🇪_IE_爱尔兰
       - 🇺🇸_US_美国_3
-      - 🇷🇺_RU_俄罗斯_3
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - 🇷🇺_RU_俄罗斯_1
-      - 🇷🇺_RU_俄罗斯_2
+      - 未知
       - 🇺🇸_US_美国_1
       - 🇺🇸_US_美国_2
-      - 🇬🇧_GB_英国
-      - 🇺🇸_US_美国->🇮🇪_IE_爱尔兰
+      - 🇬🇧_GB_英国_1
+      - 🇬🇧_GB_英国_2
+      - 🇬🇧_GB_英国_3
+      - 🇺🇸_US_美国->🇷🇺_RU_俄罗斯
+      - 🇮🇪_IE_爱尔兰
       - 🇺🇸_US_美国_3
-      - 🇷🇺_RU_俄罗斯_3
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 🇷🇺_RU_俄罗斯_1
-      - 🇷🇺_RU_俄罗斯_2
+      - 未知
       - 🇺🇸_US_美国_1
       - 🇺🇸_US_美国_2
-      - 🇬🇧_GB_英国
-      - 🇺🇸_US_美国->🇮🇪_IE_爱尔兰
+      - 🇬🇧_GB_英国_1
+      - 🇬🇧_GB_英国_2
+      - 🇬🇧_GB_英国_3
+      - 🇺🇸_US_美国->🇷🇺_RU_俄罗斯
+      - 🇮🇪_IE_爱尔兰
       - 🇺🇸_US_美国_3
-      - 🇷🇺_RU_俄罗斯_3
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -219,14 +232,15 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇷🇺_RU_俄罗斯_1
-      - 🇷🇺_RU_俄罗斯_2
+      - 未知
       - 🇺🇸_US_美国_1
       - 🇺🇸_US_美国_2
-      - 🇬🇧_GB_英国
-      - 🇺🇸_US_美国->🇮🇪_IE_爱尔兰
+      - 🇬🇧_GB_英国_1
+      - 🇬🇧_GB_英国_2
+      - 🇬🇧_GB_英国_3
+      - 🇺🇸_US_美国->🇷🇺_RU_俄罗斯
+      - 🇮🇪_IE_爱尔兰
       - 🇺🇸_US_美国_3
-      - 🇷🇺_RU_俄罗斯_3
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
   - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
