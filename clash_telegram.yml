@@ -5,14 +5,24 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
+  - {name: 波兰-63.5MB/s, server: 217.30.10.18, port: 9001, type: ss, cipher: aes-256-cfb, password: UkXRsXvR6buDMG2Y, udp: true}
+  - {name: 美国-154.5KB/s, server: 34.222.136.128, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+  - {name: 加拿大-588.6KB/s, server: 38.114.114.77, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
   - {name: 美国-2.21MB/s, server: 34.215.192.217, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
   - {name: 韩国-964.2KB/s, server: 43.203.243.93, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+  - {name: 挪威-20.0MB/s, server: 51.120.1.158, port: 32091, type: ss, cipher: chacha20-ietf-poly1305, password: xjzsiMfTByKjA9URbdXWNp, udp: true}
+  - {name: 波兰-113.7KB/s, server: 217.30.10.18, port: 9088, type: ss, cipher: aes-256-cfb, password: f8npKgNzdkss2ytn, udp: true}
+  - {name: 美国-2.57MB/s, server: 34.222.132.123, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
   - {name: 摩尔多瓦-2.81MB/s, server: 178.175.134.2, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
-  - {name: 美国-154.5KB/s, server: 34.222.136.128, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-  - {name: 美国-4.37MB/s, server: 173.244.56.6, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, udp: true}
   - {name: 克罗地亚-595.3KB/s, server: 46.183.184.62, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
-  - {name: 法国-23.2MB/s, server: 51.21.73.169, port: 22222, type: trojan, password: telegram-id-privatevpns, sni: trojan.burgerip.co.uk, skip-cert-verify: true, udp: true}
+  - {name: 美国-4.37MB/s, server: 173.244.56.6, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, udp: true}
+  - {name: 中转节点-21.1MB/s, server: 219.135.227.209, port: 15007, type: ss, cipher: aes-256-gcm, password: KGPWD7ZZY2F0ZYPY, udp: true}
+  - {name: 丹麦-42.7MB/s, server: 192.36.27.94, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
+  - {name: 美国-1.55MB/s, server: 79.110.53.169, port: 8080, type: ss, cipher: rc4-md5, password: 14fFPrbezE3HDZzsMOr6, udp: true}
+  - {name: 中转节点-203.9KB/s, server: 183.236.51.23, port: 41020, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 中转节点-705.6KB/s, server: 36.151.192.239, port: 42395, type: trojan, password: DNUMdmnJ, skip-cert-verify: true, udp: true}
+  - {name: 法国-23.2MB/s, server: 51.21.73.169, port: 22222, type: trojan, password: telegram-id-privatevpns, sni: trojan.burgerip.co.uk, skip-cert-verify: true, udp: true}
+  - {name: 法国-18.1MB/s, server: 13.39.195.231, port: 22222, type: trojan, password: telegram-id-privatevpns, sni: trojan.burgerip.co.uk, skip-cert-verify: true, udp: true}
   - {name: 法国-19.5MB/s, server: 15.236.137.181, port: 22222, type: trojan, password: telegram-id-privatevpns, sni: trojan.burgerip.co.uk, skip-cert-verify: true, udp: true}
 proxy-groups:
   - name: 🔰 节点选择
@@ -20,28 +30,48 @@ proxy-groups:
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
+      - 波兰-63.5MB/s
+      - 美国-154.5KB/s
+      - 加拿大-588.6KB/s
       - 美国-2.21MB/s
       - 韩国-964.2KB/s
+      - 挪威-20.0MB/s
+      - 波兰-113.7KB/s
+      - 美国-2.57MB/s
       - 摩尔多瓦-2.81MB/s
-      - 美国-154.5KB/s
-      - 美国-4.37MB/s
       - 克罗地亚-595.3KB/s
-      - 法国-23.2MB/s
+      - 美国-4.37MB/s
+      - 中转节点-21.1MB/s
+      - 丹麦-42.7MB/s
+      - 美国-1.55MB/s
+      - 中转节点-203.9KB/s
       - 中转节点-705.6KB/s
+      - 法国-23.2MB/s
+      - 法国-18.1MB/s
       - 法国-19.5MB/s
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
+      - 波兰-63.5MB/s
+      - 美国-154.5KB/s
+      - 加拿大-588.6KB/s
       - 美国-2.21MB/s
       - 韩国-964.2KB/s
+      - 挪威-20.0MB/s
+      - 波兰-113.7KB/s
+      - 美国-2.57MB/s
       - 摩尔多瓦-2.81MB/s
-      - 美国-154.5KB/s
-      - 美国-4.37MB/s
       - 克罗地亚-595.3KB/s
-      - 法国-23.2MB/s
+      - 美国-4.37MB/s
+      - 中转节点-21.1MB/s
+      - 丹麦-42.7MB/s
+      - 美国-1.55MB/s
+      - 中转节点-203.9KB/s
       - 中转节点-705.6KB/s
+      - 法国-23.2MB/s
+      - 法国-18.1MB/s
       - 法国-19.5MB/s
   - name: 🎥 NETFLIX
     type: select
@@ -49,14 +79,24 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
+      - 波兰-63.5MB/s
+      - 美国-154.5KB/s
+      - 加拿大-588.6KB/s
       - 美国-2.21MB/s
       - 韩国-964.2KB/s
+      - 挪威-20.0MB/s
+      - 波兰-113.7KB/s
+      - 美国-2.57MB/s
       - 摩尔多瓦-2.81MB/s
-      - 美国-154.5KB/s
-      - 美国-4.37MB/s
       - 克罗地亚-595.3KB/s
-      - 法国-23.2MB/s
+      - 美国-4.37MB/s
+      - 中转节点-21.1MB/s
+      - 丹麦-42.7MB/s
+      - 美国-1.55MB/s
+      - 中转节点-203.9KB/s
       - 中转节点-705.6KB/s
+      - 法国-23.2MB/s
+      - 法国-18.1MB/s
       - 法国-19.5MB/s
   - name: ⛔️ 广告拦截
     type: select
@@ -76,14 +116,24 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
+      - 波兰-63.5MB/s
+      - 美国-154.5KB/s
+      - 加拿大-588.6KB/s
       - 美国-2.21MB/s
       - 韩国-964.2KB/s
+      - 挪威-20.0MB/s
+      - 波兰-113.7KB/s
+      - 美国-2.57MB/s
       - 摩尔多瓦-2.81MB/s
-      - 美国-154.5KB/s
-      - 美国-4.37MB/s
       - 克罗地亚-595.3KB/s
-      - 法国-23.2MB/s
+      - 美国-4.37MB/s
+      - 中转节点-21.1MB/s
+      - 丹麦-42.7MB/s
+      - 美国-1.55MB/s
+      - 中转节点-203.9KB/s
       - 中转节点-705.6KB/s
+      - 法国-23.2MB/s
+      - 法国-18.1MB/s
       - 法国-19.5MB/s
   - name: 🌏 国内媒体
     type: select
@@ -95,28 +145,48 @@ proxy-groups:
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
+      - 波兰-63.5MB/s
+      - 美国-154.5KB/s
+      - 加拿大-588.6KB/s
       - 美国-2.21MB/s
       - 韩国-964.2KB/s
+      - 挪威-20.0MB/s
+      - 波兰-113.7KB/s
+      - 美国-2.57MB/s
       - 摩尔多瓦-2.81MB/s
-      - 美国-154.5KB/s
-      - 美国-4.37MB/s
       - 克罗地亚-595.3KB/s
-      - 法国-23.2MB/s
+      - 美国-4.37MB/s
+      - 中转节点-21.1MB/s
+      - 丹麦-42.7MB/s
+      - 美国-1.55MB/s
+      - 中转节点-203.9KB/s
       - 中转节点-705.6KB/s
+      - 法国-23.2MB/s
+      - 法国-18.1MB/s
       - 法国-19.5MB/s
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
+      - 波兰-63.5MB/s
+      - 美国-154.5KB/s
+      - 加拿大-588.6KB/s
       - 美国-2.21MB/s
       - 韩国-964.2KB/s
+      - 挪威-20.0MB/s
+      - 波兰-113.7KB/s
+      - 美国-2.57MB/s
       - 摩尔多瓦-2.81MB/s
-      - 美国-154.5KB/s
-      - 美国-4.37MB/s
       - 克罗地亚-595.3KB/s
-      - 法国-23.2MB/s
+      - 美国-4.37MB/s
+      - 中转节点-21.1MB/s
+      - 丹麦-42.7MB/s
+      - 美国-1.55MB/s
+      - 中转节点-203.9KB/s
       - 中转节点-705.6KB/s
+      - 法国-23.2MB/s
+      - 法国-18.1MB/s
       - 法国-19.5MB/s
   - name: 🍎 苹果服务
     type: select
@@ -124,14 +194,24 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
+      - 波兰-63.5MB/s
+      - 美国-154.5KB/s
+      - 加拿大-588.6KB/s
       - 美国-2.21MB/s
       - 韩国-964.2KB/s
+      - 挪威-20.0MB/s
+      - 波兰-113.7KB/s
+      - 美国-2.57MB/s
       - 摩尔多瓦-2.81MB/s
-      - 美国-154.5KB/s
-      - 美国-4.37MB/s
       - 克罗地亚-595.3KB/s
-      - 法国-23.2MB/s
+      - 美国-4.37MB/s
+      - 中转节点-21.1MB/s
+      - 丹麦-42.7MB/s
+      - 美国-1.55MB/s
+      - 中转节点-203.9KB/s
       - 中转节点-705.6KB/s
+      - 法国-23.2MB/s
+      - 法国-18.1MB/s
       - 法国-19.5MB/s
   - name: 🎯 全球直连
     type: select
@@ -148,14 +228,24 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
+      - 波兰-63.5MB/s
+      - 美国-154.5KB/s
+      - 加拿大-588.6KB/s
       - 美国-2.21MB/s
       - 韩国-964.2KB/s
+      - 挪威-20.0MB/s
+      - 波兰-113.7KB/s
+      - 美国-2.57MB/s
       - 摩尔多瓦-2.81MB/s
-      - 美国-154.5KB/s
-      - 美国-4.37MB/s
       - 克罗地亚-595.3KB/s
-      - 法国-23.2MB/s
+      - 美国-4.37MB/s
+      - 中转节点-21.1MB/s
+      - 丹麦-42.7MB/s
+      - 美国-1.55MB/s
+      - 中转节点-203.9KB/s
       - 中转节点-705.6KB/s
+      - 法国-23.2MB/s
+      - 法国-18.1MB/s
       - 法国-19.5MB/s
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
