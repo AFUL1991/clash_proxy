@@ -1,6 +1,6 @@
 # 生成地址：v2rayse.com
 # 模版名称：defaultName
-# 生成时间：2024-12-20 21:32:08
+# 生成时间：2024-12-21 05:27:28
 # 不要随意改变关键字，否则会导致出错
 # acl4SSR规则
 # 去广告：支持
@@ -58,156 +58,130 @@ tun:
     - 1.1.1.1
     - 1.0.0.1
 proxies:
-  - name: 🇺🇸_US_美国->🇧🇭_BH_巴林_1
-    port: 443
-    server: series-a2-me.varzesh360.co
-    type: ss
-    udp: true
-    password: Bog0ELmMM9DSxDdQ
-    cipher: chacha20-ietf-poly1305
   - name: 🇺🇸_US_美国_1
-    port: 443
-    server: series-a2-mec.varzesh360.co
+    port: 8118
+    server: 38.110.1.105
     type: ss
     udp: true
-    password: u17T3BvpYaaiuW2c
+    password: cdBIDV42DCwnfIN
+    cipher: aes-256-gcm
+  - name: 🇨🇭_CH_瑞士
+    port: 44915
+    server: 138.124.60.136
+    type: ss
+    udp: true
+    password: fMcrsQuZhCNiHBmXT80AhQ3mPK5alh/iLuDz4pILlYU=
     cipher: chacha20-ietf-poly1305
   - name: 🇷🇺_RU_俄罗斯_1
-    port: 9079
+    port: 9050
     server: 217.30.10.18
     type: ss
     udp: true
-    password: TPqX8edgbAURcAMb
+    password: FG5ddLsMPbV5CutE
     cipher: aes-256-cfb
-  - name: 🇺🇸_US_美国->🇧🇭_BH_巴林_2
-    port: 443
-    server: series-a2-me.varzesh360.co
-    type: ss
-    udp: true
-    password: Bog0ELmMM9DSxDdQ
-    cipher: chacha20-ietf-poly1305
-  - name: 🇺🇸_US_美国->🇧🇭_BH_巴林_3
-    port: 443
-    server: series-a2-me.varzesh360.co
-    type: ss
-    udp: true
-    password: Bog0ELmMM9DSxDdQ
-    cipher: chacha20-ietf-poly1305
   - name: 🇷🇺_RU_俄罗斯_2
-    port: 9079
+    port: 9027
     server: 217.30.10.18
     type: ss
     udp: true
-    password: TPqX8edgbAURcAMb
+    password: EXN3S3eQpjE7EJu8
     cipher: aes-256-cfb
-  - name: 🇷🇺_RU_俄罗斯_3
-    port: 9011
-    server: 217.30.10.18
-    type: ss
-    udp: true
-    password: M3t2ZEQcMGRWBjRa
-    cipher: aes-256-cfb
-  - name: 🇧🇬_BG_保加利亚->🇺🇸_US_美国
+  - name: 🇺🇸_US_美国_2
     port: 443
-    server: 149.34.244.82
+    server: 38.110.1.105
     type: ss
     udp: true
-    password: shadowsocks
-    cipher: aes-128-gcm
-  - name: 🇷🇺_RU_俄罗斯_4
-    port: 10851
-    server: 109.120.138.94
+    password: pKEW8JPByTVTLtM
+    cipher: aes-256-gcm
+  - name: 🇺🇸_US_美国_3
+    port: 8119
+    server: 38.110.1.105
     type: ss
     udp: true
-    password: O4D8WTvkvIALxm+8sIH2rgpXizdNVcqjbcN0O1Rl9KQ=
-    cipher: chacha20-ietf-poly1305
+    password: cdBIDV42DCwnfIN
+    cipher: aes-256-gcm
+  - name: 🇺🇸_US_美国_4
+    port: 5601
+    server: 38.110.1.105
+    type: ss
+    udp: true
+    password: Y6R9pAtvxxzmGC
+    cipher: aes-256-gcm
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - 🇺🇸_US_美国->🇧🇭_BH_巴林_1
       - 🇺🇸_US_美国_1
+      - 🇨🇭_CH_瑞士
       - 🇷🇺_RU_俄罗斯_1
-      - 🇺🇸_US_美国->🇧🇭_BH_巴林_2
-      - 🇺🇸_US_美国->🇧🇭_BH_巴林_3
       - 🇷🇺_RU_俄罗斯_2
-      - 🇷🇺_RU_俄罗斯_3
-      - 🇧🇬_BG_保加利亚->🇺🇸_US_美国
-      - 🇷🇺_RU_俄罗斯_4
+      - 🇺🇸_US_美国_2
+      - 🇺🇸_US_美国_3
+      - 🇺🇸_US_美国_4
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - 🇺🇸_US_美国->🇧🇭_BH_巴林_1
       - 🇺🇸_US_美国_1
+      - 🇨🇭_CH_瑞士
       - 🇷🇺_RU_俄罗斯_1
-      - 🇺🇸_US_美国->🇧🇭_BH_巴林_2
-      - 🇺🇸_US_美国->🇧🇭_BH_巴林_3
       - 🇷🇺_RU_俄罗斯_2
-      - 🇷🇺_RU_俄罗斯_3
-      - 🇧🇬_BG_保加利亚->🇺🇸_US_美国
-      - 🇷🇺_RU_俄罗斯_4
+      - 🇺🇸_US_美国_2
+      - 🇺🇸_US_美国_3
+      - 🇺🇸_US_美国_4
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇺🇸_US_美国->🇧🇭_BH_巴林_1
       - 🇺🇸_US_美国_1
+      - 🇨🇭_CH_瑞士
       - 🇷🇺_RU_俄罗斯_1
-      - 🇺🇸_US_美国->🇧🇭_BH_巴林_2
-      - 🇺🇸_US_美国->🇧🇭_BH_巴林_3
       - 🇷🇺_RU_俄罗斯_2
-      - 🇷🇺_RU_俄罗斯_3
-      - 🇧🇬_BG_保加利亚->🇺🇸_US_美国
-      - 🇷🇺_RU_俄罗斯_4
+      - 🇺🇸_US_美国_2
+      - 🇺🇸_US_美国_3
+      - 🇺🇸_US_美国_4
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 🇺🇸_US_美国->🇧🇭_BH_巴林_1
       - 🇺🇸_US_美国_1
+      - 🇨🇭_CH_瑞士
       - 🇷🇺_RU_俄罗斯_1
-      - 🇺🇸_US_美国->🇧🇭_BH_巴林_2
-      - 🇺🇸_US_美国->🇧🇭_BH_巴林_3
       - 🇷🇺_RU_俄罗斯_2
-      - 🇷🇺_RU_俄罗斯_3
-      - 🇧🇬_BG_保加利亚->🇺🇸_US_美国
-      - 🇷🇺_RU_俄罗斯_4
+      - 🇺🇸_US_美国_2
+      - 🇺🇸_US_美国_3
+      - 🇺🇸_US_美国_4
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - 🇺🇸_US_美国->🇧🇭_BH_巴林_1
       - 🇺🇸_US_美国_1
+      - 🇨🇭_CH_瑞士
       - 🇷🇺_RU_俄罗斯_1
-      - 🇺🇸_US_美国->🇧🇭_BH_巴林_2
-      - 🇺🇸_US_美国->🇧🇭_BH_巴林_3
       - 🇷🇺_RU_俄罗斯_2
-      - 🇷🇺_RU_俄罗斯_3
-      - 🇧🇬_BG_保加利亚->🇺🇸_US_美国
-      - 🇷🇺_RU_俄罗斯_4
+      - 🇺🇸_US_美国_2
+      - 🇺🇸_US_美国_3
+      - 🇺🇸_US_美国_4
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 🇺🇸_US_美国->🇧🇭_BH_巴林_1
       - 🇺🇸_US_美国_1
+      - 🇨🇭_CH_瑞士
       - 🇷🇺_RU_俄罗斯_1
-      - 🇺🇸_US_美国->🇧🇭_BH_巴林_2
-      - 🇺🇸_US_美国->🇧🇭_BH_巴林_3
       - 🇷🇺_RU_俄罗斯_2
-      - 🇷🇺_RU_俄罗斯_3
-      - 🇧🇬_BG_保加利亚->🇺🇸_US_美国
-      - 🇷🇺_RU_俄罗斯_4
+      - 🇺🇸_US_美国_2
+      - 🇺🇸_US_美国_3
+      - 🇺🇸_US_美国_4
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -230,15 +204,13 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇺🇸_US_美国->🇧🇭_BH_巴林_1
       - 🇺🇸_US_美国_1
+      - 🇨🇭_CH_瑞士
       - 🇷🇺_RU_俄罗斯_1
-      - 🇺🇸_US_美国->🇧🇭_BH_巴林_2
-      - 🇺🇸_US_美国->🇧🇭_BH_巴林_3
       - 🇷🇺_RU_俄罗斯_2
-      - 🇷🇺_RU_俄罗斯_3
-      - 🇧🇬_BG_保加利亚->🇺🇸_US_美国
-      - 🇷🇺_RU_俄罗斯_4
+      - 🇺🇸_US_美国_2
+      - 🇺🇸_US_美国_3
+      - 🇺🇸_US_美国_4
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
   - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
