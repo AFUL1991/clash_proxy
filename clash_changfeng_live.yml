@@ -1,6 +1,6 @@
 # 生成地址：v2rayse.com
 # 模版名称：defaultName
-# 生成时间：2024-12-20 15:28:02
+# 生成时间：2024-12-20 21:32:08
 # 不要随意改变关键字，否则会导致出错
 # acl4SSR规则
 # 去广告：支持
@@ -58,134 +58,156 @@ tun:
     - 1.1.1.1
     - 1.0.0.1
 proxies:
-  - name: 🇬🇧_GB_英国
+  - name: 🇺🇸_US_美国->🇧🇭_BH_巴林_1
     port: 443
-    server: 212.102.53.197
+    server: series-a2-me.varzesh360.co
     type: ss
     udp: true
-    password: shadowsocks
-    cipher: aes-128-gcm
+    password: Bog0ELmMM9DSxDdQ
+    cipher: chacha20-ietf-poly1305
+  - name: 🇺🇸_US_美国_1
+    port: 443
+    server: series-a2-mec.varzesh360.co
+    type: ss
+    udp: true
+    password: u17T3BvpYaaiuW2c
+    cipher: chacha20-ietf-poly1305
   - name: 🇷🇺_RU_俄罗斯_1
-    port: 20255
-    server: 62.133.63.154
-    type: ss
-    udp: true
-    password: ebrYpJsRfFtlKuO2HygBoD
-    cipher: chacha20-ietf-poly1305
-  - name: 🇱🇻_LV_拉脱维亚
-    port: 990
-    server: 46.183.217.232
-    type: ss
-    udp: true
-    password: f8f7aCzcPKbsF8p3
-    cipher: chacha20-ietf-poly1305
-  - name: 🇺🇸_US_美国_2
-    port: 443
-    server: 54.70.176.73
-    type: ss
-    udp: true
-    password: amazonskr05
-    cipher: aes-256-cfb
-  - name: 🇷🇺_RU_俄罗斯_2
-    port: 9050
+    port: 9079
     server: 217.30.10.18
     type: ss
     udp: true
-    password: FG5ddLsMPbV5CutE
+    password: TPqX8edgbAURcAMb
     cipher: aes-256-cfb
-  - name: 🇧🇬_BG_保加利亚->🇦🇺_AU_澳大利亚
+  - name: 🇺🇸_US_美国->🇧🇭_BH_巴林_2
     port: 443
-    server: 149.34.244.77
+    server: series-a2-me.varzesh360.co
+    type: ss
+    udp: true
+    password: Bog0ELmMM9DSxDdQ
+    cipher: chacha20-ietf-poly1305
+  - name: 🇺🇸_US_美国->🇧🇭_BH_巴林_3
+    port: 443
+    server: series-a2-me.varzesh360.co
+    type: ss
+    udp: true
+    password: Bog0ELmMM9DSxDdQ
+    cipher: chacha20-ietf-poly1305
+  - name: 🇷🇺_RU_俄罗斯_2
+    port: 9079
+    server: 217.30.10.18
+    type: ss
+    udp: true
+    password: TPqX8edgbAURcAMb
+    cipher: aes-256-cfb
+  - name: 🇷🇺_RU_俄罗斯_3
+    port: 9011
+    server: 217.30.10.18
+    type: ss
+    udp: true
+    password: M3t2ZEQcMGRWBjRa
+    cipher: aes-256-cfb
+  - name: 🇧🇬_BG_保加利亚->🇺🇸_US_美国
+    port: 443
+    server: 149.34.244.82
     type: ss
     udp: true
     password: shadowsocks
     cipher: aes-128-gcm
-  - name: 🇩🇪_DE_德国
-    port: 44484
-    server: 78.47.102.195
-    type: vmess
-    network: tcp
+  - name: 🇷🇺_RU_俄罗斯_4
+    port: 10851
+    server: 109.120.138.94
+    type: ss
     udp: true
-    sni: ""
-    cipher: auto
-    uuid: 8a2ce574-2b74-4f10-a28e-b6d852e3f725
-    alterId: 0
-    fingerprint: ""
+    password: O4D8WTvkvIALxm+8sIH2rgpXizdNVcqjbcN0O1Rl9KQ=
+    cipher: chacha20-ietf-poly1305
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - 🇬🇧_GB_英国
+      - 🇺🇸_US_美国->🇧🇭_BH_巴林_1
+      - 🇺🇸_US_美国_1
       - 🇷🇺_RU_俄罗斯_1
-      - 🇱🇻_LV_拉脱维亚
-      - 🇺🇸_US_美国_2
+      - 🇺🇸_US_美国->🇧🇭_BH_巴林_2
+      - 🇺🇸_US_美国->🇧🇭_BH_巴林_3
       - 🇷🇺_RU_俄罗斯_2
-      - 🇧🇬_BG_保加利亚->🇦🇺_AU_澳大利亚
-      - 🇩🇪_DE_德国
+      - 🇷🇺_RU_俄罗斯_3
+      - 🇧🇬_BG_保加利亚->🇺🇸_US_美国
+      - 🇷🇺_RU_俄罗斯_4
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - 🇬🇧_GB_英国
+      - 🇺🇸_US_美国->🇧🇭_BH_巴林_1
+      - 🇺🇸_US_美国_1
       - 🇷🇺_RU_俄罗斯_1
-      - 🇱🇻_LV_拉脱维亚
-      - 🇺🇸_US_美国_2
+      - 🇺🇸_US_美国->🇧🇭_BH_巴林_2
+      - 🇺🇸_US_美国->🇧🇭_BH_巴林_3
       - 🇷🇺_RU_俄罗斯_2
-      - 🇧🇬_BG_保加利亚->🇦🇺_AU_澳大利亚
-      - 🇩🇪_DE_德国
+      - 🇷🇺_RU_俄罗斯_3
+      - 🇧🇬_BG_保加利亚->🇺🇸_US_美国
+      - 🇷🇺_RU_俄罗斯_4
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇬🇧_GB_英国
+      - 🇺🇸_US_美国->🇧🇭_BH_巴林_1
+      - 🇺🇸_US_美国_1
       - 🇷🇺_RU_俄罗斯_1
-      - 🇱🇻_LV_拉脱维亚
-      - 🇺🇸_US_美国_2
+      - 🇺🇸_US_美国->🇧🇭_BH_巴林_2
+      - 🇺🇸_US_美国->🇧🇭_BH_巴林_3
       - 🇷🇺_RU_俄罗斯_2
-      - 🇧🇬_BG_保加利亚->🇦🇺_AU_澳大利亚
-      - 🇩🇪_DE_德国
+      - 🇷🇺_RU_俄罗斯_3
+      - 🇧🇬_BG_保加利亚->🇺🇸_US_美国
+      - 🇷🇺_RU_俄罗斯_4
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 🇬🇧_GB_英国
+      - 🇺🇸_US_美国->🇧🇭_BH_巴林_1
+      - 🇺🇸_US_美国_1
       - 🇷🇺_RU_俄罗斯_1
-      - 🇱🇻_LV_拉脱维亚
-      - 🇺🇸_US_美国_2
+      - 🇺🇸_US_美国->🇧🇭_BH_巴林_2
+      - 🇺🇸_US_美国->🇧🇭_BH_巴林_3
       - 🇷🇺_RU_俄罗斯_2
-      - 🇧🇬_BG_保加利亚->🇦🇺_AU_澳大利亚
-      - 🇩🇪_DE_德国
+      - 🇷🇺_RU_俄罗斯_3
+      - 🇧🇬_BG_保加利亚->🇺🇸_US_美国
+      - 🇷🇺_RU_俄罗斯_4
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - 🇬🇧_GB_英国
+      - 🇺🇸_US_美国->🇧🇭_BH_巴林_1
+      - 🇺🇸_US_美国_1
       - 🇷🇺_RU_俄罗斯_1
-      - 🇱🇻_LV_拉脱维亚
-      - 🇺🇸_US_美国_2
+      - 🇺🇸_US_美国->🇧🇭_BH_巴林_2
+      - 🇺🇸_US_美国->🇧🇭_BH_巴林_3
       - 🇷🇺_RU_俄罗斯_2
-      - 🇧🇬_BG_保加利亚->🇦🇺_AU_澳大利亚
-      - 🇩🇪_DE_德国
+      - 🇷🇺_RU_俄罗斯_3
+      - 🇧🇬_BG_保加利亚->🇺🇸_US_美国
+      - 🇷🇺_RU_俄罗斯_4
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 🇬🇧_GB_英国
+      - 🇺🇸_US_美国->🇧🇭_BH_巴林_1
+      - 🇺🇸_US_美国_1
       - 🇷🇺_RU_俄罗斯_1
-      - 🇱🇻_LV_拉脱维亚
-      - 🇺🇸_US_美国_2
+      - 🇺🇸_US_美国->🇧🇭_BH_巴林_2
+      - 🇺🇸_US_美国->🇧🇭_BH_巴林_3
       - 🇷🇺_RU_俄罗斯_2
-      - 🇧🇬_BG_保加利亚->🇦🇺_AU_澳大利亚
-      - 🇩🇪_DE_德国
+      - 🇷🇺_RU_俄罗斯_3
+      - 🇧🇬_BG_保加利亚->🇺🇸_US_美国
+      - 🇷🇺_RU_俄罗斯_4
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -208,13 +230,15 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇬🇧_GB_英国
+      - 🇺🇸_US_美国->🇧🇭_BH_巴林_1
+      - 🇺🇸_US_美国_1
       - 🇷🇺_RU_俄罗斯_1
-      - 🇱🇻_LV_拉脱维亚
-      - 🇺🇸_US_美国_2
+      - 🇺🇸_US_美国->🇧🇭_BH_巴林_2
+      - 🇺🇸_US_美国->🇧🇭_BH_巴林_3
       - 🇷🇺_RU_俄罗斯_2
-      - 🇧🇬_BG_保加利亚->🇦🇺_AU_澳大利亚
-      - 🇩🇪_DE_德国
+      - 🇷🇺_RU_俄罗斯_3
+      - 🇧🇬_BG_保加利亚->🇺🇸_US_美国
+      - 🇷🇺_RU_俄罗斯_4
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
   - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
