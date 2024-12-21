@@ -1,6 +1,6 @@
 # 生成地址：v2rayse.com
 # 模版名称：defaultName
-# 生成时间：2024-12-21 05:27:28
+# 生成时间：2024-12-21 15:26:10
 # 不要随意改变关键字，否则会导致出错
 # acl4SSR规则
 # 去广告：支持
@@ -58,130 +58,156 @@ tun:
     - 1.1.1.1
     - 1.0.0.1
 proxies:
-  - name: 🇺🇸_US_美国_1
-    port: 8118
-    server: 38.110.1.105
-    type: ss
-    udp: true
-    password: cdBIDV42DCwnfIN
-    cipher: aes-256-gcm
-  - name: 🇨🇭_CH_瑞士
-    port: 44915
-    server: 138.124.60.136
-    type: ss
-    udp: true
-    password: fMcrsQuZhCNiHBmXT80AhQ3mPK5alh/iLuDz4pILlYU=
-    cipher: chacha20-ietf-poly1305
   - name: 🇷🇺_RU_俄罗斯_1
-    port: 9050
-    server: 217.30.10.18
+    port: 10851
+    server: 109.120.138.94
     type: ss
     udp: true
-    password: FG5ddLsMPbV5CutE
-    cipher: aes-256-cfb
-  - name: 🇷🇺_RU_俄罗斯_2
-    port: 9027
-    server: 217.30.10.18
+    password: O4D8WTvkvIALxm+8sIH2rgpXizdNVcqjbcN0O1Rl9KQ=
+    cipher: chacha20-ietf-poly1305
+  - name: 🇺🇸_US_美国_1
+    port: 8080
+    server: 79.110.53.169
     type: ss
     udp: true
-    password: EXN3S3eQpjE7EJu8
-    cipher: aes-256-cfb
+    password: 14fFPrbezE3HDZzsMOr6
+    cipher: rc4-md5
   - name: 🇺🇸_US_美国_2
+    port: 8080
+    server: 79.110.53.169
+    type: ss
+    udp: true
+    password: 14fFPrbezE3HDZzsMOr6
+    cipher: rc4-md5
+  - name: 🇷🇺_RU_俄罗斯_2
+    port: 9088
+    server: 217.30.10.18
+    type: ss
+    udp: true
+    password: f8npKgNzdkss2ytn
+    cipher: aes-256-cfb
+  - name: 🇧🇬_BG_保加利亚
     port: 443
-    server: 38.110.1.105
+    server: 149.34.244.82
     type: ss
     udp: true
-    password: pKEW8JPByTVTLtM
-    cipher: aes-256-gcm
+    password: shadowsocks
+    cipher: aes-128-gcm
+  - name: 🇩🇪_DE_德国
+    port: 8080
+    server: 45.87.175.188
+    type: ss
+    udp: true
+    password: 4a2rfixophdjffa8KVA4Aa
+    cipher: chacha20-ietf-poly1305
+  - name: 🇷🇺_RU_俄罗斯_3
+    port: 9088
+    server: 217.30.10.18
+    type: ss
+    udp: true
+    password: f8npKgNzdkss2ytn
+    cipher: aes-256-cfb
+  - name: 🇷🇺_RU_俄罗斯_4
+    port: 9037
+    server: 217.30.10.18
+    type: ss
+    udp: true
+    password: TN2YqghxeFDKZfLU
+    cipher: aes-256-cfb
   - name: 🇺🇸_US_美国_3
-    port: 8119
-    server: 38.110.1.105
+    port: 8080
+    server: 79.110.53.169
     type: ss
     udp: true
-    password: cdBIDV42DCwnfIN
-    cipher: aes-256-gcm
-  - name: 🇺🇸_US_美国_4
-    port: 5601
-    server: 38.110.1.105
-    type: ss
-    udp: true
-    password: Y6R9pAtvxxzmGC
-    cipher: aes-256-gcm
+    password: 14fFPrbezE3HDZzsMOr6
+    cipher: rc4-md5
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - 🇺🇸_US_美国_1
-      - 🇨🇭_CH_瑞士
       - 🇷🇺_RU_俄罗斯_1
-      - 🇷🇺_RU_俄罗斯_2
+      - 🇺🇸_US_美国_1
       - 🇺🇸_US_美国_2
+      - 🇷🇺_RU_俄罗斯_2
+      - 🇧🇬_BG_保加利亚
+      - 🇩🇪_DE_德国
+      - 🇷🇺_RU_俄罗斯_3
+      - 🇷🇺_RU_俄罗斯_4
       - 🇺🇸_US_美国_3
-      - 🇺🇸_US_美国_4
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - 🇺🇸_US_美国_1
-      - 🇨🇭_CH_瑞士
       - 🇷🇺_RU_俄罗斯_1
-      - 🇷🇺_RU_俄罗斯_2
+      - 🇺🇸_US_美国_1
       - 🇺🇸_US_美国_2
+      - 🇷🇺_RU_俄罗斯_2
+      - 🇧🇬_BG_保加利亚
+      - 🇩🇪_DE_德国
+      - 🇷🇺_RU_俄罗斯_3
+      - 🇷🇺_RU_俄罗斯_4
       - 🇺🇸_US_美国_3
-      - 🇺🇸_US_美国_4
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇺🇸_US_美国_1
-      - 🇨🇭_CH_瑞士
       - 🇷🇺_RU_俄罗斯_1
-      - 🇷🇺_RU_俄罗斯_2
+      - 🇺🇸_US_美国_1
       - 🇺🇸_US_美国_2
+      - 🇷🇺_RU_俄罗斯_2
+      - 🇧🇬_BG_保加利亚
+      - 🇩🇪_DE_德国
+      - 🇷🇺_RU_俄罗斯_3
+      - 🇷🇺_RU_俄罗斯_4
       - 🇺🇸_US_美国_3
-      - 🇺🇸_US_美国_4
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 🇺🇸_US_美国_1
-      - 🇨🇭_CH_瑞士
       - 🇷🇺_RU_俄罗斯_1
-      - 🇷🇺_RU_俄罗斯_2
+      - 🇺🇸_US_美国_1
       - 🇺🇸_US_美国_2
+      - 🇷🇺_RU_俄罗斯_2
+      - 🇧🇬_BG_保加利亚
+      - 🇩🇪_DE_德国
+      - 🇷🇺_RU_俄罗斯_3
+      - 🇷🇺_RU_俄罗斯_4
       - 🇺🇸_US_美国_3
-      - 🇺🇸_US_美国_4
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - 🇺🇸_US_美国_1
-      - 🇨🇭_CH_瑞士
       - 🇷🇺_RU_俄罗斯_1
-      - 🇷🇺_RU_俄罗斯_2
+      - 🇺🇸_US_美国_1
       - 🇺🇸_US_美国_2
+      - 🇷🇺_RU_俄罗斯_2
+      - 🇧🇬_BG_保加利亚
+      - 🇩🇪_DE_德国
+      - 🇷🇺_RU_俄罗斯_3
+      - 🇷🇺_RU_俄罗斯_4
       - 🇺🇸_US_美国_3
-      - 🇺🇸_US_美国_4
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 🇺🇸_US_美国_1
-      - 🇨🇭_CH_瑞士
       - 🇷🇺_RU_俄罗斯_1
-      - 🇷🇺_RU_俄罗斯_2
+      - 🇺🇸_US_美国_1
       - 🇺🇸_US_美国_2
+      - 🇷🇺_RU_俄罗斯_2
+      - 🇧🇬_BG_保加利亚
+      - 🇩🇪_DE_德国
+      - 🇷🇺_RU_俄罗斯_3
+      - 🇷🇺_RU_俄罗斯_4
       - 🇺🇸_US_美国_3
-      - 🇺🇸_US_美国_4
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -204,13 +230,15 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇺🇸_US_美国_1
-      - 🇨🇭_CH_瑞士
       - 🇷🇺_RU_俄罗斯_1
-      - 🇷🇺_RU_俄罗斯_2
+      - 🇺🇸_US_美国_1
       - 🇺🇸_US_美国_2
+      - 🇷🇺_RU_俄罗斯_2
+      - 🇧🇬_BG_保加利亚
+      - 🇩🇪_DE_德国
+      - 🇷🇺_RU_俄罗斯_3
+      - 🇷🇺_RU_俄罗斯_4
       - 🇺🇸_US_美国_3
-      - 🇺🇸_US_美国_4
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
   - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
