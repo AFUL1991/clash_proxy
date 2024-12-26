@@ -5,23 +5,33 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: 土耳其-28.5MB/s, server: 185.123.101.241, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
-  - {name: 卡塔尔-2.08MB/s, server: 169.150.210.233, port: 8080, type: ss, cipher: rc4-md5, password: 14fFPrbezE3HDZzsMOr6, udp: true}
-  - {name: 立陶宛-50.7MB/s, server: 45.87.175.181, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: cvII85TrW6n0OGyfpHVS1u, udp: true}
-  - {name: 美国-2.30MB/s, server: 194.5.215.59, port: 8080, type: ss, cipher: rc4-md5, password: 14fFPrbezE3HDZzsMOr6, udp: true}
-  - {name: 荷兰-6.6MB/s, server: 208.67.105.87, port: 42501, type: ss, cipher: chacha20-ietf-poly1305, password: nq96KftrZAj3LuFQESqmn44Mo5oCuo2cipoEsae25mrmHG2oJ4VT37scBfVBpN5DWtUELZutVhhXs8Le5B8fZ9hLn9ytwvbf, udp: true}
-  - {name: 立陶宛-2.56MB/s, server: 45.87.175.199, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: 4a2rfixophdjffa8KVA4Aa, udp: true}
-  - {name: 爱尔兰-202.5KB/s, server: 13.79.98.64, port: 55939, type: ss, cipher: chacha20-ietf-poly1305, password: 49JPbl6SMH1hDoskOR6irG, udp: true}
-  - {name: 荷兰-4.1MB/s, server: 208.67.105.87, port: 42501, type: ss, cipher: chacha20-ietf-poly1305, password: nq96KftrZAj3LuFQESqmn44Mo5oCuo2cipoEsae25mrmHG2oJ4VT37scBfVBpN5DWtUELZutVhhXs8Le5B8fZ9hLn9ytwvbf, udp: true}
-  - {name: 土耳其-26.3MB/s, server: 185.123.101.241, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
-  - {name: 立陶宛-71.2MB/s, server: 45.87.175.199, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: cvII85TrW6n0OGyfpHVS1u, udp: true}
-  - {name: 立陶宛-103.9KB/s, server: 45.87.175.199, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: 1RWwXhwfAB5gAEozU4G2Pg, udp: true}
-  - {name: 挪威-147.1KB/s, server: 51.13.115.105, port: 48963, type: ss, cipher: chacha20-ietf-poly1305, password: ZTqcA3pg0tY0qKKP240BQT, udp: true}
   - {name: 新加坡-84.8MB/s, server: 128.199.237.29, port: 53485, type: ss, cipher: chacha20-ietf-poly1305, password: RYqeHYa0aQYW7i4TOhzyoT/NwwRhNRjhiobMOn4GNDo=, udp: true}
+  - {name: 中转节点-39.5MB/s, server: hk2.vps001.info, port: 22220, type: ss, cipher: aes-256-gcm, password: 67d71e17b8d554e253124693d38bba93, udp: true}
+  - {name: 立陶宛-2.56MB/s, server: 45.87.175.199, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: 4a2rfixophdjffa8KVA4Aa, udp: true}
+  - {name: 荷兰-6.6MB/s, server: 208.67.105.87, port: 42501, type: ss, cipher: chacha20-ietf-poly1305, password: nq96KftrZAj3LuFQESqmn44Mo5oCuo2cipoEsae25mrmHG2oJ4VT37scBfVBpN5DWtUELZutVhhXs8Le5B8fZ9hLn9ytwvbf, udp: true}
+  - {name: 土耳其-28.5MB/s, server: 185.123.101.241, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
+  - {name: 韩国-4.22MB/s, server: 52.79.248.193, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+  - {name: 卡塔尔-2.08MB/s, server: 169.150.210.233, port: 8080, type: ss, cipher: rc4-md5, password: 14fFPrbezE3HDZzsMOr6, udp: true}
+  - {name: 波兰-165.1KB/s, server: 217.30.10.18, port: 9031, type: ss, cipher: aes-256-cfb, password: BwcAUZk8hUFAkDGN, udp: true}
+  - {name: 荷兰-4.1MB/s, server: 208.67.105.87, port: 42501, type: ss, cipher: chacha20-ietf-poly1305, password: nq96KftrZAj3LuFQESqmn44Mo5oCuo2cipoEsae25mrmHG2oJ4VT37scBfVBpN5DWtUELZutVhhXs8Le5B8fZ9hLn9ytwvbf, udp: true}
+  - {name: 巴西-8.9MB/s, server: 154.90.63.193, port: 990, type: ss, cipher: chacha20-ietf-poly1305, password: f8f7aCzcPKbsF8p3, udp: true}
   - {name: 日本-1.63MB/s, server: 18.179.197.216, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
   - {name: 中转节点-35.1MB/s, server: 58.63.247.145, port: 22220, type: ss, cipher: aes-256-gcm, password: 67d71e17b8d554e253124693d38bba93, udp: true}
+  - {name: 波兰-190.4KB/s, server: 217.30.10.18, port: 9001, type: ss, cipher: aes-256-cfb, password: UkXRsXvR6buDMG2Y, udp: true}
+  - {name: 立陶宛-71.2MB/s, server: 45.87.175.199, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: cvII85TrW6n0OGyfpHVS1u, udp: true}
+  - {name: 立陶宛-50.7MB/s, server: 45.87.175.181, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: cvII85TrW6n0OGyfpHVS1u, udp: true}
+  - {name: 土耳其-26.3MB/s, server: 185.123.101.241, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
+  - {name: 爱尔兰-202.5KB/s, server: 13.79.98.64, port: 55939, type: ss, cipher: chacha20-ietf-poly1305, password: 49JPbl6SMH1hDoskOR6irG, udp: true}
+  - {name: 美国-2.30MB/s, server: 194.5.215.59, port: 8080, type: ss, cipher: rc4-md5, password: 14fFPrbezE3HDZzsMOr6, udp: true}
+  - {name: 英国-1.39MB/s, server: series-a1.samanehha.co, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: W74XFALLLuw6m5IA, udp: true}
+  - {name: 挪威-147.1KB/s, server: 51.13.115.105, port: 48963, type: ss, cipher: chacha20-ietf-poly1305, password: ZTqcA3pg0tY0qKKP240BQT, udp: true}
+  - {name: 立陶宛-103.9KB/s, server: 45.87.175.199, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: 1RWwXhwfAB5gAEozU4G2Pg, udp: true}
   - {name: 伊朗-1.29MB/s, server: 185.29.223.164, port: 32718, type: vmess, uuid: c398fa1f-fac5-4d76-9452-f0aee44cbc66, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 中转节点-1.80MB/s, server: 120.234.102.229, port: 52908, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 美国-4.88MB/s, server: 38.75.136.73, port: 443, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /linkvws}, udp: true}
+  - {name: 中转节点-2.92MB/s, server: 183.236.51.23, port: 54104, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 中转节点-112.6KB/s, server: 15074.kuaiyin02.top, port: 15074, type: vmess, uuid: 9f513161-576b-3abc-9c98-06e52c3a24c6, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 美国-3.46MB/s, server: jobsfortheworldtoday.com, port: 443, type: trojan, password: 71409d3e488548e8bb076d229778f008, sni: jobsfortheworldtoday.com, skip-cert-verify: true, udp: true}
   - {name: 越南-260.9KB/s, server: 103.173.66.155, port: 443, type: trojan, password: 25a0ffa0-725c-4d6f-b0d5-c74579753075, skip-cert-verify: true, udp: true}
   - {name: 美国-149.7KB/s, server: jobsfortheworldtoday.com, port: 443, type: trojan, password: 71409d3e488548e8bb076d229778f008, sni: jobsfortheworldtoday.com, skip-cert-verify: true, udp: true}
 proxy-groups:
@@ -30,23 +40,33 @@ proxy-groups:
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 土耳其-28.5MB/s
-      - 卡塔尔-2.08MB/s
-      - 立陶宛-50.7MB/s
-      - 美国-2.30MB/s
-      - 荷兰-6.6MB/s
-      - 立陶宛-2.56MB/s
-      - 爱尔兰-202.5KB/s
-      - 荷兰-4.1MB/s
-      - 土耳其-26.3MB/s
-      - 立陶宛-71.2MB/s
-      - 立陶宛-103.9KB/s
-      - 挪威-147.1KB/s
       - 新加坡-84.8MB/s
+      - 中转节点-39.5MB/s
+      - 立陶宛-2.56MB/s
+      - 荷兰-6.6MB/s
+      - 土耳其-28.5MB/s
+      - 韩国-4.22MB/s
+      - 卡塔尔-2.08MB/s
+      - 波兰-165.1KB/s
+      - 荷兰-4.1MB/s
+      - 巴西-8.9MB/s
       - 日本-1.63MB/s
       - 中转节点-35.1MB/s
+      - 波兰-190.4KB/s
+      - 立陶宛-71.2MB/s
+      - 立陶宛-50.7MB/s
+      - 土耳其-26.3MB/s
+      - 爱尔兰-202.5KB/s
+      - 美国-2.30MB/s
+      - 英国-1.39MB/s
+      - 挪威-147.1KB/s
+      - 立陶宛-103.9KB/s
       - 伊朗-1.29MB/s
+      - 中转节点-1.80MB/s
       - 美国-4.88MB/s
+      - 中转节点-2.92MB/s
+      - 中转节点-112.6KB/s
+      - 美国-3.46MB/s
       - 越南-260.9KB/s
       - 美国-149.7KB/s
   - name: ♻️ 自动选择
@@ -54,23 +74,33 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - 土耳其-28.5MB/s
-      - 卡塔尔-2.08MB/s
-      - 立陶宛-50.7MB/s
-      - 美国-2.30MB/s
-      - 荷兰-6.6MB/s
-      - 立陶宛-2.56MB/s
-      - 爱尔兰-202.5KB/s
-      - 荷兰-4.1MB/s
-      - 土耳其-26.3MB/s
-      - 立陶宛-71.2MB/s
-      - 立陶宛-103.9KB/s
-      - 挪威-147.1KB/s
       - 新加坡-84.8MB/s
+      - 中转节点-39.5MB/s
+      - 立陶宛-2.56MB/s
+      - 荷兰-6.6MB/s
+      - 土耳其-28.5MB/s
+      - 韩国-4.22MB/s
+      - 卡塔尔-2.08MB/s
+      - 波兰-165.1KB/s
+      - 荷兰-4.1MB/s
+      - 巴西-8.9MB/s
       - 日本-1.63MB/s
       - 中转节点-35.1MB/s
+      - 波兰-190.4KB/s
+      - 立陶宛-71.2MB/s
+      - 立陶宛-50.7MB/s
+      - 土耳其-26.3MB/s
+      - 爱尔兰-202.5KB/s
+      - 美国-2.30MB/s
+      - 英国-1.39MB/s
+      - 挪威-147.1KB/s
+      - 立陶宛-103.9KB/s
       - 伊朗-1.29MB/s
+      - 中转节点-1.80MB/s
       - 美国-4.88MB/s
+      - 中转节点-2.92MB/s
+      - 中转节点-112.6KB/s
+      - 美国-3.46MB/s
       - 越南-260.9KB/s
       - 美国-149.7KB/s
   - name: 🎥 NETFLIX
@@ -79,23 +109,33 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 土耳其-28.5MB/s
-      - 卡塔尔-2.08MB/s
-      - 立陶宛-50.7MB/s
-      - 美国-2.30MB/s
-      - 荷兰-6.6MB/s
-      - 立陶宛-2.56MB/s
-      - 爱尔兰-202.5KB/s
-      - 荷兰-4.1MB/s
-      - 土耳其-26.3MB/s
-      - 立陶宛-71.2MB/s
-      - 立陶宛-103.9KB/s
-      - 挪威-147.1KB/s
       - 新加坡-84.8MB/s
+      - 中转节点-39.5MB/s
+      - 立陶宛-2.56MB/s
+      - 荷兰-6.6MB/s
+      - 土耳其-28.5MB/s
+      - 韩国-4.22MB/s
+      - 卡塔尔-2.08MB/s
+      - 波兰-165.1KB/s
+      - 荷兰-4.1MB/s
+      - 巴西-8.9MB/s
       - 日本-1.63MB/s
       - 中转节点-35.1MB/s
+      - 波兰-190.4KB/s
+      - 立陶宛-71.2MB/s
+      - 立陶宛-50.7MB/s
+      - 土耳其-26.3MB/s
+      - 爱尔兰-202.5KB/s
+      - 美国-2.30MB/s
+      - 英国-1.39MB/s
+      - 挪威-147.1KB/s
+      - 立陶宛-103.9KB/s
       - 伊朗-1.29MB/s
+      - 中转节点-1.80MB/s
       - 美国-4.88MB/s
+      - 中转节点-2.92MB/s
+      - 中转节点-112.6KB/s
+      - 美国-3.46MB/s
       - 越南-260.9KB/s
       - 美国-149.7KB/s
   - name: ⛔️ 广告拦截
@@ -116,23 +156,33 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 土耳其-28.5MB/s
-      - 卡塔尔-2.08MB/s
-      - 立陶宛-50.7MB/s
-      - 美国-2.30MB/s
-      - 荷兰-6.6MB/s
-      - 立陶宛-2.56MB/s
-      - 爱尔兰-202.5KB/s
-      - 荷兰-4.1MB/s
-      - 土耳其-26.3MB/s
-      - 立陶宛-71.2MB/s
-      - 立陶宛-103.9KB/s
-      - 挪威-147.1KB/s
       - 新加坡-84.8MB/s
+      - 中转节点-39.5MB/s
+      - 立陶宛-2.56MB/s
+      - 荷兰-6.6MB/s
+      - 土耳其-28.5MB/s
+      - 韩国-4.22MB/s
+      - 卡塔尔-2.08MB/s
+      - 波兰-165.1KB/s
+      - 荷兰-4.1MB/s
+      - 巴西-8.9MB/s
       - 日本-1.63MB/s
       - 中转节点-35.1MB/s
+      - 波兰-190.4KB/s
+      - 立陶宛-71.2MB/s
+      - 立陶宛-50.7MB/s
+      - 土耳其-26.3MB/s
+      - 爱尔兰-202.5KB/s
+      - 美国-2.30MB/s
+      - 英国-1.39MB/s
+      - 挪威-147.1KB/s
+      - 立陶宛-103.9KB/s
       - 伊朗-1.29MB/s
+      - 中转节点-1.80MB/s
       - 美国-4.88MB/s
+      - 中转节点-2.92MB/s
+      - 中转节点-112.6KB/s
+      - 美国-3.46MB/s
       - 越南-260.9KB/s
       - 美国-149.7KB/s
   - name: 🌏 国内媒体
@@ -145,23 +195,33 @@ proxy-groups:
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - 土耳其-28.5MB/s
-      - 卡塔尔-2.08MB/s
-      - 立陶宛-50.7MB/s
-      - 美国-2.30MB/s
-      - 荷兰-6.6MB/s
-      - 立陶宛-2.56MB/s
-      - 爱尔兰-202.5KB/s
-      - 荷兰-4.1MB/s
-      - 土耳其-26.3MB/s
-      - 立陶宛-71.2MB/s
-      - 立陶宛-103.9KB/s
-      - 挪威-147.1KB/s
       - 新加坡-84.8MB/s
+      - 中转节点-39.5MB/s
+      - 立陶宛-2.56MB/s
+      - 荷兰-6.6MB/s
+      - 土耳其-28.5MB/s
+      - 韩国-4.22MB/s
+      - 卡塔尔-2.08MB/s
+      - 波兰-165.1KB/s
+      - 荷兰-4.1MB/s
+      - 巴西-8.9MB/s
       - 日本-1.63MB/s
       - 中转节点-35.1MB/s
+      - 波兰-190.4KB/s
+      - 立陶宛-71.2MB/s
+      - 立陶宛-50.7MB/s
+      - 土耳其-26.3MB/s
+      - 爱尔兰-202.5KB/s
+      - 美国-2.30MB/s
+      - 英国-1.39MB/s
+      - 挪威-147.1KB/s
+      - 立陶宛-103.9KB/s
       - 伊朗-1.29MB/s
+      - 中转节点-1.80MB/s
       - 美国-4.88MB/s
+      - 中转节点-2.92MB/s
+      - 中转节点-112.6KB/s
+      - 美国-3.46MB/s
       - 越南-260.9KB/s
       - 美国-149.7KB/s
   - name: 📲 电报信息
@@ -169,23 +229,33 @@ proxy-groups:
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - 土耳其-28.5MB/s
-      - 卡塔尔-2.08MB/s
-      - 立陶宛-50.7MB/s
-      - 美国-2.30MB/s
-      - 荷兰-6.6MB/s
-      - 立陶宛-2.56MB/s
-      - 爱尔兰-202.5KB/s
-      - 荷兰-4.1MB/s
-      - 土耳其-26.3MB/s
-      - 立陶宛-71.2MB/s
-      - 立陶宛-103.9KB/s
-      - 挪威-147.1KB/s
       - 新加坡-84.8MB/s
+      - 中转节点-39.5MB/s
+      - 立陶宛-2.56MB/s
+      - 荷兰-6.6MB/s
+      - 土耳其-28.5MB/s
+      - 韩国-4.22MB/s
+      - 卡塔尔-2.08MB/s
+      - 波兰-165.1KB/s
+      - 荷兰-4.1MB/s
+      - 巴西-8.9MB/s
       - 日本-1.63MB/s
       - 中转节点-35.1MB/s
+      - 波兰-190.4KB/s
+      - 立陶宛-71.2MB/s
+      - 立陶宛-50.7MB/s
+      - 土耳其-26.3MB/s
+      - 爱尔兰-202.5KB/s
+      - 美国-2.30MB/s
+      - 英国-1.39MB/s
+      - 挪威-147.1KB/s
+      - 立陶宛-103.9KB/s
       - 伊朗-1.29MB/s
+      - 中转节点-1.80MB/s
       - 美国-4.88MB/s
+      - 中转节点-2.92MB/s
+      - 中转节点-112.6KB/s
+      - 美国-3.46MB/s
       - 越南-260.9KB/s
       - 美国-149.7KB/s
   - name: 🍎 苹果服务
@@ -194,23 +264,33 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 土耳其-28.5MB/s
-      - 卡塔尔-2.08MB/s
-      - 立陶宛-50.7MB/s
-      - 美国-2.30MB/s
-      - 荷兰-6.6MB/s
-      - 立陶宛-2.56MB/s
-      - 爱尔兰-202.5KB/s
-      - 荷兰-4.1MB/s
-      - 土耳其-26.3MB/s
-      - 立陶宛-71.2MB/s
-      - 立陶宛-103.9KB/s
-      - 挪威-147.1KB/s
       - 新加坡-84.8MB/s
+      - 中转节点-39.5MB/s
+      - 立陶宛-2.56MB/s
+      - 荷兰-6.6MB/s
+      - 土耳其-28.5MB/s
+      - 韩国-4.22MB/s
+      - 卡塔尔-2.08MB/s
+      - 波兰-165.1KB/s
+      - 荷兰-4.1MB/s
+      - 巴西-8.9MB/s
       - 日本-1.63MB/s
       - 中转节点-35.1MB/s
+      - 波兰-190.4KB/s
+      - 立陶宛-71.2MB/s
+      - 立陶宛-50.7MB/s
+      - 土耳其-26.3MB/s
+      - 爱尔兰-202.5KB/s
+      - 美国-2.30MB/s
+      - 英国-1.39MB/s
+      - 挪威-147.1KB/s
+      - 立陶宛-103.9KB/s
       - 伊朗-1.29MB/s
+      - 中转节点-1.80MB/s
       - 美国-4.88MB/s
+      - 中转节点-2.92MB/s
+      - 中转节点-112.6KB/s
+      - 美国-3.46MB/s
       - 越南-260.9KB/s
       - 美国-149.7KB/s
   - name: 🎯 全球直连
@@ -228,23 +308,33 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 土耳其-28.5MB/s
-      - 卡塔尔-2.08MB/s
-      - 立陶宛-50.7MB/s
-      - 美国-2.30MB/s
-      - 荷兰-6.6MB/s
-      - 立陶宛-2.56MB/s
-      - 爱尔兰-202.5KB/s
-      - 荷兰-4.1MB/s
-      - 土耳其-26.3MB/s
-      - 立陶宛-71.2MB/s
-      - 立陶宛-103.9KB/s
-      - 挪威-147.1KB/s
       - 新加坡-84.8MB/s
+      - 中转节点-39.5MB/s
+      - 立陶宛-2.56MB/s
+      - 荷兰-6.6MB/s
+      - 土耳其-28.5MB/s
+      - 韩国-4.22MB/s
+      - 卡塔尔-2.08MB/s
+      - 波兰-165.1KB/s
+      - 荷兰-4.1MB/s
+      - 巴西-8.9MB/s
       - 日本-1.63MB/s
       - 中转节点-35.1MB/s
+      - 波兰-190.4KB/s
+      - 立陶宛-71.2MB/s
+      - 立陶宛-50.7MB/s
+      - 土耳其-26.3MB/s
+      - 爱尔兰-202.5KB/s
+      - 美国-2.30MB/s
+      - 英国-1.39MB/s
+      - 挪威-147.1KB/s
+      - 立陶宛-103.9KB/s
       - 伊朗-1.29MB/s
+      - 中转节点-1.80MB/s
       - 美国-4.88MB/s
+      - 中转节点-2.92MB/s
+      - 中转节点-112.6KB/s
+      - 美国-3.46MB/s
       - 越南-260.9KB/s
       - 美国-149.7KB/s
 rules:
