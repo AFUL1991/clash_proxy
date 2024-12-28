@@ -5,14 +5,24 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: 卡塔尔-2.73MB/s, server: 169.150.210.233, port: 8080, type: ss, cipher: rc4-md5, password: 14fFPrbezE3HDZzsMOr6, udp: true}
-  - {name: 波兰-106.8KB/s, server: 217.30.10.18, port: 9060, type: ss, cipher: aes-256-cfb, password: ueLXVkvh4hckhErQ, udp: true}
   - {name: 法国-141.8KB/s, server: 213.156.138.138, port: 31348, type: ss, cipher: chacha20-ietf-poly1305, password: oVfvPkqJFCjOEbBsbmOtIiAuqgmEFOEf332F26C8lwEwQng9, udp: true}
-  - {name: 美国-223.3KB/s, server: 38.110.1.105, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
-  - {name: 美国-130.5KB/s, server: 34.219.80.203, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-  - {name: 美国-238.9KB/s, server: 38.110.1.105, port: 5498, type: ss, cipher: aes-256-gcm, password: lGqs95QkFHo2NV, udp: true}
+  - {name: 美国-2.71MB/s, server: 35.85.33.177, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+  - {name: 美国-25.2MB/s, server: 38.110.1.105, port: 8119, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
   - {name: 美国-3.06MB/s, server: 54.200.223.152, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+  - {name: 美国-2.01MB/s, server: 194.5.215.59, port: 8080, type: ss, cipher: rc4-md5, password: 14fFPrbezE3HDZzsMOr6, udp: true}
+  - {name: 美国-2.69MB/s, server: 35.92.45.179, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+  - {name: 韩国-1.34MB/s, server: 52.79.52.119, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+  - {name: 美国-130.5KB/s, server: 34.219.80.203, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+  - {name: 新加坡-1.24MB/s, server: 13.215.51.127, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+  - {name: 美国-238.9KB/s, server: 38.110.1.105, port: 5498, type: ss, cipher: aes-256-gcm, password: lGqs95QkFHo2NV, udp: true}
   - {name: 波兰-72.0MB/s, server: 217.30.10.18, port: 9014, type: ss, cipher: aes-256-cfb, password: KnJGad3FqTvjqbaX, udp: true}
+  - {name: 卡塔尔-2.73MB/s, server: 169.150.210.233, port: 8080, type: ss, cipher: rc4-md5, password: 14fFPrbezE3HDZzsMOr6, udp: true}
+  - {name: 美国-223.3KB/s, server: 38.110.1.105, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: 美国-279.4KB/s, server: 38.110.1.105, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
+  - {name: 美国-19.8MB/s, server: 38.110.1.105, port: 5601, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: 波兰-126.1KB/s, server: 217.30.10.18, port: 9041, type: ss, cipher: aes-256-cfb, password: U6qnYRhfyDmn8sgn, udp: true}
+  - {name: 波兰-106.8KB/s, server: 217.30.10.18, port: 9060, type: ss, cipher: aes-256-cfb, password: ueLXVkvh4hckhErQ, udp: true}
+  - {name: 英国-18.6MB/s, server: 172.99.190.50, port: 443, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 1, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: linkvws}, udp: true}
   - {name: 美国-5.07MB/s, server: 38.174.190.80, port: 38007, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /path/102206282005}, udp: true}
   - {name: 德国-4.54MB/s, server: 3.126.167.125, port: 22222, type: trojan, password: telegram-id-directvpn, sni: trojan.burgerip.co.uk, skip-cert-verify: true, udp: true}
 proxy-groups:
@@ -21,14 +31,24 @@ proxy-groups:
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 卡塔尔-2.73MB/s
-      - 波兰-106.8KB/s
       - 法国-141.8KB/s
-      - 美国-223.3KB/s
-      - 美国-130.5KB/s
-      - 美国-238.9KB/s
+      - 美国-2.71MB/s
+      - 美国-25.2MB/s
       - 美国-3.06MB/s
+      - 美国-2.01MB/s
+      - 美国-2.69MB/s
+      - 韩国-1.34MB/s
+      - 美国-130.5KB/s
+      - 新加坡-1.24MB/s
+      - 美国-238.9KB/s
       - 波兰-72.0MB/s
+      - 卡塔尔-2.73MB/s
+      - 美国-223.3KB/s
+      - 美国-279.4KB/s
+      - 美国-19.8MB/s
+      - 波兰-126.1KB/s
+      - 波兰-106.8KB/s
+      - 英国-18.6MB/s
       - 美国-5.07MB/s
       - 德国-4.54MB/s
   - name: ♻️ 自动选择
@@ -36,14 +56,24 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - 卡塔尔-2.73MB/s
-      - 波兰-106.8KB/s
       - 法国-141.8KB/s
-      - 美国-223.3KB/s
-      - 美国-130.5KB/s
-      - 美国-238.9KB/s
+      - 美国-2.71MB/s
+      - 美国-25.2MB/s
       - 美国-3.06MB/s
+      - 美国-2.01MB/s
+      - 美国-2.69MB/s
+      - 韩国-1.34MB/s
+      - 美国-130.5KB/s
+      - 新加坡-1.24MB/s
+      - 美国-238.9KB/s
       - 波兰-72.0MB/s
+      - 卡塔尔-2.73MB/s
+      - 美国-223.3KB/s
+      - 美国-279.4KB/s
+      - 美国-19.8MB/s
+      - 波兰-126.1KB/s
+      - 波兰-106.8KB/s
+      - 英国-18.6MB/s
       - 美国-5.07MB/s
       - 德国-4.54MB/s
   - name: 🎥 NETFLIX
@@ -52,14 +82,24 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 卡塔尔-2.73MB/s
-      - 波兰-106.8KB/s
       - 法国-141.8KB/s
-      - 美国-223.3KB/s
-      - 美国-130.5KB/s
-      - 美国-238.9KB/s
+      - 美国-2.71MB/s
+      - 美国-25.2MB/s
       - 美国-3.06MB/s
+      - 美国-2.01MB/s
+      - 美国-2.69MB/s
+      - 韩国-1.34MB/s
+      - 美国-130.5KB/s
+      - 新加坡-1.24MB/s
+      - 美国-238.9KB/s
       - 波兰-72.0MB/s
+      - 卡塔尔-2.73MB/s
+      - 美国-223.3KB/s
+      - 美国-279.4KB/s
+      - 美国-19.8MB/s
+      - 波兰-126.1KB/s
+      - 波兰-106.8KB/s
+      - 英国-18.6MB/s
       - 美国-5.07MB/s
       - 德国-4.54MB/s
   - name: ⛔️ 广告拦截
@@ -80,14 +120,24 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 卡塔尔-2.73MB/s
-      - 波兰-106.8KB/s
       - 法国-141.8KB/s
-      - 美国-223.3KB/s
-      - 美国-130.5KB/s
-      - 美国-238.9KB/s
+      - 美国-2.71MB/s
+      - 美国-25.2MB/s
       - 美国-3.06MB/s
+      - 美国-2.01MB/s
+      - 美国-2.69MB/s
+      - 韩国-1.34MB/s
+      - 美国-130.5KB/s
+      - 新加坡-1.24MB/s
+      - 美国-238.9KB/s
       - 波兰-72.0MB/s
+      - 卡塔尔-2.73MB/s
+      - 美国-223.3KB/s
+      - 美国-279.4KB/s
+      - 美国-19.8MB/s
+      - 波兰-126.1KB/s
+      - 波兰-106.8KB/s
+      - 英国-18.6MB/s
       - 美国-5.07MB/s
       - 德国-4.54MB/s
   - name: 🌏 国内媒体
@@ -100,14 +150,24 @@ proxy-groups:
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - 卡塔尔-2.73MB/s
-      - 波兰-106.8KB/s
       - 法国-141.8KB/s
-      - 美国-223.3KB/s
-      - 美国-130.5KB/s
-      - 美国-238.9KB/s
+      - 美国-2.71MB/s
+      - 美国-25.2MB/s
       - 美国-3.06MB/s
+      - 美国-2.01MB/s
+      - 美国-2.69MB/s
+      - 韩国-1.34MB/s
+      - 美国-130.5KB/s
+      - 新加坡-1.24MB/s
+      - 美国-238.9KB/s
       - 波兰-72.0MB/s
+      - 卡塔尔-2.73MB/s
+      - 美国-223.3KB/s
+      - 美国-279.4KB/s
+      - 美国-19.8MB/s
+      - 波兰-126.1KB/s
+      - 波兰-106.8KB/s
+      - 英国-18.6MB/s
       - 美国-5.07MB/s
       - 德国-4.54MB/s
   - name: 📲 电报信息
@@ -115,14 +175,24 @@ proxy-groups:
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - 卡塔尔-2.73MB/s
-      - 波兰-106.8KB/s
       - 法国-141.8KB/s
-      - 美国-223.3KB/s
-      - 美国-130.5KB/s
-      - 美国-238.9KB/s
+      - 美国-2.71MB/s
+      - 美国-25.2MB/s
       - 美国-3.06MB/s
+      - 美国-2.01MB/s
+      - 美国-2.69MB/s
+      - 韩国-1.34MB/s
+      - 美国-130.5KB/s
+      - 新加坡-1.24MB/s
+      - 美国-238.9KB/s
       - 波兰-72.0MB/s
+      - 卡塔尔-2.73MB/s
+      - 美国-223.3KB/s
+      - 美国-279.4KB/s
+      - 美国-19.8MB/s
+      - 波兰-126.1KB/s
+      - 波兰-106.8KB/s
+      - 英国-18.6MB/s
       - 美国-5.07MB/s
       - 德国-4.54MB/s
   - name: 🍎 苹果服务
@@ -131,14 +201,24 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 卡塔尔-2.73MB/s
-      - 波兰-106.8KB/s
       - 法国-141.8KB/s
-      - 美国-223.3KB/s
-      - 美国-130.5KB/s
-      - 美国-238.9KB/s
+      - 美国-2.71MB/s
+      - 美国-25.2MB/s
       - 美国-3.06MB/s
+      - 美国-2.01MB/s
+      - 美国-2.69MB/s
+      - 韩国-1.34MB/s
+      - 美国-130.5KB/s
+      - 新加坡-1.24MB/s
+      - 美国-238.9KB/s
       - 波兰-72.0MB/s
+      - 卡塔尔-2.73MB/s
+      - 美国-223.3KB/s
+      - 美国-279.4KB/s
+      - 美国-19.8MB/s
+      - 波兰-126.1KB/s
+      - 波兰-106.8KB/s
+      - 英国-18.6MB/s
       - 美国-5.07MB/s
       - 德国-4.54MB/s
   - name: 🎯 全球直连
@@ -156,14 +236,24 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 卡塔尔-2.73MB/s
-      - 波兰-106.8KB/s
       - 法国-141.8KB/s
-      - 美国-223.3KB/s
-      - 美国-130.5KB/s
-      - 美国-238.9KB/s
+      - 美国-2.71MB/s
+      - 美国-25.2MB/s
       - 美国-3.06MB/s
+      - 美国-2.01MB/s
+      - 美国-2.69MB/s
+      - 韩国-1.34MB/s
+      - 美国-130.5KB/s
+      - 新加坡-1.24MB/s
+      - 美国-238.9KB/s
       - 波兰-72.0MB/s
+      - 卡塔尔-2.73MB/s
+      - 美国-223.3KB/s
+      - 美国-279.4KB/s
+      - 美国-19.8MB/s
+      - 波兰-126.1KB/s
+      - 波兰-106.8KB/s
+      - 英国-18.6MB/s
       - 美国-5.07MB/s
       - 德国-4.54MB/s
 rules:
