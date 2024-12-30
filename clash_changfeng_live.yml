@@ -1,6 +1,6 @@
 # 生成地址：v2rayse.com
 # 模版名称：defaultName
-# 生成时间：2024-12-30 21:33:10
+# 生成时间：2024-12-31 05:27:42
 # 不要随意改变关键字，否则会导致出错
 # acl4SSR规则
 # 去广告：支持
@@ -58,91 +58,143 @@ tun:
     - 1.1.1.1
     - 1.0.0.1
 proxies:
-  - name: 🇳🇱_NL_荷兰->🇺🇸_US_美国_1
-    port: 52221
-    server: 145.223.100.85
+  - name: 🇺🇸_US_美国_1
+    port: 6679
+    server: 38.110.1.46
     type: ss
     udp: true
-    password: idJTwZjM2vUUqCyRdvBsII
-    cipher: chacha20-ietf-poly1305
-  - name: 🇺🇸_US_美国_2
-    port: 22222
-    server: 13.43.233.119
-    type: trojan
-    udp: true
-    sni: trojan.burgerip.co.uk
-    password: telegram-id-privatevpns
-  - name: 🇳🇱_NL_荷兰->🇺🇸_US_美国_2
-    port: 52221
-    server: 145.223.100.85
+    password: TEzjfAYq2IjtuoS
+    cipher: aes-256-gcm
+  - name: 🇷🇺_RU_俄罗斯_1
+    port: 9045
+    server: 217.30.10.18
     type: ss
     udp: true
-    password: idJTwZjM2vUUqCyRdvBsII
-    cipher: chacha20-ietf-poly1305
+    password: Lp27rqyJq72bZsqX
+    cipher: aes-256-cfb
+  - name: 🇷🇺_RU_俄罗斯_2
+    port: 23456
+    server: 185.22.155.228
+    type: ss
+    udp: true
+    password: dongtaiwang.com
+    cipher: aes-256-gcm
+  - name: 🇧🇬_BG_保加利亚->🇨🇳_CN_中国
+    port: 443
+    server: 149.34.244.68
+    type: ss
+    udp: true
+    password: shadowsocks
+    cipher: aes-128-gcm
+  - name: 🇺🇸_US_美国_3
+    port: 2376
+    server: 38.110.1.46
+    type: ss
+    udp: true
+    password: faBAoD54k87UJG7
+    cipher: aes-256-gcm
   - name: 🇺🇸_US_美国_4
-    port: 8080
-    server: 169.150.210.233
+    port: 443
+    server: 34.222.132.123
     type: ss
     udp: true
-    password: 14fFPrbezE3HDZzsMOr6
-    cipher: rc4-md5
+    password: amazonskr05
+    cipher: aes-256-cfb
+  - name: 🇺🇸_US_美国_6
+    port: 5500
+    server: 38.110.1.46
+    type: ss
+    udp: true
+    password: KixLvKzwjekG00rm
+    cipher: aes-256-gcm
+  - name: 🇺🇸_US_美国_7
+    port: 8080
+    server: 38.110.1.46
+    type: ss
+    udp: true
+    password: KixLvKzwjekG00rm
+    cipher: aes-256-gcm
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - 🇳🇱_NL_荷兰->🇺🇸_US_美国_1
-      - 🇺🇸_US_美国_2
-      - 🇳🇱_NL_荷兰->🇺🇸_US_美国_2
+      - 🇺🇸_US_美国_1
+      - 🇷🇺_RU_俄罗斯_1
+      - 🇷🇺_RU_俄罗斯_2
+      - 🇧🇬_BG_保加利亚->🇨🇳_CN_中国
+      - 🇺🇸_US_美国_3
       - 🇺🇸_US_美国_4
+      - 🇺🇸_US_美国_6
+      - 🇺🇸_US_美国_7
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - 🇳🇱_NL_荷兰->🇺🇸_US_美国_1
-      - 🇺🇸_US_美国_2
-      - 🇳🇱_NL_荷兰->🇺🇸_US_美国_2
+      - 🇺🇸_US_美国_1
+      - 🇷🇺_RU_俄罗斯_1
+      - 🇷🇺_RU_俄罗斯_2
+      - 🇧🇬_BG_保加利亚->🇨🇳_CN_中国
+      - 🇺🇸_US_美国_3
       - 🇺🇸_US_美国_4
+      - 🇺🇸_US_美国_6
+      - 🇺🇸_US_美国_7
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇳🇱_NL_荷兰->🇺🇸_US_美国_1
-      - 🇺🇸_US_美国_2
-      - 🇳🇱_NL_荷兰->🇺🇸_US_美国_2
+      - 🇺🇸_US_美国_1
+      - 🇷🇺_RU_俄罗斯_1
+      - 🇷🇺_RU_俄罗斯_2
+      - 🇧🇬_BG_保加利亚->🇨🇳_CN_中国
+      - 🇺🇸_US_美国_3
       - 🇺🇸_US_美国_4
+      - 🇺🇸_US_美国_6
+      - 🇺🇸_US_美国_7
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 🇳🇱_NL_荷兰->🇺🇸_US_美国_1
-      - 🇺🇸_US_美国_2
-      - 🇳🇱_NL_荷兰->🇺🇸_US_美国_2
+      - 🇺🇸_US_美国_1
+      - 🇷🇺_RU_俄罗斯_1
+      - 🇷🇺_RU_俄罗斯_2
+      - 🇧🇬_BG_保加利亚->🇨🇳_CN_中国
+      - 🇺🇸_US_美国_3
       - 🇺🇸_US_美国_4
+      - 🇺🇸_US_美国_6
+      - 🇺🇸_US_美国_7
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - 🇳🇱_NL_荷兰->🇺🇸_US_美国_1
-      - 🇺🇸_US_美国_2
-      - 🇳🇱_NL_荷兰->🇺🇸_US_美国_2
+      - 🇺🇸_US_美国_1
+      - 🇷🇺_RU_俄罗斯_1
+      - 🇷🇺_RU_俄罗斯_2
+      - 🇧🇬_BG_保加利亚->🇨🇳_CN_中国
+      - 🇺🇸_US_美国_3
       - 🇺🇸_US_美国_4
+      - 🇺🇸_US_美国_6
+      - 🇺🇸_US_美国_7
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 🇳🇱_NL_荷兰->🇺🇸_US_美国_1
-      - 🇺🇸_US_美国_2
-      - 🇳🇱_NL_荷兰->🇺🇸_US_美国_2
+      - 🇺🇸_US_美国_1
+      - 🇷🇺_RU_俄罗斯_1
+      - 🇷🇺_RU_俄罗斯_2
+      - 🇧🇬_BG_保加利亚->🇨🇳_CN_中国
+      - 🇺🇸_US_美国_3
       - 🇺🇸_US_美国_4
+      - 🇺🇸_US_美国_6
+      - 🇺🇸_US_美国_7
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -165,10 +217,14 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇳🇱_NL_荷兰->🇺🇸_US_美国_1
-      - 🇺🇸_US_美国_2
-      - 🇳🇱_NL_荷兰->🇺🇸_US_美国_2
+      - 🇺🇸_US_美国_1
+      - 🇷🇺_RU_俄罗斯_1
+      - 🇷🇺_RU_俄罗斯_2
+      - 🇧🇬_BG_保加利亚->🇨🇳_CN_中国
+      - 🇺🇸_US_美国_3
       - 🇺🇸_US_美国_4
+      - 🇺🇸_US_美国_6
+      - 🇺🇸_US_美国_7
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
   - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
