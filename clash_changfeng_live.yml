@@ -1,6 +1,6 @@
 # 生成地址：v2rayse.com
 # 模版名称：defaultName
-# 生成时间：2024-12-30 05:26:41
+# 生成时间：2024-12-30 15:30:10
 # 不要随意改变关键字，否则会导致出错
 # acl4SSR规则
 # 去广告：支持
@@ -59,26 +59,19 @@ tun:
     - 1.0.0.1
 proxies:
   - name: 🇷🇺_RU_俄罗斯_1
-    port: 9020
+    port: 9031
     server: 217.30.10.18
     type: ss
     udp: true
-    password: BNmAXXxAHYpTRdzu
+    password: BwcAUZk8hUFAkDGN
     cipher: aes-256-cfb
-  - name: 🇬🇧_GB_英国->🇺🇸_US_美国
-    port: 20760
-    server: 51.13.35.115
+  - name: 🇷🇺_RU_俄罗斯_3
+    port: 9079
+    server: 217.30.10.18
     type: ss
     udp: true
-    password: SK8DG4IJFnDwuhy35hOWUj
-    cipher: chacha20-ietf-poly1305
-  - name: 🇦🇱_AL_阿尔巴尼亚
-    port: 5555
-    server: 109.104.154.4
-    type: ss
-    udp: true
-    password: 2kZMZNoI2sgKPb6C-9IQ8w
-    cipher: chacha20-ietf-poly1305
+    password: TPqX8edgbAURcAMb
+    cipher: aes-256-cfb
 proxy-groups:
   - name: 🚀 节点选择
     type: select
@@ -86,8 +79,7 @@ proxy-groups:
       - ♻️ 自动选择
       - DIRECT
       - 🇷🇺_RU_俄罗斯_1
-      - 🇬🇧_GB_英国->🇺🇸_US_美国
-      - 🇦🇱_AL_阿尔巴尼亚
+      - 🇷🇺_RU_俄罗斯_3
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -95,8 +87,7 @@ proxy-groups:
     tolerance: 50
     proxies:
       - 🇷🇺_RU_俄罗斯_1
-      - 🇬🇧_GB_英国->🇺🇸_US_美国
-      - 🇦🇱_AL_阿尔巴尼亚
+      - 🇷🇺_RU_俄罗斯_3
   - name: 🌍 国外媒体
     type: select
     proxies:
@@ -104,32 +95,28 @@ proxy-groups:
       - ♻️ 自动选择
       - 🎯 全球直连
       - 🇷🇺_RU_俄罗斯_1
-      - 🇬🇧_GB_英国->🇺🇸_US_美国
-      - 🇦🇱_AL_阿尔巴尼亚
+      - 🇷🇺_RU_俄罗斯_3
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
       - 🇷🇺_RU_俄罗斯_1
-      - 🇬🇧_GB_英国->🇺🇸_US_美国
-      - 🇦🇱_AL_阿尔巴尼亚
+      - 🇷🇺_RU_俄罗斯_3
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
       - 🇷🇺_RU_俄罗斯_1
-      - 🇬🇧_GB_英国->🇺🇸_US_美国
-      - 🇦🇱_AL_阿尔巴尼亚
+      - 🇷🇺_RU_俄罗斯_3
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
       - 🇷🇺_RU_俄罗斯_1
-      - 🇬🇧_GB_英国->🇺🇸_US_美国
-      - 🇦🇱_AL_阿尔巴尼亚
+      - 🇷🇺_RU_俄罗斯_3
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -153,8 +140,7 @@ proxy-groups:
       - 🎯 全球直连
       - ♻️ 自动选择
       - 🇷🇺_RU_俄罗斯_1
-      - 🇬🇧_GB_英国->🇺🇸_US_美国
-      - 🇦🇱_AL_阿尔巴尼亚
+      - 🇷🇺_RU_俄罗斯_3
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
   - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
