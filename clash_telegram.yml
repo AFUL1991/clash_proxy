@@ -5,63 +5,103 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: 中转节点-4.53MB/s, server: console.02.aliyun.aq.kunlunaqs.com, port: 45938, type: ss, cipher: aes-128-gcm, password: 3938bfae997974860251, plugin: obfs, plugin-opts: {mode: http, host: 215996dd9f1c3db1e54b.microsoft.com}, udp: true}
-  - {name: 挪威-77.6MB/s, server: 51.13.35.115, port: 20760, type: ss, cipher: chacha20-ietf-poly1305, password: SK8DG4IJFnDwuhy35hOWUj, udp: true}
+  - {name: 美国-2.42MB/s, server: series-a2-mec.varzesh360.co, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: u17T3BvpYaaiuW2c, udp: true}
+  - {name: 荷兰-5.4MB/s, server: 208.67.105.87, port: 42501, type: ss, cipher: chacha20-ietf-poly1305, password: nq96KftrZAj3LuFQESqmn44Mo5oCuo2cipoEsae25mrmHG2oJ4VT37scBfVBpN5DWtUELZutVhhXs8Le5B8fZ9hLn9ytwvbf, udp: true}
   - {name: 新加坡-98.5MB/s, server: 13.250.115.217, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+  - {name: 挪威-77.6MB/s, server: 51.13.35.115, port: 20760, type: ss, cipher: chacha20-ietf-poly1305, password: SK8DG4IJFnDwuhy35hOWUj, udp: true}
+  - {name: 立陶宛-93.2MB/s, server: 45.87.175.157, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: 4a2rfixophdjffa8KVA4Aa, udp: true}
   - {name: 卢森堡-181.7KB/s, server: 109.104.154.4, port: 5555, type: ss, cipher: chacha20-ietf-poly1305, password: 2kZMZNoI2sgKPb6C-9IQ8w, udp: true}
-  - {name: 美国-2.82MB/s, server: 52.89.164.115, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+  - {name: 立陶宛-65.8MB/s, server: 45.87.175.157, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: cvII85TrW6n0OGyfpHVS1u, udp: true}
+  - {name: 美国-3.08MB/s, server: admin.c2.havij.co, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: AG9OLKmqMAiDm3Zh, udp: true}
   - {name: 新加坡-108.8KB/s, server: 54.179.186.199, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-  - {name: 美国-4.05MB/s, server: 38.75.137.21, port: 443, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /linkvws}, udp: true}
+  - {name: 中转节点-4.53MB/s, server: console.02.aliyun.aq.kunlunaqs.com, port: 45938, type: ss, cipher: aes-128-gcm, password: 3938bfae997974860251, plugin: obfs, plugin-opts: {mode: http, host: 215996dd9f1c3db1e54b.microsoft.com}, udp: true}
+  - {name: 台湾-401.3KB/s, server: tw.ssrxray.click, port: 36918, type: ss, cipher: aes-256-gcm, password: uoXctIQ4L89ykUZwn17Pn3CzNDNcZSRabCgN5hyNV7JQ, udp: true}
+  - {name: 美国-2.82MB/s, server: 52.89.164.115, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+  - {name: 荷兰-124.2KB/s, server: 149.34.244.68, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, udp: true}
+  - {name: 美国-583.3KB/s, server: 198.2.218.100, port: 41400, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 法国-2.47MB/s, server: 163.5.159.231, port: 443, type: vmess, uuid: e537f2f5-2a0c-4f59-92c9-832ca6433bf3, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /linkws, headers: {Host: irvideo.cfd}}, udp: true}
-  - {name: 美国-90.3MB/s, server: 63.177.131.100, port: 22222, type: trojan, password: telegram-id-directvpn, sni: trojan.burgerip.co.uk, skip-cert-verify: true, udp: true}
+  - {name: 美国-4.05MB/s, server: 38.75.137.21, port: 443, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /linkvws}, udp: true}
+  - {name: 美国-349.8KB/s, server: 151.101.194.133, port: 443, type: vmess, uuid: 545485da-9ff4-48c5-ae94-45e6e4ee7d26, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /racevpn, headers: {Host: 6606.com}}, udp: true}
+  - {name: 马来西亚-69.9MB/s, server: 154.83.88.106, port: 8888, type: vmess, uuid: 63ab66f1-4d71-424e-8f2d-f4fb90fc92a2, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 台湾-105.6KB/s, server: 1.170.227.135, port: 30337, type: trojan, password: 1a668915-d98f-4440-8bac-2c51d508f811, sni: ddns.200566.xyz, skip-cert-verify: true, udp: true}
+  - {name: 美国-90.3MB/s, server: 63.177.131.100, port: 22222, type: trojan, password: telegram-id-directvpn, sni: trojan.burgerip.co.uk, skip-cert-verify: true, udp: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 中转节点-4.53MB/s
-      - 挪威-77.6MB/s
+      - 美国-2.42MB/s
+      - 荷兰-5.4MB/s
       - 新加坡-98.5MB/s
+      - 挪威-77.6MB/s
+      - 立陶宛-93.2MB/s
       - 卢森堡-181.7KB/s
-      - 美国-2.82MB/s
+      - 立陶宛-65.8MB/s
+      - 美国-3.08MB/s
       - 新加坡-108.8KB/s
-      - 美国-4.05MB/s
+      - 中转节点-4.53MB/s
+      - 台湾-401.3KB/s
+      - 美国-2.82MB/s
+      - 荷兰-124.2KB/s
+      - 美国-583.3KB/s
       - 法国-2.47MB/s
-      - 美国-90.3MB/s
+      - 美国-4.05MB/s
+      - 美国-349.8KB/s
+      - 马来西亚-69.9MB/s
       - 台湾-105.6KB/s
+      - 美国-90.3MB/s
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - 中转节点-4.53MB/s
-      - 挪威-77.6MB/s
+      - 美国-2.42MB/s
+      - 荷兰-5.4MB/s
       - 新加坡-98.5MB/s
+      - 挪威-77.6MB/s
+      - 立陶宛-93.2MB/s
       - 卢森堡-181.7KB/s
-      - 美国-2.82MB/s
+      - 立陶宛-65.8MB/s
+      - 美国-3.08MB/s
       - 新加坡-108.8KB/s
-      - 美国-4.05MB/s
+      - 中转节点-4.53MB/s
+      - 台湾-401.3KB/s
+      - 美国-2.82MB/s
+      - 荷兰-124.2KB/s
+      - 美国-583.3KB/s
       - 法国-2.47MB/s
-      - 美国-90.3MB/s
+      - 美国-4.05MB/s
+      - 美国-349.8KB/s
+      - 马来西亚-69.9MB/s
       - 台湾-105.6KB/s
+      - 美国-90.3MB/s
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 中转节点-4.53MB/s
-      - 挪威-77.6MB/s
+      - 美国-2.42MB/s
+      - 荷兰-5.4MB/s
       - 新加坡-98.5MB/s
+      - 挪威-77.6MB/s
+      - 立陶宛-93.2MB/s
       - 卢森堡-181.7KB/s
-      - 美国-2.82MB/s
+      - 立陶宛-65.8MB/s
+      - 美国-3.08MB/s
       - 新加坡-108.8KB/s
-      - 美国-4.05MB/s
+      - 中转节点-4.53MB/s
+      - 台湾-401.3KB/s
+      - 美国-2.82MB/s
+      - 荷兰-124.2KB/s
+      - 美国-583.3KB/s
       - 法国-2.47MB/s
-      - 美国-90.3MB/s
+      - 美国-4.05MB/s
+      - 美国-349.8KB/s
+      - 马来西亚-69.9MB/s
       - 台湾-105.6KB/s
+      - 美国-90.3MB/s
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -80,20 +120,31 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 中转节点-4.53MB/s
-      - 挪威-77.6MB/s
+      - 美国-2.42MB/s
+      - 荷兰-5.4MB/s
       - 新加坡-98.5MB/s
+      - 挪威-77.6MB/s
+      - 立陶宛-93.2MB/s
       - 卢森堡-181.7KB/s
-      - 美国-2.82MB/s
+      - 立陶宛-65.8MB/s
+      - 美国-3.08MB/s
       - 新加坡-108.8KB/s
-      - 美国-4.05MB/s
+      - 中转节点-4.53MB/s
+      - 台湾-401.3KB/s
+      - 美国-2.82MB/s
+      - 荷兰-124.2KB/s
+      - 美国-583.3KB/s
       - 法国-2.47MB/s
-      - 美国-90.3MB/s
+      - 美国-4.05MB/s
+      - 美国-349.8KB/s
+      - 马来西亚-69.9MB/s
       - 台湾-105.6KB/s
+      - 美国-90.3MB/s
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
+      - 台湾-401.3KB/s
       - 台湾-105.6KB/s
       - 🔰 节点选择
   - name: Ⓜ️ 微软服务
@@ -101,47 +152,77 @@ proxy-groups:
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - 中转节点-4.53MB/s
-      - 挪威-77.6MB/s
+      - 美国-2.42MB/s
+      - 荷兰-5.4MB/s
       - 新加坡-98.5MB/s
+      - 挪威-77.6MB/s
+      - 立陶宛-93.2MB/s
       - 卢森堡-181.7KB/s
-      - 美国-2.82MB/s
+      - 立陶宛-65.8MB/s
+      - 美国-3.08MB/s
       - 新加坡-108.8KB/s
-      - 美国-4.05MB/s
+      - 中转节点-4.53MB/s
+      - 台湾-401.3KB/s
+      - 美国-2.82MB/s
+      - 荷兰-124.2KB/s
+      - 美国-583.3KB/s
       - 法国-2.47MB/s
-      - 美国-90.3MB/s
+      - 美国-4.05MB/s
+      - 美国-349.8KB/s
+      - 马来西亚-69.9MB/s
       - 台湾-105.6KB/s
+      - 美国-90.3MB/s
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - 中转节点-4.53MB/s
-      - 挪威-77.6MB/s
+      - 美国-2.42MB/s
+      - 荷兰-5.4MB/s
       - 新加坡-98.5MB/s
+      - 挪威-77.6MB/s
+      - 立陶宛-93.2MB/s
       - 卢森堡-181.7KB/s
-      - 美国-2.82MB/s
+      - 立陶宛-65.8MB/s
+      - 美国-3.08MB/s
       - 新加坡-108.8KB/s
-      - 美国-4.05MB/s
+      - 中转节点-4.53MB/s
+      - 台湾-401.3KB/s
+      - 美国-2.82MB/s
+      - 荷兰-124.2KB/s
+      - 美国-583.3KB/s
       - 法国-2.47MB/s
-      - 美国-90.3MB/s
+      - 美国-4.05MB/s
+      - 美国-349.8KB/s
+      - 马来西亚-69.9MB/s
       - 台湾-105.6KB/s
+      - 美国-90.3MB/s
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 中转节点-4.53MB/s
-      - 挪威-77.6MB/s
+      - 美国-2.42MB/s
+      - 荷兰-5.4MB/s
       - 新加坡-98.5MB/s
+      - 挪威-77.6MB/s
+      - 立陶宛-93.2MB/s
       - 卢森堡-181.7KB/s
-      - 美国-2.82MB/s
+      - 立陶宛-65.8MB/s
+      - 美国-3.08MB/s
       - 新加坡-108.8KB/s
-      - 美国-4.05MB/s
+      - 中转节点-4.53MB/s
+      - 台湾-401.3KB/s
+      - 美国-2.82MB/s
+      - 荷兰-124.2KB/s
+      - 美国-583.3KB/s
       - 法国-2.47MB/s
-      - 美国-90.3MB/s
+      - 美国-4.05MB/s
+      - 美国-349.8KB/s
+      - 马来西亚-69.9MB/s
       - 台湾-105.6KB/s
+      - 美国-90.3MB/s
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -157,16 +238,26 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 中转节点-4.53MB/s
-      - 挪威-77.6MB/s
+      - 美国-2.42MB/s
+      - 荷兰-5.4MB/s
       - 新加坡-98.5MB/s
+      - 挪威-77.6MB/s
+      - 立陶宛-93.2MB/s
       - 卢森堡-181.7KB/s
-      - 美国-2.82MB/s
+      - 立陶宛-65.8MB/s
+      - 美国-3.08MB/s
       - 新加坡-108.8KB/s
-      - 美国-4.05MB/s
+      - 中转节点-4.53MB/s
+      - 台湾-401.3KB/s
+      - 美国-2.82MB/s
+      - 荷兰-124.2KB/s
+      - 美国-583.3KB/s
       - 法国-2.47MB/s
-      - 美国-90.3MB/s
+      - 美国-4.05MB/s
+      - 美国-349.8KB/s
+      - 马来西亚-69.9MB/s
       - 台湾-105.6KB/s
+      - 美国-90.3MB/s
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
