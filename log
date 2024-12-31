@@ -1,11 +1,11 @@
----------- [2024-12-31 15:16:48] 更新订阅 ----------
----------- 2024-12-31 15:16:48 ----------
+---------- [2024-12-31 21:22:13] 更新订阅 ----------
+---------- 2024-12-31 21:22:13 ----------
 [长风分享]:
 /home/runner/work/auto_jobs/proxy/clash_cfmem.yml
 /home/runner/work/auto_jobs/proxy/v2ray_cfmem.txt
-[长风分享]: 订阅成功 https://fs.v2rayse.com/share/20241231/rqbnkcip0l.yaml
+[长风分享]: 订阅失败, https://fs.v2rayse.com/share/20241231/rqbnkcip0l.yaml
 [长风分享]: 订阅成功 https://fs.v2rayse.com/share/20241231/ykgpofa51g.txt
----------- 2024-12-31 15:16:49 ----------
+---------- 2024-12-31 21:25:00 ----------
 [freev2]: /home/runner/work/auto_jobs/subscribe/freev2.py
 [freev2]: 当前工作目录：/home/runner/work/auto_jobs/proxy/clash_freev2.yml
 [freev2]: 订阅成功, https://raw.githubusercontent.com/freefq/free/master/v2
@@ -43,7 +43,7 @@ User(
 	phone='436789040144717',
 	photo=None,
 	status=UserStatusOffline(
-		was_online=datetime.datetime(2024, 12, 31, 7, 15, 40, tzinfo=datetime.timezone.utc)
+		was_online=datetime.datetime(2024, 12, 31, 8, 44, 40, tzinfo=datetime.timezone.utc)
 	),
 	bot_info_version=None,
 	restriction_reason=[
@@ -62,26 +62,26 @@ Name: 长风分享频道, ID: -1001516635885
 Name: 口交💋专辑, ID: -1001420871010
 Name: 免费节点自动分享, ID: 2096213628
 Name: TG代理VPN技术分享, ID: -1001670133389
-Name: 吃瓜群众🍉, ID: -1001786596225
-Name: 阿里云盘资源搜索, ID: -1001598490288
-Name: 极搜, ID: -1001888813717
-Name: 极搜-中文搜索（复活版） 中文 搜索, ID: -1001607161451
-Name: 长风分享群组, ID: -1001802101728
-Name: 老毛子Padavan固件自助交流群, ID: -1001148540997
-Name: 🎬 阿里云盘交流群 💾, ID: -1001589118734
-Name: 🎬 云盘盘 - 阿里云盘投稿🚦, ID: -1001198853752
-Name: 🎬 阿里云盘资源 🆙 🚦, ID: -1001520702906
-Name: 超级搜索引擎, ID: -1001760236395
-Name: 吃瓜少女, ID: -1001232928936
-Name: 优哥跨境交流群, ID: -1001861402973
+Name: 吃瓜🍉搜 @achiguao, ID: -1001569868197
 Name: 【李老师不是你老师】官方电报, ID: -1002155057858
-Name: 吃瓜笑料, ID: -1002122890847
+Name: 极搜-中文搜索（复活版） 中文 搜索, ID: -1001607161451
+Name: 吃瓜🍉群众, ID: -1001905442401
+Name: 阿里云盘资源搜索, ID: -1001598490288
+Name: 老毛子Padavan固件自助交流群, ID: -1001148540997
+Name: 极搜, ID: -1001888813717
+Name: 🎬 阿里云盘交流群 💾, ID: -1001589118734
+Name: 🎬 阿里云盘资源 🆙 🚦, ID: -1001520702906
+Name: 🎬 云盘盘 - 阿里云盘投稿🚦, ID: -1001198853752
+Name: 吃瓜群众🍉, ID: -1001786596225
+Name: 超级搜索引擎, ID: -1001760236395
+Name: 长风分享群组, ID: -1001802101728
 Name: 吃瓜中心, ID: -1001638488383
+Name: 吃瓜少女, ID: -1001232928936
+Name: 吃瓜笑料, ID: -1002122890847
+Name: 优哥跨境交流群, ID: -1001861402973
 Name: 一手资源-晴天（资金来往请语音）, ID: 8110295237
 Name: Github_2dust, ID: -1001628493435
 Name: 三无 产品, ID: 1418710717
-Name: 吃瓜🍉搜 @achiguao, ID: -1001569868197
-Name: 吃瓜🍉群众, ID: -1001905442401
 Name: 自选基金助手群组, ID: -1001389480278
 Name: 反差母狗🍑自拍, ID: -1001173218900
 Name: 科技爱好者周刊, ID: -1001191802783
@@ -124,32 +124,30 @@ Name: 吃瓜新闻, ID: -1001252816724
 Name: 1lib, ID: 1788460589
 Name: 摆烂社工bot频道, ID: -1001788223313
 免费节点自动分享: 
-12812 /get
-12805 节点更新时间：04:54:20
+12815 /get
+12814 节点更新时间：14:54:20
 每30分钟更新10个节点
-12804 ss://YWVzLTI1Ni1jZmI6THAyN3JxeUpxNzJiWnNxWA@217.30.10.18:9045#%E6%B3%A2%E5%85%B0-212.0KB%2Fs
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNToyVXJTZmZlTkFCWEdYWGZOaG9MNnhCVW5oMVJ6cU1penJRMnM5UWZDMzhQMllQdVlQUlRxVzV6Wmc2akdpc2lOaGt6TTRTUmpGNm56dkZiMThHUHRFU1dvWFdqaHF5Qzg@198.105.123.190:46902#%E8%8D%B7%E5%85%B0-24.1MB%2Fs
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpMTElubVVCcnhNZ0VuODVZNnZWamVI@185.172.129.91:56220#%E7%BE%8E%E5%9B%BD-342.1KB%2Fs
-ss://YWVzLTI1Ni1jZmI6YW1hem9uc2tyMDU@13.215.250.79:443#%E6%96%B0%E5%8A%A0%E5%9D%A1-170.4KB%2Fs
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNToya1pNWk5vSTJzZ0tQYjZDLTlJUTh3@109.104.154.4:5555#%E5%8D%A2%E6%A3%AE%E5%A0%A1-1.34MB%2Fs
-trojan://telegram-id-privatevpns@13.53.250.56:22222?allowInsecure=1&sni=trojan.burgerip.co.uk#%E7%91%9E%E5%85%B8-183.3KB%2Fs
-ss://YWVzLTI1Ni1nY206Y2RCSURWNDJEQ3duZklO@38.110.1.105:8119#%E7%BE%8E%E5%9B%BD-1.07MB%2Fs
-ss://YWVzLTI1Ni1jZmI6R0E5S3plRWd2ZnhOcmdtTQ@217.30.10.18:9019#%E6%B3%A2%E5%85%B0-151.6KB%2Fs
-trojan://lidnBTGb@36.150.215.196:42395?allowInsecure=1#%E4%B8%AD%E8%BD%AC%E8%8A%82%E7%82%B9-189.9KB%2Fs
-ss://YWVzLTI1Ni1jZmI6dWVMWFZrdmg0aGNraEVyUQ@217.30.10.18:9060#%E6%B3%A2%E5%85%B0-149.2KB%2Fs
-ss://YWVzLTI1Ni1jZmI6THAyN3JxeUpxNzJiWnNxWA@217.30.10.18:9045#%E6%B3%A2%E5%85%B0-212.0KB%2Fs
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNToyVXJTZmZlTkFCWEdYWGZOaG9MNnhCVW5oMVJ6cU1penJRMnM5UWZDMzhQMllQdVlQUlRxVzV6Wmc2akdpc2lOaGt6TTRTUmpGNm56dkZiMThHUHRFU1dvWFdqaHF5Qzg@198.105.123.190:46902#%E8%8D%B7%E5%85%B0-24.1MB%2Fs
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpMTElubVVCcnhNZ0VuODVZNnZWamVI@185.172.129.91:56220#%E7%BE%8E%E5%9B%BD-342.1KB%2Fs
-ss://YWVzLTI1Ni1jZmI6YW1hem9uc2tyMDU@13.215.250.79:443#%E6%96%B0%E5%8A%A0%E5%9D%A1-170.4KB%2Fs
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNToya1pNWk5vSTJzZ0tQYjZDLTlJUTh3@109.104.154.4:5555#%E5%8D%A2%E6%A3%AE%E5%A0%A1-1.34MB%2Fs
-trojan://telegram-id-privatevpns@13.53.250.56:22222?allowInsecure=1&sni=trojan.burgerip.co.uk#%E7%91%9E%E5%85%B8-183.3KB%2Fs
-ss://YWVzLTI1Ni1nY206Y2RCSURWNDJEQ3duZklO@38.110.1.105:8119#%E7%BE%8E%E5%9B%BD-1.07MB%2Fs
-ss://YWVzLTI1Ni1jZmI6R0E5S3plRWd2ZnhOcmdtTQ@217.30.10.18:9019#%E6%B3%A2%E5%85%B0-151.6KB%2Fs
-trojan://lidnBTGb@36.150.215.196:42395?allowInsecure=1#%E4%B8%AD%E8%BD%AC%E8%8A%82%E7%82%B9-189.9KB%2Fs
-ss://YWVzLTI1Ni1jZmI6dWVMWFZrdmg0aGNraEVyUQ@217.30.10.18:9060#%E6%B3%A2%E5%85%B0-149.2KB%2Fs
+12813 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpTSzhERzRJSkZuRHd1aHkzNWhPV1Vq@51.13.35.115:20760#%E6%8C%AA%E5%A8%81-77.6MB%2Fs
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNToya1pNWk5vSTJzZ0tQYjZDLTlJUTh3@109.104.154.4:5555#%E5%8D%A2%E6%A3%AE%E5%A0%A1-181.7KB%2Fs
+ss://YWVzLTEyOC1nY206MzkzOGJmYWU5OTc5NzQ4NjAyNTE@console.02.aliyun.aq.kunlunaqs.com:45938/?plugin=obfs-local%3Bobfs%3Dhttp%3Bobfs-host%3D215996dd9f1c3db1e54b.microsoft.com#%E4%B8%AD%E8%BD%AC%E8%8A%82%E7%82%B9-4.53MB%2Fs
+trojan://1a668915-d98f-4440-8bac-2c51d508f811@1.170.227.135:30337?allowInsecure=1&sni=ddns.200566.xyz#%E5%8F%B0%E6%B9%BE-105.6KB%2Fs
+vmess://eyJ2IjoiMiIsInBzIjoi576O5Zu9LTQuMDVNQi9zIiwiYWRkIjoiMzguNzUuMTM3LjIxIiwicG9ydCI6IjQ0MyIsInR5cGUiOiJub25lIiwiaWQiOiIwM2ZjYzYxOC1iOTNkLTY3OTYtNmFlZC04YTM4Yzk3NWQ1ODEiLCJhaWQiOiIwIiwibmV0Ijoid3MiLCJwYXRoIjoiL2xpbmt2d3MiLCJob3N0IjoiIiwidGxzIjoidGxzIn0=
+ss://YWVzLTI1Ni1jZmI6YW1hem9uc2tyMDU@13.250.115.217:443#%E6%96%B0%E5%8A%A0%E5%9D%A1-98.5MB%2Fs
+ss://YWVzLTI1Ni1jZmI6YW1hem9uc2tyMDU@54.179.186.199:443#%E6%96%B0%E5%8A%A0%E5%9D%A1-108.8KB%2Fs
+ss://YWVzLTI1Ni1jZmI6YW1hem9uc2tyMDU@52.89.164.115:443#%E7%BE%8E%E5%9B%BD-2.82MB%2Fs
+vmess://eyJ2IjoiMiIsInBzIjoi5rOV5Zu9LTIuNDdNQi9zIiwiYWRkIjoiMTYzLjUuMTU5LjIzMSIsInBvcnQiOiI0NDMiLCJ0eXBlIjoibm9uZSIsImlkIjoiZTUzN2YyZjUtMmEwYy00ZjU5LTkyYzktODMyY2E2NDMzYmYzIiwiYWlkIjoiMCIsIm5ldCI6IndzIiwicGF0aCI6Ii9saW5rd3MiLCJob3N0IjoiaXJ2aWRlby5jZmQiLCJ0bHMiOiJ0bHMifQ==
+trojan://telegram-id-directvpn@63.177.131.100:22222?allowInsecure=1&sni=trojan.burgerip.co.uk#%E7%BE%8E%E5%9B%BD-90.3MB%2Fs
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpTSzhERzRJSkZuRHd1aHkzNWhPV1Vq@51.13.35.115:20760#%E6%8C%AA%E5%A8%81-77.6MB%2Fs
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNToya1pNWk5vSTJzZ0tQYjZDLTlJUTh3@109.104.154.4:5555#%E5%8D%A2%E6%A3%AE%E5%A0%A1-181.7KB%2Fs
+ss://YWVzLTEyOC1nY206MzkzOGJmYWU5OTc5NzQ4NjAyNTE@console.02.aliyun.aq.kunlunaqs.com:45938/?plugin=obfs-local%3Bobfs%3Dhttp%3Bobfs-host%3D215996dd9f1c3db1e54b.microsoft.com#%E4%B8%AD%E8%BD%AC%E8%8A%82%E7%82%B9-4.53MB%2Fs
+trojan://1a668915-d98f-4440-8bac-2c51d508f811@1.170.227.135:30337?allowInsecure=1&sni=ddns.200566.xyz#%E5%8F%B0%E6%B9%BE-105.6KB%2Fs
+vmess://eyJ2IjoiMiIsInBzIjoi576O5Zu9LTQuMDVNQi9zIiwiYWRkIjoiMzguNzUuMTM3LjIxIiwicG9ydCI6IjQ0MyIsInR5cGUiOiJub25lIiwiaWQiOiIwM2ZjYzYxOC1iOTNkLTY3OTYtNmFlZC04YTM4Yzk3NWQ1ODEiLCJhaWQiOiIwIiwibmV0Ijoid3MiLCJwYXRoIjoiL2xpbmt2d3MiLCJob3N0IjoiIiwidGxzIjoidGxzIn0=
+ss://YWVzLTI1Ni1jZmI6YW1hem9uc2tyMDU@13.250.115.217:443#%E6%96%B0%E5%8A%A0%E5%9D%A1-98.5MB%2Fs
+ss://YWVzLTI1Ni1jZmI6YW1hem9uc2tyMDU@54.179.186.199:443#%E6%96%B0%E5%8A%A0%E5%9D%A1-108.8KB%2Fs
+ss://YWVzLTI1Ni1jZmI6YW1hem9uc2tyMDU@52.89.164.115:443#%E7%BE%8E%E5%9B%BD-2.82MB%2Fs
+vmess://eyJ2IjoiMiIsInBzIjoi5rOV5Zu9LTIuNDdNQi9zIiwiYWRkIjoiMTYzLjUuMTU5LjIzMSIsInBvcnQiOiI0NDMiLCJ0eXBlIjoibm9uZSIsImlkIjoiZTUzN2YyZjUtMmEwYy00ZjU5LTkyYzktODMyY2E2NDMzYmYzIiwiYWlkIjoiMCIsIm5ldCI6IndzIiwicGF0aCI6Ii9saW5rd3MiLCJob3N0IjoiaXJ2aWRlby5jZmQiLCJ0bHMiOiJ0bHMifQ==
+trojan://telegram-id-directvpn@63.177.131.100:22222?allowInsecure=1&sni=trojan.burgerip.co.uk#%E7%BE%8E%E5%9B%BD-90.3MB%2Fs
 ----------------------------------------------------------------------------------------------------
-['ss://YWVzLTI1Ni1jZmI6THAyN3JxeUpxNzJiWnNxWA@217.30.10.18:9045#%E6%B3%A2%E5%85%B0-212.0KB%2Fs\nss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNToyVXJTZmZlTkFCWEdYWGZOaG9MNnhCVW5oMVJ6cU1penJRMnM5UWZDMzhQMllQdVlQUlRxVzV6Wmc2akdpc2lOaGt6TTRTUmpGNm56dkZiMThHUHRFU1dvWFdqaHF5Qzg@198.105.123.190:46902#%E8%8D%B7%E5%85%B0-24.1MB%2Fs\nss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpMTElubVVCcnhNZ0VuODVZNnZWamVI@185.172.129.91:56220#%E7%BE%8E%E5%9B%BD-342.1KB%2Fs\nss://YWVzLTI1Ni1jZmI6YW1hem9uc2tyMDU@13.215.250.79:443#%E6%96%B0%E5%8A%A0%E5%9D%A1-170.4KB%2Fs\nss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNToya1pNWk5vSTJzZ0tQYjZDLTlJUTh3@109.104.154.4:5555#%E5%8D%A2%E6%A3%AE%E5%A0%A1-1.34MB%2Fs\ntrojan://telegram-id-privatevpns@13.53.250.56:22222?allowInsecure=1&sni=trojan.burgerip.co.uk#%E7%91%9E%E5%85%B8-183.3KB%2Fs\nss://YWVzLTI1Ni1nY206Y2RCSURWNDJEQ3duZklO@38.110.1.105:8119#%E7%BE%8E%E5%9B%BD-1.07MB%2Fs\nss://YWVzLTI1Ni1jZmI6R0E5S3plRWd2ZnhOcmdtTQ@217.30.10.18:9019#%E6%B3%A2%E5%85%B0-151.6KB%2Fs\ntrojan://lidnBTGb@36.150.215.196:42395?allowInsecure=1#%E4%B8%AD%E8%BD%AC%E8%8A%82%E7%82%B9-189.9KB%2Fs\nss://YWVzLTI1Ni1jZmI6dWVMWFZrdmg0aGNraEVyUQ@217.30.10.18:9060#%E6%B3%A2%E5%85%B0-149.2KB%2Fs']
+['ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpTSzhERzRJSkZuRHd1aHkzNWhPV1Vq@51.13.35.115:20760#%E6%8C%AA%E5%A8%81-77.6MB%2Fs\nss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNToya1pNWk5vSTJzZ0tQYjZDLTlJUTh3@109.104.154.4:5555#%E5%8D%A2%E6%A3%AE%E5%A0%A1-181.7KB%2Fs\nss://YWVzLTEyOC1nY206MzkzOGJmYWU5OTc5NzQ4NjAyNTE@console.02.aliyun.aq.kunlunaqs.com:45938/?plugin=obfs-local%3Bobfs%3Dhttp%3Bobfs-host%3D215996dd9f1c3db1e54b.microsoft.com#%E4%B8%AD%E8%BD%AC%E8%8A%82%E7%82%B9-4.53MB%2Fs\ntrojan://1a668915-d98f-4440-8bac-2c51d508f811@1.170.227.135:30337?allowInsecure=1&sni=ddns.200566.xyz#%E5%8F%B0%E6%B9%BE-105.6KB%2Fs\nvmess://eyJ2IjoiMiIsInBzIjoi576O5Zu9LTQuMDVNQi9zIiwiYWRkIjoiMzguNzUuMTM3LjIxIiwicG9ydCI6IjQ0MyIsInR5cGUiOiJub25lIiwiaWQiOiIwM2ZjYzYxOC1iOTNkLTY3OTYtNmFlZC04YTM4Yzk3NWQ1ODEiLCJhaWQiOiIwIiwibmV0Ijoid3MiLCJwYXRoIjoiL2xpbmt2d3MiLCJob3N0IjoiIiwidGxzIjoidGxzIn0=\nss://YWVzLTI1Ni1jZmI6YW1hem9uc2tyMDU@13.250.115.217:443#%E6%96%B0%E5%8A%A0%E5%9D%A1-98.5MB%2Fs\nss://YWVzLTI1Ni1jZmI6YW1hem9uc2tyMDU@54.179.186.199:443#%E6%96%B0%E5%8A%A0%E5%9D%A1-108.8KB%2Fs\nss://YWVzLTI1Ni1jZmI6YW1hem9uc2tyMDU@52.89.164.115:443#%E7%BE%8E%E5%9B%BD-2.82MB%2Fs\nvmess://eyJ2IjoiMiIsInBzIjoi5rOV5Zu9LTIuNDdNQi9zIiwiYWRkIjoiMTYzLjUuMTU5LjIzMSIsInBvcnQiOiI0NDMiLCJ0eXBlIjoibm9uZSIsImlkIjoiZTUzN2YyZjUtMmEwYy00ZjU5LTkyYzktODMyY2E2NDMzYmYzIiwiYWlkIjoiMCIsIm5ldCI6IndzIiwicGF0aCI6Ii9saW5rd3MiLCJob3N0IjoiaXJ2aWRlby5jZmQiLCJ0bHMiOiJ0bHMifQ==\ntrojan://telegram-id-directvpn@63.177.131.100:22222?allowInsecure=1&sni=trojan.burgerip.co.uk#%E7%BE%8E%E5%9B%BD-90.3MB%2Fs']
 ----------------------------------------------------------------------------------------------------
----------- [2024-12-31 15:16:55] 更新订阅 ----------
----------- [2024-12-31 15:27:46] 电报v2ray ----------
----------- [2024-12-31 16:39:55] 电报签到 ----------
+---------- [2024-12-31 21:25:06] 更新订阅 ----------
