@@ -1,6 +1,6 @@
 # 生成地址：v2rayse.com
 # 模版名称：defaultName
-# 生成时间：2024-12-31 15:27:40
+# 生成时间：2024-12-31 21:31:23
 # 不要随意改变关键字，否则会导致出错
 # acl4SSR规则
 # 去广告：支持
@@ -58,21 +58,22 @@ tun:
     - 1.1.1.1
     - 1.0.0.1
 proxies:
-  - name: 🇺🇸_US_美国->🇫🇷_FR_法国
-    port: 80
-    server: 151.101.2.216
-    type: vmess
-    network: ws
+  - name: 🇬🇧_GB_英国
+    port: 8080
+    server: 146.70.61.18
+    type: ss
     udp: true
-    ws-opts:
-      path: /racevpn
-      headers:
-        host: 6606.com
-    cipher: auto
-    uuid: 545485da-9ff4-48c5-ae94-45e6e4ee7d26
-    alterId: 0
+    password: 14fFPrbezE3HDZzsMOr6
+    cipher: rc4-md5
+  - name: 🇷🇺_RU_俄罗斯_1
+    port: 3832
+    server: 77.73.70.200
+    type: ss
+    udp: true
+    password: TLzTbRU2xuSDMOU9o8e0QQ
+    cipher: chacha20-ietf-poly1305
   - name: 🇨🇳_CN_中国->🇷🇺_RU_俄罗斯
-    port: 25216
+    port: 25230
     server: cm1.awslcn.info
     type: vmess
     network: ws
@@ -86,106 +87,57 @@ proxies:
     cipher: auto
     uuid: 243eab52-9ac1-405c-887c-eb112c0985b8
     alterId: 0
-  - name: 🇺🇸_US_美国
-    port: 443
-    server: 35.85.33.177
-    type: ss
-    udp: true
-    password: amazonskr05
-    cipher: aes-256-cfb
-  - name: 🇺🇸_US_美国->🇨🇳_CN_中国
-    port: 41400
-    server: 198.2.218.100
-    type: vmess
-    network: tcp
-    udp: true
-    cipher: auto
-    uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-    alterId: 64
-  - name: 🇫🇷_FR_法国
-    port: 443
-    server: 108.61.177.251
-    type: trojan
-    network: tcp
-    udp: true
-    sni: yournextcareerstep.online
-    password: e8105dfd24414268b6c7652c63731097
-  - name: 🇦🇱_AL_阿尔巴尼亚
-    port: 5555
-    server: 109.104.154.4
-    type: ss
-    udp: true
-    password: 2kZMZNoI2sgKPb6C-9IQ8w
-    cipher: chacha20-ietf-poly1305
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - 🇺🇸_US_美国->🇫🇷_FR_法国
+      - 🇬🇧_GB_英国
+      - 🇷🇺_RU_俄罗斯_1
       - 🇨🇳_CN_中国->🇷🇺_RU_俄罗斯
-      - 🇺🇸_US_美国
-      - 🇺🇸_US_美国->🇨🇳_CN_中国
-      - 🇫🇷_FR_法国
-      - 🇦🇱_AL_阿尔巴尼亚
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - 🇺🇸_US_美国->🇫🇷_FR_法国
+      - 🇬🇧_GB_英国
+      - 🇷🇺_RU_俄罗斯_1
       - 🇨🇳_CN_中国->🇷🇺_RU_俄罗斯
-      - 🇺🇸_US_美国
-      - 🇺🇸_US_美国->🇨🇳_CN_中国
-      - 🇫🇷_FR_法国
-      - 🇦🇱_AL_阿尔巴尼亚
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇺🇸_US_美国->🇫🇷_FR_法国
+      - 🇬🇧_GB_英国
+      - 🇷🇺_RU_俄罗斯_1
       - 🇨🇳_CN_中国->🇷🇺_RU_俄罗斯
-      - 🇺🇸_US_美国
-      - 🇺🇸_US_美国->🇨🇳_CN_中国
-      - 🇫🇷_FR_法国
-      - 🇦🇱_AL_阿尔巴尼亚
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 🇺🇸_US_美国->🇫🇷_FR_法国
+      - 🇬🇧_GB_英国
+      - 🇷🇺_RU_俄罗斯_1
       - 🇨🇳_CN_中国->🇷🇺_RU_俄罗斯
-      - 🇺🇸_US_美国
-      - 🇺🇸_US_美国->🇨🇳_CN_中国
-      - 🇫🇷_FR_法国
-      - 🇦🇱_AL_阿尔巴尼亚
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - 🇺🇸_US_美国->🇫🇷_FR_法国
+      - 🇬🇧_GB_英国
+      - 🇷🇺_RU_俄罗斯_1
       - 🇨🇳_CN_中国->🇷🇺_RU_俄罗斯
-      - 🇺🇸_US_美国
-      - 🇺🇸_US_美国->🇨🇳_CN_中国
-      - 🇫🇷_FR_法国
-      - 🇦🇱_AL_阿尔巴尼亚
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 🇺🇸_US_美国->🇫🇷_FR_法国
+      - 🇬🇧_GB_英国
+      - 🇷🇺_RU_俄罗斯_1
       - 🇨🇳_CN_中国->🇷🇺_RU_俄罗斯
-      - 🇺🇸_US_美国
-      - 🇺🇸_US_美国->🇨🇳_CN_中国
-      - 🇫🇷_FR_法国
-      - 🇦🇱_AL_阿尔巴尼亚
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -208,12 +160,9 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇺🇸_US_美国->🇫🇷_FR_法国
+      - 🇬🇧_GB_英国
+      - 🇷🇺_RU_俄罗斯_1
       - 🇨🇳_CN_中国->🇷🇺_RU_俄罗斯
-      - 🇺🇸_US_美国
-      - 🇺🇸_US_美国->🇨🇳_CN_中国
-      - 🇫🇷_FR_法国
-      - 🇦🇱_AL_阿尔巴尼亚
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
   - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
