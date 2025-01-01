@@ -1,6 +1,6 @@
 # 生成地址：v2rayse.com
 # 模版名称：defaultName
-# 生成时间：2025-01-01 21:31:09
+# 生成时间：2025-01-02 05:28:53
 # 不要随意改变关键字，否则会导致出错
 # acl4SSR规则
 # 去广告：支持
@@ -58,146 +58,147 @@ tun:
     - 1.1.1.1
     - 1.0.0.1
 proxies:
-  - name: 🇺🇸_US_美国->🇨🇳_CN_中国
-    port: 45017
-    server: 142.0.134.244
+  - name: 🇬🇧_GB_英国->🇺🇸_US_美国
+    port: 443
+    server: series-a2.samanehha.co
+    type: ss
+    udp: true
+    password: W74XFALLLuw6m5IA
+    cipher: chacha20-ietf-poly1305
+  - name: 🇺🇸_US_美国_1
+    port: 443
+    server: 52.89.164.115
+    type: ss
+    udp: true
+    password: amazonskr05
+    cipher: aes-256-cfb
+  - name: 🇦🇲_AM_亚美尼亚_1
+    port: 8080
+    server: vm.v2ray.com.br
     type: vmess
     network: tcp
     udp: true
     cipher: auto
-    uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-    alterId: 64
-  - name: 🇧🇬_BG_保加利亚->🇺🇸_US_美国
-    port: 443
-    server: 149.34.244.82
-    type: ss
-    udp: true
-    password: shadowsocks
-    cipher: aes-128-gcm
-  - name: 🇷🇺_RU_俄罗斯_1
-    port: 23456
-    server: 185.22.155.228
-    type: ss
-    udp: true
-    password: dongtaiwang.com
-    cipher: aes-256-gcm
-  - name: 🇺🇸_US_美国->🇸🇬_SG_新加坡
-    port: 8080
-    server: 23.251.121.242
-    type: ss
-    udp: true
-    password: 14fFPrbezE3HDZzsMOr6
-    cipher: rc4-md5
-  - name: 🇺🇸_US_美国_1
-    port: 22222
-    server: 63.176.126.186
-    type: trojan
-    udp: true
-    sni: trojan.burgerip.co.uk
-    password: telegram-id-privatevpns
-  - name: 🇬🇧_GB_英国
-    port: 20760
-    server: 51.13.35.115
-    type: ss
-    udp: true
-    password: SK8DG4IJFnDwuhy35hOWUj
-    cipher: chacha20-ietf-poly1305
+    uuid: 7bc1cddb-e8a0-4742-8a15-4221c481e01f
+    alterId: 0
   - name: 🇺🇸_US_美国_2
-    port: 22222
-    server: 52.21.77.77
-    type: trojan
-    udp: true
-    sni: trojan.burgerip.co.uk
-    password: telegram-id-directvpn
-    skip-cert-verify: false
-  - name: 🇺🇸_US_美国->🇧🇭_BH_巴林
     port: 443
-    server: series-a2-me.varzesh360.co
+    server: 54.69.180.74
     type: ss
     udp: true
-    password: Bog0ELmMM9DSxDdQ
-    cipher: chacha20-ietf-poly1305
+    password: amazonskr05
+    cipher: aes-256-cfb
+  - name: 🇺🇸_US_美国_3
+    port: 443
+    server: 35.85.33.177
+    type: ss
+    udp: true
+    password: amazonskr05
+    cipher: aes-256-cfb
+  - name: 🇷🇺_RU_俄罗斯_1
+    port: 9056
+    server: 217.30.10.18
+    type: ss
+    udp: true
+    password: rNBfNuuANFCAk7KB
+    cipher: aes-256-cfb
+  - name: 🇦🇲_AM_亚美尼亚_2
+    port: 8080
+    server: vm.v2ray.com.br
+    type: vmess
+    network: tcp
+    udp: true
+    cipher: auto
+    uuid: 7bc1cddb-e8a0-4742-8a15-4221c481e01f
+    alterId: 0
+  - name: 🇷🇺_RU_俄罗斯_2
+    port: 9088
+    server: 217.30.10.18
+    type: ss
+    udp: true
+    password: f8npKgNzdkss2ytn
+    cipher: aes-256-cfb
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - 🇺🇸_US_美国->🇨🇳_CN_中国
-      - 🇧🇬_BG_保加利亚->🇺🇸_US_美国
-      - 🇷🇺_RU_俄罗斯_1
-      - 🇺🇸_US_美国->🇸🇬_SG_新加坡
+      - 🇬🇧_GB_英国->🇺🇸_US_美国
       - 🇺🇸_US_美国_1
-      - 🇬🇧_GB_英国
+      - 🇦🇲_AM_亚美尼亚_1
       - 🇺🇸_US_美国_2
-      - 🇺🇸_US_美国->🇧🇭_BH_巴林
+      - 🇺🇸_US_美国_3
+      - 🇷🇺_RU_俄罗斯_1
+      - 🇦🇲_AM_亚美尼亚_2
+      - 🇷🇺_RU_俄罗斯_2
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - 🇺🇸_US_美国->🇨🇳_CN_中国
-      - 🇧🇬_BG_保加利亚->🇺🇸_US_美国
-      - 🇷🇺_RU_俄罗斯_1
-      - 🇺🇸_US_美国->🇸🇬_SG_新加坡
+      - 🇬🇧_GB_英国->🇺🇸_US_美国
       - 🇺🇸_US_美国_1
-      - 🇬🇧_GB_英国
+      - 🇦🇲_AM_亚美尼亚_1
       - 🇺🇸_US_美国_2
-      - 🇺🇸_US_美国->🇧🇭_BH_巴林
+      - 🇺🇸_US_美国_3
+      - 🇷🇺_RU_俄罗斯_1
+      - 🇦🇲_AM_亚美尼亚_2
+      - 🇷🇺_RU_俄罗斯_2
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇺🇸_US_美国->🇨🇳_CN_中国
-      - 🇧🇬_BG_保加利亚->🇺🇸_US_美国
-      - 🇷🇺_RU_俄罗斯_1
-      - 🇺🇸_US_美国->🇸🇬_SG_新加坡
+      - 🇬🇧_GB_英国->🇺🇸_US_美国
       - 🇺🇸_US_美国_1
-      - 🇬🇧_GB_英国
+      - 🇦🇲_AM_亚美尼亚_1
       - 🇺🇸_US_美国_2
-      - 🇺🇸_US_美国->🇧🇭_BH_巴林
+      - 🇺🇸_US_美国_3
+      - 🇷🇺_RU_俄罗斯_1
+      - 🇦🇲_AM_亚美尼亚_2
+      - 🇷🇺_RU_俄罗斯_2
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 🇺🇸_US_美国->🇨🇳_CN_中国
-      - 🇧🇬_BG_保加利亚->🇺🇸_US_美国
-      - 🇷🇺_RU_俄罗斯_1
-      - 🇺🇸_US_美国->🇸🇬_SG_新加坡
+      - 🇬🇧_GB_英国->🇺🇸_US_美国
       - 🇺🇸_US_美国_1
-      - 🇬🇧_GB_英国
+      - 🇦🇲_AM_亚美尼亚_1
       - 🇺🇸_US_美国_2
-      - 🇺🇸_US_美国->🇧🇭_BH_巴林
+      - 🇺🇸_US_美国_3
+      - 🇷🇺_RU_俄罗斯_1
+      - 🇦🇲_AM_亚美尼亚_2
+      - 🇷🇺_RU_俄罗斯_2
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - 🇺🇸_US_美国->🇨🇳_CN_中国
-      - 🇧🇬_BG_保加利亚->🇺🇸_US_美国
-      - 🇷🇺_RU_俄罗斯_1
-      - 🇺🇸_US_美国->🇸🇬_SG_新加坡
+      - 🇬🇧_GB_英国->🇺🇸_US_美国
       - 🇺🇸_US_美国_1
-      - 🇬🇧_GB_英国
+      - 🇦🇲_AM_亚美尼亚_1
       - 🇺🇸_US_美国_2
-      - 🇺🇸_US_美国->🇧🇭_BH_巴林
+      - 🇺🇸_US_美国_3
+      - 🇷🇺_RU_俄罗斯_1
+      - 🇦🇲_AM_亚美尼亚_2
+      - 🇷🇺_RU_俄罗斯_2
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 🇺🇸_US_美国->🇨🇳_CN_中国
-      - 🇧🇬_BG_保加利亚->🇺🇸_US_美国
-      - 🇷🇺_RU_俄罗斯_1
-      - 🇺🇸_US_美国->🇸🇬_SG_新加坡
+      - 🇬🇧_GB_英国->🇺🇸_US_美国
       - 🇺🇸_US_美国_1
-      - 🇬🇧_GB_英国
+      - 🇦🇲_AM_亚美尼亚_1
       - 🇺🇸_US_美国_2
-      - 🇺🇸_US_美国->🇧🇭_BH_巴林
+      - 🇺🇸_US_美国_3
+      - 🇷🇺_RU_俄罗斯_1
+      - 🇦🇲_AM_亚美尼亚_2
+      - 🇷🇺_RU_俄罗斯_2
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -220,14 +221,14 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇺🇸_US_美国->🇨🇳_CN_中国
-      - 🇧🇬_BG_保加利亚->🇺🇸_US_美国
-      - 🇷🇺_RU_俄罗斯_1
-      - 🇺🇸_US_美国->🇸🇬_SG_新加坡
+      - 🇬🇧_GB_英国->🇺🇸_US_美国
       - 🇺🇸_US_美国_1
-      - 🇬🇧_GB_英国
+      - 🇦🇲_AM_亚美尼亚_1
       - 🇺🇸_US_美国_2
-      - 🇺🇸_US_美国->🇧🇭_BH_巴林
+      - 🇺🇸_US_美国_3
+      - 🇷🇺_RU_俄罗斯_1
+      - 🇦🇲_AM_亚美尼亚_2
+      - 🇷🇺_RU_俄罗斯_2
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
   - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
