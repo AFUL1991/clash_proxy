@@ -1,6 +1,6 @@
 # 生成地址：v2rayse.com
 # 模版名称：defaultName
-# 生成时间：2025-01-02 21:31:49
+# 生成时间：2025-01-03 05:27:34
 # 不要随意改变关键字，否则会导致出错
 # acl4SSR规则
 # 去广告：支持
@@ -58,159 +58,159 @@ tun:
     - 1.1.1.1
     - 1.0.0.1
 proxies:
-  - name: 🇬🇧_GB_英国
-    port: 20760
-    server: 51.13.35.115
+  - name: 🇨🇳_CN_中国->🇩🇪_DE_德国_1
+    port: 18779
+    server: zx1.1010520.xyz
     type: ss
     udp: true
-    password: SK8DG4IJFnDwuhy35hOWUj
+    password: f5136746-de79-46d0-b3be-d15d9992fa07
     cipher: chacha20-ietf-poly1305
-  - name: 🇺🇸_US_美国_1
-    port: 22222
-    server: 18.189.79.192
-    type: trojan
+  - name: 🇨🇳_CN_中国->🇮🇳_IN_印度_1
+    port: 18799
+    server: zx1.1010520.xyz
+    type: ss
     udp: true
-    sni: trojan.burgerip.co.uk
-    password: telegram-id-directvpn
-  - name: 🇺🇸_US_美国_2
-    port: 22222
-    server: 18.189.79.192
-    type: trojan
+    password: f5136746-de79-46d0-b3be-d15d9992fa07
+    cipher: chacha20-ietf-poly1305
+  - name: 🇨🇳_CN_中国->🇩🇪_DE_德国_2
+    port: 18779
+    server: zx3.1010520.xyz
+    type: ss
     udp: true
-    sni: trojan.burgerip.co.uk
-    password: telegram-id-directvpn
-  - name: 🇳🇱_NL_荷兰->🇺🇸_US_美国_1
-    port: 8080
-    server: 45.131.7.98
-    type: vmess
-    network: ws
+    password: f5136746-de79-46d0-b3be-d15d9992fa07
+    cipher: chacha20-ietf-poly1305
+  - name: 🇨🇳_CN_中国->🇮🇳_IN_印度_2
+    port: 18799
+    server: zx3.1010520.xyz
+    type: ss
     udp: true
-    sni: ""
-    skip-cert-verify: true
-    ws-opts:
-      path: /2a4fa40f
-      headers:
-        host: luodi.davesuen.store
-    cipher: auto
-    uuid: 2a4fa40f-97f4-4ea9-b959-b148c4197d15
-    alterId: 0
-  - name: 🇺🇸_US_美国_3
+    password: f5136746-de79-46d0-b3be-d15d9992fa07
+    cipher: chacha20-ietf-poly1305
+  - name: 🇺🇸_US_美国->🇷🇺_RU_俄罗斯
     port: 443
-    server: 34.211.229.86
-    type: ss
-    udp: true
-    password: amazonskr05
-    cipher: aes-256-cfb
-  - name: 🇺🇸_US_美国_4
-    port: 22222
-    server: 18.189.79.192
+    server: 3.78.184.1
     type: trojan
     udp: true
-    sni: trojan.burgerip.co.uk
-    password: telegram-id-directvpn
-  - name: 🇳🇱_NL_荷兰->🇺🇸_US_美国_2
-    port: 8080
-    server: 45.131.7.100
-    type: vmess
-    network: ws
+    sni: golden-krill.treefrog761.one
+    password: "3723507166611775488"
+  - name: 🇷🇺_RU_俄罗斯_1
+    port: 443
+    server: wise-cowbird.boa152.lol
+    type: trojan
     udp: true
-    sni: ""
+    sni: wise-cowbird.boa152.lol
+    password: "3723507166611775488"
     skip-cert-verify: true
-    ws-opts:
-      path: /2a4fa40f
-      headers:
-        host: luodi.davesuen.store
-    cipher: auto
-    uuid: 2a4fa40f-97f4-4ea9-b959-b148c4197d15
-    alterId: 0
+  - name: 🇧🇬_BG_保加利亚
+    port: 443
+    server: concrete-buzzard.boa152.lol
+    type: trojan
+    udp: true
+    sni: concrete-buzzard.boa152.lol
+    password: "3723507166611775488"
+    skip-cert-verify: true
   - name: 🇷🇺_RU_俄罗斯_2
-    port: 9024
-    server: 217.30.10.18
+    port: 443
+    server: ample-cockatoo.boa152.lol
+    type: trojan
+    udp: true
+    sni: ample-cockatoo.boa152.lol
+    password: "3723507166611775488"
+    skip-cert-verify: true
+  - name: 🇨🇳_CN_中国->🇫🇮_FI_芬兰
+    port: 34857
+    server: zx2.1010520.xyz
     type: ss
     udp: true
-    password: BejrQvtu9sqUeNuZ
-    cipher: aes-256-cfb
+    password: f5136746-de79-46d0-b3be-d15d9992fa07
+    cipher: chacha20-ietf-poly1305
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - 🇬🇧_GB_英国
-      - 🇺🇸_US_美国_1
-      - 🇺🇸_US_美国_2
-      - 🇳🇱_NL_荷兰->🇺🇸_US_美国_1
-      - 🇺🇸_US_美国_3
-      - 🇺🇸_US_美国_4
-      - 🇳🇱_NL_荷兰->🇺🇸_US_美国_2
+      - 🇨🇳_CN_中国->🇩🇪_DE_德国_1
+      - 🇨🇳_CN_中国->🇮🇳_IN_印度_1
+      - 🇨🇳_CN_中国->🇩🇪_DE_德国_2
+      - 🇨🇳_CN_中国->🇮🇳_IN_印度_2
+      - 🇺🇸_US_美国->🇷🇺_RU_俄罗斯
+      - 🇷🇺_RU_俄罗斯_1
+      - 🇧🇬_BG_保加利亚
       - 🇷🇺_RU_俄罗斯_2
+      - 🇨🇳_CN_中国->🇫🇮_FI_芬兰
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - 🇬🇧_GB_英国
-      - 🇺🇸_US_美国_1
-      - 🇺🇸_US_美国_2
-      - 🇳🇱_NL_荷兰->🇺🇸_US_美国_1
-      - 🇺🇸_US_美国_3
-      - 🇺🇸_US_美国_4
-      - 🇳🇱_NL_荷兰->🇺🇸_US_美国_2
+      - 🇨🇳_CN_中国->🇩🇪_DE_德国_1
+      - 🇨🇳_CN_中国->🇮🇳_IN_印度_1
+      - 🇨🇳_CN_中国->🇩🇪_DE_德国_2
+      - 🇨🇳_CN_中国->🇮🇳_IN_印度_2
+      - 🇺🇸_US_美国->🇷🇺_RU_俄罗斯
+      - 🇷🇺_RU_俄罗斯_1
+      - 🇧🇬_BG_保加利亚
       - 🇷🇺_RU_俄罗斯_2
+      - 🇨🇳_CN_中国->🇫🇮_FI_芬兰
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇬🇧_GB_英国
-      - 🇺🇸_US_美国_1
-      - 🇺🇸_US_美国_2
-      - 🇳🇱_NL_荷兰->🇺🇸_US_美国_1
-      - 🇺🇸_US_美国_3
-      - 🇺🇸_US_美国_4
-      - 🇳🇱_NL_荷兰->🇺🇸_US_美国_2
+      - 🇨🇳_CN_中国->🇩🇪_DE_德国_1
+      - 🇨🇳_CN_中国->🇮🇳_IN_印度_1
+      - 🇨🇳_CN_中国->🇩🇪_DE_德国_2
+      - 🇨🇳_CN_中国->🇮🇳_IN_印度_2
+      - 🇺🇸_US_美国->🇷🇺_RU_俄罗斯
+      - 🇷🇺_RU_俄罗斯_1
+      - 🇧🇬_BG_保加利亚
       - 🇷🇺_RU_俄罗斯_2
+      - 🇨🇳_CN_中国->🇫🇮_FI_芬兰
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 🇬🇧_GB_英国
-      - 🇺🇸_US_美国_1
-      - 🇺🇸_US_美国_2
-      - 🇳🇱_NL_荷兰->🇺🇸_US_美国_1
-      - 🇺🇸_US_美国_3
-      - 🇺🇸_US_美国_4
-      - 🇳🇱_NL_荷兰->🇺🇸_US_美国_2
+      - 🇨🇳_CN_中国->🇩🇪_DE_德国_1
+      - 🇨🇳_CN_中国->🇮🇳_IN_印度_1
+      - 🇨🇳_CN_中国->🇩🇪_DE_德国_2
+      - 🇨🇳_CN_中国->🇮🇳_IN_印度_2
+      - 🇺🇸_US_美国->🇷🇺_RU_俄罗斯
+      - 🇷🇺_RU_俄罗斯_1
+      - 🇧🇬_BG_保加利亚
       - 🇷🇺_RU_俄罗斯_2
+      - 🇨🇳_CN_中国->🇫🇮_FI_芬兰
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - 🇬🇧_GB_英国
-      - 🇺🇸_US_美国_1
-      - 🇺🇸_US_美国_2
-      - 🇳🇱_NL_荷兰->🇺🇸_US_美国_1
-      - 🇺🇸_US_美国_3
-      - 🇺🇸_US_美国_4
-      - 🇳🇱_NL_荷兰->🇺🇸_US_美国_2
+      - 🇨🇳_CN_中国->🇩🇪_DE_德国_1
+      - 🇨🇳_CN_中国->🇮🇳_IN_印度_1
+      - 🇨🇳_CN_中国->🇩🇪_DE_德国_2
+      - 🇨🇳_CN_中国->🇮🇳_IN_印度_2
+      - 🇺🇸_US_美国->🇷🇺_RU_俄罗斯
+      - 🇷🇺_RU_俄罗斯_1
+      - 🇧🇬_BG_保加利亚
       - 🇷🇺_RU_俄罗斯_2
+      - 🇨🇳_CN_中国->🇫🇮_FI_芬兰
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 🇬🇧_GB_英国
-      - 🇺🇸_US_美国_1
-      - 🇺🇸_US_美国_2
-      - 🇳🇱_NL_荷兰->🇺🇸_US_美国_1
-      - 🇺🇸_US_美国_3
-      - 🇺🇸_US_美国_4
-      - 🇳🇱_NL_荷兰->🇺🇸_US_美国_2
+      - 🇨🇳_CN_中国->🇩🇪_DE_德国_1
+      - 🇨🇳_CN_中国->🇮🇳_IN_印度_1
+      - 🇨🇳_CN_中国->🇩🇪_DE_德国_2
+      - 🇨🇳_CN_中国->🇮🇳_IN_印度_2
+      - 🇺🇸_US_美国->🇷🇺_RU_俄罗斯
+      - 🇷🇺_RU_俄罗斯_1
+      - 🇧🇬_BG_保加利亚
       - 🇷🇺_RU_俄罗斯_2
+      - 🇨🇳_CN_中国->🇫🇮_FI_芬兰
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -233,14 +233,15 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇬🇧_GB_英国
-      - 🇺🇸_US_美国_1
-      - 🇺🇸_US_美国_2
-      - 🇳🇱_NL_荷兰->🇺🇸_US_美国_1
-      - 🇺🇸_US_美国_3
-      - 🇺🇸_US_美国_4
-      - 🇳🇱_NL_荷兰->🇺🇸_US_美国_2
+      - 🇨🇳_CN_中国->🇩🇪_DE_德国_1
+      - 🇨🇳_CN_中国->🇮🇳_IN_印度_1
+      - 🇨🇳_CN_中国->🇩🇪_DE_德国_2
+      - 🇨🇳_CN_中国->🇮🇳_IN_印度_2
+      - 🇺🇸_US_美国->🇷🇺_RU_俄罗斯
+      - 🇷🇺_RU_俄罗斯_1
+      - 🇧🇬_BG_保加利亚
       - 🇷🇺_RU_俄罗斯_2
+      - 🇨🇳_CN_中国->🇫🇮_FI_芬兰
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
   - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
