@@ -1,6 +1,6 @@
 # 生成地址：v2rayse.com
 # 模版名称：defaultName
-# 生成时间：2025-01-06 21:34:25
+# 生成时间：2025-01-07 05:28:08
 # 不要随意改变关键字，否则会导致出错
 # acl4SSR规则
 # 去广告：支持
@@ -58,145 +58,145 @@ tun:
     - 1.1.1.1
     - 1.0.0.1
 proxies:
-  - name: 🇷🇴_RO_罗马尼亚->🇷🇺_RU_俄罗斯
-    port: 8080
-    server: 194.5.215.59
-    type: ss
-    udp: true
-    password: 14fFPrbezE3HDZzsMOr6
-    cipher: rc4-md5
   - name: 🇷🇺_RU_俄罗斯_1
-    port: 9003
+    port: 9056
     server: 217.30.10.18
     type: ss
     udp: true
-    password: JdmRK9gMEqFgs8nP
+    password: rNBfNuuANFCAk7KB
     cipher: aes-256-cfb
   - name: 🇺🇸_US_美国_1
-    port: 443
-    server: apple.slumbo.com
+    port: 6379
+    server: 38.110.1.46
     type: ss
     udp: true
-    password: LuxyNetBot
-    cipher: chacha20-ietf-poly1305
+    password: zDNVedRFPQexG9v
+    cipher: aes-256-gcm
+  - name: 🇷🇺_RU_俄罗斯_2
+    port: 9001
+    server: 217.30.10.18
+    type: ss
+    udp: true
+    password: UkXRsXvR6buDMG2Y
+    cipher: aes-256-cfb
+  - name: 🇮🇷_IR_伊朗->🇺🇸_US_美国
+    port: 37885
+    server: 92.242.220.22
+    type: vmess
+    network: tcp
+    udp: true
+    cipher: auto
+    uuid: 8dee19ab-50ce-4d06-be42-5e53c8989ccc
+    alterId: 0
   - name: 🇺🇸_US_美国_2
     port: 443
-    server: 54.200.223.152
+    server: 34.219.80.203
     type: ss
     udp: true
     password: amazonskr05
     cipher: aes-256-cfb
-  - name: 🇱🇻_LV_拉脱维亚->🇺🇸_US_美国
-    port: 990
-    server: 46.183.217.232
+  - name: 🇬🇧_GB_英国
+    port: 6870
+    server: 51.13.182.236
     type: ss
     udp: true
-    password: f8f7aCzcPKbsF8p3
+    password: M7x1mGNOwhPiRB9jSxZJNy
     cipher: chacha20-ietf-poly1305
-  - name: 🇷🇺_RU_俄罗斯_2
-    port: 9003
+  - name: 🇷🇺_RU_俄罗斯_3
+    port: 9001
     server: 217.30.10.18
     type: ss
     udp: true
-    password: JdmRK9gMEqFgs8nP
+    password: UkXRsXvR6buDMG2Y
     cipher: aes-256-cfb
-  - name: 🇬🇧_GB_英国->🇷🇺_RU_俄罗斯
-    port: 23169
-    server: 5.39.254.196
-    type: vmess
-    network: ws
-    udp: true
-    cipher: auto
-    uuid: 398ce84e-4849-4e5f-9b1a-a56fbe233b81
-    alterId: 0
-  - name: 🇷🇺_RU_俄罗斯_3
-    port: 19262
-    server: 89.185.85.227
+  - name: 🇷🇺_RU_俄罗斯_4
+    port: 9033
+    server: 217.30.10.18
     type: ss
     udp: true
-    password: 0goatjlGmKeKt9En6vfsJF
-    cipher: chacha20-ietf-poly1305
+    password: UTJA57ypk2XKQpnm
+    cipher: aes-256-cfb
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - 🇷🇴_RO_罗马尼亚->🇷🇺_RU_俄罗斯
       - 🇷🇺_RU_俄罗斯_1
       - 🇺🇸_US_美国_1
-      - 🇺🇸_US_美国_2
-      - 🇱🇻_LV_拉脱维亚->🇺🇸_US_美国
       - 🇷🇺_RU_俄罗斯_2
-      - 🇬🇧_GB_英国->🇷🇺_RU_俄罗斯
+      - 🇮🇷_IR_伊朗->🇺🇸_US_美国
+      - 🇺🇸_US_美国_2
+      - 🇬🇧_GB_英国
       - 🇷🇺_RU_俄罗斯_3
+      - 🇷🇺_RU_俄罗斯_4
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - 🇷🇴_RO_罗马尼亚->🇷🇺_RU_俄罗斯
       - 🇷🇺_RU_俄罗斯_1
       - 🇺🇸_US_美国_1
-      - 🇺🇸_US_美国_2
-      - 🇱🇻_LV_拉脱维亚->🇺🇸_US_美国
       - 🇷🇺_RU_俄罗斯_2
-      - 🇬🇧_GB_英国->🇷🇺_RU_俄罗斯
+      - 🇮🇷_IR_伊朗->🇺🇸_US_美国
+      - 🇺🇸_US_美国_2
+      - 🇬🇧_GB_英国
       - 🇷🇺_RU_俄罗斯_3
+      - 🇷🇺_RU_俄罗斯_4
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇷🇴_RO_罗马尼亚->🇷🇺_RU_俄罗斯
       - 🇷🇺_RU_俄罗斯_1
       - 🇺🇸_US_美国_1
-      - 🇺🇸_US_美国_2
-      - 🇱🇻_LV_拉脱维亚->🇺🇸_US_美国
       - 🇷🇺_RU_俄罗斯_2
-      - 🇬🇧_GB_英国->🇷🇺_RU_俄罗斯
+      - 🇮🇷_IR_伊朗->🇺🇸_US_美国
+      - 🇺🇸_US_美国_2
+      - 🇬🇧_GB_英国
       - 🇷🇺_RU_俄罗斯_3
+      - 🇷🇺_RU_俄罗斯_4
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 🇷🇴_RO_罗马尼亚->🇷🇺_RU_俄罗斯
       - 🇷🇺_RU_俄罗斯_1
       - 🇺🇸_US_美国_1
-      - 🇺🇸_US_美国_2
-      - 🇱🇻_LV_拉脱维亚->🇺🇸_US_美国
       - 🇷🇺_RU_俄罗斯_2
-      - 🇬🇧_GB_英国->🇷🇺_RU_俄罗斯
+      - 🇮🇷_IR_伊朗->🇺🇸_US_美国
+      - 🇺🇸_US_美国_2
+      - 🇬🇧_GB_英国
       - 🇷🇺_RU_俄罗斯_3
+      - 🇷🇺_RU_俄罗斯_4
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - 🇷🇴_RO_罗马尼亚->🇷🇺_RU_俄罗斯
       - 🇷🇺_RU_俄罗斯_1
       - 🇺🇸_US_美国_1
-      - 🇺🇸_US_美国_2
-      - 🇱🇻_LV_拉脱维亚->🇺🇸_US_美国
       - 🇷🇺_RU_俄罗斯_2
-      - 🇬🇧_GB_英国->🇷🇺_RU_俄罗斯
+      - 🇮🇷_IR_伊朗->🇺🇸_US_美国
+      - 🇺🇸_US_美国_2
+      - 🇬🇧_GB_英国
       - 🇷🇺_RU_俄罗斯_3
+      - 🇷🇺_RU_俄罗斯_4
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 🇷🇴_RO_罗马尼亚->🇷🇺_RU_俄罗斯
       - 🇷🇺_RU_俄罗斯_1
       - 🇺🇸_US_美国_1
-      - 🇺🇸_US_美国_2
-      - 🇱🇻_LV_拉脱维亚->🇺🇸_US_美国
       - 🇷🇺_RU_俄罗斯_2
-      - 🇬🇧_GB_英国->🇷🇺_RU_俄罗斯
+      - 🇮🇷_IR_伊朗->🇺🇸_US_美国
+      - 🇺🇸_US_美国_2
+      - 🇬🇧_GB_英国
       - 🇷🇺_RU_俄罗斯_3
+      - 🇷🇺_RU_俄罗斯_4
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -219,14 +219,14 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇷🇴_RO_罗马尼亚->🇷🇺_RU_俄罗斯
       - 🇷🇺_RU_俄罗斯_1
       - 🇺🇸_US_美国_1
-      - 🇺🇸_US_美国_2
-      - 🇱🇻_LV_拉脱维亚->🇺🇸_US_美国
       - 🇷🇺_RU_俄罗斯_2
-      - 🇬🇧_GB_英国->🇷🇺_RU_俄罗斯
+      - 🇮🇷_IR_伊朗->🇺🇸_US_美国
+      - 🇺🇸_US_美国_2
+      - 🇬🇧_GB_英国
       - 🇷🇺_RU_俄罗斯_3
+      - 🇷🇺_RU_俄罗斯_4
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
   - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
