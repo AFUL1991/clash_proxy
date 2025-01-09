@@ -1,6 +1,6 @@
 # 生成地址：v2rayse.com
 # 模版名称：defaultName
-# 生成时间：2025-01-09 21:33:46
+# 生成时间：2025-01-10 05:28:18
 # 不要随意改变关键字，否则会导致出错
 # acl4SSR规则
 # 去广告：支持
@@ -58,149 +58,192 @@ tun:
     - 1.1.1.1
     - 1.0.0.1
 proxies:
-  - name: 🇺🇸_US_美国_1
-    port: 2376
-    server: 38.110.1.122
-    type: ss
-    udp: true
-    password: faBAoD54k87UJG7
-    cipher: aes-256-gcm
   - name: 🇷🇺_RU_俄罗斯_1
-    port: 14585
-    server: 45.8.158.32
-    type: vmess
-    network: ws
-    udp: true
-    sni: ""
-    cipher: auto
-    uuid: 398ce84e-4849-4e5f-9b1a-a56fbe233b81
-    alterId: 0
-    fingerprint: ""
-  - name: 🇷🇺_RU_俄罗斯_2
-    port: 9041
-    server: 217.30.10.18
-    type: ss
-    udp: true
-    password: U6qnYRhfyDmn8sgn
-    cipher: aes-256-cfb
-  - name: 🇺🇸_US_美国_2
-    port: 2086
-    server: 198.41.209.70
-    type: vmess
-    network: ws
-    udp: true
-    sni: 100-74-179-50.s4.db-link01.top
-    ws-opts:
-      path: /dabai.in172.67.42.220
-      headers:
-        host: 100-74-179-50.s4.db-link01.top
-    cipher: auto
-    uuid: 4b36625c-b9d9-3ea6-aed5-86d62c70e16d
-    alterId: 0
-    fingerprint: ""
-  - name: 🇺🇸_US_美国->🇬🇧_GB_英国
-    port: 22222
-    server: 18.130.84.52
-    type: trojan
-    network: tcp
-    udp: true
-    sni: trojan.burgerip.co.uk
-    password: telegram-id-directvpn
-    alpn:
-      - http/1.1
-  - name: 🇷🇺_RU_俄罗斯_3
     port: 36641
-    server: 195.58.49.42
+    server: 195.58.49.50
     type: vmess
     network: ws
     udp: true
     ws-opts:
       path: /
     cipher: auto
-    uuid: 1cc59a3a-9625-40f7-b0e6-e233286ae82d
+    uuid: 0a0da0fb-8969-4f16-b882-7d80ace1e23e
     alterId: 0
-  - name: 🇺🇸_US_美国_5
-    port: 8090
-    server: 38.110.1.122
+  - name: 🇱🇻_LV_拉脱维亚
+    port: 990
+    server: 46.183.217.232
     type: ss
     udp: true
-    password: PCnnH6SQSnfoS27
+    password: f8f7aCzcPKbsF8p3
+    cipher: chacha20-ietf-poly1305
+  - name: 🇷🇺_RU_俄罗斯_2
+    port: 23456
+    server: 185.22.155.228
+    type: ss
+    udp: true
+    password: dongtaiwang.com
     cipher: aes-256-gcm
+  - name: 🇺🇸_US_美国_1
+    port: 80
+    server: 151.101.0.155
+    type: vmess
+    network: ws
+    udp: true
+    sni: ""
+    ws-opts:
+      path: /?ed=80/#id-telegram:--->@vpn_whal<---
+      headers:
+        host: khamenei-313.IR.
+    cipher: auto
+    uuid: 67650521-85de-4679-bf72-920a09781374
+    alterId: 0
+    fingerprint: ""
+  - name: 🇺🇸_US_美国_2
+    port: 80
+    server: 151.101.0.155
+    type: vmess
+    network: ws
+    udp: true
+    sni: ""
+    ws-opts:
+      path: /?ed=80/#id-telegram:--->@vpn_whal<---
+      headers:
+        host: khamenei-313.IR.
+    cipher: auto
+    uuid: 67650521-85de-4679-bf72-920a09781374
+    alterId: 0
+    fingerprint: ""
+  - name: 🇬🇧_GB_英国
+    port: 3089
+    server: 51.13.182.231
+    type: ss
+    udp: true
+    password: J0lgxy4mb52CIJ8UUcEgts
+    cipher: chacha20-ietf-poly1305
+  - name: 🇷🇺_RU_俄罗斯_3
+    port: 9056
+    server: 217.30.10.18
+    type: ss
+    udp: true
+    password: rNBfNuuANFCAk7KB
+    cipher: aes-256-cfb
+  - name: 🇺🇸_US_美国_3
+    port: 22222
+    server: 13.49.194.195
+    type: trojan
+    network: tcp
+    udp: true
+    sni: trojan.burgerip.co.uk
+    password: telegram-id-privatevpns
+    alpn:
+      - http/1.1
+  - name: 🇷🇺_RU_俄罗斯_4
+    port: 9006
+    server: 217.30.10.18
+    type: ss
+    udp: true
+    password: FAdUvMJUq5vDgKEq
+    cipher: aes-256-cfb
+  - name: 🇺🇸_US_美国_4
+    port: 443
+    server: 35.88.126.102
+    type: ss
+    udp: true
+    password: amazonskr05
+    cipher: aes-256-cfb
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - 🇺🇸_US_美国_1
       - 🇷🇺_RU_俄罗斯_1
+      - 🇱🇻_LV_拉脱维亚
       - 🇷🇺_RU_俄罗斯_2
+      - 🇺🇸_US_美国_1
       - 🇺🇸_US_美国_2
-      - 🇺🇸_US_美国->🇬🇧_GB_英国
+      - 🇬🇧_GB_英国
       - 🇷🇺_RU_俄罗斯_3
-      - 🇺🇸_US_美国_5
+      - 🇺🇸_US_美国_3
+      - 🇷🇺_RU_俄罗斯_4
+      - 🇺🇸_US_美国_4
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - 🇺🇸_US_美国_1
       - 🇷🇺_RU_俄罗斯_1
+      - 🇱🇻_LV_拉脱维亚
       - 🇷🇺_RU_俄罗斯_2
+      - 🇺🇸_US_美国_1
       - 🇺🇸_US_美国_2
-      - 🇺🇸_US_美国->🇬🇧_GB_英国
+      - 🇬🇧_GB_英国
       - 🇷🇺_RU_俄罗斯_3
-      - 🇺🇸_US_美国_5
+      - 🇺🇸_US_美国_3
+      - 🇷🇺_RU_俄罗斯_4
+      - 🇺🇸_US_美国_4
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇺🇸_US_美国_1
       - 🇷🇺_RU_俄罗斯_1
+      - 🇱🇻_LV_拉脱维亚
       - 🇷🇺_RU_俄罗斯_2
+      - 🇺🇸_US_美国_1
       - 🇺🇸_US_美国_2
-      - 🇺🇸_US_美国->🇬🇧_GB_英国
+      - 🇬🇧_GB_英国
       - 🇷🇺_RU_俄罗斯_3
-      - 🇺🇸_US_美国_5
+      - 🇺🇸_US_美国_3
+      - 🇷🇺_RU_俄罗斯_4
+      - 🇺🇸_US_美国_4
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 🇺🇸_US_美国_1
       - 🇷🇺_RU_俄罗斯_1
+      - 🇱🇻_LV_拉脱维亚
       - 🇷🇺_RU_俄罗斯_2
+      - 🇺🇸_US_美国_1
       - 🇺🇸_US_美国_2
-      - 🇺🇸_US_美国->🇬🇧_GB_英国
+      - 🇬🇧_GB_英国
       - 🇷🇺_RU_俄罗斯_3
-      - 🇺🇸_US_美国_5
+      - 🇺🇸_US_美国_3
+      - 🇷🇺_RU_俄罗斯_4
+      - 🇺🇸_US_美国_4
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - 🇺🇸_US_美国_1
       - 🇷🇺_RU_俄罗斯_1
+      - 🇱🇻_LV_拉脱维亚
       - 🇷🇺_RU_俄罗斯_2
+      - 🇺🇸_US_美国_1
       - 🇺🇸_US_美国_2
-      - 🇺🇸_US_美国->🇬🇧_GB_英国
+      - 🇬🇧_GB_英国
       - 🇷🇺_RU_俄罗斯_3
-      - 🇺🇸_US_美国_5
+      - 🇺🇸_US_美国_3
+      - 🇷🇺_RU_俄罗斯_4
+      - 🇺🇸_US_美国_4
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 🇺🇸_US_美国_1
       - 🇷🇺_RU_俄罗斯_1
+      - 🇱🇻_LV_拉脱维亚
       - 🇷🇺_RU_俄罗斯_2
+      - 🇺🇸_US_美国_1
       - 🇺🇸_US_美国_2
-      - 🇺🇸_US_美国->🇬🇧_GB_英国
+      - 🇬🇧_GB_英国
       - 🇷🇺_RU_俄罗斯_3
-      - 🇺🇸_US_美国_5
+      - 🇺🇸_US_美国_3
+      - 🇷🇺_RU_俄罗斯_4
+      - 🇺🇸_US_美国_4
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -223,13 +266,16 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇺🇸_US_美国_1
       - 🇷🇺_RU_俄罗斯_1
+      - 🇱🇻_LV_拉脱维亚
       - 🇷🇺_RU_俄罗斯_2
+      - 🇺🇸_US_美国_1
       - 🇺🇸_US_美国_2
-      - 🇺🇸_US_美国->🇬🇧_GB_英国
+      - 🇬🇧_GB_英国
       - 🇷🇺_RU_俄罗斯_3
-      - 🇺🇸_US_美国_5
+      - 🇺🇸_US_美国_3
+      - 🇷🇺_RU_俄罗斯_4
+      - 🇺🇸_US_美国_4
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
   - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
