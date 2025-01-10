@@ -5,13 +5,23 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: 挪威-40.3MB/s, server: 51.13.182.236, port: 6870, type: ss, cipher: chacha20-ietf-poly1305, password: M7x1mGNOwhPiRB9jSxZJNy, udp: true}
+  - {name: 波兰-49.9MB/s, server: 217.30.10.18, port: 9019, type: ss, cipher: aes-256-cfb, password: GA9KzeEgvfxNrgmM, udp: true}
+  - {name: 芬兰-2.95MB/s, server: 37.143.129.230, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
+  - {name: 挪威-18.3MB/s, server: 51.13.182.236, port: 6870, type: ss, cipher: chacha20-ietf-poly1305, password: M7x1mGNOwhPiRB9jSxZJNy, udp: true}
+  - {name: 中转节点-34.3MB/s, server: 8tv68qhq.slashdevslashnetslashtun.net, port: 15013, type: ss, cipher: aes-256-gcm, password: QDMKYVHZQVM77KA8, udp: true}
   - {name: 中转节点-32.8MB/s, server: 8tv68qhq.slashdevslashnetslashtun.net, port: 18001, type: ss, cipher: aes-256-gcm, password: V86WNPYR4ORBV2LH, udp: true}
+  - {name: 中转节点-19.2MB/s, server: w72tapyb.slashdevslashnetslashtun.net, port: 17004, type: ss, cipher: aes-256-gcm, password: YRCK2D16NISDAPEV, udp: true}
+  - {name: 挪威-40.3MB/s, server: 51.13.182.236, port: 6870, type: ss, cipher: chacha20-ietf-poly1305, password: M7x1mGNOwhPiRB9jSxZJNy, udp: true}
+  - {name: 巴林-723.2KB/s, server: series-a2-me.varzesh360.co, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: Bog0ELmMM9DSxDdQ, udp: true}
+  - {name: 英国-21.4MB/s, server: 83.147.216.173, port: 9848, type: ss, cipher: chacha20-ietf-poly1305, password: zUQvFioae7KzAZ2GCMgNum, udp: true}
+  - {name: 荷兰-3.0MB/s, server: 198.105.123.190, port: 46902, type: ss, cipher: chacha20-ietf-poly1305, password: 2UrSffeNABXGXXfNhoL6xBUnh1RzqMizrQ2s9QfC38P2YPuYPRTqW5zZg6jGisiNhkzM4SRjF6nzvFb18GPtESWoXWjhqyC8, udp: true}
   - {name: 芬兰-2.86MB/s, server: 37.143.129.230, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
   - {name: 加拿大-16.9MB/s, server: 3.99.82.131, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: nqpInr8GMVSFxpPxovu79j, udp: true}
-  - {name: 中转节点-19.2MB/s, server: w72tapyb.slashdevslashnetslashtun.net, port: 17004, type: ss, cipher: aes-256-gcm, password: YRCK2D16NISDAPEV, udp: true}
-  - {name: 英国-21.4MB/s, server: 83.147.216.173, port: 9848, type: ss, cipher: chacha20-ietf-poly1305, password: zUQvFioae7KzAZ2GCMgNum, udp: true}
+  - {name: 中转节点-9.6MB/s, server: ctmm.gscloud.bond, port: 31620, type: ss, cipher: chacha20-ietf-poly1305, password: f16d3752-7bae-474e-87dc-f892df2caeaf, udp: true}
+  - {name: 中转节点-79.5MB/s, server: 120.198.71.214, port: 34493, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 中转节点-53.1MB/s, server: 183.236.51.23, port: 52112, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 中转节点-25.2MB/s, server: 183.236.51.23, port: 51704, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 中转节点-106.2KB/s, server: 120.234.102.229, port: 52908, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 中转节点-37.3MB/s, server: 183.236.51.23, port: 51704, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 中转节点-15.82MB/s, server: 36.150.215.196, port: 18681, type: trojan, password: vzhXXZVw, skip-cert-verify: true, udp: true}
 proxy-groups:
@@ -20,13 +30,23 @@ proxy-groups:
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 挪威-40.3MB/s
+      - 波兰-49.9MB/s
+      - 芬兰-2.95MB/s
+      - 挪威-18.3MB/s
+      - 中转节点-34.3MB/s
       - 中转节点-32.8MB/s
+      - 中转节点-19.2MB/s
+      - 挪威-40.3MB/s
+      - 巴林-723.2KB/s
+      - 英国-21.4MB/s
+      - 荷兰-3.0MB/s
       - 芬兰-2.86MB/s
       - 加拿大-16.9MB/s
-      - 中转节点-19.2MB/s
-      - 英国-21.4MB/s
+      - 中转节点-9.6MB/s
+      - 中转节点-79.5MB/s
       - 中转节点-53.1MB/s
+      - 中转节点-25.2MB/s
+      - 中转节点-106.2KB/s
       - 中转节点-37.3MB/s
       - 中转节点-15.82MB/s
   - name: ♻️ 自动选择
@@ -34,13 +54,23 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - 挪威-40.3MB/s
+      - 波兰-49.9MB/s
+      - 芬兰-2.95MB/s
+      - 挪威-18.3MB/s
+      - 中转节点-34.3MB/s
       - 中转节点-32.8MB/s
+      - 中转节点-19.2MB/s
+      - 挪威-40.3MB/s
+      - 巴林-723.2KB/s
+      - 英国-21.4MB/s
+      - 荷兰-3.0MB/s
       - 芬兰-2.86MB/s
       - 加拿大-16.9MB/s
-      - 中转节点-19.2MB/s
-      - 英国-21.4MB/s
+      - 中转节点-9.6MB/s
+      - 中转节点-79.5MB/s
       - 中转节点-53.1MB/s
+      - 中转节点-25.2MB/s
+      - 中转节点-106.2KB/s
       - 中转节点-37.3MB/s
       - 中转节点-15.82MB/s
   - name: 🎥 NETFLIX
@@ -49,13 +79,23 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 挪威-40.3MB/s
+      - 波兰-49.9MB/s
+      - 芬兰-2.95MB/s
+      - 挪威-18.3MB/s
+      - 中转节点-34.3MB/s
       - 中转节点-32.8MB/s
+      - 中转节点-19.2MB/s
+      - 挪威-40.3MB/s
+      - 巴林-723.2KB/s
+      - 英国-21.4MB/s
+      - 荷兰-3.0MB/s
       - 芬兰-2.86MB/s
       - 加拿大-16.9MB/s
-      - 中转节点-19.2MB/s
-      - 英国-21.4MB/s
+      - 中转节点-9.6MB/s
+      - 中转节点-79.5MB/s
       - 中转节点-53.1MB/s
+      - 中转节点-25.2MB/s
+      - 中转节点-106.2KB/s
       - 中转节点-37.3MB/s
       - 中转节点-15.82MB/s
   - name: ⛔️ 广告拦截
@@ -76,13 +116,23 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 挪威-40.3MB/s
+      - 波兰-49.9MB/s
+      - 芬兰-2.95MB/s
+      - 挪威-18.3MB/s
+      - 中转节点-34.3MB/s
       - 中转节点-32.8MB/s
+      - 中转节点-19.2MB/s
+      - 挪威-40.3MB/s
+      - 巴林-723.2KB/s
+      - 英国-21.4MB/s
+      - 荷兰-3.0MB/s
       - 芬兰-2.86MB/s
       - 加拿大-16.9MB/s
-      - 中转节点-19.2MB/s
-      - 英国-21.4MB/s
+      - 中转节点-9.6MB/s
+      - 中转节点-79.5MB/s
       - 中转节点-53.1MB/s
+      - 中转节点-25.2MB/s
+      - 中转节点-106.2KB/s
       - 中转节点-37.3MB/s
       - 中转节点-15.82MB/s
   - name: 🌏 国内媒体
@@ -95,13 +145,23 @@ proxy-groups:
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - 挪威-40.3MB/s
+      - 波兰-49.9MB/s
+      - 芬兰-2.95MB/s
+      - 挪威-18.3MB/s
+      - 中转节点-34.3MB/s
       - 中转节点-32.8MB/s
+      - 中转节点-19.2MB/s
+      - 挪威-40.3MB/s
+      - 巴林-723.2KB/s
+      - 英国-21.4MB/s
+      - 荷兰-3.0MB/s
       - 芬兰-2.86MB/s
       - 加拿大-16.9MB/s
-      - 中转节点-19.2MB/s
-      - 英国-21.4MB/s
+      - 中转节点-9.6MB/s
+      - 中转节点-79.5MB/s
       - 中转节点-53.1MB/s
+      - 中转节点-25.2MB/s
+      - 中转节点-106.2KB/s
       - 中转节点-37.3MB/s
       - 中转节点-15.82MB/s
   - name: 📲 电报信息
@@ -109,13 +169,23 @@ proxy-groups:
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - 挪威-40.3MB/s
+      - 波兰-49.9MB/s
+      - 芬兰-2.95MB/s
+      - 挪威-18.3MB/s
+      - 中转节点-34.3MB/s
       - 中转节点-32.8MB/s
+      - 中转节点-19.2MB/s
+      - 挪威-40.3MB/s
+      - 巴林-723.2KB/s
+      - 英国-21.4MB/s
+      - 荷兰-3.0MB/s
       - 芬兰-2.86MB/s
       - 加拿大-16.9MB/s
-      - 中转节点-19.2MB/s
-      - 英国-21.4MB/s
+      - 中转节点-9.6MB/s
+      - 中转节点-79.5MB/s
       - 中转节点-53.1MB/s
+      - 中转节点-25.2MB/s
+      - 中转节点-106.2KB/s
       - 中转节点-37.3MB/s
       - 中转节点-15.82MB/s
   - name: 🍎 苹果服务
@@ -124,13 +194,23 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 挪威-40.3MB/s
+      - 波兰-49.9MB/s
+      - 芬兰-2.95MB/s
+      - 挪威-18.3MB/s
+      - 中转节点-34.3MB/s
       - 中转节点-32.8MB/s
+      - 中转节点-19.2MB/s
+      - 挪威-40.3MB/s
+      - 巴林-723.2KB/s
+      - 英国-21.4MB/s
+      - 荷兰-3.0MB/s
       - 芬兰-2.86MB/s
       - 加拿大-16.9MB/s
-      - 中转节点-19.2MB/s
-      - 英国-21.4MB/s
+      - 中转节点-9.6MB/s
+      - 中转节点-79.5MB/s
       - 中转节点-53.1MB/s
+      - 中转节点-25.2MB/s
+      - 中转节点-106.2KB/s
       - 中转节点-37.3MB/s
       - 中转节点-15.82MB/s
   - name: 🎯 全球直连
@@ -148,13 +228,23 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 挪威-40.3MB/s
+      - 波兰-49.9MB/s
+      - 芬兰-2.95MB/s
+      - 挪威-18.3MB/s
+      - 中转节点-34.3MB/s
       - 中转节点-32.8MB/s
+      - 中转节点-19.2MB/s
+      - 挪威-40.3MB/s
+      - 巴林-723.2KB/s
+      - 英国-21.4MB/s
+      - 荷兰-3.0MB/s
       - 芬兰-2.86MB/s
       - 加拿大-16.9MB/s
-      - 中转节点-19.2MB/s
-      - 英国-21.4MB/s
+      - 中转节点-9.6MB/s
+      - 中转节点-79.5MB/s
       - 中转节点-53.1MB/s
+      - 中转节点-25.2MB/s
+      - 中转节点-106.2KB/s
       - 中转节点-37.3MB/s
       - 中转节点-15.82MB/s
 rules:
