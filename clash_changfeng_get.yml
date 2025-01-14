@@ -1,6 +1,6 @@
 # 生成地址：v2rayse.com
 # 模版名称：defaultName
-# 生成时间：2025-01-14 05:26:54
+# 生成时间：2025-01-14 15:26:44
 # 不要随意改变关键字，否则会导致出错
 # acl4SSR规则
 # 去广告：支持
@@ -58,21 +58,7 @@ tun:
     - 1.1.1.1
     - 1.0.0.1
 proxies:
-  - name: 🇮🇹_IT_意大利
-    port: 989
-    server: 37.143.129.230
-    type: ss
-    udp: true
-    password: f8f7aCzcPKbsF8p3
-    cipher: aes-256-cfb
-  - name: 🇨🇦_CA_加拿大
-    port: 2376
-    server: 23.154.136.247
-    type: ss
-    udp: true
-    password: faBAoD54k87UJG7
-    cipher: aes-256-gcm
-  - name: 🇨🇳_CN_中国->🇷🇺_RU_俄罗斯_1
+  - name: 🇨🇳_CN_中国->🇷🇺_RU_俄罗斯
     port: 60194
     server: ru0195.alibabaokz.com
     type: trojan
@@ -80,74 +66,13 @@ proxies:
     sni: ru0195.alibabaokz.com
     password: 38571ca6-6692-4559-b901-0bc5826b7661
     skip-cert-verify: true
-  - name: 🇬🇧_GB_英国->🇺🇸_US_美国_1
-    port: 443
-    server: series-a1.samanehha.co
+  - name: 🇨🇭_CH_瑞士
+    port: 54748
+    server: 195.15.254.25
     type: ss
     udp: true
-    password: W74XFALLLuw6m5IA
+    password: ghBuJ9pZOF9MohhGyPjo3rvilQhlw9NzBDlOVDonQN0=
     cipher: chacha20-ietf-poly1305
-  - name: 🇨🇳_CN_中国->🇺🇸_US_美国_1
-    port: 17001
-    server: 8tv68qhq.slashdevslashnetslashtun.net
-    type: ss
-    udp: true
-    password: QBNVUDH1J62ZEVWK
-    cipher: aes-256-gcm
-  - name: 🇨🇷_CR_哥斯达黎加
-    port: 989
-    server: 138.59.16.146
-    type: ss
-    udp: true
-    password: f8f7aCzcPKbsF8p3
-    cipher: aes-256-cfb
-  - name: 🇩🇪_DE_德国->🇸🇬_SG_新加坡
-    port: 1935
-    server: 3.127.116.35
-    type: trojan
-    udp: true
-    sni: x2ger-amazon.devefun.net
-    password: Oe5CMj3tiO
-    skip-cert-verify: false
-  - name: 🇬🇧_GB_英国_1
-    port: 55899
-    server: 5.39.252.204
-    type: vmess
-    network: ws
-    udp: true
-    cipher: auto
-    uuid: 791a9aad-1a8b-435d-862e-627f41025d73
-    alterId: 0
-  - name: 🇨🇳_CN_中国->🇺🇸_US_美国_2
-    port: 21332
-    server: 120.232.217.96
-    type: trojan
-    udp: true
-    sni: 120.232.217.96
-    password: 7daf833c-37b9-4afc-8495-96590f03f781
-    skip-cert-verify: true
-  - name: 🇨🇳_CN_中国->🇷🇺_RU_俄罗斯_2
-    port: 25230
-    server: cm1.awslcn.info
-    type: vmess
-    network: ws
-    udp: true
-    sni: ""
-    skip-cert-verify: true
-    ws-opts:
-      path: /
-      headers:
-        host: cm1.awslcn.info
-    cipher: auto
-    uuid: 243eab52-9ac1-405c-887c-eb112c0985b8
-    alterId: 0
-  - name: 🇸🇬_SG_新加坡
-    port: 443
-    server: 54.179.76.173
-    type: ss
-    udp: true
-    password: amazonskr05
-    cipher: aes-256-cfb
   - name: 🇺🇸_US_美国->🇫🇷_FR_法国
     port: 80
     server: 151.101.2.216
@@ -162,41 +87,50 @@ proxies:
     cipher: auto
     uuid: c69f3029-ae1e-45ca-aa08-70970f14dfd2
     alterId: 0
-  - name: 🇷🇴_RO_罗马尼亚
-    port: 989
-    server: 185.193.49.88
-    type: ss
-    udp: true
-    password: f8f7aCzcPKbsF8p3
-    cipher: aes-256-cfb
-  - name: 🇬🇧_GB_英国->🇺🇸_US_美国_2
+  - name: 🇵🇱_PL_波兰
     port: 443
-    server: series-a2.varzesh360.co
+    server: 91.206.179.179
+    type: trojan
+    network: tcp
+    udp: true
+    sni: holy-seahorse.boa152.lol
+    password: "3723507166611775488"
+  - name: 🇨🇳_CN_中国->🇺🇸_US_美国_1
+    port: 17001
+    server: 8tv68qhq.slashdevslashnetslashtun.net
     type: ss
     udp: true
-    password: mps3FwmDjLrWaOVg
-    cipher: chacha20-ietf-poly1305
-  - name: 🇬🇧_GB_英国_2
-    port: 989
-    server: 62.100.205.48
-    type: ss
-    udp: true
-    password: f8f7aCzcPKbsF8p3
-    cipher: aes-256-cfb
-  - name: 🇬🇧_GB_英国->🇺🇸_US_美国_3
+    password: QBNVUDH1J62ZEVWK
+    cipher: aes-256-gcm
+  - name: 🇺🇸_US_美国_1
     port: 443
-    server: series-a2.samanehha.co
+    server: 35.89.145.123
     type: ss
     udp: true
-    password: mps3FwmDjLrWaOVg
-    cipher: chacha20-ietf-poly1305
-  - name: 🇸🇮_SI_斯洛文尼亚
-    port: 989
-    server: 192.71.244.150
-    type: ss
-    udp: true
-    password: f8f7aCzcPKbsF8p3
+    password: amazonskr05
     cipher: aes-256-cfb
+  - name: 🇨🇳_CN_中国->🇺🇸_US_美国_2
+    port: 21332
+    server: 120.232.217.96
+    type: trojan
+    udp: true
+    sni: 120.232.217.96
+    password: 7daf833c-37b9-4afc-8495-96590f03f781
+    skip-cert-verify: true
+  - name: 🇩🇪_DE_德国->🇨🇳_CN_中国
+    port: 8080
+    server: 45.87.175.157
+    type: ss
+    udp: true
+    password: QCXDxuDlTTMD7jtgHUjIoj
+    cipher: chacha20-ietf-poly1305
+  - name: 🇨🇦_CA_加拿大
+    port: 2376
+    server: 23.154.136.247
+    type: ss
+    udp: true
+    password: faBAoD54k87UJG7
+    cipher: aes-256-gcm
   - name: 🇷🇺_RU_俄罗斯
     port: 23456
     server: 185.22.155.228
@@ -204,26 +138,40 @@ proxies:
     udp: true
     password: dongtaiwang.com
     cipher: aes-256-gcm
-  - name: 🇺🇸_US_美国_1
-    port: 443
-    server: series-a2-mec.varzesh360.co
+  - name: 🇬🇧_GB_英国
+    port: 989
+    server: 62.100.205.48
     type: ss
     udp: true
-    password: u17T3BvpYaaiuW2c
+    password: f8f7aCzcPKbsF8p3
+    cipher: aes-256-cfb
+  - name: 🇮🇹_IT_意大利
+    port: 989
+    server: 37.143.129.230
+    type: ss
+    udp: true
+    password: f8f7aCzcPKbsF8p3
+    cipher: aes-256-cfb
+  - name: 🇷🇴_RO_罗马尼亚
+    port: 989
+    server: 185.193.49.88
+    type: ss
+    udp: true
+    password: f8f7aCzcPKbsF8p3
+    cipher: aes-256-cfb
+  - name: 🇮🇷_IR_伊朗
+    port: 9848
+    server: 83.147.216.173
+    type: ss
+    udp: true
+    password: zUQvFioae7KzAZ2GCMgNum
     cipher: chacha20-ietf-poly1305
   - name: 🇺🇸_US_美国_2
-    port: 8000
-    server: 142.202.49.75
+    port: 443
+    server: 194.87.216.121
     type: ss
     udp: true
-    password: KixLvKzwjekG00rm
-    cipher: aes-256-gcm
-  - name: 🇨🇭_CH_瑞士
-    port: 54748
-    server: 195.15.254.25
-    type: ss
-    udp: true
-    password: ghBuJ9pZOF9MohhGyPjo3rvilQhlw9NzBDlOVDonQN0=
+    password: piv97XS1Cval86vfwHPD5j
     cipher: chacha20-ietf-poly1305
 proxy-groups:
   - name: 🚀 节点选择
@@ -231,159 +179,123 @@ proxy-groups:
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - 🇮🇹_IT_意大利
-      - 🇨🇦_CA_加拿大
-      - 🇨🇳_CN_中国->🇷🇺_RU_俄罗斯_1
-      - 🇬🇧_GB_英国->🇺🇸_US_美国_1
-      - 🇨🇳_CN_中国->🇺🇸_US_美国_1
-      - 🇨🇷_CR_哥斯达黎加
-      - 🇩🇪_DE_德国->🇸🇬_SG_新加坡
-      - 🇬🇧_GB_英国_1
-      - 🇨🇳_CN_中国->🇺🇸_US_美国_2
-      - 🇨🇳_CN_中国->🇷🇺_RU_俄罗斯_2
-      - 🇸🇬_SG_新加坡
-      - 🇺🇸_US_美国->🇫🇷_FR_法国
-      - 🇷🇴_RO_罗马尼亚
-      - 🇬🇧_GB_英国->🇺🇸_US_美国_2
-      - 🇬🇧_GB_英国_2
-      - 🇬🇧_GB_英国->🇺🇸_US_美国_3
-      - 🇸🇮_SI_斯洛文尼亚
-      - 🇷🇺_RU_俄罗斯
-      - 🇺🇸_US_美国_1
-      - 🇺🇸_US_美国_2
+      - 🇨🇳_CN_中国->🇷🇺_RU_俄罗斯
       - 🇨🇭_CH_瑞士
+      - 🇺🇸_US_美国->🇫🇷_FR_法国
+      - 🇵🇱_PL_波兰
+      - 🇨🇳_CN_中国->🇺🇸_US_美国_1
+      - 🇺🇸_US_美国_1
+      - 🇨🇳_CN_中国->🇺🇸_US_美国_2
+      - 🇩🇪_DE_德国->🇨🇳_CN_中国
+      - 🇨🇦_CA_加拿大
+      - 🇷🇺_RU_俄罗斯
+      - 🇬🇧_GB_英国
+      - 🇮🇹_IT_意大利
+      - 🇷🇴_RO_罗马尼亚
+      - 🇮🇷_IR_伊朗
+      - 🇺🇸_US_美国_2
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - 🇮🇹_IT_意大利
-      - 🇨🇦_CA_加拿大
-      - 🇨🇳_CN_中国->🇷🇺_RU_俄罗斯_1
-      - 🇬🇧_GB_英国->🇺🇸_US_美国_1
-      - 🇨🇳_CN_中国->🇺🇸_US_美国_1
-      - 🇨🇷_CR_哥斯达黎加
-      - 🇩🇪_DE_德国->🇸🇬_SG_新加坡
-      - 🇬🇧_GB_英国_1
-      - 🇨🇳_CN_中国->🇺🇸_US_美国_2
-      - 🇨🇳_CN_中国->🇷🇺_RU_俄罗斯_2
-      - 🇸🇬_SG_新加坡
-      - 🇺🇸_US_美国->🇫🇷_FR_法国
-      - 🇷🇴_RO_罗马尼亚
-      - 🇬🇧_GB_英国->🇺🇸_US_美国_2
-      - 🇬🇧_GB_英国_2
-      - 🇬🇧_GB_英国->🇺🇸_US_美国_3
-      - 🇸🇮_SI_斯洛文尼亚
-      - 🇷🇺_RU_俄罗斯
-      - 🇺🇸_US_美国_1
-      - 🇺🇸_US_美国_2
+      - 🇨🇳_CN_中国->🇷🇺_RU_俄罗斯
       - 🇨🇭_CH_瑞士
+      - 🇺🇸_US_美国->🇫🇷_FR_法国
+      - 🇵🇱_PL_波兰
+      - 🇨🇳_CN_中国->🇺🇸_US_美国_1
+      - 🇺🇸_US_美国_1
+      - 🇨🇳_CN_中国->🇺🇸_US_美国_2
+      - 🇩🇪_DE_德国->🇨🇳_CN_中国
+      - 🇨🇦_CA_加拿大
+      - 🇷🇺_RU_俄罗斯
+      - 🇬🇧_GB_英国
+      - 🇮🇹_IT_意大利
+      - 🇷🇴_RO_罗马尼亚
+      - 🇮🇷_IR_伊朗
+      - 🇺🇸_US_美国_2
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇮🇹_IT_意大利
-      - 🇨🇦_CA_加拿大
-      - 🇨🇳_CN_中国->🇷🇺_RU_俄罗斯_1
-      - 🇬🇧_GB_英国->🇺🇸_US_美国_1
-      - 🇨🇳_CN_中国->🇺🇸_US_美国_1
-      - 🇨🇷_CR_哥斯达黎加
-      - 🇩🇪_DE_德国->🇸🇬_SG_新加坡
-      - 🇬🇧_GB_英国_1
-      - 🇨🇳_CN_中国->🇺🇸_US_美国_2
-      - 🇨🇳_CN_中国->🇷🇺_RU_俄罗斯_2
-      - 🇸🇬_SG_新加坡
-      - 🇺🇸_US_美国->🇫🇷_FR_法国
-      - 🇷🇴_RO_罗马尼亚
-      - 🇬🇧_GB_英国->🇺🇸_US_美国_2
-      - 🇬🇧_GB_英国_2
-      - 🇬🇧_GB_英国->🇺🇸_US_美国_3
-      - 🇸🇮_SI_斯洛文尼亚
-      - 🇷🇺_RU_俄罗斯
-      - 🇺🇸_US_美国_1
-      - 🇺🇸_US_美国_2
+      - 🇨🇳_CN_中国->🇷🇺_RU_俄罗斯
       - 🇨🇭_CH_瑞士
+      - 🇺🇸_US_美国->🇫🇷_FR_法国
+      - 🇵🇱_PL_波兰
+      - 🇨🇳_CN_中国->🇺🇸_US_美国_1
+      - 🇺🇸_US_美国_1
+      - 🇨🇳_CN_中国->🇺🇸_US_美国_2
+      - 🇩🇪_DE_德国->🇨🇳_CN_中国
+      - 🇨🇦_CA_加拿大
+      - 🇷🇺_RU_俄罗斯
+      - 🇬🇧_GB_英国
+      - 🇮🇹_IT_意大利
+      - 🇷🇴_RO_罗马尼亚
+      - 🇮🇷_IR_伊朗
+      - 🇺🇸_US_美国_2
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 🇮🇹_IT_意大利
-      - 🇨🇦_CA_加拿大
-      - 🇨🇳_CN_中国->🇷🇺_RU_俄罗斯_1
-      - 🇬🇧_GB_英国->🇺🇸_US_美国_1
-      - 🇨🇳_CN_中国->🇺🇸_US_美国_1
-      - 🇨🇷_CR_哥斯达黎加
-      - 🇩🇪_DE_德国->🇸🇬_SG_新加坡
-      - 🇬🇧_GB_英国_1
-      - 🇨🇳_CN_中国->🇺🇸_US_美国_2
-      - 🇨🇳_CN_中国->🇷🇺_RU_俄罗斯_2
-      - 🇸🇬_SG_新加坡
-      - 🇺🇸_US_美国->🇫🇷_FR_法国
-      - 🇷🇴_RO_罗马尼亚
-      - 🇬🇧_GB_英国->🇺🇸_US_美国_2
-      - 🇬🇧_GB_英国_2
-      - 🇬🇧_GB_英国->🇺🇸_US_美国_3
-      - 🇸🇮_SI_斯洛文尼亚
-      - 🇷🇺_RU_俄罗斯
-      - 🇺🇸_US_美国_1
-      - 🇺🇸_US_美国_2
+      - 🇨🇳_CN_中国->🇷🇺_RU_俄罗斯
       - 🇨🇭_CH_瑞士
+      - 🇺🇸_US_美国->🇫🇷_FR_法国
+      - 🇵🇱_PL_波兰
+      - 🇨🇳_CN_中国->🇺🇸_US_美国_1
+      - 🇺🇸_US_美国_1
+      - 🇨🇳_CN_中国->🇺🇸_US_美国_2
+      - 🇩🇪_DE_德国->🇨🇳_CN_中国
+      - 🇨🇦_CA_加拿大
+      - 🇷🇺_RU_俄罗斯
+      - 🇬🇧_GB_英国
+      - 🇮🇹_IT_意大利
+      - 🇷🇴_RO_罗马尼亚
+      - 🇮🇷_IR_伊朗
+      - 🇺🇸_US_美国_2
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - 🇮🇹_IT_意大利
-      - 🇨🇦_CA_加拿大
-      - 🇨🇳_CN_中国->🇷🇺_RU_俄罗斯_1
-      - 🇬🇧_GB_英国->🇺🇸_US_美国_1
-      - 🇨🇳_CN_中国->🇺🇸_US_美国_1
-      - 🇨🇷_CR_哥斯达黎加
-      - 🇩🇪_DE_德国->🇸🇬_SG_新加坡
-      - 🇬🇧_GB_英国_1
-      - 🇨🇳_CN_中国->🇺🇸_US_美国_2
-      - 🇨🇳_CN_中国->🇷🇺_RU_俄罗斯_2
-      - 🇸🇬_SG_新加坡
-      - 🇺🇸_US_美国->🇫🇷_FR_法国
-      - 🇷🇴_RO_罗马尼亚
-      - 🇬🇧_GB_英国->🇺🇸_US_美国_2
-      - 🇬🇧_GB_英国_2
-      - 🇬🇧_GB_英国->🇺🇸_US_美国_3
-      - 🇸🇮_SI_斯洛文尼亚
-      - 🇷🇺_RU_俄罗斯
-      - 🇺🇸_US_美国_1
-      - 🇺🇸_US_美国_2
+      - 🇨🇳_CN_中国->🇷🇺_RU_俄罗斯
       - 🇨🇭_CH_瑞士
+      - 🇺🇸_US_美国->🇫🇷_FR_法国
+      - 🇵🇱_PL_波兰
+      - 🇨🇳_CN_中国->🇺🇸_US_美国_1
+      - 🇺🇸_US_美国_1
+      - 🇨🇳_CN_中国->🇺🇸_US_美国_2
+      - 🇩🇪_DE_德国->🇨🇳_CN_中国
+      - 🇨🇦_CA_加拿大
+      - 🇷🇺_RU_俄罗斯
+      - 🇬🇧_GB_英国
+      - 🇮🇹_IT_意大利
+      - 🇷🇴_RO_罗马尼亚
+      - 🇮🇷_IR_伊朗
+      - 🇺🇸_US_美国_2
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 🇮🇹_IT_意大利
-      - 🇨🇦_CA_加拿大
-      - 🇨🇳_CN_中国->🇷🇺_RU_俄罗斯_1
-      - 🇬🇧_GB_英国->🇺🇸_US_美国_1
-      - 🇨🇳_CN_中国->🇺🇸_US_美国_1
-      - 🇨🇷_CR_哥斯达黎加
-      - 🇩🇪_DE_德国->🇸🇬_SG_新加坡
-      - 🇬🇧_GB_英国_1
-      - 🇨🇳_CN_中国->🇺🇸_US_美国_2
-      - 🇨🇳_CN_中国->🇷🇺_RU_俄罗斯_2
-      - 🇸🇬_SG_新加坡
-      - 🇺🇸_US_美国->🇫🇷_FR_法国
-      - 🇷🇴_RO_罗马尼亚
-      - 🇬🇧_GB_英国->🇺🇸_US_美国_2
-      - 🇬🇧_GB_英国_2
-      - 🇬🇧_GB_英国->🇺🇸_US_美国_3
-      - 🇸🇮_SI_斯洛文尼亚
-      - 🇷🇺_RU_俄罗斯
-      - 🇺🇸_US_美国_1
-      - 🇺🇸_US_美国_2
+      - 🇨🇳_CN_中国->🇷🇺_RU_俄罗斯
       - 🇨🇭_CH_瑞士
+      - 🇺🇸_US_美国->🇫🇷_FR_法国
+      - 🇵🇱_PL_波兰
+      - 🇨🇳_CN_中国->🇺🇸_US_美国_1
+      - 🇺🇸_US_美国_1
+      - 🇨🇳_CN_中国->🇺🇸_US_美国_2
+      - 🇩🇪_DE_德国->🇨🇳_CN_中国
+      - 🇨🇦_CA_加拿大
+      - 🇷🇺_RU_俄罗斯
+      - 🇬🇧_GB_英国
+      - 🇮🇹_IT_意大利
+      - 🇷🇴_RO_罗马尼亚
+      - 🇮🇷_IR_伊朗
+      - 🇺🇸_US_美国_2
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -406,27 +318,21 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇮🇹_IT_意大利
-      - 🇨🇦_CA_加拿大
-      - 🇨🇳_CN_中国->🇷🇺_RU_俄罗斯_1
-      - 🇬🇧_GB_英国->🇺🇸_US_美国_1
-      - 🇨🇳_CN_中国->🇺🇸_US_美国_1
-      - 🇨🇷_CR_哥斯达黎加
-      - 🇩🇪_DE_德国->🇸🇬_SG_新加坡
-      - 🇬🇧_GB_英国_1
-      - 🇨🇳_CN_中国->🇺🇸_US_美国_2
-      - 🇨🇳_CN_中国->🇷🇺_RU_俄罗斯_2
-      - 🇸🇬_SG_新加坡
-      - 🇺🇸_US_美国->🇫🇷_FR_法国
-      - 🇷🇴_RO_罗马尼亚
-      - 🇬🇧_GB_英国->🇺🇸_US_美国_2
-      - 🇬🇧_GB_英国_2
-      - 🇬🇧_GB_英国->🇺🇸_US_美国_3
-      - 🇸🇮_SI_斯洛文尼亚
-      - 🇷🇺_RU_俄罗斯
-      - 🇺🇸_US_美国_1
-      - 🇺🇸_US_美国_2
+      - 🇨🇳_CN_中国->🇷🇺_RU_俄罗斯
       - 🇨🇭_CH_瑞士
+      - 🇺🇸_US_美国->🇫🇷_FR_法国
+      - 🇵🇱_PL_波兰
+      - 🇨🇳_CN_中国->🇺🇸_US_美国_1
+      - 🇺🇸_US_美国_1
+      - 🇨🇳_CN_中国->🇺🇸_US_美国_2
+      - 🇩🇪_DE_德国->🇨🇳_CN_中国
+      - 🇨🇦_CA_加拿大
+      - 🇷🇺_RU_俄罗斯
+      - 🇬🇧_GB_英国
+      - 🇮🇹_IT_意大利
+      - 🇷🇴_RO_罗马尼亚
+      - 🇮🇷_IR_伊朗
+      - 🇺🇸_US_美国_2
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
   - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
