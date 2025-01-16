@@ -1,6 +1,6 @@
 # 生成地址：v2rayse.com
 # 模版名称：defaultName
-# 生成时间：2025-01-16 15:27:01
+# 生成时间：2025-01-16 21:31:35
 # 不要随意改变关键字，否则会导致出错
 # acl4SSR规则
 # 去广告：支持
@@ -58,118 +58,78 @@ tun:
     - 1.1.1.1
     - 1.0.0.1
 proxies:
-  - name: 🇨🇳_CN_中国->🇷🇺_RU_俄罗斯
-    port: 60194
-    server: ru0195.alibabaokz.com
-    type: trojan
-    udp: true
-    sni: ru0195.alibabaokz.com
-    password: 38571ca6-6692-4559-b901-0bc5826b7661
-    skip-cert-verify: true
-  - name: 🇫🇮_FI_芬兰_1
-    port: 3882
-    server: 95.217.72.126
+  - name: 🇷🇴_RO_罗马尼亚_1
+    port: 8080
+    server: 194.5.215.59
     type: ss
     udp: true
-    password: dEldTzkqVlhORUhbejg+MT5DPyhcVUowWl1aa0FsbVk=
-    cipher: chacha20-ietf-poly1305
-  - name: 🇨🇳_CN_中国->🇺🇸_US_美国_1
-    port: 21142
-    server: 120.232.217.96
-    type: trojan
-    udp: true
-    password: 0bc68743-cff8-4730-9818-9d8192ee335c
-    skip-cert-verify: true
-  - name: 🇨🇳_CN_中国->🇺🇸_US_美国_2
-    port: 21142
-    server: 120.232.217.96
-    type: trojan
-    udp: true
-    password: 0bc68743-cff8-4730-9818-9d8192ee335c
-    skip-cert-verify: true
-  - name: 🇨🇳_CN_中国->🇺🇸_US_美国_3
-    port: 21142
-    server: 120.232.217.96
-    type: trojan
-    udp: true
-    password: 0bc68743-cff8-4730-9818-9d8192ee335c
-    skip-cert-verify: true
-  - name: 🇫🇮_FI_芬兰_2
-    port: 3882
-    server: 95.217.72.126
+    password: 14fFPrbezE3HDZzsMOr6
+    cipher: rc4-md5
+  - name: 🇷🇴_RO_罗马尼亚_2
+    port: 8080
+    server: 194.5.215.59
     type: ss
     udp: true
-    password: dEldTzkqVlhORUhbejg+MT5DPyhcVUowWl1aa0FsbVk=
-    cipher: chacha20-ietf-poly1305
+    password: 14fFPrbezE3HDZzsMOr6
+    cipher: rc4-md5
+  - name: 🇷🇴_RO_罗马尼亚_3
+    port: 8080
+    server: 194.5.215.59
+    type: ss
+    udp: true
+    password: 14fFPrbezE3HDZzsMOr6
+    cipher: rc4-md5
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - 🇨🇳_CN_中国->🇷🇺_RU_俄罗斯
-      - 🇫🇮_FI_芬兰_1
-      - 🇨🇳_CN_中国->🇺🇸_US_美国_1
-      - 🇨🇳_CN_中国->🇺🇸_US_美国_2
-      - 🇨🇳_CN_中国->🇺🇸_US_美国_3
-      - 🇫🇮_FI_芬兰_2
+      - 🇷🇴_RO_罗马尼亚_1
+      - 🇷🇴_RO_罗马尼亚_2
+      - 🇷🇴_RO_罗马尼亚_3
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - 🇨🇳_CN_中国->🇷🇺_RU_俄罗斯
-      - 🇫🇮_FI_芬兰_1
-      - 🇨🇳_CN_中国->🇺🇸_US_美国_1
-      - 🇨🇳_CN_中国->🇺🇸_US_美国_2
-      - 🇨🇳_CN_中国->🇺🇸_US_美国_3
-      - 🇫🇮_FI_芬兰_2
+      - 🇷🇴_RO_罗马尼亚_1
+      - 🇷🇴_RO_罗马尼亚_2
+      - 🇷🇴_RO_罗马尼亚_3
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇨🇳_CN_中国->🇷🇺_RU_俄罗斯
-      - 🇫🇮_FI_芬兰_1
-      - 🇨🇳_CN_中国->🇺🇸_US_美国_1
-      - 🇨🇳_CN_中国->🇺🇸_US_美国_2
-      - 🇨🇳_CN_中国->🇺🇸_US_美国_3
-      - 🇫🇮_FI_芬兰_2
+      - 🇷🇴_RO_罗马尼亚_1
+      - 🇷🇴_RO_罗马尼亚_2
+      - 🇷🇴_RO_罗马尼亚_3
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 🇨🇳_CN_中国->🇷🇺_RU_俄罗斯
-      - 🇫🇮_FI_芬兰_1
-      - 🇨🇳_CN_中国->🇺🇸_US_美国_1
-      - 🇨🇳_CN_中国->🇺🇸_US_美国_2
-      - 🇨🇳_CN_中国->🇺🇸_US_美国_3
-      - 🇫🇮_FI_芬兰_2
+      - 🇷🇴_RO_罗马尼亚_1
+      - 🇷🇴_RO_罗马尼亚_2
+      - 🇷🇴_RO_罗马尼亚_3
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - 🇨🇳_CN_中国->🇷🇺_RU_俄罗斯
-      - 🇫🇮_FI_芬兰_1
-      - 🇨🇳_CN_中国->🇺🇸_US_美国_1
-      - 🇨🇳_CN_中国->🇺🇸_US_美国_2
-      - 🇨🇳_CN_中国->🇺🇸_US_美国_3
-      - 🇫🇮_FI_芬兰_2
+      - 🇷🇴_RO_罗马尼亚_1
+      - 🇷🇴_RO_罗马尼亚_2
+      - 🇷🇴_RO_罗马尼亚_3
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 🇨🇳_CN_中国->🇷🇺_RU_俄罗斯
-      - 🇫🇮_FI_芬兰_1
-      - 🇨🇳_CN_中国->🇺🇸_US_美国_1
-      - 🇨🇳_CN_中国->🇺🇸_US_美国_2
-      - 🇨🇳_CN_中国->🇺🇸_US_美国_3
-      - 🇫🇮_FI_芬兰_2
+      - 🇷🇴_RO_罗马尼亚_1
+      - 🇷🇴_RO_罗马尼亚_2
+      - 🇷🇴_RO_罗马尼亚_3
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -192,12 +152,9 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇨🇳_CN_中国->🇷🇺_RU_俄罗斯
-      - 🇫🇮_FI_芬兰_1
-      - 🇨🇳_CN_中国->🇺🇸_US_美国_1
-      - 🇨🇳_CN_中国->🇺🇸_US_美国_2
-      - 🇨🇳_CN_中国->🇺🇸_US_美国_3
-      - 🇫🇮_FI_芬兰_2
+      - 🇷🇴_RO_罗马尼亚_1
+      - 🇷🇴_RO_罗马尼亚_2
+      - 🇷🇴_RO_罗马尼亚_3
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
   - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
