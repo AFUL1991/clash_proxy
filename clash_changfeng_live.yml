@@ -1,6 +1,6 @@
 # 生成地址：v2rayse.com
 # 模版名称：defaultName
-# 生成时间：2025-01-16 05:27:09
+# 生成时间：2025-01-16 15:27:01
 # 不要随意改变关键字，否则会导致出错
 # acl4SSR规则
 # 去广告：支持
@@ -58,21 +58,7 @@ tun:
     - 1.1.1.1
     - 1.0.0.1
 proxies:
-  - name: 🇲🇩_MD_摩尔多瓦
-    port: 989
-    server: 91.132.94.200
-    type: ss
-    udp: true
-    password: f8f7aCzcPKbsF8p3
-    cipher: aes-256-cfb
-  - name: 🇷🇴_RO_罗马尼亚_1
-    port: 989
-    server: 185.193.49.88
-    type: ss
-    udp: true
-    password: f8f7aCzcPKbsF8p3
-    cipher: aes-256-cfb
-  - name: 🇨🇳_CN_中国->🇷🇺_RU_俄罗斯_1
+  - name: 🇨🇳_CN_中国->🇷🇺_RU_俄罗斯
     port: 60194
     server: ru0195.alibabaokz.com
     type: trojan
@@ -80,136 +66,110 @@ proxies:
     sni: ru0195.alibabaokz.com
     password: 38571ca6-6692-4559-b901-0bc5826b7661
     skip-cert-verify: true
-  - name: 🇨🇳_CN_中国->🇺🇸_US_美国
+  - name: 🇫🇮_FI_芬兰_1
+    port: 3882
+    server: 95.217.72.126
+    type: ss
+    udp: true
+    password: dEldTzkqVlhORUhbejg+MT5DPyhcVUowWl1aa0FsbVk=
+    cipher: chacha20-ietf-poly1305
+  - name: 🇨🇳_CN_中国->🇺🇸_US_美国_1
     port: 21142
     server: 120.232.217.96
     type: trojan
     udp: true
     password: 0bc68743-cff8-4730-9818-9d8192ee335c
     skip-cert-verify: true
-  - name: 🇮🇹_IT_意大利
-    port: 989
-    server: 37.143.129.230
-    type: ss
-    udp: true
-    password: f8f7aCzcPKbsF8p3
-    cipher: aes-256-cfb
-  - name: 🇨🇳_CN_中国->🇷🇺_RU_俄罗斯_2
-    port: 60194
-    server: ru0195.alibabaokz.com
+  - name: 🇨🇳_CN_中国->🇺🇸_US_美国_2
+    port: 21142
+    server: 120.232.217.96
     type: trojan
     udp: true
-    sni: ru0195.alibabaokz.com
-    password: 38571ca6-6692-4559-b901-0bc5826b7661
+    password: 0bc68743-cff8-4730-9818-9d8192ee335c
     skip-cert-verify: true
-  - name: 🇷🇴_RO_罗马尼亚_2
-    port: 989
-    server: 185.193.49.88
+  - name: 🇨🇳_CN_中国->🇺🇸_US_美国_3
+    port: 21142
+    server: 120.232.217.96
+    type: trojan
+    udp: true
+    password: 0bc68743-cff8-4730-9818-9d8192ee335c
+    skip-cert-verify: true
+  - name: 🇫🇮_FI_芬兰_2
+    port: 3882
+    server: 95.217.72.126
     type: ss
     udp: true
-    password: f8f7aCzcPKbsF8p3
-    cipher: aes-256-cfb
-  - name: 🇺🇸_US_美国->🇧🇭_BH_巴林
-    port: 443
-    server: series-a2-me.varzesh360.co
-    type: ss
-    udp: true
-    password: Bog0ELmMM9DSxDdQ
+    password: dEldTzkqVlhORUhbejg+MT5DPyhcVUowWl1aa0FsbVk=
     cipher: chacha20-ietf-poly1305
-  - name: 🇷🇴_RO_罗马尼亚_3
-    port: 989
-    server: 185.193.49.88
-    type: ss
-    udp: true
-    password: f8f7aCzcPKbsF8p3
-    cipher: aes-256-cfb
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - 🇲🇩_MD_摩尔多瓦
-      - 🇷🇴_RO_罗马尼亚_1
-      - 🇨🇳_CN_中国->🇷🇺_RU_俄罗斯_1
-      - 🇨🇳_CN_中国->🇺🇸_US_美国
-      - 🇮🇹_IT_意大利
-      - 🇨🇳_CN_中国->🇷🇺_RU_俄罗斯_2
-      - 🇷🇴_RO_罗马尼亚_2
-      - 🇺🇸_US_美国->🇧🇭_BH_巴林
-      - 🇷🇴_RO_罗马尼亚_3
+      - 🇨🇳_CN_中国->🇷🇺_RU_俄罗斯
+      - 🇫🇮_FI_芬兰_1
+      - 🇨🇳_CN_中国->🇺🇸_US_美国_1
+      - 🇨🇳_CN_中国->🇺🇸_US_美国_2
+      - 🇨🇳_CN_中国->🇺🇸_US_美国_3
+      - 🇫🇮_FI_芬兰_2
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - 🇲🇩_MD_摩尔多瓦
-      - 🇷🇴_RO_罗马尼亚_1
-      - 🇨🇳_CN_中国->🇷🇺_RU_俄罗斯_1
-      - 🇨🇳_CN_中国->🇺🇸_US_美国
-      - 🇮🇹_IT_意大利
-      - 🇨🇳_CN_中国->🇷🇺_RU_俄罗斯_2
-      - 🇷🇴_RO_罗马尼亚_2
-      - 🇺🇸_US_美国->🇧🇭_BH_巴林
-      - 🇷🇴_RO_罗马尼亚_3
+      - 🇨🇳_CN_中国->🇷🇺_RU_俄罗斯
+      - 🇫🇮_FI_芬兰_1
+      - 🇨🇳_CN_中国->🇺🇸_US_美国_1
+      - 🇨🇳_CN_中国->🇺🇸_US_美国_2
+      - 🇨🇳_CN_中国->🇺🇸_US_美国_3
+      - 🇫🇮_FI_芬兰_2
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇲🇩_MD_摩尔多瓦
-      - 🇷🇴_RO_罗马尼亚_1
-      - 🇨🇳_CN_中国->🇷🇺_RU_俄罗斯_1
-      - 🇨🇳_CN_中国->🇺🇸_US_美国
-      - 🇮🇹_IT_意大利
-      - 🇨🇳_CN_中国->🇷🇺_RU_俄罗斯_2
-      - 🇷🇴_RO_罗马尼亚_2
-      - 🇺🇸_US_美国->🇧🇭_BH_巴林
-      - 🇷🇴_RO_罗马尼亚_3
+      - 🇨🇳_CN_中国->🇷🇺_RU_俄罗斯
+      - 🇫🇮_FI_芬兰_1
+      - 🇨🇳_CN_中国->🇺🇸_US_美国_1
+      - 🇨🇳_CN_中国->🇺🇸_US_美国_2
+      - 🇨🇳_CN_中国->🇺🇸_US_美国_3
+      - 🇫🇮_FI_芬兰_2
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 🇲🇩_MD_摩尔多瓦
-      - 🇷🇴_RO_罗马尼亚_1
-      - 🇨🇳_CN_中国->🇷🇺_RU_俄罗斯_1
-      - 🇨🇳_CN_中国->🇺🇸_US_美国
-      - 🇮🇹_IT_意大利
-      - 🇨🇳_CN_中国->🇷🇺_RU_俄罗斯_2
-      - 🇷🇴_RO_罗马尼亚_2
-      - 🇺🇸_US_美国->🇧🇭_BH_巴林
-      - 🇷🇴_RO_罗马尼亚_3
+      - 🇨🇳_CN_中国->🇷🇺_RU_俄罗斯
+      - 🇫🇮_FI_芬兰_1
+      - 🇨🇳_CN_中国->🇺🇸_US_美国_1
+      - 🇨🇳_CN_中国->🇺🇸_US_美国_2
+      - 🇨🇳_CN_中国->🇺🇸_US_美国_3
+      - 🇫🇮_FI_芬兰_2
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - 🇲🇩_MD_摩尔多瓦
-      - 🇷🇴_RO_罗马尼亚_1
-      - 🇨🇳_CN_中国->🇷🇺_RU_俄罗斯_1
-      - 🇨🇳_CN_中国->🇺🇸_US_美国
-      - 🇮🇹_IT_意大利
-      - 🇨🇳_CN_中国->🇷🇺_RU_俄罗斯_2
-      - 🇷🇴_RO_罗马尼亚_2
-      - 🇺🇸_US_美国->🇧🇭_BH_巴林
-      - 🇷🇴_RO_罗马尼亚_3
+      - 🇨🇳_CN_中国->🇷🇺_RU_俄罗斯
+      - 🇫🇮_FI_芬兰_1
+      - 🇨🇳_CN_中国->🇺🇸_US_美国_1
+      - 🇨🇳_CN_中国->🇺🇸_US_美国_2
+      - 🇨🇳_CN_中国->🇺🇸_US_美国_3
+      - 🇫🇮_FI_芬兰_2
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 🇲🇩_MD_摩尔多瓦
-      - 🇷🇴_RO_罗马尼亚_1
-      - 🇨🇳_CN_中国->🇷🇺_RU_俄罗斯_1
-      - 🇨🇳_CN_中国->🇺🇸_US_美国
-      - 🇮🇹_IT_意大利
-      - 🇨🇳_CN_中国->🇷🇺_RU_俄罗斯_2
-      - 🇷🇴_RO_罗马尼亚_2
-      - 🇺🇸_US_美国->🇧🇭_BH_巴林
-      - 🇷🇴_RO_罗马尼亚_3
+      - 🇨🇳_CN_中国->🇷🇺_RU_俄罗斯
+      - 🇫🇮_FI_芬兰_1
+      - 🇨🇳_CN_中国->🇺🇸_US_美国_1
+      - 🇨🇳_CN_中国->🇺🇸_US_美国_2
+      - 🇨🇳_CN_中国->🇺🇸_US_美国_3
+      - 🇫🇮_FI_芬兰_2
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -232,15 +192,12 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇲🇩_MD_摩尔多瓦
-      - 🇷🇴_RO_罗马尼亚_1
-      - 🇨🇳_CN_中国->🇷🇺_RU_俄罗斯_1
-      - 🇨🇳_CN_中国->🇺🇸_US_美国
-      - 🇮🇹_IT_意大利
-      - 🇨🇳_CN_中国->🇷🇺_RU_俄罗斯_2
-      - 🇷🇴_RO_罗马尼亚_2
-      - 🇺🇸_US_美国->🇧🇭_BH_巴林
-      - 🇷🇴_RO_罗马尼亚_3
+      - 🇨🇳_CN_中国->🇷🇺_RU_俄罗斯
+      - 🇫🇮_FI_芬兰_1
+      - 🇨🇳_CN_中国->🇺🇸_US_美国_1
+      - 🇨🇳_CN_中国->🇺🇸_US_美国_2
+      - 🇨🇳_CN_中国->🇺🇸_US_美国_3
+      - 🇫🇮_FI_芬兰_2
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
   - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
