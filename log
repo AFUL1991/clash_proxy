@@ -1,11 +1,11 @@
----------- [2025-01-16 15:16:24] 更新订阅 ----------
----------- 2025-01-16 15:16:24 ----------
+---------- [2025-01-16 21:22:32] 更新订阅 ----------
+---------- 2025-01-16 21:22:32 ----------
 [长风分享]:
 /home/runner/work/auto_jobs/proxy/clash_cfmem.yml
 /home/runner/work/auto_jobs/proxy/v2ray_cfmem.txt
 [长风分享]: 订阅成功 https://fs.v2rayse.com/share/20250116/9u0xbmsq4e.yaml
 [长风分享]: 订阅成功 https://fs.v2rayse.com/share/20250116/r8v9do7udc.txt
----------- 2025-01-16 15:16:26 ----------
+---------- 2025-01-16 21:22:34 ----------
 [freev2]: /home/runner/work/auto_jobs/subscribe/freev2.py
 [freev2]: 当前工作目录：/home/runner/work/auto_jobs/proxy/clash_freev2.yml
 [freev2]: 订阅成功, https://raw.githubusercontent.com/freefq/free/master/v2
@@ -43,7 +43,7 @@ User(
 	phone='436789040144717',
 	photo=None,
 	status=UserStatusOffline(
-		was_online=datetime.datetime(2025, 1, 16, 7, 15, 30, tzinfo=datetime.timezone.utc)
+		was_online=datetime.datetime(2025, 1, 16, 10, 5, 17, tzinfo=datetime.timezone.utc)
 	),
 	bot_info_version=None,
 	restriction_reason=[
@@ -61,26 +61,26 @@ Name: FREE 中文, ID: -1001570215033
 Name: 长风分享频道, ID: -1001516635885
 Name: 口交💋专辑, ID: -1001420871010
 Name: 免费节点自动分享, ID: 2096213628
-Name: 极搜-中文搜索（复活版） 中文 搜索, ID: -1001607161451
+Name: 极搜, ID: -1001888813717
 Name: TG代理VPN技术分享, ID: -1001670133389
 Name: 吃瓜群众🍉, ID: -1001786596225
-Name: 超级搜索引擎, ID: -1001760236395
+Name: 吃瓜少女, ID: -1001232928936
+Name: 老毛子Padavan固件自助交流群, ID: -1001148540997
 Name: 🎬 阿里云盘交流群 💾, ID: -1001589118734
 Name: 🎬 阿里云盘资源 🆙 🚦, ID: -1001520702906
 Name: 🎬 云盘盘 - 阿里云盘投稿🚦, ID: -1001198853752
+Name: 极搜-中文搜索（复活版） 中文 搜索, ID: -1001607161451
 Name: 阿里云盘资源搜索, ID: -1001598490288
-Name: 极搜, ID: -1001888813717
-Name: 长风分享群组, ID: -1001802101728
-Name: 老毛子Padavan固件自助交流群, ID: -1001148540997
-Name: 优哥跨境交流群, ID: -1001861402973
-Name: 吃瓜少女, ID: -1001232928936
-Name: 吃瓜笑料, ID: -1002122890847
+Name: 超级搜索引擎, ID: -1001760236395
 Name: 【李老师不是你老师】官方电报, ID: -1002155057858
+Name: 吃瓜笑料, ID: -1002122890847
+Name: 长风分享群组, ID: -1001802101728
 Name: 吃瓜中心, ID: -1001638488383
-Name: 自选基金助手群组, ID: -1001389480278
-Name: TG代理公布, ID: -1001633868843
 Name: 吃瓜🍉搜 @achiguao, ID: -1001569868197
 Name: 反差母狗🍑自拍, ID: -1001173218900
+Name: 自选基金助手群组, ID: -1001389480278
+Name: 优哥跨境交流群, ID: -1001861402973
+Name: TG代理公布, ID: -1001633868843
 Name: 吃瓜🍉群众, ID: -1001905442401
 Name: Github_2dust, ID: -1001628493435
 Name: 蛟龙, ID: -1001465257366
@@ -124,30 +124,30 @@ Name: 吃瓜新闻, ID: -1001252816724
 Name: 1lib, ID: 1788460589
 Name: 摆烂社工bot频道, ID: -1001788223313
 免费节点自动分享: 
-12964 /get
-12963 节点更新时间：04:54:21
+12967 /get
+12966 节点更新时间：14:54:20
 每30分钟更新10个节点
-12962 ss://YWVzLTI1Ni1jZmI6cXdlclJFV1FAQA@p240.panda004.net:10113#%E9%9F%A9%E5%9B%BD-5.71MB%2Fs
-ss://YWVzLTI1Ni1jZmI6cXdlclJFV1FAQA@221.150.109.20:25776#%E9%9F%A9%E5%9B%BD-7.54MB%2Fs
-trojan://3648425794742788096@5.8.35.208:443?allowInsecure=1&sni=loving-boa.treefrog761.one#%E5%8D%B0%E5%BA%A6-1.88MB%2Fs
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpRQ1hEeHVEbFRUTUQ3anRnSFVqSW9q@45.87.175.157:8080#%E7%AB%8B%E9%99%B6%E5%AE%9B-4.12MB%2Fs
-ss://YWVzLTI1Ni1nY206UENubkg2U1FTbmZvUzI3@23.154.136.100:8090#%E7%BE%8E%E5%9B%BD-723.3KB%2Fs
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpmMTZkMzc1Mi03YmFlLTQ3NGUtODdkYy1mODkyZGYyY2FlYWY@ctmm.gscloud.bond:31620#%E4%B8%AD%E8%BD%AC%E8%8A%82%E7%82%B9-41.4MB%2Fs
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpXNzRYRkFMTEx1dzZtNUlB@series-a2.samanehha.co:443#%E7%BE%8E%E5%9B%BD-36.7MB%2Fs
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpXNzRYRkFMTEx1dzZtNUlB@series-a1.samanehha.co:443#%E7%BE%8E%E5%9B%BD-10.3MB%2Fs
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTptcHMzRndtRGpMcldhT1Zn@series-a2.varzesh360.co:443#%E7%BE%8E%E5%9B%BD-44.6MB%2Fs
-ss://YWVzLTI1Ni1jZmI6cXdlclJFV1FAQA@p240.panda004.net:10113#%E9%9F%A9%E5%9B%BD-5.71MB%2Fs
-ss://YWVzLTI1Ni1jZmI6cXdlclJFV1FAQA@221.150.109.20:25776#%E9%9F%A9%E5%9B%BD-7.54MB%2Fs
-trojan://3648425794742788096@5.8.35.208:443?allowInsecure=1&sni=loving-boa.treefrog761.one#%E5%8D%B0%E5%BA%A6-1.88MB%2Fs
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpRQ1hEeHVEbFRUTUQ3anRnSFVqSW9q@45.87.175.157:8080#%E7%AB%8B%E9%99%B6%E5%AE%9B-4.12MB%2Fs
-ss://YWVzLTI1Ni1nY206UENubkg2U1FTbmZvUzI3@23.154.136.100:8090#%E7%BE%8E%E5%9B%BD-723.3KB%2Fs
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpmMTZkMzc1Mi03YmFlLTQ3NGUtODdkYy1mODkyZGYyY2FlYWY@ctmm.gscloud.bond:31620#%E4%B8%AD%E8%BD%AC%E8%8A%82%E7%82%B9-41.4MB%2Fs
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpXNzRYRkFMTEx1dzZtNUlB@series-a2.samanehha.co:443#%E7%BE%8E%E5%9B%BD-36.7MB%2Fs
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpXNzRYRkFMTEx1dzZtNUlB@series-a1.samanehha.co:443#%E7%BE%8E%E5%9B%BD-10.3MB%2Fs
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTptcHMzRndtRGpMcldhT1Zn@series-a2.varzesh360.co:443#%E7%BE%8E%E5%9B%BD-44.6MB%2Fs
+12965 ss://YWVzLTI1Ni1jZmI6cXdlclJFV1FAQA@p222.panda001.net:64186#%E9%9F%A9%E5%9B%BD-4.08MB%2Fs
+ss://YWVzLTI1Ni1jZmI6cXdlclJFV1FAQA@27.255.82.23:5412#%E9%9F%A9%E5%9B%BD-106.6KB%2Fs
+ss://YWVzLTI1Ni1jZmI6cXdlclJFV1FAQA@221.168.44.72:27973#%E9%9F%A9%E5%9B%BD-145.0KB%2Fs
+trojan://243eab52-9ac1-405c-887c-eb112c0985b8@us01.trojanyyds.xyz:443?allowInsecure=1#%E6%97%A5%E6%9C%AC-1.02MB%2Fs
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpkRWxkVHprcVZsaE9SVWhiZWpnK01UNURQeWhjVlVvd1dsMWFhMEZzYlZrPQ@95.217.72.126:3882#%E8%8A%AC%E5%85%B0-1.02MB%2Fs
+ss://YWVzLTI1Ni1jZmI6cXdlclJFV1FAQA@p240.panda004.net:10113#%E9%9F%A9%E5%9B%BD-5.84MB%2Fs
+trojan://3648425794742788096@5.8.35.208:443?allowInsecure=1&sni=loving-boa.treefrog761.one#%E5%8D%B0%E5%BA%A6-1.23MB%2Fs
+trojan://243eab52-9ac1-405c-887c-eb112c0985b8@in01.trojanyyds.xyz:443?allowInsecure=1#%E6%97%A5%E6%9C%AC-1.20MB%2Fs
+trojan://243eab52-9ac1-405c-887c-eb112c0985b8@de01.trojanyyds.xyz:443?allowInsecure=1#%E6%97%A5%E6%9C%AC-3.43MB%2Fs
+trojan://25a0ffa0-725c-4d6f-b0d5-c74579753075@cmc3.5gsieuvip.vn:443?allowInsecure=1&sni=Cmc3.5gsieuvip.vn#%E8%B6%8A%E5%8D%97-522.9KB%2Fs
+ss://YWVzLTI1Ni1jZmI6cXdlclJFV1FAQA@p222.panda001.net:64186#%E9%9F%A9%E5%9B%BD-4.08MB%2Fs
+ss://YWVzLTI1Ni1jZmI6cXdlclJFV1FAQA@27.255.82.23:5412#%E9%9F%A9%E5%9B%BD-106.6KB%2Fs
+ss://YWVzLTI1Ni1jZmI6cXdlclJFV1FAQA@221.168.44.72:27973#%E9%9F%A9%E5%9B%BD-145.0KB%2Fs
+trojan://243eab52-9ac1-405c-887c-eb112c0985b8@us01.trojanyyds.xyz:443?allowInsecure=1#%E6%97%A5%E6%9C%AC-1.02MB%2Fs
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpkRWxkVHprcVZsaE9SVWhiZWpnK01UNURQeWhjVlVvd1dsMWFhMEZzYlZrPQ@95.217.72.126:3882#%E8%8A%AC%E5%85%B0-1.02MB%2Fs
+ss://YWVzLTI1Ni1jZmI6cXdlclJFV1FAQA@p240.panda004.net:10113#%E9%9F%A9%E5%9B%BD-5.84MB%2Fs
+trojan://3648425794742788096@5.8.35.208:443?allowInsecure=1&sni=loving-boa.treefrog761.one#%E5%8D%B0%E5%BA%A6-1.23MB%2Fs
+trojan://243eab52-9ac1-405c-887c-eb112c0985b8@in01.trojanyyds.xyz:443?allowInsecure=1#%E6%97%A5%E6%9C%AC-1.20MB%2Fs
+trojan://243eab52-9ac1-405c-887c-eb112c0985b8@de01.trojanyyds.xyz:443?allowInsecure=1#%E6%97%A5%E6%9C%AC-3.43MB%2Fs
+trojan://25a0ffa0-725c-4d6f-b0d5-c74579753075@cmc3.5gsieuvip.vn:443?allowInsecure=1&sni=Cmc3.5gsieuvip.vn#%E8%B6%8A%E5%8D%97-522.9KB%2Fs
 ----------------------------------------------------------------------------------------------------
-['ss://YWVzLTI1Ni1jZmI6cXdlclJFV1FAQA@p240.panda004.net:10113#%E9%9F%A9%E5%9B%BD-5.71MB%2Fs\nss://YWVzLTI1Ni1jZmI6cXdlclJFV1FAQA@221.150.109.20:25776#%E9%9F%A9%E5%9B%BD-7.54MB%2Fs\ntrojan://3648425794742788096@5.8.35.208:443?allowInsecure=1&sni=loving-boa.treefrog761.one#%E5%8D%B0%E5%BA%A6-1.88MB%2Fs\nss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpRQ1hEeHVEbFRUTUQ3anRnSFVqSW9q@45.87.175.157:8080#%E7%AB%8B%E9%99%B6%E5%AE%9B-4.12MB%2Fs\nss://YWVzLTI1Ni1nY206UENubkg2U1FTbmZvUzI3@23.154.136.100:8090#%E7%BE%8E%E5%9B%BD-723.3KB%2Fs\nss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpmMTZkMzc1Mi03YmFlLTQ3NGUtODdkYy1mODkyZGYyY2FlYWY@ctmm.gscloud.bond:31620#%E4%B8%AD%E8%BD%AC%E8%8A%82%E7%82%B9-41.4MB%2Fs\nss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpXNzRYRkFMTEx1dzZtNUlB@series-a2.samanehha.co:443#%E7%BE%8E%E5%9B%BD-36.7MB%2Fs\nss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpXNzRYRkFMTEx1dzZtNUlB@series-a1.samanehha.co:443#%E7%BE%8E%E5%9B%BD-10.3MB%2Fs\nss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTptcHMzRndtRGpMcldhT1Zn@series-a2.varzesh360.co:443#%E7%BE%8E%E5%9B%BD-44.6MB%2Fs']
+['ss://YWVzLTI1Ni1jZmI6cXdlclJFV1FAQA@p222.panda001.net:64186#%E9%9F%A9%E5%9B%BD-4.08MB%2Fs\nss://YWVzLTI1Ni1jZmI6cXdlclJFV1FAQA@27.255.82.23:5412#%E9%9F%A9%E5%9B%BD-106.6KB%2Fs\nss://YWVzLTI1Ni1jZmI6cXdlclJFV1FAQA@221.168.44.72:27973#%E9%9F%A9%E5%9B%BD-145.0KB%2Fs\ntrojan://243eab52-9ac1-405c-887c-eb112c0985b8@us01.trojanyyds.xyz:443?allowInsecure=1#%E6%97%A5%E6%9C%AC-1.02MB%2Fs\nss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpkRWxkVHprcVZsaE9SVWhiZWpnK01UNURQeWhjVlVvd1dsMWFhMEZzYlZrPQ@95.217.72.126:3882#%E8%8A%AC%E5%85%B0-1.02MB%2Fs\nss://YWVzLTI1Ni1jZmI6cXdlclJFV1FAQA@p240.panda004.net:10113#%E9%9F%A9%E5%9B%BD-5.84MB%2Fs\ntrojan://3648425794742788096@5.8.35.208:443?allowInsecure=1&sni=loving-boa.treefrog761.one#%E5%8D%B0%E5%BA%A6-1.23MB%2Fs\ntrojan://243eab52-9ac1-405c-887c-eb112c0985b8@in01.trojanyyds.xyz:443?allowInsecure=1#%E6%97%A5%E6%9C%AC-1.20MB%2Fs\ntrojan://243eab52-9ac1-405c-887c-eb112c0985b8@de01.trojanyyds.xyz:443?allowInsecure=1#%E6%97%A5%E6%9C%AC-3.43MB%2Fs\ntrojan://25a0ffa0-725c-4d6f-b0d5-c74579753075@cmc3.5gsieuvip.vn:443?allowInsecure=1&sni=Cmc3.5gsieuvip.vn#%E8%B6%8A%E5%8D%97-522.9KB%2Fs']
 ----------------------------------------------------------------------------------------------------
----------- [2025-01-16 15:16:31] 更新订阅 ----------
----------- [2025-01-16 15:27:06] 电报v2ray ----------
----------- [2025-01-16 16:38:56] 电报签到 ----------
+---------- [2025-01-16 21:22:39] 更新订阅 ----------
