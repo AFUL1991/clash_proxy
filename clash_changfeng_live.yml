@@ -1,6 +1,6 @@
 # 生成地址：v2rayse.com
 # 模版名称：defaultName
-# 生成时间：2025-01-17 05:27:19
+# 生成时间：2025-01-17 15:27:16
 # 不要随意改变关键字，否则会导致出错
 # acl4SSR规则
 # 去广告：支持
@@ -58,169 +58,175 @@ tun:
     - 1.1.1.1
     - 1.0.0.1
 proxies:
-  - name: 🇷🇴_RO_罗马尼亚_1
+  - name: 🇷🇺_RU_俄罗斯_1
+    port: 17926
+    server: 194.87.69.50
+    type: vmess
+    network: ws
+    udp: true
+    sni: ""
+    skip-cert-verify: true
+    ws-opts:
+      path: /
+    cipher: auto
+    uuid: 1cc59a3a-9625-40f7-b0e6-e233286ae82d
+    alterId: 0
+  - name: 🇺🇦_UA_乌克兰->🇷🇺_RU_俄罗斯_1
+    port: 8388
+    server: at1.opensocks.site
+    type: ss
+    udp: true
+    password: ZmQwZjFk
+    cipher: chacha20-ietf-poly1305
+  - name: 🇺🇸_US_美国->🇷🇴_RO_罗马尼亚
+    port: 443
+    server: 34.219.111.92
+    type: ss
+    udp: true
+    password: amazonskr05
+    cipher: aes-256-cfb
+  - name: 🇸🇪_SE_瑞典->🇷🇴_RO_罗马尼亚_1
+    port: 55551
+    server: homa.cybsecguru.com
+    type: ss
+    udp: true
+    password: UNJXwrcb3vkdQbR6P5VGHA
+    cipher: chacha20-ietf-poly1305
+  - name: 🇺🇸_US_美国->🇬🇧_GB_英国_1
+    port: 443
+    server: 34.222.155.226
+    type: ss
+    udp: true
+    password: amazonskr05
+    cipher: aes-256-cfb
+  - name: 🇺🇸_US_美国->🇬🇧_GB_英国_2
+    port: 443
+    server: 34.222.155.226
+    type: ss
+    udp: true
+    password: amazonskr05
+    cipher: aes-256-cfb
+  - name: 🇸🇪_SE_瑞典->🇷🇴_RO_罗马尼亚_2
+    port: 55551
+    server: homa.cybsecguru.com
+    type: ss
+    udp: true
+    password: UNJXwrcb3vkdQbR6P5VGHA
+    cipher: chacha20-ietf-poly1305
+  - name: 🇮🇳_IN_印度
     port: 8080
-    server: 194.5.215.59
+    server: 159.65.149.67
     type: ss
     udp: true
     password: 14fFPrbezE3HDZzsMOr6
     cipher: rc4-md5
-  - name: 🇷🇴_RO_罗马尼亚_2
-    port: 8080
-    server: 194.5.215.59
+  - name: 🇺🇦_UA_乌克兰->🇷🇺_RU_俄罗斯_2
+    port: 8388
+    server: at1.opensocks.site
     type: ss
     udp: true
-    password: 14fFPrbezE3HDZzsMOr6
-    cipher: rc4-md5
-  - name: 🇷🇴_RO_罗马尼亚_3
-    port: 8080
-    server: 194.5.215.59
+    password: ZmQwZjFk
+    cipher: chacha20-ietf-poly1305
+  - name: 🇷🇺_RU_俄罗斯_2
+    port: 989
+    server: 185.231.233.173
     type: ss
     udp: true
-    password: 14fFPrbezE3HDZzsMOr6
-    cipher: rc4-md5
-  - name: 🇷🇴_RO_罗马尼亚_4
-    port: 8080
-    server: 194.5.215.59
-    type: ss
-    udp: true
-    password: 14fFPrbezE3HDZzsMOr6
-    cipher: rc4-md5
-  - name: 🇷🇴_RO_罗马尼亚_5
-    port: 8080
-    server: 194.5.215.59
-    type: ss
-    udp: true
-    password: 14fFPrbezE3HDZzsMOr6
-    cipher: rc4-md5
-  - name: 🇷🇴_RO_罗马尼亚_6
-    port: 8080
-    server: 194.5.215.59
-    type: ss
-    udp: true
-    password: 14fFPrbezE3HDZzsMOr6
-    cipher: rc4-md5
-  - name: 🇷🇴_RO_罗马尼亚_7
-    port: 8080
-    server: 194.5.215.59
-    type: ss
-    udp: true
-    password: 14fFPrbezE3HDZzsMOr6
-    cipher: rc4-md5
-  - name: 🇷🇴_RO_罗马尼亚_8
-    port: 8080
-    server: 194.5.215.59
-    type: ss
-    udp: true
-    password: 14fFPrbezE3HDZzsMOr6
-    cipher: rc4-md5
-  - name: 🇷🇴_RO_罗马尼亚_9
-    port: 8080
-    server: 194.5.215.59
-    type: ss
-    udp: true
-    password: 14fFPrbezE3HDZzsMOr6
-    cipher: rc4-md5
-  - name: 🇷🇴_RO_罗马尼亚_10
-    port: 8080
-    server: 194.5.215.59
-    type: ss
-    udp: true
-    password: 14fFPrbezE3HDZzsMOr6
-    cipher: rc4-md5
+    password: f8f7aCzcPKbsF8p3
+    cipher: aes-256-cfb
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - 🇷🇴_RO_罗马尼亚_1
-      - 🇷🇴_RO_罗马尼亚_2
-      - 🇷🇴_RO_罗马尼亚_3
-      - 🇷🇴_RO_罗马尼亚_4
-      - 🇷🇴_RO_罗马尼亚_5
-      - 🇷🇴_RO_罗马尼亚_6
-      - 🇷🇴_RO_罗马尼亚_7
-      - 🇷🇴_RO_罗马尼亚_8
-      - 🇷🇴_RO_罗马尼亚_9
-      - 🇷🇴_RO_罗马尼亚_10
+      - 🇷🇺_RU_俄罗斯_1
+      - 🇺🇦_UA_乌克兰->🇷🇺_RU_俄罗斯_1
+      - 🇺🇸_US_美国->🇷🇴_RO_罗马尼亚
+      - 🇸🇪_SE_瑞典->🇷🇴_RO_罗马尼亚_1
+      - 🇺🇸_US_美国->🇬🇧_GB_英国_1
+      - 🇺🇸_US_美国->🇬🇧_GB_英国_2
+      - 🇸🇪_SE_瑞典->🇷🇴_RO_罗马尼亚_2
+      - 🇮🇳_IN_印度
+      - 🇺🇦_UA_乌克兰->🇷🇺_RU_俄罗斯_2
+      - 🇷🇺_RU_俄罗斯_2
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - 🇷🇴_RO_罗马尼亚_1
-      - 🇷🇴_RO_罗马尼亚_2
-      - 🇷🇴_RO_罗马尼亚_3
-      - 🇷🇴_RO_罗马尼亚_4
-      - 🇷🇴_RO_罗马尼亚_5
-      - 🇷🇴_RO_罗马尼亚_6
-      - 🇷🇴_RO_罗马尼亚_7
-      - 🇷🇴_RO_罗马尼亚_8
-      - 🇷🇴_RO_罗马尼亚_9
-      - 🇷🇴_RO_罗马尼亚_10
+      - 🇷🇺_RU_俄罗斯_1
+      - 🇺🇦_UA_乌克兰->🇷🇺_RU_俄罗斯_1
+      - 🇺🇸_US_美国->🇷🇴_RO_罗马尼亚
+      - 🇸🇪_SE_瑞典->🇷🇴_RO_罗马尼亚_1
+      - 🇺🇸_US_美国->🇬🇧_GB_英国_1
+      - 🇺🇸_US_美国->🇬🇧_GB_英国_2
+      - 🇸🇪_SE_瑞典->🇷🇴_RO_罗马尼亚_2
+      - 🇮🇳_IN_印度
+      - 🇺🇦_UA_乌克兰->🇷🇺_RU_俄罗斯_2
+      - 🇷🇺_RU_俄罗斯_2
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇷🇴_RO_罗马尼亚_1
-      - 🇷🇴_RO_罗马尼亚_2
-      - 🇷🇴_RO_罗马尼亚_3
-      - 🇷🇴_RO_罗马尼亚_4
-      - 🇷🇴_RO_罗马尼亚_5
-      - 🇷🇴_RO_罗马尼亚_6
-      - 🇷🇴_RO_罗马尼亚_7
-      - 🇷🇴_RO_罗马尼亚_8
-      - 🇷🇴_RO_罗马尼亚_9
-      - 🇷🇴_RO_罗马尼亚_10
+      - 🇷🇺_RU_俄罗斯_1
+      - 🇺🇦_UA_乌克兰->🇷🇺_RU_俄罗斯_1
+      - 🇺🇸_US_美国->🇷🇴_RO_罗马尼亚
+      - 🇸🇪_SE_瑞典->🇷🇴_RO_罗马尼亚_1
+      - 🇺🇸_US_美国->🇬🇧_GB_英国_1
+      - 🇺🇸_US_美国->🇬🇧_GB_英国_2
+      - 🇸🇪_SE_瑞典->🇷🇴_RO_罗马尼亚_2
+      - 🇮🇳_IN_印度
+      - 🇺🇦_UA_乌克兰->🇷🇺_RU_俄罗斯_2
+      - 🇷🇺_RU_俄罗斯_2
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 🇷🇴_RO_罗马尼亚_1
-      - 🇷🇴_RO_罗马尼亚_2
-      - 🇷🇴_RO_罗马尼亚_3
-      - 🇷🇴_RO_罗马尼亚_4
-      - 🇷🇴_RO_罗马尼亚_5
-      - 🇷🇴_RO_罗马尼亚_6
-      - 🇷🇴_RO_罗马尼亚_7
-      - 🇷🇴_RO_罗马尼亚_8
-      - 🇷🇴_RO_罗马尼亚_9
-      - 🇷🇴_RO_罗马尼亚_10
+      - 🇷🇺_RU_俄罗斯_1
+      - 🇺🇦_UA_乌克兰->🇷🇺_RU_俄罗斯_1
+      - 🇺🇸_US_美国->🇷🇴_RO_罗马尼亚
+      - 🇸🇪_SE_瑞典->🇷🇴_RO_罗马尼亚_1
+      - 🇺🇸_US_美国->🇬🇧_GB_英国_1
+      - 🇺🇸_US_美国->🇬🇧_GB_英国_2
+      - 🇸🇪_SE_瑞典->🇷🇴_RO_罗马尼亚_2
+      - 🇮🇳_IN_印度
+      - 🇺🇦_UA_乌克兰->🇷🇺_RU_俄罗斯_2
+      - 🇷🇺_RU_俄罗斯_2
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - 🇷🇴_RO_罗马尼亚_1
-      - 🇷🇴_RO_罗马尼亚_2
-      - 🇷🇴_RO_罗马尼亚_3
-      - 🇷🇴_RO_罗马尼亚_4
-      - 🇷🇴_RO_罗马尼亚_5
-      - 🇷🇴_RO_罗马尼亚_6
-      - 🇷🇴_RO_罗马尼亚_7
-      - 🇷🇴_RO_罗马尼亚_8
-      - 🇷🇴_RO_罗马尼亚_9
-      - 🇷🇴_RO_罗马尼亚_10
+      - 🇷🇺_RU_俄罗斯_1
+      - 🇺🇦_UA_乌克兰->🇷🇺_RU_俄罗斯_1
+      - 🇺🇸_US_美国->🇷🇴_RO_罗马尼亚
+      - 🇸🇪_SE_瑞典->🇷🇴_RO_罗马尼亚_1
+      - 🇺🇸_US_美国->🇬🇧_GB_英国_1
+      - 🇺🇸_US_美国->🇬🇧_GB_英国_2
+      - 🇸🇪_SE_瑞典->🇷🇴_RO_罗马尼亚_2
+      - 🇮🇳_IN_印度
+      - 🇺🇦_UA_乌克兰->🇷🇺_RU_俄罗斯_2
+      - 🇷🇺_RU_俄罗斯_2
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 🇷🇴_RO_罗马尼亚_1
-      - 🇷🇴_RO_罗马尼亚_2
-      - 🇷🇴_RO_罗马尼亚_3
-      - 🇷🇴_RO_罗马尼亚_4
-      - 🇷🇴_RO_罗马尼亚_5
-      - 🇷🇴_RO_罗马尼亚_6
-      - 🇷🇴_RO_罗马尼亚_7
-      - 🇷🇴_RO_罗马尼亚_8
-      - 🇷🇴_RO_罗马尼亚_9
-      - 🇷🇴_RO_罗马尼亚_10
+      - 🇷🇺_RU_俄罗斯_1
+      - 🇺🇦_UA_乌克兰->🇷🇺_RU_俄罗斯_1
+      - 🇺🇸_US_美国->🇷🇴_RO_罗马尼亚
+      - 🇸🇪_SE_瑞典->🇷🇴_RO_罗马尼亚_1
+      - 🇺🇸_US_美国->🇬🇧_GB_英国_1
+      - 🇺🇸_US_美国->🇬🇧_GB_英国_2
+      - 🇸🇪_SE_瑞典->🇷🇴_RO_罗马尼亚_2
+      - 🇮🇳_IN_印度
+      - 🇺🇦_UA_乌克兰->🇷🇺_RU_俄罗斯_2
+      - 🇷🇺_RU_俄罗斯_2
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -243,16 +249,16 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇷🇴_RO_罗马尼亚_1
-      - 🇷🇴_RO_罗马尼亚_2
-      - 🇷🇴_RO_罗马尼亚_3
-      - 🇷🇴_RO_罗马尼亚_4
-      - 🇷🇴_RO_罗马尼亚_5
-      - 🇷🇴_RO_罗马尼亚_6
-      - 🇷🇴_RO_罗马尼亚_7
-      - 🇷🇴_RO_罗马尼亚_8
-      - 🇷🇴_RO_罗马尼亚_9
-      - 🇷🇴_RO_罗马尼亚_10
+      - 🇷🇺_RU_俄罗斯_1
+      - 🇺🇦_UA_乌克兰->🇷🇺_RU_俄罗斯_1
+      - 🇺🇸_US_美国->🇷🇴_RO_罗马尼亚
+      - 🇸🇪_SE_瑞典->🇷🇴_RO_罗马尼亚_1
+      - 🇺🇸_US_美国->🇬🇧_GB_英国_1
+      - 🇺🇸_US_美国->🇬🇧_GB_英国_2
+      - 🇸🇪_SE_瑞典->🇷🇴_RO_罗马尼亚_2
+      - 🇮🇳_IN_印度
+      - 🇺🇦_UA_乌克兰->🇷🇺_RU_俄罗斯_2
+      - 🇷🇺_RU_俄罗斯_2
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
   - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
