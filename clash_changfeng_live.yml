@@ -1,6 +1,6 @@
 # 生成地址：v2rayse.com
 # 模版名称：defaultName
-# 生成时间：2025-01-21 05:27:10
+# 生成时间：2025-01-21 15:29:00
 # 不要随意改变关键字，否则会导致出错
 # acl4SSR规则
 # 去广告：支持
@@ -58,201 +58,164 @@ tun:
     - 1.1.1.1
     - 1.0.0.1
 proxies:
-  - name: 🇦🇹_AT_奥地利->🇺🇸_US_美国_1
-    port: 990
-    server: 192.36.61.59
-    type: ss
-    udp: true
-    password: f8f7aCzcPKbsF8p3
-    cipher: chacha20-ietf-poly1305
-  - name: 🇦🇹_AT_奥地利->🇺🇸_US_美国_2
-    port: 990
-    server: 192.36.61.59
-    type: ss
-    udp: true
-    password: f8f7aCzcPKbsF8p3
-    cipher: chacha20-ietf-poly1305
-  - name: 🇺🇸_US_美国_1
-    port: 2086
-    server: 190.93.245.230
-    type: vmess
-    network: ws
-    udp: true
-    sni: ""
-    skip-cert-verify: true
-    ws-opts:
-      path: /
-      headers:
-        host: shs.xiaoqi666.xyz
-    cipher: auto
-    uuid: 3fd7b958-2161-46e1-b6fc-bd6bb2165312
-    alterId: 0
-  - name: 🇨🇭_CH_瑞士->🇨🇳_CN_中国_1
+  - name: 🇺🇸_US_美国
     port: 989
-    server: 84.17.53.160
+    server: 185.237.185.160
     type: ss
     udp: true
     password: f8f7aCzcPKbsF8p3
     cipher: aes-256-cfb
-  - name: 🇺🇸_US_美国_2
-    port: 2086
-    server: 190.93.245.230
+  - name: 🇷🇺_RU_俄罗斯_1
+    port: 17926
+    server: 194.87.69.50
     type: vmess
     network: ws
     udp: true
-    sni: ""
-    skip-cert-verify: true
     ws-opts:
       path: /
-      headers:
-        host: shs.xiaoqi666.xyz
     cipher: auto
-    uuid: 3fd7b958-2161-46e1-b6fc-bd6bb2165312
+    uuid: cdcc9f3a-ad63-46e2-92f4-173c2a6ec201
     alterId: 0
-  - name: 🇺🇸_US_美国_3
-    port: 2086
-    server: 190.93.245.230
-    type: vmess
-    network: ws
-    udp: true
-    sni: ""
-    skip-cert-verify: true
-    ws-opts:
-      path: /
-      headers:
-        host: shs.xiaoqi666.xyz
-    cipher: auto
-    uuid: 3fd7b958-2161-46e1-b6fc-bd6bb2165312
-    alterId: 0
-  - name: 🇺🇸_US_美国_4
-    port: 2086
-    server: 190.93.245.230
-    type: vmess
-    network: ws
-    udp: true
-    sni: ""
-    skip-cert-verify: true
-    ws-opts:
-      path: /
-      headers:
-        host: shs.xiaoqi666.xyz
-    cipher: auto
-    uuid: 3fd7b958-2161-46e1-b6fc-bd6bb2165312
-    alterId: 0
-  - name: 🇦🇹_AT_奥地利->🇺🇸_US_美国_3
-    port: 990
-    server: 192.36.61.59
-    type: ss
-    udp: true
-    password: f8f7aCzcPKbsF8p3
-    cipher: chacha20-ietf-poly1305
-  - name: 🇦🇹_AT_奥地利->🇺🇸_US_美国_4
-    port: 990
-    server: 192.36.61.59
-    type: ss
-    udp: true
-    password: f8f7aCzcPKbsF8p3
-    cipher: chacha20-ietf-poly1305
-  - name: 🇨🇭_CH_瑞士->🇨🇳_CN_中国_2
+  - name: 🇩🇰_DK_丹麦
     port: 989
-    server: 84.17.53.160
+    server: 185.186.79.53
     type: ss
     udp: true
     password: f8f7aCzcPKbsF8p3
     cipher: aes-256-cfb
+  - name: 🇦🇱_AL_阿尔巴尼亚
+    port: 33333
+    server: 109.104.154.146
+    type: ss
+    udp: true
+    password: dongtaiwang.com
+    cipher: aes-256-gcm
+  - name: 🇷🇺_RU_俄罗斯_2
+    port: 17926
+    server: 194.87.69.50
+    type: vmess
+    network: ws
+    udp: true
+    ws-opts:
+      path: /
+    cipher: auto
+    uuid: cdcc9f3a-ad63-46e2-92f4-173c2a6ec201
+    alterId: 0
+  - name: 🇷🇴_RO_罗马尼亚
+    port: 989
+    server: 185.193.49.88
+    type: ss
+    udp: true
+    password: f8f7aCzcPKbsF8p3
+    cipher: aes-256-cfb
+  - name: 🇺🇸_US_美国->🇺🇦_UA_乌克兰_1
+    port: 443
+    server: 35.167.62.123
+    type: ss
+    udp: true
+    password: amazonskr05
+    cipher: aes-256-cfb
+  - name: 🇺🇸_US_美国->🇺🇦_UA_乌克兰_2
+    port: 443
+    server: 34.210.56.216
+    type: ss
+    udp: true
+    password: amazonskr05
+    cipher: aes-256-cfb
+  - name: 🇨🇳_CN_中国->🇷🇺_RU_俄罗斯
+    port: 60194
+    server: 221.131.165.210
+    type: trojan
+    udp: true
+    password: 38571ca6-6692-4559-b901-0bc5826b7661
+    skip-cert-verify: true
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - 🇦🇹_AT_奥地利->🇺🇸_US_美国_1
-      - 🇦🇹_AT_奥地利->🇺🇸_US_美国_2
-      - 🇺🇸_US_美国_1
-      - 🇨🇭_CH_瑞士->🇨🇳_CN_中国_1
-      - 🇺🇸_US_美国_2
-      - 🇺🇸_US_美国_3
-      - 🇺🇸_US_美国_4
-      - 🇦🇹_AT_奥地利->🇺🇸_US_美国_3
-      - 🇦🇹_AT_奥地利->🇺🇸_US_美国_4
-      - 🇨🇭_CH_瑞士->🇨🇳_CN_中国_2
+      - 🇺🇸_US_美国
+      - 🇷🇺_RU_俄罗斯_1
+      - 🇩🇰_DK_丹麦
+      - 🇦🇱_AL_阿尔巴尼亚
+      - 🇷🇺_RU_俄罗斯_2
+      - 🇷🇴_RO_罗马尼亚
+      - 🇺🇸_US_美国->🇺🇦_UA_乌克兰_1
+      - 🇺🇸_US_美国->🇺🇦_UA_乌克兰_2
+      - 🇨🇳_CN_中国->🇷🇺_RU_俄罗斯
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - 🇦🇹_AT_奥地利->🇺🇸_US_美国_1
-      - 🇦🇹_AT_奥地利->🇺🇸_US_美国_2
-      - 🇺🇸_US_美国_1
-      - 🇨🇭_CH_瑞士->🇨🇳_CN_中国_1
-      - 🇺🇸_US_美国_2
-      - 🇺🇸_US_美国_3
-      - 🇺🇸_US_美国_4
-      - 🇦🇹_AT_奥地利->🇺🇸_US_美国_3
-      - 🇦🇹_AT_奥地利->🇺🇸_US_美国_4
-      - 🇨🇭_CH_瑞士->🇨🇳_CN_中国_2
+      - 🇺🇸_US_美国
+      - 🇷🇺_RU_俄罗斯_1
+      - 🇩🇰_DK_丹麦
+      - 🇦🇱_AL_阿尔巴尼亚
+      - 🇷🇺_RU_俄罗斯_2
+      - 🇷🇴_RO_罗马尼亚
+      - 🇺🇸_US_美国->🇺🇦_UA_乌克兰_1
+      - 🇺🇸_US_美国->🇺🇦_UA_乌克兰_2
+      - 🇨🇳_CN_中国->🇷🇺_RU_俄罗斯
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇦🇹_AT_奥地利->🇺🇸_US_美国_1
-      - 🇦🇹_AT_奥地利->🇺🇸_US_美国_2
-      - 🇺🇸_US_美国_1
-      - 🇨🇭_CH_瑞士->🇨🇳_CN_中国_1
-      - 🇺🇸_US_美国_2
-      - 🇺🇸_US_美国_3
-      - 🇺🇸_US_美国_4
-      - 🇦🇹_AT_奥地利->🇺🇸_US_美国_3
-      - 🇦🇹_AT_奥地利->🇺🇸_US_美国_4
-      - 🇨🇭_CH_瑞士->🇨🇳_CN_中国_2
+      - 🇺🇸_US_美国
+      - 🇷🇺_RU_俄罗斯_1
+      - 🇩🇰_DK_丹麦
+      - 🇦🇱_AL_阿尔巴尼亚
+      - 🇷🇺_RU_俄罗斯_2
+      - 🇷🇴_RO_罗马尼亚
+      - 🇺🇸_US_美国->🇺🇦_UA_乌克兰_1
+      - 🇺🇸_US_美国->🇺🇦_UA_乌克兰_2
+      - 🇨🇳_CN_中国->🇷🇺_RU_俄罗斯
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 🇦🇹_AT_奥地利->🇺🇸_US_美国_1
-      - 🇦🇹_AT_奥地利->🇺🇸_US_美国_2
-      - 🇺🇸_US_美国_1
-      - 🇨🇭_CH_瑞士->🇨🇳_CN_中国_1
-      - 🇺🇸_US_美国_2
-      - 🇺🇸_US_美国_3
-      - 🇺🇸_US_美国_4
-      - 🇦🇹_AT_奥地利->🇺🇸_US_美国_3
-      - 🇦🇹_AT_奥地利->🇺🇸_US_美国_4
-      - 🇨🇭_CH_瑞士->🇨🇳_CN_中国_2
+      - 🇺🇸_US_美国
+      - 🇷🇺_RU_俄罗斯_1
+      - 🇩🇰_DK_丹麦
+      - 🇦🇱_AL_阿尔巴尼亚
+      - 🇷🇺_RU_俄罗斯_2
+      - 🇷🇴_RO_罗马尼亚
+      - 🇺🇸_US_美国->🇺🇦_UA_乌克兰_1
+      - 🇺🇸_US_美国->🇺🇦_UA_乌克兰_2
+      - 🇨🇳_CN_中国->🇷🇺_RU_俄罗斯
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - 🇦🇹_AT_奥地利->🇺🇸_US_美国_1
-      - 🇦🇹_AT_奥地利->🇺🇸_US_美国_2
-      - 🇺🇸_US_美国_1
-      - 🇨🇭_CH_瑞士->🇨🇳_CN_中国_1
-      - 🇺🇸_US_美国_2
-      - 🇺🇸_US_美国_3
-      - 🇺🇸_US_美国_4
-      - 🇦🇹_AT_奥地利->🇺🇸_US_美国_3
-      - 🇦🇹_AT_奥地利->🇺🇸_US_美国_4
-      - 🇨🇭_CH_瑞士->🇨🇳_CN_中国_2
+      - 🇺🇸_US_美国
+      - 🇷🇺_RU_俄罗斯_1
+      - 🇩🇰_DK_丹麦
+      - 🇦🇱_AL_阿尔巴尼亚
+      - 🇷🇺_RU_俄罗斯_2
+      - 🇷🇴_RO_罗马尼亚
+      - 🇺🇸_US_美国->🇺🇦_UA_乌克兰_1
+      - 🇺🇸_US_美国->🇺🇦_UA_乌克兰_2
+      - 🇨🇳_CN_中国->🇷🇺_RU_俄罗斯
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 🇦🇹_AT_奥地利->🇺🇸_US_美国_1
-      - 🇦🇹_AT_奥地利->🇺🇸_US_美国_2
-      - 🇺🇸_US_美国_1
-      - 🇨🇭_CH_瑞士->🇨🇳_CN_中国_1
-      - 🇺🇸_US_美国_2
-      - 🇺🇸_US_美国_3
-      - 🇺🇸_US_美国_4
-      - 🇦🇹_AT_奥地利->🇺🇸_US_美国_3
-      - 🇦🇹_AT_奥地利->🇺🇸_US_美国_4
-      - 🇨🇭_CH_瑞士->🇨🇳_CN_中国_2
+      - 🇺🇸_US_美国
+      - 🇷🇺_RU_俄罗斯_1
+      - 🇩🇰_DK_丹麦
+      - 🇦🇱_AL_阿尔巴尼亚
+      - 🇷🇺_RU_俄罗斯_2
+      - 🇷🇴_RO_罗马尼亚
+      - 🇺🇸_US_美国->🇺🇦_UA_乌克兰_1
+      - 🇺🇸_US_美国->🇺🇦_UA_乌克兰_2
+      - 🇨🇳_CN_中国->🇷🇺_RU_俄罗斯
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -275,16 +238,15 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇦🇹_AT_奥地利->🇺🇸_US_美国_1
-      - 🇦🇹_AT_奥地利->🇺🇸_US_美国_2
-      - 🇺🇸_US_美国_1
-      - 🇨🇭_CH_瑞士->🇨🇳_CN_中国_1
-      - 🇺🇸_US_美国_2
-      - 🇺🇸_US_美国_3
-      - 🇺🇸_US_美国_4
-      - 🇦🇹_AT_奥地利->🇺🇸_US_美国_3
-      - 🇦🇹_AT_奥地利->🇺🇸_US_美国_4
-      - 🇨🇭_CH_瑞士->🇨🇳_CN_中国_2
+      - 🇺🇸_US_美国
+      - 🇷🇺_RU_俄罗斯_1
+      - 🇩🇰_DK_丹麦
+      - 🇦🇱_AL_阿尔巴尼亚
+      - 🇷🇺_RU_俄罗斯_2
+      - 🇷🇴_RO_罗马尼亚
+      - 🇺🇸_US_美国->🇺🇦_UA_乌克兰_1
+      - 🇺🇸_US_美国->🇺🇦_UA_乌克兰_2
+      - 🇨🇳_CN_中国->🇷🇺_RU_俄罗斯
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
   - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
