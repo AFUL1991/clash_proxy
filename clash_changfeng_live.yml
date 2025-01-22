@@ -1,6 +1,6 @@
 # 生成地址：v2rayse.com
 # 模版名称：defaultName
-# 生成时间：2025-01-22 05:27:54
+# 生成时间：2025-01-22 15:27:33
 # 不要随意改变关键字，否则会导致出错
 # acl4SSR规则
 # 去广告：支持
@@ -58,6 +58,36 @@ tun:
     - 1.1.1.1
     - 1.0.0.1
 proxies:
+  - name: 🇨🇳_CN_中国->🇬🇧_GB_英国_1
+    port: 25256
+    server: us1.awslcn.info
+    type: vmess
+    network: ws
+    udp: true
+    sni: ""
+    skip-cert-verify: true
+    ws-opts:
+      path: /
+      headers:
+        host: us1.awslcn.info
+    cipher: auto
+    uuid: 243eab52-9ac1-405c-887c-eb112c0985b8
+    alterId: 0
+  - name: 🇨🇳_CN_中国->🏳️_unKnow_未知_1
+    port: 25238
+    server: us1.awslcn.info
+    type: vmess
+    network: ws
+    udp: true
+    sni: ""
+    skip-cert-verify: true
+    ws-opts:
+      path: /
+      headers:
+        host: us1.awslcn.info
+    cipher: auto
+    uuid: 243eab52-9ac1-405c-887c-eb112c0985b8
+    alterId: 0
   - name: 🇨🇳_CN_中国->🇷🇺_RU_俄罗斯
     port: 25230
     server: cm1.awslcn.info
@@ -73,43 +103,31 @@ proxies:
     cipher: auto
     uuid: 243eab52-9ac1-405c-887c-eb112c0985b8
     alterId: 0
-  - name: 🇺🇸_US_美国_1
-    port: 2052
-    server: s1.db-link01.top
+  - name: 🇨🇳_CN_中国->🇬🇧_GB_英国_2
+    port: 25240
+    server: cm1.awslcn.info
     type: vmess
     network: ws
     udp: true
+    sni: ""
+    skip-cert-verify: true
     ws-opts:
-      path: /dabai.in172.67.2.142
+      path: /
       headers:
-        host: 100-151-164-47.s1.db-link01.top
+        host: cm1.awslcn.info
     cipher: auto
-    uuid: 4b36625c-b9d9-3ea6-aed5-86d62c70e16d
+    uuid: 243eab52-9ac1-405c-887c-eb112c0985b8
     alterId: 0
-  - name: 🇺🇸_US_美国_2
-    port: 6379
-    server: 38.143.66.87
+  - name: 🇮🇹_IT_意大利
+    port: 989
+    server: 37.143.129.230
     type: ss
     udp: true
-    password: zDNVedRFPQexG9v
-    cipher: aes-256-gcm
-  - name: 🇦🇱_AL_阿尔巴尼亚
-    port: 33333
-    server: 109.104.154.146
-    type: ss
-    udp: true
-    password: dongtaiwang.com
-    cipher: aes-256-gcm
-  - name: 🇺🇸_US_美国_3
-    port: 6379
-    server: 38.143.66.87
-    type: ss
-    udp: true
-    password: zDNVedRFPQexG9v
-    cipher: aes-256-gcm
-  - name: 🇷🇺_RU_俄罗斯_1
-    port: 17926
-    server: 195.58.49.86
+    password: f8f7aCzcPKbsF8p3
+    cipher: aes-256-cfb
+  - name: 🇨🇳_CN_中国->🏳️_unKnow_未知_2
+    port: 25284
+    server: cu.awslcn.info
     type: vmess
     network: ws
     udp: true
@@ -117,110 +135,106 @@ proxies:
     skip-cert-verify: true
     ws-opts:
       path: /
+      headers:
+        host: cu.awslcn.info
     cipher: auto
-    uuid: a135aba4-6c0b-42f7-8605-1890f7ff5368
+    uuid: 243eab52-9ac1-405c-887c-eb112c0985b8
     alterId: 0
-  - name: 🇺🇸_US_美国_4
-    port: 3306
-    server: 38.143.66.87
-    type: ss
+  - name: 🇺🇸_US_美国->🇮🇳_IN_印度
+    port: 443
+    server: us01.trojanyyds.xyz
+    type: trojan
     udp: true
-    password: Y6R9pAtvxxzmGC
-    cipher: aes-256-gcm
-  - name: 🇷🇺_RU_俄罗斯_2
-    port: 33395
-    server: 45.8.159.241
-    type: vmess
-    network: ws
-    udp: true
-    sni: ""
+    password: 243eab52-9ac1-405c-887c-eb112c0985b8
     skip-cert-verify: true
-    ws-opts:
-      path: /
-    cipher: auto
-    uuid: 398ce84e-4849-4e5f-9b1a-a56fbe233b81
-    alterId: 0
+  - name: 🇺🇸_US_美国->🇷🇺_RU_俄罗斯
+    port: 443
+    server: ru01.trojanyyds.xyz
+    type: trojan
+    udp: true
+    sni: ru01.trojanyyds.xyz
+    password: 243eab52-9ac1-405c-887c-eb112c0985b8
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
+      - 🇨🇳_CN_中国->🇬🇧_GB_英国_1
+      - 🇨🇳_CN_中国->🏳️_unKnow_未知_1
       - 🇨🇳_CN_中国->🇷🇺_RU_俄罗斯
-      - 🇺🇸_US_美国_1
-      - 🇺🇸_US_美国_2
-      - 🇦🇱_AL_阿尔巴尼亚
-      - 🇺🇸_US_美国_3
-      - 🇷🇺_RU_俄罗斯_1
-      - 🇺🇸_US_美国_4
-      - 🇷🇺_RU_俄罗斯_2
+      - 🇨🇳_CN_中国->🇬🇧_GB_英国_2
+      - 🇮🇹_IT_意大利
+      - 🇨🇳_CN_中国->🏳️_unKnow_未知_2
+      - 🇺🇸_US_美国->🇮🇳_IN_印度
+      - 🇺🇸_US_美国->🇷🇺_RU_俄罗斯
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
+      - 🇨🇳_CN_中国->🇬🇧_GB_英国_1
+      - 🇨🇳_CN_中国->🏳️_unKnow_未知_1
       - 🇨🇳_CN_中国->🇷🇺_RU_俄罗斯
-      - 🇺🇸_US_美国_1
-      - 🇺🇸_US_美国_2
-      - 🇦🇱_AL_阿尔巴尼亚
-      - 🇺🇸_US_美国_3
-      - 🇷🇺_RU_俄罗斯_1
-      - 🇺🇸_US_美国_4
-      - 🇷🇺_RU_俄罗斯_2
+      - 🇨🇳_CN_中国->🇬🇧_GB_英国_2
+      - 🇮🇹_IT_意大利
+      - 🇨🇳_CN_中国->🏳️_unKnow_未知_2
+      - 🇺🇸_US_美国->🇮🇳_IN_印度
+      - 🇺🇸_US_美国->🇷🇺_RU_俄罗斯
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
+      - 🇨🇳_CN_中国->🇬🇧_GB_英国_1
+      - 🇨🇳_CN_中国->🏳️_unKnow_未知_1
       - 🇨🇳_CN_中国->🇷🇺_RU_俄罗斯
-      - 🇺🇸_US_美国_1
-      - 🇺🇸_US_美国_2
-      - 🇦🇱_AL_阿尔巴尼亚
-      - 🇺🇸_US_美国_3
-      - 🇷🇺_RU_俄罗斯_1
-      - 🇺🇸_US_美国_4
-      - 🇷🇺_RU_俄罗斯_2
+      - 🇨🇳_CN_中国->🇬🇧_GB_英国_2
+      - 🇮🇹_IT_意大利
+      - 🇨🇳_CN_中国->🏳️_unKnow_未知_2
+      - 🇺🇸_US_美国->🇮🇳_IN_印度
+      - 🇺🇸_US_美国->🇷🇺_RU_俄罗斯
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
+      - 🇨🇳_CN_中国->🇬🇧_GB_英国_1
+      - 🇨🇳_CN_中国->🏳️_unKnow_未知_1
       - 🇨🇳_CN_中国->🇷🇺_RU_俄罗斯
-      - 🇺🇸_US_美国_1
-      - 🇺🇸_US_美国_2
-      - 🇦🇱_AL_阿尔巴尼亚
-      - 🇺🇸_US_美国_3
-      - 🇷🇺_RU_俄罗斯_1
-      - 🇺🇸_US_美国_4
-      - 🇷🇺_RU_俄罗斯_2
+      - 🇨🇳_CN_中国->🇬🇧_GB_英国_2
+      - 🇮🇹_IT_意大利
+      - 🇨🇳_CN_中国->🏳️_unKnow_未知_2
+      - 🇺🇸_US_美国->🇮🇳_IN_印度
+      - 🇺🇸_US_美国->🇷🇺_RU_俄罗斯
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
+      - 🇨🇳_CN_中国->🇬🇧_GB_英国_1
+      - 🇨🇳_CN_中国->🏳️_unKnow_未知_1
       - 🇨🇳_CN_中国->🇷🇺_RU_俄罗斯
-      - 🇺🇸_US_美国_1
-      - 🇺🇸_US_美国_2
-      - 🇦🇱_AL_阿尔巴尼亚
-      - 🇺🇸_US_美国_3
-      - 🇷🇺_RU_俄罗斯_1
-      - 🇺🇸_US_美国_4
-      - 🇷🇺_RU_俄罗斯_2
+      - 🇨🇳_CN_中国->🇬🇧_GB_英国_2
+      - 🇮🇹_IT_意大利
+      - 🇨🇳_CN_中国->🏳️_unKnow_未知_2
+      - 🇺🇸_US_美国->🇮🇳_IN_印度
+      - 🇺🇸_US_美国->🇷🇺_RU_俄罗斯
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
+      - 🇨🇳_CN_中国->🇬🇧_GB_英国_1
+      - 🇨🇳_CN_中国->🏳️_unKnow_未知_1
       - 🇨🇳_CN_中国->🇷🇺_RU_俄罗斯
-      - 🇺🇸_US_美国_1
-      - 🇺🇸_US_美国_2
-      - 🇦🇱_AL_阿尔巴尼亚
-      - 🇺🇸_US_美国_3
-      - 🇷🇺_RU_俄罗斯_1
-      - 🇺🇸_US_美国_4
-      - 🇷🇺_RU_俄罗斯_2
+      - 🇨🇳_CN_中国->🇬🇧_GB_英国_2
+      - 🇮🇹_IT_意大利
+      - 🇨🇳_CN_中国->🏳️_unKnow_未知_2
+      - 🇺🇸_US_美国->🇮🇳_IN_印度
+      - 🇺🇸_US_美国->🇷🇺_RU_俄罗斯
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -243,14 +257,14 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
+      - 🇨🇳_CN_中国->🇬🇧_GB_英国_1
+      - 🇨🇳_CN_中国->🏳️_unKnow_未知_1
       - 🇨🇳_CN_中国->🇷🇺_RU_俄罗斯
-      - 🇺🇸_US_美国_1
-      - 🇺🇸_US_美国_2
-      - 🇦🇱_AL_阿尔巴尼亚
-      - 🇺🇸_US_美国_3
-      - 🇷🇺_RU_俄罗斯_1
-      - 🇺🇸_US_美国_4
-      - 🇷🇺_RU_俄罗斯_2
+      - 🇨🇳_CN_中国->🇬🇧_GB_英国_2
+      - 🇮🇹_IT_意大利
+      - 🇨🇳_CN_中国->🏳️_unKnow_未知_2
+      - 🇺🇸_US_美国->🇮🇳_IN_印度
+      - 🇺🇸_US_美国->🇷🇺_RU_俄罗斯
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
   - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
