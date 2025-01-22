@@ -1,6 +1,6 @@
 # 生成地址：v2rayse.com
 # 模版名称：defaultName
-# 生成时间：2025-01-22 21:32:11
+# 生成时间：2025-01-23 05:23:38
 # 不要随意改变关键字，否则会导致出错
 # acl4SSR规则
 # 去广告：支持
@@ -59,18 +59,41 @@ tun:
     - 1.0.0.1
 proxies:
   - name: 🇺🇸_US_美国_1
-    port: 2082
-    server: 64.225.109.206
-    type: vmess
-    network: http
+    port: 989
+    server: 185.47.252.251
+    type: ss
     udp: true
-    sni: ""
-    skip-cert-verify: true
-    http-opts: {}
-    cipher: auto
-    uuid: 48264b45-64b8-4e9f-8a88-cef41f20c736
-    alterId: 0
-  - name: 🇨🇳_CN_中国->🇷🇺_RU_俄罗斯_1
+    password: f8f7aCzcPKbsF8p3
+    cipher: aes-256-cfb
+  - name: 🇮🇹_IT_意大利_1
+    port: 989
+    server: 37.143.129.230
+    type: ss
+    udp: true
+    password: f8f7aCzcPKbsF8p3
+    cipher: aes-256-cfb
+  - name: 🇺🇸_US_美国_2
+    port: 989
+    server: 185.237.185.160
+    type: ss
+    udp: true
+    password: f8f7aCzcPKbsF8p3
+    cipher: aes-256-cfb
+  - name: 🇮🇹_IT_意大利_2
+    port: 989
+    server: 37.143.129.230
+    type: ss
+    udp: true
+    password: f8f7aCzcPKbsF8p3
+    cipher: aes-256-cfb
+  - name: 🇷🇺_RU_俄罗斯_1
+    port: 989
+    server: 185.231.233.173
+    type: ss
+    udp: true
+    password: f8f7aCzcPKbsF8p3
+    cipher: aes-256-cfb
+  - name: 🇨🇳_CN_中国->🇷🇺_RU_俄罗斯
     port: 60194
     server: 221.131.165.210
     type: trojan
@@ -78,65 +101,32 @@ proxies:
     password: 38571ca6-6692-4559-b901-0bc5826b7661
     skip-cert-verify: true
   - name: 🇺🇸_US_美国_3
-    port: 2082
-    server: 64.225.109.206
+    port: 2086
+    server: 190.93.245.230
     type: vmess
-    network: http
+    network: ws
     udp: true
-    sni: ""
-    skip-cert-verify: true
-    http-opts: {}
+    ws-opts:
+      path: /
+      headers:
+        host: shs.xiaoqi666.xyz
     cipher: auto
-    uuid: 48264b45-64b8-4e9f-8a88-cef41f20c736
+    uuid: 3fd7b958-2161-46e1-b6fc-bd6bb2165312
     alterId: 0
-  - name: 🇷🇺_RU_俄罗斯
+  - name: 🇷🇴_RO_罗马尼亚
     port: 989
-    server: 185.231.233.173
+    server: 185.193.49.88
     type: ss
     udp: true
     password: f8f7aCzcPKbsF8p3
     cipher: aes-256-cfb
-  - name: 🇺🇸_US_美国_5
-    port: 2086
-    server: 190.93.245.230
-    type: vmess
-    network: ws
-    udp: true
-    ws-opts:
-      path: /
-      headers:
-        host: shs.xiaoqi666.xyz
-    cipher: auto
-    uuid: 3fd7b958-2161-46e1-b6fc-bd6bb2165312
-    alterId: 0
-  - name: 🇺🇸_US_美国_6
-    port: 2086
-    server: 190.93.245.230
-    type: vmess
-    network: ws
-    udp: true
-    ws-opts:
-      path: /
-      headers:
-        host: shs.xiaoqi666.xyz
-    cipher: auto
-    uuid: 3fd7b958-2161-46e1-b6fc-bd6bb2165312
-    alterId: 0
-  - name: 🇳🇱_NL_荷兰
-    port: 62685
-    server: 213.109.147.242
+  - name: 🇷🇺_RU_俄罗斯_2
+    port: 989
+    server: 185.231.233.112
     type: ss
     udp: true
-    password: VpKABcOpNNA0l5G2AVOmw8
-    cipher: chacha20-ietf-poly1305
-  - name: 🇨🇳_CN_中国->🇷🇺_RU_俄罗斯_2
-    port: 60194
-    server: ru0195.alibabaokz.com
-    type: trojan
-    udp: true
-    sni: ru0195.alibabaokz.com
-    password: 38571ca6-6692-4559-b901-0bc5826b7661
-    skip-cert-verify: true
+    password: f8f7aCzcPKbsF8p3
+    cipher: aes-256-cfb
 proxy-groups:
   - name: 🚀 节点选择
     type: select
@@ -144,13 +134,14 @@ proxy-groups:
       - ♻️ 自动选择
       - DIRECT
       - 🇺🇸_US_美国_1
-      - 🇨🇳_CN_中国->🇷🇺_RU_俄罗斯_1
+      - 🇮🇹_IT_意大利_1
+      - 🇺🇸_US_美国_2
+      - 🇮🇹_IT_意大利_2
+      - 🇷🇺_RU_俄罗斯_1
+      - 🇨🇳_CN_中国->🇷🇺_RU_俄罗斯
       - 🇺🇸_US_美国_3
-      - 🇷🇺_RU_俄罗斯
-      - 🇺🇸_US_美国_5
-      - 🇺🇸_US_美国_6
-      - 🇳🇱_NL_荷兰
-      - 🇨🇳_CN_中国->🇷🇺_RU_俄罗斯_2
+      - 🇷🇴_RO_罗马尼亚
+      - 🇷🇺_RU_俄罗斯_2
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -158,13 +149,14 @@ proxy-groups:
     tolerance: 50
     proxies:
       - 🇺🇸_US_美国_1
-      - 🇨🇳_CN_中国->🇷🇺_RU_俄罗斯_1
+      - 🇮🇹_IT_意大利_1
+      - 🇺🇸_US_美国_2
+      - 🇮🇹_IT_意大利_2
+      - 🇷🇺_RU_俄罗斯_1
+      - 🇨🇳_CN_中国->🇷🇺_RU_俄罗斯
       - 🇺🇸_US_美国_3
-      - 🇷🇺_RU_俄罗斯
-      - 🇺🇸_US_美国_5
-      - 🇺🇸_US_美国_6
-      - 🇳🇱_NL_荷兰
-      - 🇨🇳_CN_中国->🇷🇺_RU_俄罗斯_2
+      - 🇷🇴_RO_罗马尼亚
+      - 🇷🇺_RU_俄罗斯_2
   - name: 🌍 国外媒体
     type: select
     proxies:
@@ -172,52 +164,56 @@ proxy-groups:
       - ♻️ 自动选择
       - 🎯 全球直连
       - 🇺🇸_US_美国_1
-      - 🇨🇳_CN_中国->🇷🇺_RU_俄罗斯_1
+      - 🇮🇹_IT_意大利_1
+      - 🇺🇸_US_美国_2
+      - 🇮🇹_IT_意大利_2
+      - 🇷🇺_RU_俄罗斯_1
+      - 🇨🇳_CN_中国->🇷🇺_RU_俄罗斯
       - 🇺🇸_US_美国_3
-      - 🇷🇺_RU_俄罗斯
-      - 🇺🇸_US_美国_5
-      - 🇺🇸_US_美国_6
-      - 🇳🇱_NL_荷兰
-      - 🇨🇳_CN_中国->🇷🇺_RU_俄罗斯_2
+      - 🇷🇴_RO_罗马尼亚
+      - 🇷🇺_RU_俄罗斯_2
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
       - 🇺🇸_US_美国_1
-      - 🇨🇳_CN_中国->🇷🇺_RU_俄罗斯_1
+      - 🇮🇹_IT_意大利_1
+      - 🇺🇸_US_美国_2
+      - 🇮🇹_IT_意大利_2
+      - 🇷🇺_RU_俄罗斯_1
+      - 🇨🇳_CN_中国->🇷🇺_RU_俄罗斯
       - 🇺🇸_US_美国_3
-      - 🇷🇺_RU_俄罗斯
-      - 🇺🇸_US_美国_5
-      - 🇺🇸_US_美国_6
-      - 🇳🇱_NL_荷兰
-      - 🇨🇳_CN_中国->🇷🇺_RU_俄罗斯_2
+      - 🇷🇴_RO_罗马尼亚
+      - 🇷🇺_RU_俄罗斯_2
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
       - 🇺🇸_US_美国_1
-      - 🇨🇳_CN_中国->🇷🇺_RU_俄罗斯_1
+      - 🇮🇹_IT_意大利_1
+      - 🇺🇸_US_美国_2
+      - 🇮🇹_IT_意大利_2
+      - 🇷🇺_RU_俄罗斯_1
+      - 🇨🇳_CN_中国->🇷🇺_RU_俄罗斯
       - 🇺🇸_US_美国_3
-      - 🇷🇺_RU_俄罗斯
-      - 🇺🇸_US_美国_5
-      - 🇺🇸_US_美国_6
-      - 🇳🇱_NL_荷兰
-      - 🇨🇳_CN_中国->🇷🇺_RU_俄罗斯_2
+      - 🇷🇴_RO_罗马尼亚
+      - 🇷🇺_RU_俄罗斯_2
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
       - 🇺🇸_US_美国_1
-      - 🇨🇳_CN_中国->🇷🇺_RU_俄罗斯_1
+      - 🇮🇹_IT_意大利_1
+      - 🇺🇸_US_美国_2
+      - 🇮🇹_IT_意大利_2
+      - 🇷🇺_RU_俄罗斯_1
+      - 🇨🇳_CN_中国->🇷🇺_RU_俄罗斯
       - 🇺🇸_US_美国_3
-      - 🇷🇺_RU_俄罗斯
-      - 🇺🇸_US_美国_5
-      - 🇺🇸_US_美国_6
-      - 🇳🇱_NL_荷兰
-      - 🇨🇳_CN_中国->🇷🇺_RU_俄罗斯_2
+      - 🇷🇴_RO_罗马尼亚
+      - 🇷🇺_RU_俄罗斯_2
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -241,13 +237,14 @@ proxy-groups:
       - 🎯 全球直连
       - ♻️ 自动选择
       - 🇺🇸_US_美国_1
-      - 🇨🇳_CN_中国->🇷🇺_RU_俄罗斯_1
+      - 🇮🇹_IT_意大利_1
+      - 🇺🇸_US_美国_2
+      - 🇮🇹_IT_意大利_2
+      - 🇷🇺_RU_俄罗斯_1
+      - 🇨🇳_CN_中国->🇷🇺_RU_俄罗斯
       - 🇺🇸_US_美国_3
-      - 🇷🇺_RU_俄罗斯
-      - 🇺🇸_US_美国_5
-      - 🇺🇸_US_美国_6
-      - 🇳🇱_NL_荷兰
-      - 🇨🇳_CN_中国->🇷🇺_RU_俄罗斯_2
+      - 🇷🇴_RO_罗马尼亚
+      - 🇷🇺_RU_俄罗斯_2
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
   - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
