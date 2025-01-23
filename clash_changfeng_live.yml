@@ -1,6 +1,6 @@
 # 生成地址：v2rayse.com
 # 模版名称：defaultName
-# 生成时间：2025-01-23 15:29:23
+# 生成时间：2025-01-23 21:32:04
 # 不要随意改变关键字，否则会导致出错
 # acl4SSR规则
 # 去广告：支持
@@ -58,167 +58,181 @@ tun:
     - 1.1.1.1
     - 1.0.0.1
 proxies:
-  - name: 🇳🇱_NL_荷兰_1
-    port: 37904
-    server: 45.150.32.46
+  - name: 🇷🇺_RU_俄罗斯_1
+    port: 989
+    server: 185.231.233.173
     type: ss
     udp: true
-    password: EOk/bIj8XER6b0kjVQxuM/iLMTE7P8h/PT/RCI2Z2wg=
-    cipher: chacha20-ietf-poly1305
-  - name: 🇨🇳_CN_中国->🇮🇳_IN_印度
-    port: 25216
-    server: cm.awslcn.info
+    password: f8f7aCzcPKbsF8p3
+    cipher: aes-256-cfb
+  - name: 🇨🇳_CN_中国->🇷🇺_RU_俄罗斯_1
+    port: 25230
+    server: cm1.awslcn.info
     type: vmess
     network: ws
     udp: true
-    sni: ""
-    skip-cert-verify: true
     ws-opts:
       path: /
       headers:
-        host: cm.awslcn.info
+        host: cm1.awslcn.info
     cipher: auto
     uuid: 243eab52-9ac1-405c-887c-eb112c0985b8
     alterId: 0
-  - name: 🇺🇸_US_美国_2
-    port: 2375
-    server: 38.107.226.238
-    type: ss
-    udp: true
-    password: faBAoD54k87UJG7
-    cipher: aes-256-gcm
-  - name: 🇷🇺_RU_俄罗斯_2
-    port: 33395
-    server: 45.8.159.241
-    type: vmess
-    network: ws
-    udp: true
-    ws-opts:
-      path: /
-    cipher: auto
-    uuid: 398ce84e-4849-4e5f-9b1a-a56fbe233b81
-    alterId: 0
-  - name: 🇨🇳_CN_中国->🇷🇺_RU_俄罗斯
-    port: 25284
-    server: cu.awslcn.info
-    type: vmess
-    network: ws
-    udp: true
-    sni: ""
-    skip-cert-verify: true
-    ws-opts:
-      path: /
-      headers:
-        host: cu.awslcn.info
-    cipher: auto
-    uuid: 243eab52-9ac1-405c-887c-eb112c0985b8
-    alterId: 0
-  - name: 🇳🇱_NL_荷兰_2
-    port: 37904
-    server: 45.150.32.46
-    type: ss
-    udp: true
-    password: EOk/bIj8XER6b0kjVQxuM/iLMTE7P8h/PT/RCI2Z2wg=
-    cipher: chacha20-ietf-poly1305
-  - name: 🇷🇺_RU_俄罗斯_3
-    port: 33395
-    server: 45.8.159.241
-    type: vmess
-    network: ws
-    udp: true
-    ws-opts:
-      path: /
-    cipher: auto
-    uuid: 398ce84e-4849-4e5f-9b1a-a56fbe233b81
-    alterId: 0
-  - name: 🇺🇸_US_美国->🇰🇷_KR_韩国
+  - name: 🇺🇸_US_美国->🇮🇳_IN_印度_1
     port: 443
     server: in01.trojanyyds.xyz
     type: trojan
     udp: true
     sni: in01.trojanyyds.xyz
     password: 243eab52-9ac1-405c-887c-eb112c0985b8
+  - name: 🇷🇴_RO_罗马尼亚
+    port: 989
+    server: 188.214.36.155
+    type: ss
+    udp: true
+    password: f8f7aCzcPKbsF8p3
+    cipher: aes-256-cfb
+  - name: 🇺🇸_US_美国
+    port: 2082
+    server: 64.225.109.206
+    type: vmess
+    network: http
+    udp: true
+    sni: ""
+    skip-cert-verify: true
+    http-opts: {}
+    cipher: auto
+    uuid: 48264b45-64b8-4e9f-8a88-cef41f20c736
+    alterId: 0
+  - name: 🇬🇧_GB_英国
+    port: 989
+    server: 62.100.205.48
+    type: ss
+    udp: true
+    password: f8f7aCzcPKbsF8p3
+    cipher: aes-256-cfb
+  - name: 🇷🇺_RU_俄罗斯_2
+    port: 33395
+    server: 45.8.159.241
+    type: vmess
+    network: ws
+    udp: true
+    sni: ""
+    skip-cert-verify: true
+    ws-opts:
+      path: /
+      headers:
+        host: 45.8.159.241
+    cipher: auto
+    uuid: 398ce84e-4849-4e5f-9b1a-a56fbe233b81
+    alterId: 0
+  - name: 🇺🇸_US_美国->🇮🇳_IN_印度_2
+    port: 443
+    server: in01.trojanyyds.xyz
+    type: trojan
+    udp: true
+    sni: in01.trojanyyds.xyz
+    password: 243eab52-9ac1-405c-887c-eb112c0985b8
+  - name: 🇨🇳_CN_中国->🇷🇺_RU_俄罗斯_2
+    port: 25230
+    server: cm1.awslcn.info
+    type: vmess
+    network: ws
+    udp: true
+    ws-opts:
+      path: /
+      headers:
+        host: cm1.awslcn.info
+    cipher: auto
+    uuid: 243eab52-9ac1-405c-887c-eb112c0985b8
+    alterId: 0
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - 🇳🇱_NL_荷兰_1
-      - 🇨🇳_CN_中国->🇮🇳_IN_印度
-      - 🇺🇸_US_美国_2
+      - 🇷🇺_RU_俄罗斯_1
+      - 🇨🇳_CN_中国->🇷🇺_RU_俄罗斯_1
+      - 🇺🇸_US_美国->🇮🇳_IN_印度_1
+      - 🇷🇴_RO_罗马尼亚
+      - 🇺🇸_US_美国
+      - 🇬🇧_GB_英国
       - 🇷🇺_RU_俄罗斯_2
-      - 🇨🇳_CN_中国->🇷🇺_RU_俄罗斯
-      - 🇳🇱_NL_荷兰_2
-      - 🇷🇺_RU_俄罗斯_3
-      - 🇺🇸_US_美国->🇰🇷_KR_韩国
+      - 🇺🇸_US_美国->🇮🇳_IN_印度_2
+      - 🇨🇳_CN_中国->🇷🇺_RU_俄罗斯_2
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - 🇳🇱_NL_荷兰_1
-      - 🇨🇳_CN_中国->🇮🇳_IN_印度
-      - 🇺🇸_US_美国_2
+      - 🇷🇺_RU_俄罗斯_1
+      - 🇨🇳_CN_中国->🇷🇺_RU_俄罗斯_1
+      - 🇺🇸_US_美国->🇮🇳_IN_印度_1
+      - 🇷🇴_RO_罗马尼亚
+      - 🇺🇸_US_美国
+      - 🇬🇧_GB_英国
       - 🇷🇺_RU_俄罗斯_2
-      - 🇨🇳_CN_中国->🇷🇺_RU_俄罗斯
-      - 🇳🇱_NL_荷兰_2
-      - 🇷🇺_RU_俄罗斯_3
-      - 🇺🇸_US_美国->🇰🇷_KR_韩国
+      - 🇺🇸_US_美国->🇮🇳_IN_印度_2
+      - 🇨🇳_CN_中国->🇷🇺_RU_俄罗斯_2
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇳🇱_NL_荷兰_1
-      - 🇨🇳_CN_中国->🇮🇳_IN_印度
-      - 🇺🇸_US_美国_2
+      - 🇷🇺_RU_俄罗斯_1
+      - 🇨🇳_CN_中国->🇷🇺_RU_俄罗斯_1
+      - 🇺🇸_US_美国->🇮🇳_IN_印度_1
+      - 🇷🇴_RO_罗马尼亚
+      - 🇺🇸_US_美国
+      - 🇬🇧_GB_英国
       - 🇷🇺_RU_俄罗斯_2
-      - 🇨🇳_CN_中国->🇷🇺_RU_俄罗斯
-      - 🇳🇱_NL_荷兰_2
-      - 🇷🇺_RU_俄罗斯_3
-      - 🇺🇸_US_美国->🇰🇷_KR_韩国
+      - 🇺🇸_US_美国->🇮🇳_IN_印度_2
+      - 🇨🇳_CN_中国->🇷🇺_RU_俄罗斯_2
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 🇳🇱_NL_荷兰_1
-      - 🇨🇳_CN_中国->🇮🇳_IN_印度
-      - 🇺🇸_US_美国_2
+      - 🇷🇺_RU_俄罗斯_1
+      - 🇨🇳_CN_中国->🇷🇺_RU_俄罗斯_1
+      - 🇺🇸_US_美国->🇮🇳_IN_印度_1
+      - 🇷🇴_RO_罗马尼亚
+      - 🇺🇸_US_美国
+      - 🇬🇧_GB_英国
       - 🇷🇺_RU_俄罗斯_2
-      - 🇨🇳_CN_中国->🇷🇺_RU_俄罗斯
-      - 🇳🇱_NL_荷兰_2
-      - 🇷🇺_RU_俄罗斯_3
-      - 🇺🇸_US_美国->🇰🇷_KR_韩国
+      - 🇺🇸_US_美国->🇮🇳_IN_印度_2
+      - 🇨🇳_CN_中国->🇷🇺_RU_俄罗斯_2
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - 🇳🇱_NL_荷兰_1
-      - 🇨🇳_CN_中国->🇮🇳_IN_印度
-      - 🇺🇸_US_美国_2
+      - 🇷🇺_RU_俄罗斯_1
+      - 🇨🇳_CN_中国->🇷🇺_RU_俄罗斯_1
+      - 🇺🇸_US_美国->🇮🇳_IN_印度_1
+      - 🇷🇴_RO_罗马尼亚
+      - 🇺🇸_US_美国
+      - 🇬🇧_GB_英国
       - 🇷🇺_RU_俄罗斯_2
-      - 🇨🇳_CN_中国->🇷🇺_RU_俄罗斯
-      - 🇳🇱_NL_荷兰_2
-      - 🇷🇺_RU_俄罗斯_3
-      - 🇺🇸_US_美国->🇰🇷_KR_韩国
+      - 🇺🇸_US_美国->🇮🇳_IN_印度_2
+      - 🇨🇳_CN_中国->🇷🇺_RU_俄罗斯_2
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 🇳🇱_NL_荷兰_1
-      - 🇨🇳_CN_中国->🇮🇳_IN_印度
-      - 🇺🇸_US_美国_2
+      - 🇷🇺_RU_俄罗斯_1
+      - 🇨🇳_CN_中国->🇷🇺_RU_俄罗斯_1
+      - 🇺🇸_US_美国->🇮🇳_IN_印度_1
+      - 🇷🇴_RO_罗马尼亚
+      - 🇺🇸_US_美国
+      - 🇬🇧_GB_英国
       - 🇷🇺_RU_俄罗斯_2
-      - 🇨🇳_CN_中国->🇷🇺_RU_俄罗斯
-      - 🇳🇱_NL_荷兰_2
-      - 🇷🇺_RU_俄罗斯_3
-      - 🇺🇸_US_美国->🇰🇷_KR_韩国
+      - 🇺🇸_US_美国->🇮🇳_IN_印度_2
+      - 🇨🇳_CN_中国->🇷🇺_RU_俄罗斯_2
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -241,14 +255,15 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇳🇱_NL_荷兰_1
-      - 🇨🇳_CN_中国->🇮🇳_IN_印度
-      - 🇺🇸_US_美国_2
+      - 🇷🇺_RU_俄罗斯_1
+      - 🇨🇳_CN_中国->🇷🇺_RU_俄罗斯_1
+      - 🇺🇸_US_美国->🇮🇳_IN_印度_1
+      - 🇷🇴_RO_罗马尼亚
+      - 🇺🇸_US_美国
+      - 🇬🇧_GB_英国
       - 🇷🇺_RU_俄罗斯_2
-      - 🇨🇳_CN_中国->🇷🇺_RU_俄罗斯
-      - 🇳🇱_NL_荷兰_2
-      - 🇷🇺_RU_俄罗斯_3
-      - 🇺🇸_US_美国->🇰🇷_KR_韩国
+      - 🇺🇸_US_美国->🇮🇳_IN_印度_2
+      - 🇨🇳_CN_中国->🇷🇺_RU_俄罗斯_2
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
   - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
