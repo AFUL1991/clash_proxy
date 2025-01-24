@@ -1,6 +1,6 @@
 # 生成地址：v2rayse.com
 # 模版名称：defaultName
-# 生成时间：2025-01-24 15:27:11
+# 生成时间：2025-01-24 21:31:25
 # 不要随意改变关键字，否则会导致出错
 # acl4SSR规则
 # 去广告：支持
@@ -58,7 +58,21 @@ tun:
     - 1.1.1.1
     - 1.0.0.1
 proxies:
-  - name: 🇺🇸_US_美国_1
+  - name: 🇷🇴_RO_罗马尼亚_1
+    port: 989
+    server: 185.193.49.88
+    type: ss
+    udp: true
+    password: f8f7aCzcPKbsF8p3
+    cipher: aes-256-cfb
+  - name: 🇺🇸_US_美国->🇨🇳_CN_中国
+    port: 443
+    server: 52.36.157.30
+    type: ss
+    udp: true
+    password: amazonskr05
+    cipher: aes-256-cfb
+  - name: 🇺🇸_US_美国_2
     port: 2082
     server: 64.225.109.206
     type: vmess
@@ -70,58 +84,29 @@ proxies:
     cipher: auto
     uuid: 48264b45-64b8-4e9f-8a88-cef41f20c736
     alterId: 0
-  - name: 🇩🇪_DE_德国
-    port: 22222
-    server: 18.194.196.199
-    type: trojan
-    udp: true
-    sni: trojan.burgerip.co.uk
-    password: telegram-id-directvpn
-  - name: 🇺🇸_US_美国_2
-    port: 443
-    server: 52.36.157.30
-    type: ss
-    udp: true
-    password: amazonskr05
-    cipher: aes-256-cfb
-  - name: 🇺🇸_US_美国->🇨🇳_CN_中国_1
-    port: 443
-    server: 54.185.31.212
-    type: ss
-    udp: true
-    password: amazonskr05
-    cipher: aes-256-cfb
-  - name: 🇩🇰_DK_丹麦
+  - name: 🇮🇹_IT_意大利
     port: 989
-    server: 185.186.79.53
-    type: ss
-    udp: true
-    password: f8f7aCzcPKbsF8p3
-    cipher: aes-256-cfb
-  - name: 🇺🇸_US_美国->🇨🇳_CN_中国_2
-    port: 443
-    server: 54.185.31.212
-    type: ss
-    udp: true
-    password: amazonskr05
-    cipher: aes-256-cfb
-  - name: 🇷🇴_RO_罗马尼亚
-    port: 989
-    server: 188.214.36.155
-    type: ss
-    udp: true
-    password: f8f7aCzcPKbsF8p3
-    cipher: aes-256-cfb
-  - name: 🇺🇸_US_美国_3
-    port: 989
-    server: 185.47.252.251
+    server: 37.143.129.230
     type: ss
     udp: true
     password: f8f7aCzcPKbsF8p3
     cipher: aes-256-cfb
   - name: 🇺🇸_US_美国_4
+    port: 2086
+    server: 190.93.245.230
+    type: vmess
+    network: ws
+    udp: true
+    ws-opts:
+      path: /
+      headers:
+        host: shs.xiaoqi666.xyz
+    cipher: auto
+    uuid: 3fd7b958-2161-46e1-b6fc-bd6bb2165312
+    alterId: 0
+  - name: 🇷🇴_RO_罗马尼亚_2
     port: 989
-    server: 185.47.252.251
+    server: 185.193.49.88
     type: ss
     udp: true
     password: f8f7aCzcPKbsF8p3
@@ -132,87 +117,69 @@ proxy-groups:
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - 🇺🇸_US_美国_1
-      - 🇩🇪_DE_德国
+      - 🇷🇴_RO_罗马尼亚_1
+      - 🇺🇸_US_美国->🇨🇳_CN_中国
       - 🇺🇸_US_美国_2
-      - 🇺🇸_US_美国->🇨🇳_CN_中国_1
-      - 🇩🇰_DK_丹麦
-      - 🇺🇸_US_美国->🇨🇳_CN_中国_2
-      - 🇷🇴_RO_罗马尼亚
-      - 🇺🇸_US_美国_3
+      - 🇮🇹_IT_意大利
       - 🇺🇸_US_美国_4
+      - 🇷🇴_RO_罗马尼亚_2
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - 🇺🇸_US_美国_1
-      - 🇩🇪_DE_德国
+      - 🇷🇴_RO_罗马尼亚_1
+      - 🇺🇸_US_美国->🇨🇳_CN_中国
       - 🇺🇸_US_美国_2
-      - 🇺🇸_US_美国->🇨🇳_CN_中国_1
-      - 🇩🇰_DK_丹麦
-      - 🇺🇸_US_美国->🇨🇳_CN_中国_2
-      - 🇷🇴_RO_罗马尼亚
-      - 🇺🇸_US_美国_3
+      - 🇮🇹_IT_意大利
       - 🇺🇸_US_美国_4
+      - 🇷🇴_RO_罗马尼亚_2
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇺🇸_US_美国_1
-      - 🇩🇪_DE_德国
+      - 🇷🇴_RO_罗马尼亚_1
+      - 🇺🇸_US_美国->🇨🇳_CN_中国
       - 🇺🇸_US_美国_2
-      - 🇺🇸_US_美国->🇨🇳_CN_中国_1
-      - 🇩🇰_DK_丹麦
-      - 🇺🇸_US_美国->🇨🇳_CN_中国_2
-      - 🇷🇴_RO_罗马尼亚
-      - 🇺🇸_US_美国_3
+      - 🇮🇹_IT_意大利
       - 🇺🇸_US_美国_4
+      - 🇷🇴_RO_罗马尼亚_2
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 🇺🇸_US_美国_1
-      - 🇩🇪_DE_德国
+      - 🇷🇴_RO_罗马尼亚_1
+      - 🇺🇸_US_美国->🇨🇳_CN_中国
       - 🇺🇸_US_美国_2
-      - 🇺🇸_US_美国->🇨🇳_CN_中国_1
-      - 🇩🇰_DK_丹麦
-      - 🇺🇸_US_美国->🇨🇳_CN_中国_2
-      - 🇷🇴_RO_罗马尼亚
-      - 🇺🇸_US_美国_3
+      - 🇮🇹_IT_意大利
       - 🇺🇸_US_美国_4
+      - 🇷🇴_RO_罗马尼亚_2
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - 🇺🇸_US_美国_1
-      - 🇩🇪_DE_德国
+      - 🇷🇴_RO_罗马尼亚_1
+      - 🇺🇸_US_美国->🇨🇳_CN_中国
       - 🇺🇸_US_美国_2
-      - 🇺🇸_US_美国->🇨🇳_CN_中国_1
-      - 🇩🇰_DK_丹麦
-      - 🇺🇸_US_美国->🇨🇳_CN_中国_2
-      - 🇷🇴_RO_罗马尼亚
-      - 🇺🇸_US_美国_3
+      - 🇮🇹_IT_意大利
       - 🇺🇸_US_美国_4
+      - 🇷🇴_RO_罗马尼亚_2
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 🇺🇸_US_美国_1
-      - 🇩🇪_DE_德国
+      - 🇷🇴_RO_罗马尼亚_1
+      - 🇺🇸_US_美国->🇨🇳_CN_中国
       - 🇺🇸_US_美国_2
-      - 🇺🇸_US_美国->🇨🇳_CN_中国_1
-      - 🇩🇰_DK_丹麦
-      - 🇺🇸_US_美国->🇨🇳_CN_中国_2
-      - 🇷🇴_RO_罗马尼亚
-      - 🇺🇸_US_美国_3
+      - 🇮🇹_IT_意大利
       - 🇺🇸_US_美国_4
+      - 🇷🇴_RO_罗马尼亚_2
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -235,15 +202,12 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇺🇸_US_美国_1
-      - 🇩🇪_DE_德国
+      - 🇷🇴_RO_罗马尼亚_1
+      - 🇺🇸_US_美国->🇨🇳_CN_中国
       - 🇺🇸_US_美国_2
-      - 🇺🇸_US_美国->🇨🇳_CN_中国_1
-      - 🇩🇰_DK_丹麦
-      - 🇺🇸_US_美国->🇨🇳_CN_中国_2
-      - 🇷🇴_RO_罗马尼亚
-      - 🇺🇸_US_美国_3
+      - 🇮🇹_IT_意大利
       - 🇺🇸_US_美国_4
+      - 🇷🇴_RO_罗马尼亚_2
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
   - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
