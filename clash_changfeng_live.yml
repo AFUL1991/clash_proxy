@@ -1,6 +1,6 @@
 # 生成地址：v2rayse.com
 # 模版名称：defaultName
-# 生成时间：2025-01-25 15:26:16
+# 生成时间：2025-01-25 21:28:07
 # 不要随意改变关键字，否则会导致出错
 # acl4SSR规则
 # 去广告：支持
@@ -58,26 +58,9 @@ tun:
     - 1.1.1.1
     - 1.0.0.1
 proxies:
-  - name: 🇮🇪_IE_爱尔兰->🇺🇸_US_美国
-    port: 22222
-    server: 52.16.61.195
-    type: trojan
-    network: tcp
-    udp: true
-    sni: trojan.burgerip.co.uk
-    password: telegram-id-privatevpns
-    alpn:
-      - http/1.1
   - name: 🇷🇴_RO_罗马尼亚_1
     port: 989
     server: 185.193.49.88
-    type: ss
-    udp: true
-    password: f8f7aCzcPKbsF8p3
-    cipher: aes-256-cfb
-  - name: 🇮🇹_IT_意大利
-    port: 989
-    server: 37.143.129.230
     type: ss
     udp: true
     password: f8f7aCzcPKbsF8p3
@@ -94,37 +77,6 @@ proxies:
     cipher: auto
     uuid: 48264b45-64b8-4e9f-8a88-cef41f20c736
     alterId: 0
-  - name: 🇫🇷_FR_法国_1
-    port: 12345
-    server: 163.172.118.110
-    type: ss
-    udp: true
-    password: dongtaiwang.com
-    cipher: aes-256-gcm
-  - name: 🇸🇰_SK_斯洛伐克
-    port: 989
-    server: 156.146.40.194
-    type: ss
-    udp: true
-    password: f8f7aCzcPKbsF8p3
-    cipher: aes-256-cfb
-  - name: 🇩🇪_DE_德国
-    port: 22222
-    server: 18.192.160.68
-    type: trojan
-    network: tcp
-    udp: true
-    sni: trojan.burgerip.co.uk
-    password: telegram-id-directvpn
-    alpn:
-      - http/1.1
-  - name: 🇫🇷_FR_法国_2
-    port: 12345
-    server: 163.172.118.110
-    type: ss
-    udp: true
-    password: dongtaiwang.com
-    cipher: aes-256-gcm
   - name: 🇷🇴_RO_罗马尼亚_2
     port: 989
     server: 185.193.49.88
@@ -132,112 +84,83 @@ proxies:
     udp: true
     password: f8f7aCzcPKbsF8p3
     cipher: aes-256-cfb
-  - name: 🇨🇳_CN_中国->🇷🇺_RU_俄罗斯
-    port: 25230
-    server: cm1.awslcn.info
-    type: vmess
-    network: ws
+  - name: 🇷🇴_RO_罗马尼亚_3
+    port: 989
+    server: 185.193.49.88
+    type: ss
     udp: true
-    ws-opts:
-      path: /
-      headers:
-        host: cm1.awslcn.info
-    cipher: auto
-    uuid: 243eab52-9ac1-405c-887c-eb112c0985b8
-    alterId: 0
+    password: f8f7aCzcPKbsF8p3
+    cipher: aes-256-cfb
+  - name: 🇷🇺_RU_俄罗斯_2
+    port: 6650
+    server: 85.192.28.213
+    type: ss
+    udp: true
+    password: 2f75IeSgXRNglLdvO61gIR
+    cipher: chacha20-ietf-poly1305
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - 🇮🇪_IE_爱尔兰->🇺🇸_US_美国
       - 🇷🇴_RO_罗马尼亚_1
-      - 🇮🇹_IT_意大利
       - 🇺🇸_US_美国
-      - 🇫🇷_FR_法国_1
-      - 🇸🇰_SK_斯洛伐克
-      - 🇩🇪_DE_德国
-      - 🇫🇷_FR_法国_2
       - 🇷🇴_RO_罗马尼亚_2
-      - 🇨🇳_CN_中国->🇷🇺_RU_俄罗斯
+      - 🇷🇴_RO_罗马尼亚_3
+      - 🇷🇺_RU_俄罗斯_2
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - 🇮🇪_IE_爱尔兰->🇺🇸_US_美国
       - 🇷🇴_RO_罗马尼亚_1
-      - 🇮🇹_IT_意大利
       - 🇺🇸_US_美国
-      - 🇫🇷_FR_法国_1
-      - 🇸🇰_SK_斯洛伐克
-      - 🇩🇪_DE_德国
-      - 🇫🇷_FR_法国_2
       - 🇷🇴_RO_罗马尼亚_2
-      - 🇨🇳_CN_中国->🇷🇺_RU_俄罗斯
+      - 🇷🇴_RO_罗马尼亚_3
+      - 🇷🇺_RU_俄罗斯_2
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇮🇪_IE_爱尔兰->🇺🇸_US_美国
       - 🇷🇴_RO_罗马尼亚_1
-      - 🇮🇹_IT_意大利
       - 🇺🇸_US_美国
-      - 🇫🇷_FR_法国_1
-      - 🇸🇰_SK_斯洛伐克
-      - 🇩🇪_DE_德国
-      - 🇫🇷_FR_法国_2
       - 🇷🇴_RO_罗马尼亚_2
-      - 🇨🇳_CN_中国->🇷🇺_RU_俄罗斯
+      - 🇷🇴_RO_罗马尼亚_3
+      - 🇷🇺_RU_俄罗斯_2
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 🇮🇪_IE_爱尔兰->🇺🇸_US_美国
       - 🇷🇴_RO_罗马尼亚_1
-      - 🇮🇹_IT_意大利
       - 🇺🇸_US_美国
-      - 🇫🇷_FR_法国_1
-      - 🇸🇰_SK_斯洛伐克
-      - 🇩🇪_DE_德国
-      - 🇫🇷_FR_法国_2
       - 🇷🇴_RO_罗马尼亚_2
-      - 🇨🇳_CN_中国->🇷🇺_RU_俄罗斯
+      - 🇷🇴_RO_罗马尼亚_3
+      - 🇷🇺_RU_俄罗斯_2
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - 🇮🇪_IE_爱尔兰->🇺🇸_US_美国
       - 🇷🇴_RO_罗马尼亚_1
-      - 🇮🇹_IT_意大利
       - 🇺🇸_US_美国
-      - 🇫🇷_FR_法国_1
-      - 🇸🇰_SK_斯洛伐克
-      - 🇩🇪_DE_德国
-      - 🇫🇷_FR_法国_2
       - 🇷🇴_RO_罗马尼亚_2
-      - 🇨🇳_CN_中国->🇷🇺_RU_俄罗斯
+      - 🇷🇴_RO_罗马尼亚_3
+      - 🇷🇺_RU_俄罗斯_2
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 🇮🇪_IE_爱尔兰->🇺🇸_US_美国
       - 🇷🇴_RO_罗马尼亚_1
-      - 🇮🇹_IT_意大利
       - 🇺🇸_US_美国
-      - 🇫🇷_FR_法国_1
-      - 🇸🇰_SK_斯洛伐克
-      - 🇩🇪_DE_德国
-      - 🇫🇷_FR_法国_2
       - 🇷🇴_RO_罗马尼亚_2
-      - 🇨🇳_CN_中国->🇷🇺_RU_俄罗斯
+      - 🇷🇴_RO_罗马尼亚_3
+      - 🇷🇺_RU_俄罗斯_2
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -260,16 +183,11 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇮🇪_IE_爱尔兰->🇺🇸_US_美国
       - 🇷🇴_RO_罗马尼亚_1
-      - 🇮🇹_IT_意大利
       - 🇺🇸_US_美国
-      - 🇫🇷_FR_法国_1
-      - 🇸🇰_SK_斯洛伐克
-      - 🇩🇪_DE_德国
-      - 🇫🇷_FR_法国_2
       - 🇷🇴_RO_罗马尼亚_2
-      - 🇨🇳_CN_中国->🇷🇺_RU_俄罗斯
+      - 🇷🇴_RO_罗马尼亚_3
+      - 🇷🇺_RU_俄罗斯_2
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
   - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
