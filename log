@@ -1,11 +1,11 @@
----------- [2025-01-31 21:21:09] 更新订阅 ----------
----------- 2025-01-31 21:21:09 ----------
+---------- [2025-02-01 05:15:56] 更新订阅 ----------
+---------- 2025-02-01 05:15:56 ----------
 [长风分享]:
 /home/runner/work/auto_jobs/proxy/clash_cfmem.yml
 /home/runner/work/auto_jobs/proxy/v2ray_cfmem.txt
 [长风分享]: 订阅成功 https://fs.v2rayse.com/share/20250131/mqhywb7bz8.yaml
 [长风分享]: 订阅成功 https://fs.v2rayse.com/share/20250131/24uy80n33n.txt
----------- 2025-01-31 21:21:10 ----------
+---------- 2025-02-01 05:15:57 ----------
 [freev2]: /home/runner/work/auto_jobs/subscribe/freev2.py
 [freev2]: 当前工作目录：/home/runner/work/auto_jobs/proxy/clash_freev2.yml
 [freev2]: 订阅成功, https://raw.githubusercontent.com/freefq/free/master/v2
@@ -46,7 +46,7 @@ User(
 	phone='436789040144717',
 	photo=None,
 	status=UserStatusOffline(
-		was_online=datetime.datetime(2025, 1, 31, 8, 43, 12, tzinfo=datetime.timezone.utc)
+		was_online=datetime.datetime(2025, 1, 31, 13, 26, 15, tzinfo=datetime.timezone.utc)
 	),
 	bot_info_version=None,
 	restriction_reason=[
@@ -67,35 +67,35 @@ Name: FREE 中文, ID: -1001570215033
 Name: 长风分享频道, ID: -1001516635885
 Name: 口交💋专辑, ID: -1001420871010
 Name: 免费节点自动分享, ID: 2096213628
-Name: 吃瓜🍉群众, ID: -1001905442401
+Name: 极搜-中文搜索（复活版） 中文 搜索, ID: -1001607161451
 Name: 超级搜索引擎, ID: -1001760236395
-Name: 吃瓜🍉搜 @achiguao, ID: -1001569868197
+Name: 世纪同城约炮🔥全国极速配对, ID: -1002031522064
+Name: 极搜, ID: -1001888813717
+Name: 吃瓜群众🍉, ID: -1001786596225
+Name: TG代理VPN技术分享, ID: -1001670133389
+Name: 老毛子Padavan固件自助交流群, ID: -1001148540997
+Name: 长风分享群组, ID: -1001802101728
+Name: 吃瓜少女, ID: -1001232928936
+Name: 阿里云盘资源搜索, ID: -1001598490288
 Name: 🎬 阿里云盘交流群 💾, ID: -1001589118734
+Name: 吃瓜中心, ID: -1001638488383
+Name: 【李老师不是你老师】官方电报, ID: -1002155057858
 Name: 🎬 阿里云盘资源 🆙 🚦, ID: -1001520702906
 Name: 🎬 云盘盘 - 阿里云盘投稿🚦, ID: -1001198853752
-Name: 吃瓜少女, ID: -1001232928936
-Name: 极搜-中文搜索（复活版） 中文 搜索, ID: -1001607161451
-Name: 吃瓜群众🍉, ID: -1001786596225
-Name: 【李老师不是你老师】官方电报, ID: -1002155057858
-Name: TG代理VPN技术分享, ID: -1001670133389
-Name: 阿里云盘资源搜索, ID: -1001598490288
-Name: 极搜, ID: -1001888813717
-Name: 世纪同城约炮🔥全国极速配对, ID: -1002031522064
-Name: 老毛子Padavan固件自助交流群, ID: -1001148540997
-Name: 优哥跨境交流群, ID: -1001861402973
-Name: 长风分享群组, ID: -1001802101728
-Name: 吃瓜中心, ID: -1001638488383
 Name: 吃瓜笑料, ID: -1002122890847
-Name: 新电报吃瓜#色情版, ID: -1002149316649
+Name: 不良少女的饥渴 🍑, ID: -1002450958763
 Name: 反差母狗🍑自拍, ID: -1001173218900
+Name: 吃瓜🍉群众, ID: -1001905442401
+Name: 吃瓜🍉搜 @achiguao, ID: -1001569868197
+Name: 新电报吃瓜#色情版, ID: -1002149316649
 Name: 自选基金助手群组, ID: -1001389480278
 Name: TG代理公布, ID: -1001633868843
+Name: 优哥跨境交流群, ID: -1001861402973
 Name: ProxyBingAI🚀, ID: -1002007144215
 Name: TG代理/VPN/V2ray/Clash/小火箭节点/Proxy MTProto, ID: -1001589241381
 Name: 南风知我意, ID: 7020931639
 Name: Github_2dust, ID: -1001628493435
 Name: 科技爱好者周刊, ID: -1001191802783
-Name: 不良少女的饥渴 🍑, ID: -1002450958763
 Name: 三无 产品, ID: 1418710717
 Name: Telegram, ID: 777000
 Name: 蛟龙, ID: -1001465257366
@@ -134,29 +134,30 @@ Name: 吃瓜新闻, ID: -1001252816724
 Name: 1lib, ID: 1788460589
 Name: 摆烂社工bot频道, ID: -1001788223313
 免费节点自动分享: 
-13100 /get
-13099 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpYN2VvRUJyQVJXc0JVaVZmY2hWRWRI@185.77.217.121:443#%E8%8A%AC%E5%85%B0-464.0KB%2Fs
-ss://YWVzLTEyOC1nY206c2hhZG93c29ja3M@149.34.244.82:443#%E8%8D%B7%E5%85%B0-3.47MB%2Fs
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo2SVZPdXpNZkg1Uk9wZ3d0UlRjTkpLWUp2WWU5RkRWYVU3d0FZWWg4UFJMeHhaczY@188.191.147.127:31348#%E4%BB%A5%E8%89%B2%E5%88%97-149.6KB%2Fs
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpjdklJODVUclc2bjBPR3lmcEhWUzF1@45.158.171.136:8080#%E7%BE%8E%E5%9B%BD-3.54MB%2Fs
-ss://YWVzLTI1Ni1jZmI6YW1hem9uc2tyMDU@3.38.251.26:443#%E9%9F%A9%E5%9B%BD-135.7KB%2Fs
-ss://YWVzLTI1Ni1nY206T1lXV0tXQ0xBSjhaQ083OA@qh62onjn.slashdevslashnetslashtun.net:16009#%E4%B8%AD%E8%BD%AC%E8%8A%82%E7%82%B9-22.3MB%2Fs
-ss://YWVzLTI1Ni1jZmI6YW1hem9uc2tyMDU@3.0.91.253:443#%E6%96%B0%E5%8A%A0%E5%9D%A1-109.9KB%2Fs
-vmess://eyJ2IjoiMiIsInBzIjoi5pyq55+l5Zu95a62LTc5My4yS0IvcyIsImFkZCI6InM0LmRiLWxpbmswMi50b3AiLCJwb3J0IjoiMjA4NiIsInR5cGUiOiJub25lIiwiaWQiOiI0YjM2NjI1Yy1iOWQ5LTNlYTYtYWVkNS04NmQ2MmM3MGUxNmQiLCJhaWQiOiIwIiwibmV0Ijoid3MiLCJwYXRoIjoiL2RhYmFpLmluMTcyLjY0LjM4LjY3IiwiaG9zdCI6IjEwMC0yNDAtOTEtMzAuczQuZGItbGluazAyLnRvcCIsInRscyI6IiJ9
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpabVF3WmpGaw@at1.opensocks.site:8388#%E5%A5%A5%E5%9C%B0%E5%88%A9-129.9KB%2Fs
-trojan://5f7be901-1bb7-4cc5-9c7d-e33bd7e407ad@cmc3.5gsieuvip.vn:443?allowInsecure=1#%E8%B6%8A%E5%8D%97-157.8KB%2Fs
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpYN2VvRUJyQVJXc0JVaVZmY2hWRWRI@185.77.217.121:443#%E8%8A%AC%E5%85%B0-464.0KB%2Fs
-ss://YWVzLTEyOC1nY206c2hhZG93c29ja3M@149.34.244.82:443#%E8%8D%B7%E5%85%B0-3.47MB%2Fs
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo2SVZPdXpNZkg1Uk9wZ3d0UlRjTkpLWUp2WWU5RkRWYVU3d0FZWWg4UFJMeHhaczY@188.191.147.127:31348#%E4%BB%A5%E8%89%B2%E5%88%97-149.6KB%2Fs
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpjdklJODVUclc2bjBPR3lmcEhWUzF1@45.158.171.136:8080#%E7%BE%8E%E5%9B%BD-3.54MB%2Fs
-ss://YWVzLTI1Ni1jZmI6YW1hem9uc2tyMDU@3.38.251.26:443#%E9%9F%A9%E5%9B%BD-135.7KB%2Fs
-ss://YWVzLTI1Ni1nY206T1lXV0tXQ0xBSjhaQ083OA@qh62onjn.slashdevslashnetslashtun.net:16009#%E4%B8%AD%E8%BD%AC%E8%8A%82%E7%82%B9-22.3MB%2Fs
-ss://YWVzLTI1Ni1jZmI6YW1hem9uc2tyMDU@3.0.91.253:443#%E6%96%B0%E5%8A%A0%E5%9D%A1-109.9KB%2Fs
-vmess://eyJ2IjoiMiIsInBzIjoi5pyq55+l5Zu95a62LTc5My4yS0IvcyIsImFkZCI6InM0LmRiLWxpbmswMi50b3AiLCJwb3J0IjoiMjA4NiIsInR5cGUiOiJub25lIiwiaWQiOiI0YjM2NjI1Yy1iOWQ5LTNlYTYtYWVkNS04NmQ2MmM3MGUxNmQiLCJhaWQiOiIwIiwibmV0Ijoid3MiLCJwYXRoIjoiL2RhYmFpLmluMTcyLjY0LjM4LjY3IiwiaG9zdCI6IjEwMC0yNDAtOTEtMzAuczQuZGItbGluazAyLnRvcCIsInRscyI6IiJ9
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpabVF3WmpGaw@at1.opensocks.site:8388#%E5%A5%A5%E5%9C%B0%E5%88%A9-129.9KB%2Fs
-trojan://5f7be901-1bb7-4cc5-9c7d-e33bd7e407ad@cmc3.5gsieuvip.vn:443?allowInsecure=1#%E8%B6%8A%E5%8D%97-157.8KB%2Fs
+13103 /get
+13102 节点更新时间：20:54:20
+每30分钟更新10个节点
+13101 ss://YWVzLTI1Ni1nY206T1lXV0tXQ0xBSjhaQ083OA@qh62onjn.slashdevslashnetslashtun.net:16009#%E4%B8%AD%E8%BD%AC%E8%8A%82%E7%82%B9-10.2MB%2Fs
+ss://YWVzLTI1Ni1jZmI6YW1hem9uc2tyMDU@34.222.145.125:443#%E7%BE%8E%E5%9B%BD-4.23MB%2Fs
+ss://YWVzLTI1Ni1jZmI6YW1hem9uc2tyMDU@54.169.41.42:443#%E6%96%B0%E5%8A%A0%E5%9D%A1-2.13MB%2Fs
+ss://YWVzLTI1Ni1jZmI6YW1hem9uc2tyMDU@35.95.28.198:443#%E7%BE%8E%E5%9B%BD-3.18MB%2Fs
+ss://YWVzLTI1Ni1jZmI6YW1hem9uc2tyMDU@15.165.15.42:443#%E9%9F%A9%E5%9B%BD-1.96MB%2Fs
+ss://YWVzLTI1Ni1jZmI6YW1hem9uc2tyMDU@34.221.203.0:443#%E7%BE%8E%E5%9B%BD-3.39MB%2Fs
+trojan://5f7be901-1bb7-4cc5-9c7d-e33bd7e407ad@cmc3.5gsieuvip.vn:443?allowInsecure=1#%E8%B6%8A%E5%8D%97-41.3MB%2Fs
+ss://YWVzLTI1Ni1jZmI6aEdrUTY5MTV0RA@120.232.81.50:16088#%E4%B8%AD%E8%BD%AC%E8%8A%82%E7%82%B9-335.8KB%2Fs
+ss://YWVzLTI1Ni1jZmI6YW1hem9uc2tyMDU@52.78.107.95:443#%E9%9F%A9%E5%9B%BD-2.11MB%2Fs
+ss://YWVzLTI1Ni1jZmI6YW1hem9uc2tyMDU@18.183.142.200:443#%E6%97%A5%E6%9C%AC-86.7MB%2Fs
+ss://YWVzLTI1Ni1nY206T1lXV0tXQ0xBSjhaQ083OA@qh62onjn.slashdevslashnetslashtun.net:16009#%E4%B8%AD%E8%BD%AC%E8%8A%82%E7%82%B9-10.2MB%2Fs
+ss://YWVzLTI1Ni1jZmI6YW1hem9uc2tyMDU@34.222.145.125:443#%E7%BE%8E%E5%9B%BD-4.23MB%2Fs
+ss://YWVzLTI1Ni1jZmI6YW1hem9uc2tyMDU@54.169.41.42:443#%E6%96%B0%E5%8A%A0%E5%9D%A1-2.13MB%2Fs
+ss://YWVzLTI1Ni1jZmI6YW1hem9uc2tyMDU@35.95.28.198:443#%E7%BE%8E%E5%9B%BD-3.18MB%2Fs
+ss://YWVzLTI1Ni1jZmI6YW1hem9uc2tyMDU@15.165.15.42:443#%E9%9F%A9%E5%9B%BD-1.96MB%2Fs
+ss://YWVzLTI1Ni1jZmI6YW1hem9uc2tyMDU@34.221.203.0:443#%E7%BE%8E%E5%9B%BD-3.39MB%2Fs
+trojan://5f7be901-1bb7-4cc5-9c7d-e33bd7e407ad@cmc3.5gsieuvip.vn:443?allowInsecure=1#%E8%B6%8A%E5%8D%97-41.3MB%2Fs
+ss://YWVzLTI1Ni1jZmI6aEdrUTY5MTV0RA@120.232.81.50:16088#%E4%B8%AD%E8%BD%AC%E8%8A%82%E7%82%B9-335.8KB%2Fs
+ss://YWVzLTI1Ni1jZmI6YW1hem9uc2tyMDU@52.78.107.95:443#%E9%9F%A9%E5%9B%BD-2.11MB%2Fs
+ss://YWVzLTI1Ni1jZmI6YW1hem9uc2tyMDU@18.183.142.200:443#%E6%97%A5%E6%9C%AC-86.7MB%2Fs
 ----------------------------------------------------------------------------------------------------
-['ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpYN2VvRUJyQVJXc0JVaVZmY2hWRWRI@185.77.217.121:443#%E8%8A%AC%E5%85%B0-464.0KB%2Fs\nss://YWVzLTEyOC1nY206c2hhZG93c29ja3M@149.34.244.82:443#%E8%8D%B7%E5%85%B0-3.47MB%2Fs\nss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo2SVZPdXpNZkg1Uk9wZ3d0UlRjTkpLWUp2WWU5RkRWYVU3d0FZWWg4UFJMeHhaczY@188.191.147.127:31348#%E4%BB%A5%E8%89%B2%E5%88%97-149.6KB%2Fs\nss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpjdklJODVUclc2bjBPR3lmcEhWUzF1@45.158.171.136:8080#%E7%BE%8E%E5%9B%BD-3.54MB%2Fs\nss://YWVzLTI1Ni1jZmI6YW1hem9uc2tyMDU@3.38.251.26:443#%E9%9F%A9%E5%9B%BD-135.7KB%2Fs\nss://YWVzLTI1Ni1nY206T1lXV0tXQ0xBSjhaQ083OA@qh62onjn.slashdevslashnetslashtun.net:16009#%E4%B8%AD%E8%BD%AC%E8%8A%82%E7%82%B9-22.3MB%2Fs\nss://YWVzLTI1Ni1jZmI6YW1hem9uc2tyMDU@3.0.91.253:443#%E6%96%B0%E5%8A%A0%E5%9D%A1-109.9KB%2Fs\nvmess://eyJ2IjoiMiIsInBzIjoi5pyq55+l5Zu95a62LTc5My4yS0IvcyIsImFkZCI6InM0LmRiLWxpbmswMi50b3AiLCJwb3J0IjoiMjA4NiIsInR5cGUiOiJub25lIiwiaWQiOiI0YjM2NjI1Yy1iOWQ5LTNlYTYtYWVkNS04NmQ2MmM3MGUxNmQiLCJhaWQiOiIwIiwibmV0Ijoid3MiLCJwYXRoIjoiL2RhYmFpLmluMTcyLjY0LjM4LjY3IiwiaG9zdCI6IjEwMC0yNDAtOTEtMzAuczQuZGItbGluazAyLnRvcCIsInRscyI6IiJ9\nss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpabVF3WmpGaw@at1.opensocks.site:8388#%E5%A5%A5%E5%9C%B0%E5%88%A9-129.9KB%2Fs\ntrojan://5f7be901-1bb7-4cc5-9c7d-e33bd7e407ad@cmc3.5gsieuvip.vn:443?allowInsecure=1#%E8%B6%8A%E5%8D%97-157.8KB%2Fs']
+['ss://YWVzLTI1Ni1nY206T1lXV0tXQ0xBSjhaQ083OA@qh62onjn.slashdevslashnetslashtun.net:16009#%E4%B8%AD%E8%BD%AC%E8%8A%82%E7%82%B9-10.2MB%2Fs\nss://YWVzLTI1Ni1jZmI6YW1hem9uc2tyMDU@34.222.145.125:443#%E7%BE%8E%E5%9B%BD-4.23MB%2Fs\nss://YWVzLTI1Ni1jZmI6YW1hem9uc2tyMDU@54.169.41.42:443#%E6%96%B0%E5%8A%A0%E5%9D%A1-2.13MB%2Fs\nss://YWVzLTI1Ni1jZmI6YW1hem9uc2tyMDU@35.95.28.198:443#%E7%BE%8E%E5%9B%BD-3.18MB%2Fs\nss://YWVzLTI1Ni1jZmI6YW1hem9uc2tyMDU@15.165.15.42:443#%E9%9F%A9%E5%9B%BD-1.96MB%2Fs\nss://YWVzLTI1Ni1jZmI6YW1hem9uc2tyMDU@34.221.203.0:443#%E7%BE%8E%E5%9B%BD-3.39MB%2Fs\ntrojan://5f7be901-1bb7-4cc5-9c7d-e33bd7e407ad@cmc3.5gsieuvip.vn:443?allowInsecure=1#%E8%B6%8A%E5%8D%97-41.3MB%2Fs\nss://YWVzLTI1Ni1jZmI6aEdrUTY5MTV0RA@120.232.81.50:16088#%E4%B8%AD%E8%BD%AC%E8%8A%82%E7%82%B9-335.8KB%2Fs\nss://YWVzLTI1Ni1jZmI6YW1hem9uc2tyMDU@52.78.107.95:443#%E9%9F%A9%E5%9B%BD-2.11MB%2Fs\nss://YWVzLTI1Ni1jZmI6YW1hem9uc2tyMDU@18.183.142.200:443#%E6%97%A5%E6%9C%AC-86.7MB%2Fs']
 ----------------------------------------------------------------------------------------------------
----------- [2025-01-31 21:21:15] 更新订阅 ----------
----------- [2025-01-31 21:31:38] 电报v2ray ----------
+---------- [2025-02-01 05:16:02] 更新订阅 ----------
