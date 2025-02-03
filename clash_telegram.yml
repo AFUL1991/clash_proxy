@@ -5,63 +5,103 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: 美国-24.6MB/s, server: 156.231.104.15, port: 18005, type: ss, cipher: aes-256-gcm, password: H0P889CX07EQNGNV, udp: true}
-  - {name: 未知国家-16.6MB/s, server: 23.185.248.15, port: 17005, type: ss, cipher: aes-256-gcm, password: OUKMA500HD6PGEPF, udp: true}
-  - {name: 日本-98.8MB/s, server: japan-5.keenvpn.me, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: 2afbc97400ca71c8f3306f9843a6e1c2, udp: true}
-  - {name: 芬兰-2.09MB/s, server: 37.143.129.230, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
-  - {name: 中转节点-3.08MB/s, server: hzhz1.sssyun.xyz, port: 39206, type: ss, cipher: chacha20-ietf-poly1305, password: d4eeaa7b-43c6-49dc-8020-7389bba4d033, udp: true}
   - {name: 日本-109.6KB/s, server: 54.248.40.18, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+  - {name: 日本-98.8MB/s, server: japan-5.keenvpn.me, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: 2afbc97400ca71c8f3306f9843a6e1c2, udp: true}
+  - {name: 美国-24.6MB/s, server: 156.231.104.15, port: 18005, type: ss, cipher: aes-256-gcm, password: H0P889CX07EQNGNV, udp: true}
+  - {name: 韩国-60.3MB/s, server: 218.38.103.150, port: 28902, type: ss, cipher: aes-256-cfb, password: qwerREWQ@@, udp: true}
+  - {name: 法国-540.6KB/s, server: 51.15.15.82, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
+  - {name: 芬兰-2.09MB/s, server: 37.143.129.230, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
+  - {name: 韩国-108.4KB/s, server: 3.36.115.19, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+  - {name: 日本-904.6KB/s, server: 54.248.40.18, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+  - {name: 中转节点-3.08MB/s, server: hzhz1.sssyun.xyz, port: 39206, type: ss, cipher: chacha20-ietf-poly1305, password: d4eeaa7b-43c6-49dc-8020-7389bba4d033, udp: true}
+  - {name: 中转节点-8.4MB/s, server: gdgs.tarioblink.me, port: 30003, type: ss, cipher: chacha20-ietf-poly1305, password: 220401d9-d4bf-444e-a140-d6c650948e74, udp: true}
+  - {name: 新加坡-129.9KB/s, server: singapore-6.keenvpn.me, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: 2afbc97400ca71c8f3306f9843a6e1c2, udp: true}
+  - {name: 未知国家-16.6MB/s, server: 23.185.248.15, port: 17005, type: ss, cipher: aes-256-gcm, password: OUKMA500HD6PGEPF, udp: true}
   - {name: 德国-253.4KB/s, server: 138.199.162.120, port: 100, type: vmess, uuid: 1889d9ef-9d58-4427-bb3e-a08810c214eb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 俄罗斯联邦-409.2KB/s, server: 195.58.49.42, port: 20305, type: vmess, uuid: 0c9d27c6-0eb8-45e2-90ba-a8916b9efcbd, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
   - {name: 越南-78.6MB/s, server: 103.173.66.155, port: 443, type: trojan, password: 5f7be901-1bb7-4cc5-9c7d-e33bd7e407ad, sni: cmc3.5gsieuvip.vn, skip-cert-verify: true, udp: true}
-  - {name: 罗马尼亚-46.2MB/s, server: warm-oryx.goat627.mom, port: 443, type: trojan, password: !<str> 3770966768580042752, sni: warm-oryx.goat627.mom, skip-cert-verify: true, udp: true}
+  - {name: 瑞典-40.5MB/s, server: 13.51.213.12, port: 22222, type: trojan, password: telegram-id-privatevpns, sni: trojan.burgerip.co.uk, skip-cert-verify: true, udp: true}
+  - {name: 越南-77.1MB/s, server: 103.173.66.155, port: 443, type: trojan, password: 5f7be901-1bb7-4cc5-9c7d-e33bd7e407ad, sni: cmc3.5gsieuvip.vn, skip-cert-verify: true, udp: true}
   - {name: 日本-45.3MB/s, server: real-hookworm.goat627.mom, port: 443, type: trojan, password: !<str> 3770966768580042752, sni: real-hookworm.goat627.mom, skip-cert-verify: true, udp: true}
+  - {name: 罗马尼亚-46.2MB/s, server: warm-oryx.goat627.mom, port: 443, type: trojan, password: !<str> 3770966768580042752, sni: warm-oryx.goat627.mom, skip-cert-verify: true, udp: true}
+  - {name: 越南-63.6MB/s, server: cmc3.5gsieuvip.vn, port: 443, type: trojan, password: 5f7be901-1bb7-4cc5-9c7d-e33bd7e407ad, skip-cert-verify: true, udp: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 美国-24.6MB/s
-      - 未知国家-16.6MB/s
-      - 日本-98.8MB/s
-      - 芬兰-2.09MB/s
-      - 中转节点-3.08MB/s
       - 日本-109.6KB/s
+      - 日本-98.8MB/s
+      - 美国-24.6MB/s
+      - 韩国-60.3MB/s
+      - 法国-540.6KB/s
+      - 芬兰-2.09MB/s
+      - 韩国-108.4KB/s
+      - 日本-904.6KB/s
+      - 中转节点-3.08MB/s
+      - 中转节点-8.4MB/s
+      - 新加坡-129.9KB/s
+      - 未知国家-16.6MB/s
       - 德国-253.4KB/s
+      - 俄罗斯联邦-409.2KB/s
       - 越南-78.6MB/s
-      - 罗马尼亚-46.2MB/s
+      - 瑞典-40.5MB/s
+      - 越南-77.1MB/s
       - 日本-45.3MB/s
+      - 罗马尼亚-46.2MB/s
+      - 越南-63.6MB/s
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - 美国-24.6MB/s
-      - 未知国家-16.6MB/s
-      - 日本-98.8MB/s
-      - 芬兰-2.09MB/s
-      - 中转节点-3.08MB/s
       - 日本-109.6KB/s
+      - 日本-98.8MB/s
+      - 美国-24.6MB/s
+      - 韩国-60.3MB/s
+      - 法国-540.6KB/s
+      - 芬兰-2.09MB/s
+      - 韩国-108.4KB/s
+      - 日本-904.6KB/s
+      - 中转节点-3.08MB/s
+      - 中转节点-8.4MB/s
+      - 新加坡-129.9KB/s
+      - 未知国家-16.6MB/s
       - 德国-253.4KB/s
+      - 俄罗斯联邦-409.2KB/s
       - 越南-78.6MB/s
-      - 罗马尼亚-46.2MB/s
+      - 瑞典-40.5MB/s
+      - 越南-77.1MB/s
       - 日本-45.3MB/s
+      - 罗马尼亚-46.2MB/s
+      - 越南-63.6MB/s
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 美国-24.6MB/s
-      - 未知国家-16.6MB/s
-      - 日本-98.8MB/s
-      - 芬兰-2.09MB/s
-      - 中转节点-3.08MB/s
       - 日本-109.6KB/s
+      - 日本-98.8MB/s
+      - 美国-24.6MB/s
+      - 韩国-60.3MB/s
+      - 法国-540.6KB/s
+      - 芬兰-2.09MB/s
+      - 韩国-108.4KB/s
+      - 日本-904.6KB/s
+      - 中转节点-3.08MB/s
+      - 中转节点-8.4MB/s
+      - 新加坡-129.9KB/s
+      - 未知国家-16.6MB/s
       - 德国-253.4KB/s
+      - 俄罗斯联邦-409.2KB/s
       - 越南-78.6MB/s
-      - 罗马尼亚-46.2MB/s
+      - 瑞典-40.5MB/s
+      - 越南-77.1MB/s
       - 日本-45.3MB/s
+      - 罗马尼亚-46.2MB/s
+      - 越南-63.6MB/s
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -80,16 +120,26 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 美国-24.6MB/s
-      - 未知国家-16.6MB/s
-      - 日本-98.8MB/s
-      - 芬兰-2.09MB/s
-      - 中转节点-3.08MB/s
       - 日本-109.6KB/s
+      - 日本-98.8MB/s
+      - 美国-24.6MB/s
+      - 韩国-60.3MB/s
+      - 法国-540.6KB/s
+      - 芬兰-2.09MB/s
+      - 韩国-108.4KB/s
+      - 日本-904.6KB/s
+      - 中转节点-3.08MB/s
+      - 中转节点-8.4MB/s
+      - 新加坡-129.9KB/s
+      - 未知国家-16.6MB/s
       - 德国-253.4KB/s
+      - 俄罗斯联邦-409.2KB/s
       - 越南-78.6MB/s
-      - 罗马尼亚-46.2MB/s
+      - 瑞典-40.5MB/s
+      - 越南-77.1MB/s
       - 日本-45.3MB/s
+      - 罗马尼亚-46.2MB/s
+      - 越南-63.6MB/s
   - name: 🌏 国内媒体
     type: select
     proxies:
@@ -100,47 +150,77 @@ proxy-groups:
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - 美国-24.6MB/s
-      - 未知国家-16.6MB/s
-      - 日本-98.8MB/s
-      - 芬兰-2.09MB/s
-      - 中转节点-3.08MB/s
       - 日本-109.6KB/s
+      - 日本-98.8MB/s
+      - 美国-24.6MB/s
+      - 韩国-60.3MB/s
+      - 法国-540.6KB/s
+      - 芬兰-2.09MB/s
+      - 韩国-108.4KB/s
+      - 日本-904.6KB/s
+      - 中转节点-3.08MB/s
+      - 中转节点-8.4MB/s
+      - 新加坡-129.9KB/s
+      - 未知国家-16.6MB/s
       - 德国-253.4KB/s
+      - 俄罗斯联邦-409.2KB/s
       - 越南-78.6MB/s
-      - 罗马尼亚-46.2MB/s
+      - 瑞典-40.5MB/s
+      - 越南-77.1MB/s
       - 日本-45.3MB/s
+      - 罗马尼亚-46.2MB/s
+      - 越南-63.6MB/s
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - 美国-24.6MB/s
-      - 未知国家-16.6MB/s
-      - 日本-98.8MB/s
-      - 芬兰-2.09MB/s
-      - 中转节点-3.08MB/s
       - 日本-109.6KB/s
+      - 日本-98.8MB/s
+      - 美国-24.6MB/s
+      - 韩国-60.3MB/s
+      - 法国-540.6KB/s
+      - 芬兰-2.09MB/s
+      - 韩国-108.4KB/s
+      - 日本-904.6KB/s
+      - 中转节点-3.08MB/s
+      - 中转节点-8.4MB/s
+      - 新加坡-129.9KB/s
+      - 未知国家-16.6MB/s
       - 德国-253.4KB/s
+      - 俄罗斯联邦-409.2KB/s
       - 越南-78.6MB/s
-      - 罗马尼亚-46.2MB/s
+      - 瑞典-40.5MB/s
+      - 越南-77.1MB/s
       - 日本-45.3MB/s
+      - 罗马尼亚-46.2MB/s
+      - 越南-63.6MB/s
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 美国-24.6MB/s
-      - 未知国家-16.6MB/s
-      - 日本-98.8MB/s
-      - 芬兰-2.09MB/s
-      - 中转节点-3.08MB/s
       - 日本-109.6KB/s
+      - 日本-98.8MB/s
+      - 美国-24.6MB/s
+      - 韩国-60.3MB/s
+      - 法国-540.6KB/s
+      - 芬兰-2.09MB/s
+      - 韩国-108.4KB/s
+      - 日本-904.6KB/s
+      - 中转节点-3.08MB/s
+      - 中转节点-8.4MB/s
+      - 新加坡-129.9KB/s
+      - 未知国家-16.6MB/s
       - 德国-253.4KB/s
+      - 俄罗斯联邦-409.2KB/s
       - 越南-78.6MB/s
-      - 罗马尼亚-46.2MB/s
+      - 瑞典-40.5MB/s
+      - 越南-77.1MB/s
       - 日本-45.3MB/s
+      - 罗马尼亚-46.2MB/s
+      - 越南-63.6MB/s
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -156,16 +236,26 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 美国-24.6MB/s
-      - 未知国家-16.6MB/s
-      - 日本-98.8MB/s
-      - 芬兰-2.09MB/s
-      - 中转节点-3.08MB/s
       - 日本-109.6KB/s
+      - 日本-98.8MB/s
+      - 美国-24.6MB/s
+      - 韩国-60.3MB/s
+      - 法国-540.6KB/s
+      - 芬兰-2.09MB/s
+      - 韩国-108.4KB/s
+      - 日本-904.6KB/s
+      - 中转节点-3.08MB/s
+      - 中转节点-8.4MB/s
+      - 新加坡-129.9KB/s
+      - 未知国家-16.6MB/s
       - 德国-253.4KB/s
+      - 俄罗斯联邦-409.2KB/s
       - 越南-78.6MB/s
-      - 罗马尼亚-46.2MB/s
+      - 瑞典-40.5MB/s
+      - 越南-77.1MB/s
       - 日本-45.3MB/s
+      - 罗马尼亚-46.2MB/s
+      - 越南-63.6MB/s
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
