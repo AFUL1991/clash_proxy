@@ -1,11 +1,11 @@
----------- [2025-02-05 21:23:12] 更新订阅 ----------
----------- 2025-02-05 21:23:12 ----------
+---------- [2025-02-06 05:16:48] 更新订阅 ----------
+---------- 2025-02-06 05:16:48 ----------
 [长风分享]:
 /home/runner/work/auto_jobs/proxy/clash_cfmem.yml
 /home/runner/work/auto_jobs/proxy/v2ray_cfmem.txt
 [长风分享]: 订阅成功 https://fs.v2rayse.com/share/20250205/h4tgsqn5ga.yaml
 [长风分享]: 订阅成功 https://fs.v2rayse.com/share/20250205/rdrg5a2uow.txt
----------- 2025-02-05 21:23:13 ----------
+---------- 2025-02-06 05:17:07 ----------
 [freev2]: /home/runner/work/auto_jobs/subscribe/freev2.py
 [freev2]: 当前工作目录：/home/runner/work/auto_jobs/proxy/clash_freev2.yml
 [freev2]: 订阅成功, https://raw.githubusercontent.com/freefq/free/master/v2
@@ -46,7 +46,7 @@ User(
 	phone='436789040144717',
 	photo=None,
 	status=UserStatusOffline(
-		was_online=datetime.datetime(2025, 2, 5, 8, 44, tzinfo=datetime.timezone.utc)
+		was_online=datetime.datetime(2025, 2, 5, 20, 18, 8, tzinfo=datetime.timezone.utc)
 	),
 	bot_info_version=None,
 	restriction_reason=[
@@ -67,29 +67,29 @@ Name: FREE 中文, ID: -1001570215033
 Name: 长风分享频道, ID: -1001516635885
 Name: 口交💋专辑, ID: -1001420871010
 Name: 免费节点自动分享, ID: 2096213628
-Name: 极搜-中文搜索（复活版） 中文 搜索, ID: -1001607161451
-Name: TG代理VPN技术分享, ID: -1001670133389
 Name: 老毛子Padavan固件自助交流群, ID: -1001148540997
-Name: 🎬 阿里云盘交流群 💾, ID: -1001589118734
+Name: 超级搜索引擎, ID: -1001760236395
+Name: 世纪同城约炮🔥全国极速配对, ID: -1002031522064
+Name: 极搜-中文搜索（复活版） 中文 搜索, ID: -1001607161451
+Name: 吃瓜群众🍉, ID: -1001786596225
+Name: TG代理VPN技术分享, ID: -1001670133389
+Name: 极搜, ID: -1001888813717
+Name: 长风分享群组, ID: -1001802101728
 Name: 吃瓜少女, ID: -1001232928936
+Name: 🎬 阿里云盘交流群 💾, ID: -1001589118734
+Name: 阿里云盘资源搜索, ID: -1001598490288
+Name: 优哥跨境交流群, ID: -1001861402973
 Name: 🎬 云盘盘 - 阿里云盘投稿🚦, ID: -1001198853752
 Name: 🎬 阿里云盘资源 🆙 🚦, ID: -1001520702906
-Name: 超级搜索引擎, ID: -1001760236395
-Name: 阿里云盘资源搜索, ID: -1001598490288
-Name: 吃瓜中心, ID: -1001638488383
-Name: 吃瓜群众🍉, ID: -1001786596225
-Name: 世纪同城约炮🔥全国极速配对, ID: -1002031522064
-Name: 极搜, ID: -1001888813717
 Name: 【李老师不是你老师】官方电报, ID: -1002155057858
-Name: 长风分享群组, ID: -1001802101728
+Name: 反差母狗🍑自拍, ID: -1001173218900
 Name: 吃瓜🍉群众, ID: -1001905442401
 Name: 吃瓜🍉搜 @achiguao, ID: -1001569868197
-Name: 优哥跨境交流群, ID: -1001861402973
+Name: Replies, ID: 1271266957
+Name: 吃瓜中心, ID: -1001638488383
 Name: Github_2dust, ID: -1001628493435
 Name: TG代理公布, ID: -1001633868843
 Name: 新电报吃瓜#色情版, ID: -1002149316649
-Name: 反差母狗🍑自拍, ID: -1001173218900
-Name: Replies, ID: 1271266957
 Name: 自选基金助手群组, ID: -1001389480278
 Name: ProxyBingAI🚀, ID: -1002007144215
 Name: TG代理/VPN/V2ray/Clash/小火箭节点/Proxy MTProto, ID: -1001589241381
@@ -132,21 +132,30 @@ Name: 吃瓜新闻, ID: -1001252816724
 Name: 1lib, ID: 1788460589
 Name: 摆烂社工bot频道, ID: -1001788223313
 免费节点自动分享: 
-13146 /get
-13145 节点更新时间：14:54:20
+13150 /get
+13148 节点更新时间：20:54:21
 每30分钟更新10个节点
-13144 ss://YWVzLTI1Ni1jZmI6ZjhmN2FDemNQS2JzRjhwMw@103.106.229.219:989#%E9%A9%AC%E6%9D%A5%E8%A5%BF%E4%BA%9A-41.0MB%2Fs
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTp2a1FQNEZlMmRGRUExcmRXeDBsQWpI@62.60.151.134:60758#%E4%BC%8A%E6%9C%97-17.4MB%2Fs
-ss://YWVzLTI1Ni1jZmI6ZjhmN2FDemNQS2JzRjhwMw@213.156.137.67:989#%E5%93%88%E8%90%A8%E5%85%8B%E6%96%AF%E5%9D%A6-1.93MB%2Fs
-ss://YWVzLTI1Ni1jZmI6ZjhmN2FDemNQS2JzRjhwMw@37.235.49.152:989#%E5%86%B0%E5%B2%9B-266.5KB%2Fs
-ss://YWVzLTI1Ni1jZmI6YW1hem9uc2tyMDU@18.143.78.171:443#%E6%96%B0%E5%8A%A0%E5%9D%A1-93.4MB%2Fs
-ss://YWVzLTI1Ni1jZmI6ZjhmN2FDemNQS2JzRjhwMw@103.106.229.219:989#%E9%A9%AC%E6%9D%A5%E8%A5%BF%E4%BA%9A-41.0MB%2Fs
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTp2a1FQNEZlMmRGRUExcmRXeDBsQWpI@62.60.151.134:60758#%E4%BC%8A%E6%9C%97-17.4MB%2Fs
-ss://YWVzLTI1Ni1jZmI6ZjhmN2FDemNQS2JzRjhwMw@213.156.137.67:989#%E5%93%88%E8%90%A8%E5%85%8B%E6%96%AF%E5%9D%A6-1.93MB%2Fs
-ss://YWVzLTI1Ni1jZmI6ZjhmN2FDemNQS2JzRjhwMw@37.235.49.152:989#%E5%86%B0%E5%B2%9B-266.5KB%2Fs
-ss://YWVzLTI1Ni1jZmI6YW1hem9uc2tyMDU@18.143.78.171:443#%E6%96%B0%E5%8A%A0%E5%9D%A1-93.4MB%2Fs
+13147 ss://YWVzLTI1Ni1jZmI6YW1hem9uc2tyMDU@13.212.249.95:443#%E6%96%B0%E5%8A%A0%E5%9D%A1-156.1KB%2Fs
+ss://YWVzLTI1Ni1jZmI6ZjhmN2FDemNQS2JzRjhwMw@103.106.229.219:989#%E9%A9%AC%E6%9D%A5%E8%A5%BF%E4%BA%9A-47.4MB%2Fs
+ss://YWVzLTI1Ni1jZmI6ZjhmN2FDemNQS2JzRjhwMw@37.235.49.152:989#%E5%86%B0%E5%B2%9B-31.7MB%2Fs
+ss://YWVzLTI1Ni1jZmI6dWVMWFZrdmg0aGNraEVyUQ@217.30.10.18:9060#%E6%B3%A2%E5%85%B0-140.0KB%2Fs
+vmess://eyJ2IjoiMiIsInBzIjoi5Lit6L2s6IqC54K5LTcwNC45S0IvcyIsImFkZCI6Inl3dHdlcGNud2xvdS54bi0tZmlxczhzanoyYnVsbC5jb20iLCJwb3J0IjoiMTExNzEiLCJ0eXBlIjoibm9uZSIsImlkIjoiNjg1MTIyMjMtZWE2Ni00NmZjLTgyZjQtZTIyYjU5N2NkZDVlIiwiYWlkIjoiMCIsIm5ldCI6InRjcCIsInBhdGgiOiIvIiwiaG9zdCI6Inl3dHdlcGNud2xvdS54bi0tZmlxczhzanoyYnVsbC5jb20iLCJ0bHMiOiIifQ==
+ss://YWVzLTI1Ni1jZmI6YW1hem9uc2tyMDU@52.78.197.177:443#%E9%9F%A9%E5%9B%BD-1.23MB%2Fs
+trojan://65086520307764900@18.136.95.35:443?allowInsecure=1&sni=robust-redfish.shiner427.skin#%E6%96%B0%E5%8A%A0%E5%9D%A1-39.4MB%2Fs
+ss://YWVzLTI1Ni1jZmI6aEdrUTY5MTV0RA@120.232.81.50:16088#%E4%B8%AD%E8%BD%AC%E8%8A%82%E7%82%B9-361.0KB%2Fs
+trojan://65086520307764900@useful-jennet.shiner427.skin:443?allowInsecure=1#%E9%9F%A9%E5%9B%BD-13.7MB%2Fs
+trojan://65086520307764900@hopeful-seagull.shiner427.skin:443?allowInsecure=1#%E9%9F%A9%E5%9B%BD-12.4MB%2Fs
+ss://YWVzLTI1Ni1jZmI6YW1hem9uc2tyMDU@13.212.249.95:443#%E6%96%B0%E5%8A%A0%E5%9D%A1-156.1KB%2Fs
+ss://YWVzLTI1Ni1jZmI6ZjhmN2FDemNQS2JzRjhwMw@103.106.229.219:989#%E9%A9%AC%E6%9D%A5%E8%A5%BF%E4%BA%9A-47.4MB%2Fs
+ss://YWVzLTI1Ni1jZmI6ZjhmN2FDemNQS2JzRjhwMw@37.235.49.152:989#%E5%86%B0%E5%B2%9B-31.7MB%2Fs
+ss://YWVzLTI1Ni1jZmI6dWVMWFZrdmg0aGNraEVyUQ@217.30.10.18:9060#%E6%B3%A2%E5%85%B0-140.0KB%2Fs
+vmess://eyJ2IjoiMiIsInBzIjoi5Lit6L2s6IqC54K5LTcwNC45S0IvcyIsImFkZCI6Inl3dHdlcGNud2xvdS54bi0tZmlxczhzanoyYnVsbC5jb20iLCJwb3J0IjoiMTExNzEiLCJ0eXBlIjoibm9uZSIsImlkIjoiNjg1MTIyMjMtZWE2Ni00NmZjLTgyZjQtZTIyYjU5N2NkZDVlIiwiYWlkIjoiMCIsIm5ldCI6InRjcCIsInBhdGgiOiIvIiwiaG9zdCI6Inl3dHdlcGNud2xvdS54bi0tZmlxczhzanoyYnVsbC5jb20iLCJ0bHMiOiIifQ==
+ss://YWVzLTI1Ni1jZmI6YW1hem9uc2tyMDU@52.78.197.177:443#%E9%9F%A9%E5%9B%BD-1.23MB%2Fs
+trojan://65086520307764900@18.136.95.35:443?allowInsecure=1&sni=robust-redfish.shiner427.skin#%E6%96%B0%E5%8A%A0%E5%9D%A1-39.4MB%2Fs
+ss://YWVzLTI1Ni1jZmI6aEdrUTY5MTV0RA@120.232.81.50:16088#%E4%B8%AD%E8%BD%AC%E8%8A%82%E7%82%B9-361.0KB%2Fs
+trojan://65086520307764900@useful-jennet.shiner427.skin:443?allowInsecure=1#%E9%9F%A9%E5%9B%BD-13.7MB%2Fs
+trojan://65086520307764900@hopeful-seagull.shiner427.skin:443?allowInsecure=1#%E9%9F%A9%E5%9B%BD-12.4MB%2Fs
 ----------------------------------------------------------------------------------------------------
-['ss://YWVzLTI1Ni1jZmI6ZjhmN2FDemNQS2JzRjhwMw@103.106.229.219:989#%E9%A9%AC%E6%9D%A5%E8%A5%BF%E4%BA%9A-41.0MB%2Fs\nss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTp2a1FQNEZlMmRGRUExcmRXeDBsQWpI@62.60.151.134:60758#%E4%BC%8A%E6%9C%97-17.4MB%2Fs\nss://YWVzLTI1Ni1jZmI6ZjhmN2FDemNQS2JzRjhwMw@213.156.137.67:989#%E5%93%88%E8%90%A8%E5%85%8B%E6%96%AF%E5%9D%A6-1.93MB%2Fs\nss://YWVzLTI1Ni1jZmI6ZjhmN2FDemNQS2JzRjhwMw@37.235.49.152:989#%E5%86%B0%E5%B2%9B-266.5KB%2Fs\nss://YWVzLTI1Ni1jZmI6YW1hem9uc2tyMDU@18.143.78.171:443#%E6%96%B0%E5%8A%A0%E5%9D%A1-93.4MB%2Fs']
+['ss://YWVzLTI1Ni1jZmI6YW1hem9uc2tyMDU@13.212.249.95:443#%E6%96%B0%E5%8A%A0%E5%9D%A1-156.1KB%2Fs\nss://YWVzLTI1Ni1jZmI6ZjhmN2FDemNQS2JzRjhwMw@103.106.229.219:989#%E9%A9%AC%E6%9D%A5%E8%A5%BF%E4%BA%9A-47.4MB%2Fs\nss://YWVzLTI1Ni1jZmI6ZjhmN2FDemNQS2JzRjhwMw@37.235.49.152:989#%E5%86%B0%E5%B2%9B-31.7MB%2Fs\nss://YWVzLTI1Ni1jZmI6dWVMWFZrdmg0aGNraEVyUQ@217.30.10.18:9060#%E6%B3%A2%E5%85%B0-140.0KB%2Fs\nvmess://eyJ2IjoiMiIsInBzIjoi5Lit6L2s6IqC54K5LTcwNC45S0IvcyIsImFkZCI6Inl3dHdlcGNud2xvdS54bi0tZmlxczhzanoyYnVsbC5jb20iLCJwb3J0IjoiMTExNzEiLCJ0eXBlIjoibm9uZSIsImlkIjoiNjg1MTIyMjMtZWE2Ni00NmZjLTgyZjQtZTIyYjU5N2NkZDVlIiwiYWlkIjoiMCIsIm5ldCI6InRjcCIsInBhdGgiOiIvIiwiaG9zdCI6Inl3dHdlcGNud2xvdS54bi0tZmlxczhzanoyYnVsbC5jb20iLCJ0bHMiOiIifQ==\nss://YWVzLTI1Ni1jZmI6YW1hem9uc2tyMDU@52.78.197.177:443#%E9%9F%A9%E5%9B%BD-1.23MB%2Fs\ntrojan://65086520307764900@18.136.95.35:443?allowInsecure=1&sni=robust-redfish.shiner427.skin#%E6%96%B0%E5%8A%A0%E5%9D%A1-39.4MB%2Fs\nss://YWVzLTI1Ni1jZmI6aEdrUTY5MTV0RA@120.232.81.50:16088#%E4%B8%AD%E8%BD%AC%E8%8A%82%E7%82%B9-361.0KB%2Fs\ntrojan://65086520307764900@useful-jennet.shiner427.skin:443?allowInsecure=1#%E9%9F%A9%E5%9B%BD-13.7MB%2Fs\ntrojan://65086520307764900@hopeful-seagull.shiner427.skin:443?allowInsecure=1#%E9%9F%A9%E5%9B%BD-12.4MB%2Fs']
 ----------------------------------------------------------------------------------------------------
----------- [2025-02-05 21:23:19] 更新订阅 ----------
----------- [2025-02-05 21:32:33] 电报v2ray ----------
+---------- [2025-02-06 05:17:13] 更新订阅 ----------
