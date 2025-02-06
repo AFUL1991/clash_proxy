@@ -1,11 +1,11 @@
----------- [2025-02-06 15:17:10] 更新订阅 ----------
----------- 2025-02-06 15:17:10 ----------
+---------- [2025-02-06 21:23:40] 更新订阅 ----------
+---------- 2025-02-06 21:23:40 ----------
 [长风分享]:
 /home/runner/work/auto_jobs/proxy/clash_cfmem.yml
 /home/runner/work/auto_jobs/proxy/v2ray_cfmem.txt
 [长风分享]: 订阅成功 https://fs.v2rayse.com/share/20250206/xdazay8c6a.yaml
 [长风分享]: 订阅成功 https://fs.v2rayse.com/share/20250206/u12qq39c41.txt
----------- 2025-02-06 15:17:11 ----------
+---------- 2025-02-06 21:23:48 ----------
 [freev2]: /home/runner/work/auto_jobs/subscribe/freev2.py
 [freev2]: 当前工作目录：/home/runner/work/auto_jobs/proxy/clash_freev2.yml
 [freev2]: 订阅成功, https://raw.githubusercontent.com/freefq/free/master/v2
@@ -46,7 +46,7 @@ User(
 	phone='436789040144717',
 	photo=None,
 	status=UserStatusOffline(
-		was_online=datetime.datetime(2025, 2, 6, 0, 41, 27, tzinfo=datetime.timezone.utc)
+		was_online=datetime.datetime(2025, 2, 6, 9, 4, 24, tzinfo=datetime.timezone.utc)
 	),
 	bot_info_version=None,
 	restriction_reason=[
@@ -67,30 +67,30 @@ Name: FREE 中文, ID: -1001570215033
 Name: 长风分享频道, ID: -1001516635885
 Name: 口交💋专辑, ID: -1001420871010
 Name: 免费节点自动分享, ID: 2096213628
+Name: 极搜-中文搜索（复活版） 中文 搜索, ID: -1001607161451
+Name: TG代理VPN技术分享, ID: -1001670133389
+Name: 吃瓜少女, ID: -1001232928936
 Name: 🎬 阿里云盘交流群 💾, ID: -1001589118734
 Name: 🎬 阿里云盘资源 🆙 🚦, ID: -1001520702906
 Name: 🎬 云盘盘 - 阿里云盘投稿🚦, ID: -1001198853752
-Name: 老毛子Padavan固件自助交流群, ID: -1001148540997
-Name: 极搜-中文搜索（复活版） 中文 搜索, ID: -1001607161451
-Name: 世纪同城约炮🔥全国极速配对, ID: -1002031522064
-Name: TG代理VPN技术分享, ID: -1001670133389
 Name: 极搜, ID: -1001888813717
-Name: 优哥跨境交流群, ID: -1001861402973
-Name: 吃瓜群众🍉, ID: -1001786596225
-Name: 吃瓜少女, ID: -1001232928936
+Name: 老毛子Padavan固件自助交流群, ID: -1001148540997
 Name: 超级搜索引擎, ID: -1001760236395
+Name: 新电报吃瓜#色情版, ID: -1002149316649
+Name: 世纪同城约炮🔥全国极速配对, ID: -1002031522064
+Name: 吃瓜群众🍉, ID: -1001786596225
+Name: 吃瓜🍉搜 @achiguao, ID: -1001569868197
 Name: 长风分享群组, ID: -1001802101728
 Name: 【李老师不是你老师】官方电报, ID: -1002155057858
 Name: 阿里云盘资源搜索, ID: -1001598490288
-Name: 自选基金助手群组, ID: -1001389480278
 Name: 吃瓜中心, ID: -1001638488383
+Name: 优哥跨境交流群, ID: -1001861402973
+Name: 自选基金助手群组, ID: -1001389480278
 Name: Replies, ID: 1271266957
 Name: 反差母狗🍑自拍, ID: -1001173218900
 Name: 吃瓜🍉群众, ID: -1001905442401
-Name: 吃瓜🍉搜 @achiguao, ID: -1001569868197
 Name: Github_2dust, ID: -1001628493435
 Name: TG代理公布, ID: -1001633868843
-Name: 新电报吃瓜#色情版, ID: -1002149316649
 Name: ProxyBingAI🚀, ID: -1002007144215
 Name: TG代理/VPN/V2ray/Clash/小火箭节点/Proxy MTProto, ID: -1001589241381
 Name: 南风知我意, ID: 7020931639
@@ -132,32 +132,30 @@ Name: 吃瓜新闻, ID: -1001252816724
 Name: 1lib, ID: 1788460589
 Name: 摆烂社工bot频道, ID: -1001788223313
 免费节点自动分享: 
-13154 /get
-13152 节点更新时间：04:54:20
+13157 /get
+13156 节点更新时间：14:54:21
 每30分钟更新10个节点
-13151 ss://YWVzLTI1Ni1jZmI6ZjhmN2FDemNQS2JzRjhwMw@213.156.137.67:989#%E5%93%88%E8%90%A8%E5%85%8B%E6%96%AF%E5%9D%A6-2.84MB%2Fs
-ss://YWVzLTEyOC1jZmI6c2hhZG93c29ja3M@184.170.241.194:443#%E7%BE%8E%E5%9B%BD-415.4KB%2Fs
-ss://YWVzLTI1Ni1jZmI6YW1hem9uc2tyMDU@13.125.215.15:443#%E9%9F%A9%E5%9B%BD-4.15MB%2Fs
-ss://YWVzLTI1Ni1jZmI6YW1hem9uc2tyMDU@52.78.197.177:443#%E9%9F%A9%E5%9B%BD-1.89MB%2Fs
-ss://YWVzLTI1Ni1jZmI6YW1hem9uc2tyMDU@34.211.228.158:443#%E7%BE%8E%E5%9B%BD-4.35MB%2Fs
-ss://YWVzLTI1Ni1jZmI6YW1hem9uc2tyMDU@47.129.101.151:443#%E6%96%B0%E5%8A%A0%E5%9D%A1-2.03MB%2Fs
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpmOGY3YUN6Y1BLYnNGOHAz@181.119.30.20:990#%E5%93%A5%E4%BC%A6%E6%AF%94%E4%BA%9A-255.5KB%2Fs
-ss://YWVzLTI1Ni1jZmI6VVRKQTU3eXBrMlhLUXBubQ@217.30.10.18:9033#%E6%B3%A2%E5%85%B0-373.6KB%2Fs
-vmess://eyJ2IjoiMiIsInBzIjoi5Li56bqmLTMuMDdNQi9zIiwiYWRkIjoiMTkzLjI5LjEwNy4yMzQiLCJwb3J0IjoiNDkwMjAiLCJ0eXBlIjoibm9uZSIsImlkIjoiMmU5NjdkZDUtOGQyNC00MDk5LWE5MDEtNDEyZGNiNDAyNGZkIiwiYWlkIjoiNjQiLCJuZXQiOiJ0Y3AiLCJwYXRoIjoiLyIsImhvc3QiOiIiLCJ0bHMiOiIifQ==
-vmess://eyJ2IjoiMiIsInBzIjoi576O5Zu9LTUuMjZNQi9zIiwiYWRkIjoiMzguNTQuOTQuMTIyIiwicG9ydCI6IjIwNTMiLCJ0eXBlIjoibm9uZSIsImlkIjoiMmNhOGI5YzMtYTJjNy00ZjNlLWIzZjQtYWNkODU1MjVhY2UxIiwiYWlkIjoiMCIsIm5ldCI6IndzIiwicGF0aCI6Ii9MMDIyOS0xNiIsImhvc3QiOiIiLCJ0bHMiOiJ0bHMifQ==
-ss://YWVzLTI1Ni1jZmI6ZjhmN2FDemNQS2JzRjhwMw@213.156.137.67:989#%E5%93%88%E8%90%A8%E5%85%8B%E6%96%AF%E5%9D%A6-2.84MB%2Fs
-ss://YWVzLTEyOC1jZmI6c2hhZG93c29ja3M@184.170.241.194:443#%E7%BE%8E%E5%9B%BD-415.4KB%2Fs
-ss://YWVzLTI1Ni1jZmI6YW1hem9uc2tyMDU@13.125.215.15:443#%E9%9F%A9%E5%9B%BD-4.15MB%2Fs
-ss://YWVzLTI1Ni1jZmI6YW1hem9uc2tyMDU@52.78.197.177:443#%E9%9F%A9%E5%9B%BD-1.89MB%2Fs
-ss://YWVzLTI1Ni1jZmI6YW1hem9uc2tyMDU@34.211.228.158:443#%E7%BE%8E%E5%9B%BD-4.35MB%2Fs
-ss://YWVzLTI1Ni1jZmI6YW1hem9uc2tyMDU@47.129.101.151:443#%E6%96%B0%E5%8A%A0%E5%9D%A1-2.03MB%2Fs
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpmOGY3YUN6Y1BLYnNGOHAz@181.119.30.20:990#%E5%93%A5%E4%BC%A6%E6%AF%94%E4%BA%9A-255.5KB%2Fs
-ss://YWVzLTI1Ni1jZmI6VVRKQTU3eXBrMlhLUXBubQ@217.30.10.18:9033#%E6%B3%A2%E5%85%B0-373.6KB%2Fs
-vmess://eyJ2IjoiMiIsInBzIjoi5Li56bqmLTMuMDdNQi9zIiwiYWRkIjoiMTkzLjI5LjEwNy4yMzQiLCJwb3J0IjoiNDkwMjAiLCJ0eXBlIjoibm9uZSIsImlkIjoiMmU5NjdkZDUtOGQyNC00MDk5LWE5MDEtNDEyZGNiNDAyNGZkIiwiYWlkIjoiNjQiLCJuZXQiOiJ0Y3AiLCJwYXRoIjoiLyIsImhvc3QiOiIiLCJ0bHMiOiIifQ==
-vmess://eyJ2IjoiMiIsInBzIjoi576O5Zu9LTUuMjZNQi9zIiwiYWRkIjoiMzguNTQuOTQuMTIyIiwicG9ydCI6IjIwNTMiLCJ0eXBlIjoibm9uZSIsImlkIjoiMmNhOGI5YzMtYTJjNy00ZjNlLWIzZjQtYWNkODU1MjVhY2UxIiwiYWlkIjoiMCIsIm5ldCI6IndzIiwicGF0aCI6Ii9MMDIyOS0xNiIsImhvc3QiOiIiLCJ0bHMiOiJ0bHMifQ==
+13155 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpjdklJODVUclc2bjBPR3lmcEhWUzF1@45.87.175.181:8080#%E7%AB%8B%E9%99%B6%E5%AE%9B-58.5MB%2Fs
+ss://YWVzLTI1Ni1jZmI6ZjhmN2FDemNQS2JzRjhwMw@37.235.49.152:989#%E5%86%B0%E5%B2%9B-13.7MB%2Fs
+ss://YWVzLTI1Ni1jZmI6YW1hem9uc2tyMDU@54.212.56.86:443#%E7%BE%8E%E5%9B%BD-1.87MB%2Fs
+trojan://65086520307764900@engaged-cattle.shiner427.skin:443?allowInsecure=1&sni=engaged-cattle.shiner427.skin#%E9%9F%A9%E5%9B%BD-39.0MB%2Fs
+ss://YWVzLTI1Ni1jZmI6ZjhmN2FDemNQS2JzRjhwMw@103.106.229.219:989#%E9%A9%AC%E6%9D%A5%E8%A5%BF%E4%BA%9A-156.5KB%2Fs
+trojan://65086520307764900@arriving-longhorn.shiner427.skin:443?allowInsecure=1&sni=arriving-longhorn.shiner427.skin#%E7%BE%8E%E5%9B%BD-252.6KB%2Fs
+ss://YWVzLTI1Ni1jZmI6aEdrUTY5MTV0RA@120.232.81.50:16088#%E4%B8%AD%E8%BD%AC%E8%8A%82%E7%82%B9-184.0KB%2Fs
+ss://YWVzLTI1Ni1jZmI6ZjhmN2FDemNQS2JzRjhwMw@213.156.137.67:989#%E5%93%88%E8%90%A8%E5%85%8B%E6%96%AF%E5%9D%A6-2.15MB%2Fs
+trojan://installshield@38.180.249.177:8443?allowInsecure=1#%E8%8D%B7%E5%85%B0-54.3MB%2Fs
+ss://YWVzLTI1Ni1jZmI6YW1hem9uc2tyMDU@34.218.228.243:443#%E7%BE%8E%E5%9B%BD-1.72MB%2Fs
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpjdklJODVUclc2bjBPR3lmcEhWUzF1@45.87.175.181:8080#%E7%AB%8B%E9%99%B6%E5%AE%9B-58.5MB%2Fs
+ss://YWVzLTI1Ni1jZmI6ZjhmN2FDemNQS2JzRjhwMw@37.235.49.152:989#%E5%86%B0%E5%B2%9B-13.7MB%2Fs
+ss://YWVzLTI1Ni1jZmI6YW1hem9uc2tyMDU@54.212.56.86:443#%E7%BE%8E%E5%9B%BD-1.87MB%2Fs
+trojan://65086520307764900@engaged-cattle.shiner427.skin:443?allowInsecure=1&sni=engaged-cattle.shiner427.skin#%E9%9F%A9%E5%9B%BD-39.0MB%2Fs
+ss://YWVzLTI1Ni1jZmI6ZjhmN2FDemNQS2JzRjhwMw@103.106.229.219:989#%E9%A9%AC%E6%9D%A5%E8%A5%BF%E4%BA%9A-156.5KB%2Fs
+trojan://65086520307764900@arriving-longhorn.shiner427.skin:443?allowInsecure=1&sni=arriving-longhorn.shiner427.skin#%E7%BE%8E%E5%9B%BD-252.6KB%2Fs
+ss://YWVzLTI1Ni1jZmI6aEdrUTY5MTV0RA@120.232.81.50:16088#%E4%B8%AD%E8%BD%AC%E8%8A%82%E7%82%B9-184.0KB%2Fs
+ss://YWVzLTI1Ni1jZmI6ZjhmN2FDemNQS2JzRjhwMw@213.156.137.67:989#%E5%93%88%E8%90%A8%E5%85%8B%E6%96%AF%E5%9D%A6-2.15MB%2Fs
+trojan://installshield@38.180.249.177:8443?allowInsecure=1#%E8%8D%B7%E5%85%B0-54.3MB%2Fs
+ss://YWVzLTI1Ni1jZmI6YW1hem9uc2tyMDU@34.218.228.243:443#%E7%BE%8E%E5%9B%BD-1.72MB%2Fs
 ----------------------------------------------------------------------------------------------------
-['ss://YWVzLTI1Ni1jZmI6ZjhmN2FDemNQS2JzRjhwMw@213.156.137.67:989#%E5%93%88%E8%90%A8%E5%85%8B%E6%96%AF%E5%9D%A6-2.84MB%2Fs\nss://YWVzLTEyOC1jZmI6c2hhZG93c29ja3M@184.170.241.194:443#%E7%BE%8E%E5%9B%BD-415.4KB%2Fs\nss://YWVzLTI1Ni1jZmI6YW1hem9uc2tyMDU@13.125.215.15:443#%E9%9F%A9%E5%9B%BD-4.15MB%2Fs\nss://YWVzLTI1Ni1jZmI6YW1hem9uc2tyMDU@52.78.197.177:443#%E9%9F%A9%E5%9B%BD-1.89MB%2Fs\nss://YWVzLTI1Ni1jZmI6YW1hem9uc2tyMDU@34.211.228.158:443#%E7%BE%8E%E5%9B%BD-4.35MB%2Fs\nss://YWVzLTI1Ni1jZmI6YW1hem9uc2tyMDU@47.129.101.151:443#%E6%96%B0%E5%8A%A0%E5%9D%A1-2.03MB%2Fs\nss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpmOGY3YUN6Y1BLYnNGOHAz@181.119.30.20:990#%E5%93%A5%E4%BC%A6%E6%AF%94%E4%BA%9A-255.5KB%2Fs\nss://YWVzLTI1Ni1jZmI6VVRKQTU3eXBrMlhLUXBubQ@217.30.10.18:9033#%E6%B3%A2%E5%85%B0-373.6KB%2Fs\nvmess://eyJ2IjoiMiIsInBzIjoi5Li56bqmLTMuMDdNQi9zIiwiYWRkIjoiMTkzLjI5LjEwNy4yMzQiLCJwb3J0IjoiNDkwMjAiLCJ0eXBlIjoibm9uZSIsImlkIjoiMmU5NjdkZDUtOGQyNC00MDk5LWE5MDEtNDEyZGNiNDAyNGZkIiwiYWlkIjoiNjQiLCJuZXQiOiJ0Y3AiLCJwYXRoIjoiLyIsImhvc3QiOiIiLCJ0bHMiOiIifQ==\nvmess://eyJ2IjoiMiIsInBzIjoi576O5Zu9LTUuMjZNQi9zIiwiYWRkIjoiMzguNTQuOTQuMTIyIiwicG9ydCI6IjIwNTMiLCJ0eXBlIjoibm9uZSIsImlkIjoiMmNhOGI5YzMtYTJjNy00ZjNlLWIzZjQtYWNkODU1MjVhY2UxIiwiYWlkIjoiMCIsIm5ldCI6IndzIiwicGF0aCI6Ii9MMDIyOS0xNiIsImhvc3QiOiIiLCJ0bHMiOiJ0bHMifQ==']
+['ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpjdklJODVUclc2bjBPR3lmcEhWUzF1@45.87.175.181:8080#%E7%AB%8B%E9%99%B6%E5%AE%9B-58.5MB%2Fs\nss://YWVzLTI1Ni1jZmI6ZjhmN2FDemNQS2JzRjhwMw@37.235.49.152:989#%E5%86%B0%E5%B2%9B-13.7MB%2Fs\nss://YWVzLTI1Ni1jZmI6YW1hem9uc2tyMDU@54.212.56.86:443#%E7%BE%8E%E5%9B%BD-1.87MB%2Fs\ntrojan://65086520307764900@engaged-cattle.shiner427.skin:443?allowInsecure=1&sni=engaged-cattle.shiner427.skin#%E9%9F%A9%E5%9B%BD-39.0MB%2Fs\nss://YWVzLTI1Ni1jZmI6ZjhmN2FDemNQS2JzRjhwMw@103.106.229.219:989#%E9%A9%AC%E6%9D%A5%E8%A5%BF%E4%BA%9A-156.5KB%2Fs\ntrojan://65086520307764900@arriving-longhorn.shiner427.skin:443?allowInsecure=1&sni=arriving-longhorn.shiner427.skin#%E7%BE%8E%E5%9B%BD-252.6KB%2Fs\nss://YWVzLTI1Ni1jZmI6aEdrUTY5MTV0RA@120.232.81.50:16088#%E4%B8%AD%E8%BD%AC%E8%8A%82%E7%82%B9-184.0KB%2Fs\nss://YWVzLTI1Ni1jZmI6ZjhmN2FDemNQS2JzRjhwMw@213.156.137.67:989#%E5%93%88%E8%90%A8%E5%85%8B%E6%96%AF%E5%9D%A6-2.15MB%2Fs\ntrojan://installshield@38.180.249.177:8443?allowInsecure=1#%E8%8D%B7%E5%85%B0-54.3MB%2Fs\nss://YWVzLTI1Ni1jZmI6YW1hem9uc2tyMDU@34.218.228.243:443#%E7%BE%8E%E5%9B%BD-1.72MB%2Fs']
 ----------------------------------------------------------------------------------------------------
----------- [2025-02-06 15:17:17] 更新订阅 ----------
----------- [2025-02-06 15:28:44] 电报v2ray ----------
----------- [2025-02-06 16:39:43] 电报签到 ----------
+---------- [2025-02-06 21:23:54] 更新订阅 ----------
