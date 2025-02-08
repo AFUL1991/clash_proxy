@@ -5,103 +5,143 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: 韩国-296.8KB/s, server: 13.125.215.15, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-  - {name: 中转节点-11.2MB/s, server: 183.61.177.234, port: 18002, type: ss, cipher: aes-256-gcm, password: 8UB3I39KM113QT9N, udp: true}
-  - {name: 中转节点-22.4MB/s, server: ti3hyra4.slashdevslashnetslashtun.net, port: 15004, type: ss, cipher: aes-256-gcm, password: KPOQG1L4BS2PKML1, udp: true}
-  - {name: 中转节点-22.8MB/s, server: 183.61.177.234, port: 18002, type: ss, cipher: aes-256-gcm, password: 8UB3I39KM113QT9N, udp: true}
-  - {name: 韩国-628.4KB/s, server: 3.34.123.239, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-  - {name: 冰岛-85.9MB/s, server: 37.235.49.152, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
-  - {name: 新加坡-99.6MB/s, server: 54.179.0.37, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-  - {name: 美国-142.7KB/s, server: 34.217.145.61, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-  - {name: 中转节点-14.7MB/s, server: ti3hyra4.slashdevslashnetslashtun.net, port: 20002, type: ss, cipher: aes-256-gcm, password: 1T5BLKXJ0M1WF2W4, udp: true}
-  - {name: 中转节点-17.2MB/s, server: w72tapyb.slashdevslashnetslashtun.net, port: 15008, type: ss, cipher: aes-256-gcm, password: 8OCJMAVUOSVBYS7V, udp: true}
-  - {name: 美国-2.16MB/s, server: 107.155.57.11, port: 8080, type: ss, cipher: rc4-md5, password: 14fFPrbezE3HDZzsMOr6, udp: true}
+  - {name: 中转节点-4.65MB/s, server: 120.232.81.50, port: 15084, type: ss, cipher: aes-256-cfb, password: hGkQ6915tD, udp: true}
   - {name: 韩国-922.1KB/s, server: 52.79.249.199, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+  - {name: 美国-4.28MB/s, server: 18.236.161.128, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+  - {name: 美国-3.41MB/s, server: 45.158.171.146, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: QCXDxuDlTTMD7jtgHUjIoj, udp: true}
+  - {name: 韩国-2.92MB/s, server: 43.201.102.200, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
   - {name: 中转节点-14.5MB/s, server: 8tv68qhq.slashdevslashnetslashtun.net, port: 16005, type: ss, cipher: aes-256-gcm, password: 2XZNFVL28OOLLELR, udp: true}
-  - {name: 日本-67.4MB/s, server: 54.249.170.37, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+  - {name: 中转节点-22.8MB/s, server: 183.61.177.234, port: 18002, type: ss, cipher: aes-256-gcm, password: 8UB3I39KM113QT9N, udp: true}
   - {name: 中转节点-15.0MB/s, server: ti3hyra4.slashdevslashnetslashtun.net, port: 20002, type: ss, cipher: aes-256-gcm, password: 1T5BLKXJ0M1WF2W4, udp: true}
-  - {name: 中转节点-17.0MB/s, server: w72tapyb.slashdevslashnetslashtun.net, port: 18004, type: ss, cipher: aes-256-gcm, password: 8RS3Y3L50W6YNV8V, udp: true}
-  - {name: 中转节点-18.4MB/s, server: 183.61.177.234, port: 17006, type: ss, cipher: aes-256-gcm, password: 5FJF20OHXKZCSDEB, udp: true}
-  - {name: 立陶宛-79.9MB/s, server: 45.87.175.157, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: QCXDxuDlTTMD7jtgHUjIoj, udp: true}
   - {name: 美国-4.30MB/s, server: 34.217.145.61, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+  - {name: 立陶宛-79.9MB/s, server: 45.87.175.157, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: QCXDxuDlTTMD7jtgHUjIoj, udp: true}
+  - {name: 美国-142.7KB/s, server: 34.217.145.61, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+  - {name: 美国-4.33MB/s, server: 34.211.228.158, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+  - {name: 美国-2.16MB/s, server: 107.155.57.11, port: 8080, type: ss, cipher: rc4-md5, password: 14fFPrbezE3HDZzsMOr6, udp: true}
+  - {name: 美国-4.35MB/s, server: 34.219.5.41, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+  - {name: 中转节点-11.2MB/s, server: 183.61.177.234, port: 18002, type: ss, cipher: aes-256-gcm, password: 8UB3I39KM113QT9N, udp: true}
+  - {name: 韩国-296.8KB/s, server: 13.125.215.15, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+  - {name: 冰岛-270.1KB/s, server: 37.235.49.152, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
+  - {name: 日本-67.4MB/s, server: 54.249.170.37, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+  - {name: 韩国-628.4KB/s, server: 3.34.123.239, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+  - {name: 中转节点-17.0MB/s, server: w72tapyb.slashdevslashnetslashtun.net, port: 18004, type: ss, cipher: aes-256-gcm, password: 8RS3Y3L50W6YNV8V, udp: true}
+  - {name: 中转节点-501.7KB/s, server: 183.61.177.234, port: 15012, type: ss, cipher: aes-256-gcm, password: FPJ3XYH5EY246SXU, udp: true}
+  - {name: 中转节点-17.2MB/s, server: w72tapyb.slashdevslashnetslashtun.net, port: 15008, type: ss, cipher: aes-256-gcm, password: 8OCJMAVUOSVBYS7V, udp: true}
+  - {name: 中转节点-22.4MB/s, server: ti3hyra4.slashdevslashnetslashtun.net, port: 15004, type: ss, cipher: aes-256-gcm, password: KPOQG1L4BS2PKML1, udp: true}
+  - {name: 冰岛-85.9MB/s, server: 37.235.49.152, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
+  - {name: 中转节点-18.4MB/s, server: 183.61.177.234, port: 17006, type: ss, cipher: aes-256-gcm, password: 5FJF20OHXKZCSDEB, udp: true}
+  - {name: 中转节点-2.83MB/s, server: south.sf0jm.xyz, port: 49223, type: ss, cipher: aes-128-gcm, password: 1b569039-513f-489c-8ce9-02ce2b9b0fb6, udp: true}
+  - {name: 中转节点-14.7MB/s, server: ti3hyra4.slashdevslashnetslashtun.net, port: 20002, type: ss, cipher: aes-256-gcm, password: 1T5BLKXJ0M1WF2W4, udp: true}
+  - {name: 新加坡-99.6MB/s, server: 54.179.0.37, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
   - {name: 中转节点-9.01MB/s, server: ae5f1a2a-fb75-4800.gttysd.com, port: 50017, type: trojan, password: 89f84d5e-4170-4c64-bc78-ac99953b103a, skip-cert-verify: true, udp: true}
+  - {name: 新加坡-17.2MB/s, server: 52.77.206.160, port: 443, type: trojan, password: !<str> 3774827088566296576, sni: flying-tuna.treefrog761.one, skip-cert-verify: true, udp: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 韩国-296.8KB/s
-      - 中转节点-11.2MB/s
-      - 中转节点-22.4MB/s
-      - 中转节点-22.8MB/s
-      - 韩国-628.4KB/s
-      - 冰岛-85.9MB/s
-      - 新加坡-99.6MB/s
-      - 美国-142.7KB/s
-      - 中转节点-14.7MB/s
-      - 中转节点-17.2MB/s
-      - 美国-2.16MB/s
+      - 中转节点-4.65MB/s
       - 韩国-922.1KB/s
+      - 美国-4.28MB/s
+      - 美国-3.41MB/s
+      - 韩国-2.92MB/s
       - 中转节点-14.5MB/s
-      - 日本-67.4MB/s
+      - 中转节点-22.8MB/s
       - 中转节点-15.0MB/s
-      - 中转节点-17.0MB/s
-      - 中转节点-18.4MB/s
-      - 立陶宛-79.9MB/s
       - 美国-4.30MB/s
+      - 立陶宛-79.9MB/s
+      - 美国-142.7KB/s
+      - 美国-4.33MB/s
+      - 美国-2.16MB/s
+      - 美国-4.35MB/s
+      - 中转节点-11.2MB/s
+      - 韩国-296.8KB/s
+      - 冰岛-270.1KB/s
+      - 日本-67.4MB/s
+      - 韩国-628.4KB/s
+      - 中转节点-17.0MB/s
+      - 中转节点-501.7KB/s
+      - 中转节点-17.2MB/s
+      - 中转节点-22.4MB/s
+      - 冰岛-85.9MB/s
+      - 中转节点-18.4MB/s
+      - 中转节点-2.83MB/s
+      - 中转节点-14.7MB/s
+      - 新加坡-99.6MB/s
       - 中转节点-9.01MB/s
+      - 新加坡-17.2MB/s
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - 韩国-296.8KB/s
-      - 中转节点-11.2MB/s
-      - 中转节点-22.4MB/s
-      - 中转节点-22.8MB/s
-      - 韩国-628.4KB/s
-      - 冰岛-85.9MB/s
-      - 新加坡-99.6MB/s
-      - 美国-142.7KB/s
-      - 中转节点-14.7MB/s
-      - 中转节点-17.2MB/s
-      - 美国-2.16MB/s
+      - 中转节点-4.65MB/s
       - 韩国-922.1KB/s
+      - 美国-4.28MB/s
+      - 美国-3.41MB/s
+      - 韩国-2.92MB/s
       - 中转节点-14.5MB/s
-      - 日本-67.4MB/s
+      - 中转节点-22.8MB/s
       - 中转节点-15.0MB/s
-      - 中转节点-17.0MB/s
-      - 中转节点-18.4MB/s
-      - 立陶宛-79.9MB/s
       - 美国-4.30MB/s
+      - 立陶宛-79.9MB/s
+      - 美国-142.7KB/s
+      - 美国-4.33MB/s
+      - 美国-2.16MB/s
+      - 美国-4.35MB/s
+      - 中转节点-11.2MB/s
+      - 韩国-296.8KB/s
+      - 冰岛-270.1KB/s
+      - 日本-67.4MB/s
+      - 韩国-628.4KB/s
+      - 中转节点-17.0MB/s
+      - 中转节点-501.7KB/s
+      - 中转节点-17.2MB/s
+      - 中转节点-22.4MB/s
+      - 冰岛-85.9MB/s
+      - 中转节点-18.4MB/s
+      - 中转节点-2.83MB/s
+      - 中转节点-14.7MB/s
+      - 新加坡-99.6MB/s
       - 中转节点-9.01MB/s
+      - 新加坡-17.2MB/s
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 韩国-296.8KB/s
-      - 中转节点-11.2MB/s
-      - 中转节点-22.4MB/s
-      - 中转节点-22.8MB/s
-      - 韩国-628.4KB/s
-      - 冰岛-85.9MB/s
-      - 新加坡-99.6MB/s
-      - 美国-142.7KB/s
-      - 中转节点-14.7MB/s
-      - 中转节点-17.2MB/s
-      - 美国-2.16MB/s
+      - 中转节点-4.65MB/s
       - 韩国-922.1KB/s
+      - 美国-4.28MB/s
+      - 美国-3.41MB/s
+      - 韩国-2.92MB/s
       - 中转节点-14.5MB/s
-      - 日本-67.4MB/s
+      - 中转节点-22.8MB/s
       - 中转节点-15.0MB/s
-      - 中转节点-17.0MB/s
-      - 中转节点-18.4MB/s
-      - 立陶宛-79.9MB/s
       - 美国-4.30MB/s
+      - 立陶宛-79.9MB/s
+      - 美国-142.7KB/s
+      - 美国-4.33MB/s
+      - 美国-2.16MB/s
+      - 美国-4.35MB/s
+      - 中转节点-11.2MB/s
+      - 韩国-296.8KB/s
+      - 冰岛-270.1KB/s
+      - 日本-67.4MB/s
+      - 韩国-628.4KB/s
+      - 中转节点-17.0MB/s
+      - 中转节点-501.7KB/s
+      - 中转节点-17.2MB/s
+      - 中转节点-22.4MB/s
+      - 冰岛-85.9MB/s
+      - 中转节点-18.4MB/s
+      - 中转节点-2.83MB/s
+      - 中转节点-14.7MB/s
+      - 新加坡-99.6MB/s
       - 中转节点-9.01MB/s
+      - 新加坡-17.2MB/s
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -120,26 +160,36 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 韩国-296.8KB/s
-      - 中转节点-11.2MB/s
-      - 中转节点-22.4MB/s
-      - 中转节点-22.8MB/s
-      - 韩国-628.4KB/s
-      - 冰岛-85.9MB/s
-      - 新加坡-99.6MB/s
-      - 美国-142.7KB/s
-      - 中转节点-14.7MB/s
-      - 中转节点-17.2MB/s
-      - 美国-2.16MB/s
+      - 中转节点-4.65MB/s
       - 韩国-922.1KB/s
+      - 美国-4.28MB/s
+      - 美国-3.41MB/s
+      - 韩国-2.92MB/s
       - 中转节点-14.5MB/s
-      - 日本-67.4MB/s
+      - 中转节点-22.8MB/s
       - 中转节点-15.0MB/s
-      - 中转节点-17.0MB/s
-      - 中转节点-18.4MB/s
-      - 立陶宛-79.9MB/s
       - 美国-4.30MB/s
+      - 立陶宛-79.9MB/s
+      - 美国-142.7KB/s
+      - 美国-4.33MB/s
+      - 美国-2.16MB/s
+      - 美国-4.35MB/s
+      - 中转节点-11.2MB/s
+      - 韩国-296.8KB/s
+      - 冰岛-270.1KB/s
+      - 日本-67.4MB/s
+      - 韩国-628.4KB/s
+      - 中转节点-17.0MB/s
+      - 中转节点-501.7KB/s
+      - 中转节点-17.2MB/s
+      - 中转节点-22.4MB/s
+      - 冰岛-85.9MB/s
+      - 中转节点-18.4MB/s
+      - 中转节点-2.83MB/s
+      - 中转节点-14.7MB/s
+      - 新加坡-99.6MB/s
       - 中转节点-9.01MB/s
+      - 新加坡-17.2MB/s
   - name: 🌏 国内媒体
     type: select
     proxies:
@@ -150,77 +200,107 @@ proxy-groups:
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - 韩国-296.8KB/s
-      - 中转节点-11.2MB/s
-      - 中转节点-22.4MB/s
-      - 中转节点-22.8MB/s
-      - 韩国-628.4KB/s
-      - 冰岛-85.9MB/s
-      - 新加坡-99.6MB/s
-      - 美国-142.7KB/s
-      - 中转节点-14.7MB/s
-      - 中转节点-17.2MB/s
-      - 美国-2.16MB/s
+      - 中转节点-4.65MB/s
       - 韩国-922.1KB/s
+      - 美国-4.28MB/s
+      - 美国-3.41MB/s
+      - 韩国-2.92MB/s
       - 中转节点-14.5MB/s
-      - 日本-67.4MB/s
+      - 中转节点-22.8MB/s
       - 中转节点-15.0MB/s
-      - 中转节点-17.0MB/s
-      - 中转节点-18.4MB/s
-      - 立陶宛-79.9MB/s
       - 美国-4.30MB/s
+      - 立陶宛-79.9MB/s
+      - 美国-142.7KB/s
+      - 美国-4.33MB/s
+      - 美国-2.16MB/s
+      - 美国-4.35MB/s
+      - 中转节点-11.2MB/s
+      - 韩国-296.8KB/s
+      - 冰岛-270.1KB/s
+      - 日本-67.4MB/s
+      - 韩国-628.4KB/s
+      - 中转节点-17.0MB/s
+      - 中转节点-501.7KB/s
+      - 中转节点-17.2MB/s
+      - 中转节点-22.4MB/s
+      - 冰岛-85.9MB/s
+      - 中转节点-18.4MB/s
+      - 中转节点-2.83MB/s
+      - 中转节点-14.7MB/s
+      - 新加坡-99.6MB/s
       - 中转节点-9.01MB/s
+      - 新加坡-17.2MB/s
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - 韩国-296.8KB/s
-      - 中转节点-11.2MB/s
-      - 中转节点-22.4MB/s
-      - 中转节点-22.8MB/s
-      - 韩国-628.4KB/s
-      - 冰岛-85.9MB/s
-      - 新加坡-99.6MB/s
-      - 美国-142.7KB/s
-      - 中转节点-14.7MB/s
-      - 中转节点-17.2MB/s
-      - 美国-2.16MB/s
+      - 中转节点-4.65MB/s
       - 韩国-922.1KB/s
+      - 美国-4.28MB/s
+      - 美国-3.41MB/s
+      - 韩国-2.92MB/s
       - 中转节点-14.5MB/s
-      - 日本-67.4MB/s
+      - 中转节点-22.8MB/s
       - 中转节点-15.0MB/s
-      - 中转节点-17.0MB/s
-      - 中转节点-18.4MB/s
-      - 立陶宛-79.9MB/s
       - 美国-4.30MB/s
+      - 立陶宛-79.9MB/s
+      - 美国-142.7KB/s
+      - 美国-4.33MB/s
+      - 美国-2.16MB/s
+      - 美国-4.35MB/s
+      - 中转节点-11.2MB/s
+      - 韩国-296.8KB/s
+      - 冰岛-270.1KB/s
+      - 日本-67.4MB/s
+      - 韩国-628.4KB/s
+      - 中转节点-17.0MB/s
+      - 中转节点-501.7KB/s
+      - 中转节点-17.2MB/s
+      - 中转节点-22.4MB/s
+      - 冰岛-85.9MB/s
+      - 中转节点-18.4MB/s
+      - 中转节点-2.83MB/s
+      - 中转节点-14.7MB/s
+      - 新加坡-99.6MB/s
       - 中转节点-9.01MB/s
+      - 新加坡-17.2MB/s
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 韩国-296.8KB/s
-      - 中转节点-11.2MB/s
-      - 中转节点-22.4MB/s
-      - 中转节点-22.8MB/s
-      - 韩国-628.4KB/s
-      - 冰岛-85.9MB/s
-      - 新加坡-99.6MB/s
-      - 美国-142.7KB/s
-      - 中转节点-14.7MB/s
-      - 中转节点-17.2MB/s
-      - 美国-2.16MB/s
+      - 中转节点-4.65MB/s
       - 韩国-922.1KB/s
+      - 美国-4.28MB/s
+      - 美国-3.41MB/s
+      - 韩国-2.92MB/s
       - 中转节点-14.5MB/s
-      - 日本-67.4MB/s
+      - 中转节点-22.8MB/s
       - 中转节点-15.0MB/s
-      - 中转节点-17.0MB/s
-      - 中转节点-18.4MB/s
-      - 立陶宛-79.9MB/s
       - 美国-4.30MB/s
+      - 立陶宛-79.9MB/s
+      - 美国-142.7KB/s
+      - 美国-4.33MB/s
+      - 美国-2.16MB/s
+      - 美国-4.35MB/s
+      - 中转节点-11.2MB/s
+      - 韩国-296.8KB/s
+      - 冰岛-270.1KB/s
+      - 日本-67.4MB/s
+      - 韩国-628.4KB/s
+      - 中转节点-17.0MB/s
+      - 中转节点-501.7KB/s
+      - 中转节点-17.2MB/s
+      - 中转节点-22.4MB/s
+      - 冰岛-85.9MB/s
+      - 中转节点-18.4MB/s
+      - 中转节点-2.83MB/s
+      - 中转节点-14.7MB/s
+      - 新加坡-99.6MB/s
       - 中转节点-9.01MB/s
+      - 新加坡-17.2MB/s
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -236,26 +316,36 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 韩国-296.8KB/s
-      - 中转节点-11.2MB/s
-      - 中转节点-22.4MB/s
-      - 中转节点-22.8MB/s
-      - 韩国-628.4KB/s
-      - 冰岛-85.9MB/s
-      - 新加坡-99.6MB/s
-      - 美国-142.7KB/s
-      - 中转节点-14.7MB/s
-      - 中转节点-17.2MB/s
-      - 美国-2.16MB/s
+      - 中转节点-4.65MB/s
       - 韩国-922.1KB/s
+      - 美国-4.28MB/s
+      - 美国-3.41MB/s
+      - 韩国-2.92MB/s
       - 中转节点-14.5MB/s
-      - 日本-67.4MB/s
+      - 中转节点-22.8MB/s
       - 中转节点-15.0MB/s
-      - 中转节点-17.0MB/s
-      - 中转节点-18.4MB/s
-      - 立陶宛-79.9MB/s
       - 美国-4.30MB/s
+      - 立陶宛-79.9MB/s
+      - 美国-142.7KB/s
+      - 美国-4.33MB/s
+      - 美国-2.16MB/s
+      - 美国-4.35MB/s
+      - 中转节点-11.2MB/s
+      - 韩国-296.8KB/s
+      - 冰岛-270.1KB/s
+      - 日本-67.4MB/s
+      - 韩国-628.4KB/s
+      - 中转节点-17.0MB/s
+      - 中转节点-501.7KB/s
+      - 中转节点-17.2MB/s
+      - 中转节点-22.4MB/s
+      - 冰岛-85.9MB/s
+      - 中转节点-18.4MB/s
+      - 中转节点-2.83MB/s
+      - 中转节点-14.7MB/s
+      - 新加坡-99.6MB/s
       - 中转节点-9.01MB/s
+      - 新加坡-17.2MB/s
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
