@@ -5,10 +5,14 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
+  - {name: 荷兰-102.1KB/s, server: 193.29.139.189, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: QCXDxuDlTTMD7jtgHUjIoj, udp: true}
   - {name: 新加坡-90.0MB/s, server: 13.212.92.41, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-  - {name: 日本-201.1KB/s, server: 3.113.0.222, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-  - {name: 韩国-82.5MB/s, server: 54.180.143.115, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
   - {name: 中转节点-27.7MB/s, server: 183.232.239.172, port: 15011, type: ss, cipher: aes-256-gcm, password: 5OVJDT1EY2YS8XDP, udp: true}
+  - {name: 韩国-82.5MB/s, server: 54.180.143.115, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+  - {name: 荷兰-87.7MB/s, server: 103.104.247.47, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: oZIoA69Q8yhcQV8ka3Pa3A, udp: true}
+  - {name: 日本-201.1KB/s, server: 3.113.0.222, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+  - {name: 马来西亚-1.15MB/s, server: 103.106.229.219, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
+  - {name: 荷兰-89.9MB/s, server: 193.29.139.189, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: cvII85TrW6n0OGyfpHVS1u, udp: true}
   - {name: 马来西亚-156.5KB/s, server: 103.106.229.219, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
 proxy-groups:
   - name: 🔰 节点选择
@@ -16,20 +20,28 @@ proxy-groups:
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
+      - 荷兰-102.1KB/s
       - 新加坡-90.0MB/s
-      - 日本-201.1KB/s
-      - 韩国-82.5MB/s
       - 中转节点-27.7MB/s
+      - 韩国-82.5MB/s
+      - 荷兰-87.7MB/s
+      - 日本-201.1KB/s
+      - 马来西亚-1.15MB/s
+      - 荷兰-89.9MB/s
       - 马来西亚-156.5KB/s
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
+      - 荷兰-102.1KB/s
       - 新加坡-90.0MB/s
-      - 日本-201.1KB/s
-      - 韩国-82.5MB/s
       - 中转节点-27.7MB/s
+      - 韩国-82.5MB/s
+      - 荷兰-87.7MB/s
+      - 日本-201.1KB/s
+      - 马来西亚-1.15MB/s
+      - 荷兰-89.9MB/s
       - 马来西亚-156.5KB/s
   - name: 🎥 NETFLIX
     type: select
@@ -37,10 +49,14 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
+      - 荷兰-102.1KB/s
       - 新加坡-90.0MB/s
-      - 日本-201.1KB/s
-      - 韩国-82.5MB/s
       - 中转节点-27.7MB/s
+      - 韩国-82.5MB/s
+      - 荷兰-87.7MB/s
+      - 日本-201.1KB/s
+      - 马来西亚-1.15MB/s
+      - 荷兰-89.9MB/s
       - 马来西亚-156.5KB/s
   - name: ⛔️ 广告拦截
     type: select
@@ -60,10 +76,14 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
+      - 荷兰-102.1KB/s
       - 新加坡-90.0MB/s
-      - 日本-201.1KB/s
-      - 韩国-82.5MB/s
       - 中转节点-27.7MB/s
+      - 韩国-82.5MB/s
+      - 荷兰-87.7MB/s
+      - 日本-201.1KB/s
+      - 马来西亚-1.15MB/s
+      - 荷兰-89.9MB/s
       - 马来西亚-156.5KB/s
   - name: 🌏 国内媒体
     type: select
@@ -75,20 +95,28 @@ proxy-groups:
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
+      - 荷兰-102.1KB/s
       - 新加坡-90.0MB/s
-      - 日本-201.1KB/s
-      - 韩国-82.5MB/s
       - 中转节点-27.7MB/s
+      - 韩国-82.5MB/s
+      - 荷兰-87.7MB/s
+      - 日本-201.1KB/s
+      - 马来西亚-1.15MB/s
+      - 荷兰-89.9MB/s
       - 马来西亚-156.5KB/s
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
+      - 荷兰-102.1KB/s
       - 新加坡-90.0MB/s
-      - 日本-201.1KB/s
-      - 韩国-82.5MB/s
       - 中转节点-27.7MB/s
+      - 韩国-82.5MB/s
+      - 荷兰-87.7MB/s
+      - 日本-201.1KB/s
+      - 马来西亚-1.15MB/s
+      - 荷兰-89.9MB/s
       - 马来西亚-156.5KB/s
   - name: 🍎 苹果服务
     type: select
@@ -96,10 +124,14 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
+      - 荷兰-102.1KB/s
       - 新加坡-90.0MB/s
-      - 日本-201.1KB/s
-      - 韩国-82.5MB/s
       - 中转节点-27.7MB/s
+      - 韩国-82.5MB/s
+      - 荷兰-87.7MB/s
+      - 日本-201.1KB/s
+      - 马来西亚-1.15MB/s
+      - 荷兰-89.9MB/s
       - 马来西亚-156.5KB/s
   - name: 🎯 全球直连
     type: select
@@ -116,10 +148,14 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
+      - 荷兰-102.1KB/s
       - 新加坡-90.0MB/s
-      - 日本-201.1KB/s
-      - 韩国-82.5MB/s
       - 中转节点-27.7MB/s
+      - 韩国-82.5MB/s
+      - 荷兰-87.7MB/s
+      - 日本-201.1KB/s
+      - 马来西亚-1.15MB/s
+      - 荷兰-89.9MB/s
       - 马来西亚-156.5KB/s
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
