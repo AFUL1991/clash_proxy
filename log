@@ -1,11 +1,11 @@
----------- [2025-02-14 21:23:39] 更新订阅 ----------
----------- 2025-02-14 21:23:39 ----------
+---------- [2025-02-15 05:16:12] 更新订阅 ----------
+---------- 2025-02-15 05:16:13 ----------
 [长风分享]:
 /home/runner/work/auto_jobs/proxy/clash_cfmem.yml
 /home/runner/work/auto_jobs/proxy/v2ray_cfmem.txt
 [长风分享]: 订阅成功 https://fs.v2rayse.com/share/20250214/wdu3qhvl5r.yaml
 [长风分享]: 订阅成功 https://fs.v2rayse.com/share/20250214/s55a2rpsz2.txt
----------- 2025-02-14 21:23:40 ----------
+---------- 2025-02-15 05:16:13 ----------
 [freev2]: /home/runner/work/auto_jobs/subscribe/freev2.py
 [freev2]: 当前工作目录：/home/runner/work/auto_jobs/proxy/clash_freev2.yml
 [freev2]: 订阅成功, https://raw.githubusercontent.com/freefq/free/master/v2
@@ -46,7 +46,7 @@ User(
 	phone='436789040144717',
 	photo=None,
 	status=UserStatusOffline(
-		was_online=datetime.datetime(2025, 2, 14, 12, 34, 24, tzinfo=datetime.timezone.utc)
+		was_online=datetime.datetime(2025, 2, 14, 18, 22, 48, tzinfo=datetime.timezone.utc)
 	),
 	bot_info_version=None,
 	restriction_reason=[
@@ -67,27 +67,27 @@ Name: FREE 中文, ID: -1001570215033
 Name: 长风分享频道, ID: -1001516635885
 Name: 口交💋专辑, ID: -1001420871010
 Name: 免费节点自动分享, ID: 2096213628
-Name: 反差母狗🍑自拍, ID: -1001173218900
-Name: 吃瓜🍉搜 @achiguao, ID: -1001569868197
-Name: 阿里云盘资源搜索, ID: -1001598490288
-Name: 超级搜索引擎, ID: -1001760236395
 Name: 极搜-中文搜索（复活版） 中文 搜索, ID: -1001607161451
-Name: 极搜, ID: -1001888813717
-Name: TG代理VPN技术分享, ID: -1001670133389
-Name: 🎬 阿里云盘交流群 💾, ID: -1001589118734
-Name: 🎬 阿里云盘资源 🆙 🚦, ID: -1001520702906
-Name: 🎬 云盘盘 - 投稿🚦, ID: -1001198853752
-Name: 绿帽淫妻🧑🏻‍🎤NTR绿色联盟, ID: -1001232928936
-Name: 老毛子Padavan固件自助交流群, ID: -1001148540997
-Name: 新电报吃瓜#色情版, ID: -1002149316649
+Name: 超级搜索引擎, ID: -1001760236395
 Name: 世纪同城约炮🔥全国极速配对, ID: -1002031522064
+Name: TG代理VPN技术分享, ID: -1001670133389
 Name: 吃瓜群众🍉, ID: -1001786596225
+Name: 老毛子Padavan固件自助交流群, ID: -1001148540997
+Name: 极搜, ID: -1001888813717
 Name: 【李老师不是你老师】官方电报, ID: -1002155057858
 Name: 长风分享群组, ID: -1001802101728
-Name: 吃瓜中心, ID: -1001638488383
-Name: 自选基金助手群组, ID: -1001389480278
+Name: 🎬 阿里云盘交流群 💾, ID: -1001589118734
+Name: 绿帽淫妻🧑🏻‍🎤NTR绿色联盟, ID: -1001232928936
+Name: 阿里云盘资源搜索, ID: -1001598490288
+Name: 🎬 云盘盘 - 投稿🚦, ID: -1001198853752
+Name: 🎬 阿里云盘资源 🆙 🚦, ID: -1001520702906
+Name: 反差母狗🍑自拍, ID: -1001173218900
+Name: 吃瓜🍉搜 @achiguao, ID: -1001569868197
 Name: 吃瓜🍉群众, ID: -1001905442401
 Name: 优哥跨境交流群, ID: -1001861402973
+Name: 新电报吃瓜#色情版, ID: -1002149316649
+Name: 吃瓜中心, ID: -1001638488383
+Name: 自选基金助手群组, ID: -1001389480278
 Name: Github_2dust, ID: -1001628493435
 Name: 科技爱好者周刊, ID: -1001191802783
 Name: TG代理公布, ID: -1001633868843
@@ -132,21 +132,30 @@ Name: 吃瓜新闻, ID: -1001252816724
 Name: 1lib, ID: 1788460589
 Name: 摆烂社工bot频道, ID: -1001788223313
 免费节点自动分享: 
-13230 /get
-13229 节点更新时间：14:54:22
+13233 /get
+13232 节点更新时间：20:54:21
 每30分钟更新10个节点
-13228 trojan://3747000103274291200@85.90.194.160:443?allowInsecure=1&sni=awaited-chicken.adder289.quest#%E4%B9%8C%E5%85%8B%E5%85%B0-12.4MB%2Fs
-ss://YWVzLTI1Ni1jZmI6YW1hem9uc2tyMDU@13.209.11.204:443#%E9%9F%A9%E5%9B%BD-968.8KB%2Fs
-ss://YWVzLTI1Ni1jZmI6YW1hem9uc2tyMDU@3.35.135.232:443#%E9%9F%A9%E5%9B%BD-279.8KB%2Fs
-ss://YWVzLTI1Ni1jZmI6YW1hem9uc2tyMDU@34.220.100.94:443#%E7%BE%8E%E5%9B%BD-192.7KB%2Fs
-trojan://43e5eeacbad3032bfe4c25a2f011b6b7@104.251.227.182:443?allowInsecure=1&sni=hezijiasuqi.com#%E9%A6%99%E6%B8%AF-2.29MB%2Fs
-trojan://3747000103274291200@85.90.194.160:443?allowInsecure=1&sni=awaited-chicken.adder289.quest#%E4%B9%8C%E5%85%8B%E5%85%B0-12.4MB%2Fs
-ss://YWVzLTI1Ni1jZmI6YW1hem9uc2tyMDU@13.209.11.204:443#%E9%9F%A9%E5%9B%BD-968.8KB%2Fs
-ss://YWVzLTI1Ni1jZmI6YW1hem9uc2tyMDU@3.35.135.232:443#%E9%9F%A9%E5%9B%BD-279.8KB%2Fs
-ss://YWVzLTI1Ni1jZmI6YW1hem9uc2tyMDU@34.220.100.94:443#%E7%BE%8E%E5%9B%BD-192.7KB%2Fs
-trojan://43e5eeacbad3032bfe4c25a2f011b6b7@104.251.227.182:443?allowInsecure=1&sni=hezijiasuqi.com#%E9%A6%99%E6%B8%AF-2.29MB%2Fs
+13231 trojan://3747000103274291200@3.64.115.140:443?allowInsecure=1&sni=welcome-gorilla.adder289.quest#%E5%BE%B7%E5%9B%BD-297.7KB%2Fs
+trojan://3747000103274291200@54.220.242.24:443?allowInsecure=1&sni=steady-grackle.adder289.quest#%E7%88%B1%E5%B0%94%E5%85%B0-1.38MB%2Fs
+vmess://eyJ2IjoiMiIsInBzIjoi6Iqs5YWwLTE4OS41S0IvcyIsImFkZCI6IjE4NS4xMjEuMTM0LjEyIiwicG9ydCI6IjIwMzE4IiwidHlwZSI6Im5vbmUiLCJpZCI6ImJhYTEyNjA3LWE2YTEtNDIzZS1iZjNjLWVkNzE1OTdlODlhMyIsImFpZCI6IjAiLCJuZXQiOiJ3cyIsInBhdGgiOiIvIiwiaG9zdCI6IiIsInRscyI6IiJ9
+trojan://3747000103274291200@154.205.151.46:443?allowInsecure=1&sni=loving-boa.treefrog761.one#%E5%A1%9E%E8%88%8C%E5%B0%94-1.53MB%2Fs
+trojan://43e5eeacbad3032bfe4c25a2f011b6b7@104.251.227.182:443?allowInsecure=1&sni=hezijiasuqi.com#%E9%A6%99%E6%B8%AF-28.9MB%2Fs
+trojan://3747000103274291200@content-shrimp.pigeon031.one:443?allowInsecure=1&sni=content-shrimp.pigeon031.one#%E5%8D%A2%E6%A3%AE%E5%A0%A1-1.42MB%2Fs
+trojan://3747000103274291200@52.79.40.3:443?allowInsecure=1&sni=epic-bunny.adder289.quest#%E9%9F%A9%E5%9B%BD-34.8MB%2Fs
+ss://YWVzLTI1Ni1nY206Y2RCSURWNDJEQ3duZklO@38.114.123.245:8118#%E7%BE%8E%E5%9B%BD-376.5KB%2Fs
+ss://YWVzLTI1Ni1jZmI6ZjhmN2FDemNQS2JzRjhwMw@213.156.137.67:989#%E5%93%88%E8%90%A8%E5%85%8B%E6%96%AF%E5%9D%A6-31.8MB%2Fs
+ss://YWVzLTI1Ni1jZmI6YW1hem9uc2tyMDU@34.220.100.94:443#%E7%BE%8E%E5%9B%BD-4.28MB%2Fs
+trojan://3747000103274291200@3.64.115.140:443?allowInsecure=1&sni=welcome-gorilla.adder289.quest#%E5%BE%B7%E5%9B%BD-297.7KB%2Fs
+trojan://3747000103274291200@54.220.242.24:443?allowInsecure=1&sni=steady-grackle.adder289.quest#%E7%88%B1%E5%B0%94%E5%85%B0-1.38MB%2Fs
+vmess://eyJ2IjoiMiIsInBzIjoi6Iqs5YWwLTE4OS41S0IvcyIsImFkZCI6IjE4NS4xMjEuMTM0LjEyIiwicG9ydCI6IjIwMzE4IiwidHlwZSI6Im5vbmUiLCJpZCI6ImJhYTEyNjA3LWE2YTEtNDIzZS1iZjNjLWVkNzE1OTdlODlhMyIsImFpZCI6IjAiLCJuZXQiOiJ3cyIsInBhdGgiOiIvIiwiaG9zdCI6IiIsInRscyI6IiJ9
+trojan://3747000103274291200@154.205.151.46:443?allowInsecure=1&sni=loving-boa.treefrog761.one#%E5%A1%9E%E8%88%8C%E5%B0%94-1.53MB%2Fs
+trojan://43e5eeacbad3032bfe4c25a2f011b6b7@104.251.227.182:443?allowInsecure=1&sni=hezijiasuqi.com#%E9%A6%99%E6%B8%AF-28.9MB%2Fs
+trojan://3747000103274291200@content-shrimp.pigeon031.one:443?allowInsecure=1&sni=content-shrimp.pigeon031.one#%E5%8D%A2%E6%A3%AE%E5%A0%A1-1.42MB%2Fs
+trojan://3747000103274291200@52.79.40.3:443?allowInsecure=1&sni=epic-bunny.adder289.quest#%E9%9F%A9%E5%9B%BD-34.8MB%2Fs
+ss://YWVzLTI1Ni1nY206Y2RCSURWNDJEQ3duZklO@38.114.123.245:8118#%E7%BE%8E%E5%9B%BD-376.5KB%2Fs
+ss://YWVzLTI1Ni1jZmI6ZjhmN2FDemNQS2JzRjhwMw@213.156.137.67:989#%E5%93%88%E8%90%A8%E5%85%8B%E6%96%AF%E5%9D%A6-31.8MB%2Fs
+ss://YWVzLTI1Ni1jZmI6YW1hem9uc2tyMDU@34.220.100.94:443#%E7%BE%8E%E5%9B%BD-4.28MB%2Fs
 ----------------------------------------------------------------------------------------------------
-['trojan://3747000103274291200@85.90.194.160:443?allowInsecure=1&sni=awaited-chicken.adder289.quest#%E4%B9%8C%E5%85%8B%E5%85%B0-12.4MB%2Fs\nss://YWVzLTI1Ni1jZmI6YW1hem9uc2tyMDU@13.209.11.204:443#%E9%9F%A9%E5%9B%BD-968.8KB%2Fs\nss://YWVzLTI1Ni1jZmI6YW1hem9uc2tyMDU@3.35.135.232:443#%E9%9F%A9%E5%9B%BD-279.8KB%2Fs\nss://YWVzLTI1Ni1jZmI6YW1hem9uc2tyMDU@34.220.100.94:443#%E7%BE%8E%E5%9B%BD-192.7KB%2Fs\ntrojan://43e5eeacbad3032bfe4c25a2f011b6b7@104.251.227.182:443?allowInsecure=1&sni=hezijiasuqi.com#%E9%A6%99%E6%B8%AF-2.29MB%2Fs']
+['trojan://3747000103274291200@3.64.115.140:443?allowInsecure=1&sni=welcome-gorilla.adder289.quest#%E5%BE%B7%E5%9B%BD-297.7KB%2Fs\ntrojan://3747000103274291200@54.220.242.24:443?allowInsecure=1&sni=steady-grackle.adder289.quest#%E7%88%B1%E5%B0%94%E5%85%B0-1.38MB%2Fs\nvmess://eyJ2IjoiMiIsInBzIjoi6Iqs5YWwLTE4OS41S0IvcyIsImFkZCI6IjE4NS4xMjEuMTM0LjEyIiwicG9ydCI6IjIwMzE4IiwidHlwZSI6Im5vbmUiLCJpZCI6ImJhYTEyNjA3LWE2YTEtNDIzZS1iZjNjLWVkNzE1OTdlODlhMyIsImFpZCI6IjAiLCJuZXQiOiJ3cyIsInBhdGgiOiIvIiwiaG9zdCI6IiIsInRscyI6IiJ9\ntrojan://3747000103274291200@154.205.151.46:443?allowInsecure=1&sni=loving-boa.treefrog761.one#%E5%A1%9E%E8%88%8C%E5%B0%94-1.53MB%2Fs\ntrojan://43e5eeacbad3032bfe4c25a2f011b6b7@104.251.227.182:443?allowInsecure=1&sni=hezijiasuqi.com#%E9%A6%99%E6%B8%AF-28.9MB%2Fs\ntrojan://3747000103274291200@content-shrimp.pigeon031.one:443?allowInsecure=1&sni=content-shrimp.pigeon031.one#%E5%8D%A2%E6%A3%AE%E5%A0%A1-1.42MB%2Fs\ntrojan://3747000103274291200@52.79.40.3:443?allowInsecure=1&sni=epic-bunny.adder289.quest#%E9%9F%A9%E5%9B%BD-34.8MB%2Fs\nss://YWVzLTI1Ni1nY206Y2RCSURWNDJEQ3duZklO@38.114.123.245:8118#%E7%BE%8E%E5%9B%BD-376.5KB%2Fs\nss://YWVzLTI1Ni1jZmI6ZjhmN2FDemNQS2JzRjhwMw@213.156.137.67:989#%E5%93%88%E8%90%A8%E5%85%8B%E6%96%AF%E5%9D%A6-31.8MB%2Fs\nss://YWVzLTI1Ni1jZmI6YW1hem9uc2tyMDU@34.220.100.94:443#%E7%BE%8E%E5%9B%BD-4.28MB%2Fs']
 ----------------------------------------------------------------------------------------------------
----------- [2025-02-14 21:23:46] 更新订阅 ----------
----------- [2025-02-14 21:33:32] 电报v2ray ----------
+---------- [2025-02-15 05:16:20] 更新订阅 ----------
