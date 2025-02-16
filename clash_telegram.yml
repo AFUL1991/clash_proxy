@@ -5,103 +5,123 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: 土耳其-51.5MB/s, server: tr1.ssocks.wiki, port: 8388, type: ss, cipher: chacha20-ietf-poly1305, password: ZTFkZ, udp: true}
-  - {name: 加拿大-32.0MB/s, server: ca1.ssocks.wiki, port: 8388, type: ss, cipher: chacha20-ietf-poly1305, password: MzZjN, udp: true}
-  - {name: 韩国-785.1KB/s, server: 3.36.73.26, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-  - {name: 未知国家-8.9MB/s, server: 23.185.248.15, port: 17005, type: ss, cipher: aes-256-gcm, password: X1GBLWQ3U4ULO6XV, udp: true}
-  - {name: 新加坡-1.23MB/s, server: 54.255.247.242, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-  - {name: 新加坡-4.4MB/s, server: 154.196.244.15, port: 16005, type: ss, cipher: aes-256-gcm, password: L4JOYUZXFWFX9E0N, udp: true}
+  - {name: 马来西亚-3.48MB/s, server: 103.106.229.219, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
+  - {name: 未知国家-13.0MB/s, server: 23.185.248.14, port: 17004, type: ss, cipher: aes-256-gcm, password: IC4APDY4ATHX890I, udp: true}
   - {name: 香港-19.3MB/s, server: 203.23.128.79, port: 51348, type: ss, cipher: chacha20-ietf-poly1305, password: dt31KYYCCAUBwu09QwG9flPBIuP9jA6VXnjN8StKTkgc45ny, udp: true}
-  - {name: 立陶宛-965.0KB/s, server: 45.87.175.188, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: cvII85TrW6n0OGyfpHVS1u, udp: true}
-  - {name: 香港-43.5MB/s, server: 156.245.190.15, port: 15006, type: ss, cipher: aes-256-gcm, password: RAMLXXTO5NSM786O, udp: true}
-  - {name: 未知国家-9.3MB/s, server: 23.185.248.11, port: 17001, type: ss, cipher: aes-256-gcm, password: Z7ZSQR3OI9JVRA6N, udp: true}
-  - {name: 以色列-9.1MB/s, server: 188.191.147.127, port: 31348, type: ss, cipher: chacha20-ietf-poly1305, password: 6IVOuzMfH5ROpgwtRTcNJKYJvYe9FDVaU7wAYYh8PRLxxZs6, udp: true}
+  - {name: 新加坡-1.23MB/s, server: 54.255.247.242, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+  - {name: 韩国-785.1KB/s, server: 3.36.73.26, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
   - {name: 冰岛-55.1MB/s, server: 37.235.49.152, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
-  - {name: 土耳其-39.9MB/s, server: 95.164.34.7, port: 8388, type: ss, cipher: chacha20-ietf-poly1305, password: ZTFkZ, udp: true}
+  - {name: 以色列-9.1MB/s, server: 188.191.147.127, port: 31348, type: ss, cipher: chacha20-ietf-poly1305, password: 6IVOuzMfH5ROpgwtRTcNJKYJvYe9FDVaU7wAYYh8PRLxxZs6, udp: true}
+  - {name: 韩国-3.88MB/s, server: 218.38.103.150, port: 28902, type: ss, cipher: aes-256-cfb, password: qwerREWQ@@, udp: true}
+  - {name: 新加坡-4.4MB/s, server: 154.196.244.15, port: 16005, type: ss, cipher: aes-256-gcm, password: L4JOYUZXFWFX9E0N, udp: true}
+  - {name: 巴林-2.21MB/s, server: admin.c3.webramz.co, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: Bog0ELmMM9DSxDdQ, udp: true}
+  - {name: 加拿大-32.0MB/s, server: ca1.ssocks.wiki, port: 8388, type: ss, cipher: chacha20-ietf-poly1305, password: MzZjN, udp: true}
+  - {name: 未知国家-8.9MB/s, server: 23.185.248.15, port: 17005, type: ss, cipher: aes-256-gcm, password: X1GBLWQ3U4ULO6XV, udp: true}
   - {name: 日本-1.39MB/s, server: 57.180.31.56, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-  - {name: 美国-3.86MB/s, server: 137.175.113.215, port: 8388, type: ss, cipher: chacha20-ietf, password: asd123456, udp: true}
   - {name: 荷兰-2.92MB/s, server: 149.34.244.82, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, udp: true}
-  - {name: 匈牙利-8.7MB/s, server: integral-malamute.adder289.quest, port: 443, type: trojan, password: !<str> 3747000103274291200, sni: integral-malamute.adder289.quest, skip-cert-verify: true, udp: true}
+  - {name: 香港-43.5MB/s, server: 156.245.190.15, port: 15006, type: ss, cipher: aes-256-gcm, password: RAMLXXTO5NSM786O, udp: true}
+  - {name: 土耳其-39.9MB/s, server: 95.164.34.7, port: 8388, type: ss, cipher: chacha20-ietf-poly1305, password: ZTFkZ, udp: true}
+  - {name: 美国-3.86MB/s, server: 137.175.113.215, port: 8388, type: ss, cipher: chacha20-ietf, password: asd123456, udp: true}
+  - {name: 立陶宛-965.0KB/s, server: 45.87.175.188, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: cvII85TrW6n0OGyfpHVS1u, udp: true}
+  - {name: 土耳其-51.5MB/s, server: tr1.ssocks.wiki, port: 8388, type: ss, cipher: chacha20-ietf-poly1305, password: ZTFkZ, udp: true}
+  - {name: 未知国家-9.3MB/s, server: 23.185.248.11, port: 17001, type: ss, cipher: aes-256-gcm, password: Z7ZSQR3OI9JVRA6N, udp: true}
+  - {name: 香港-68.7MB/s, server: 104.251.227.182, port: 443, type: trojan, password: 43e5eeacbad3032bfe4c25a2f011b6b7, sni: hezijiasuqi.com, skip-cert-verify: true, udp: true}
+  - {name: 香港-6.84MB/s, server: 104.251.227.182, port: 443, type: trojan, password: 43e5eeacbad3032bfe4c25a2f011b6b7, sni: hezijiasuqi.com, skip-cert-verify: true, udp: true}
   - {name: 日本-217.0KB/s, server: concise-quail.adder289.quest, port: 443, type: trojan, password: !<str> 3778399737045327872, skip-cert-verify: true, udp: true}
   - {name: 意大利-29.8MB/s, server: 95.110.142.205, port: 443, type: trojan, password: !<str> 3774827088566296576, sni: destined-cub.treefrog761.one, skip-cert-verify: true, udp: true}
-  - {name: 香港-68.7MB/s, server: 104.251.227.182, port: 443, type: trojan, password: 43e5eeacbad3032bfe4c25a2f011b6b7, sni: hezijiasuqi.com, skip-cert-verify: true, udp: true}
+  - {name: 匈牙利-8.7MB/s, server: integral-malamute.adder289.quest, port: 443, type: trojan, password: !<str> 3747000103274291200, sni: integral-malamute.adder289.quest, skip-cert-verify: true, udp: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 土耳其-51.5MB/s
-      - 加拿大-32.0MB/s
-      - 韩国-785.1KB/s
-      - 未知国家-8.9MB/s
-      - 新加坡-1.23MB/s
-      - 新加坡-4.4MB/s
+      - 马来西亚-3.48MB/s
+      - 未知国家-13.0MB/s
       - 香港-19.3MB/s
-      - 立陶宛-965.0KB/s
-      - 香港-43.5MB/s
-      - 未知国家-9.3MB/s
-      - 以色列-9.1MB/s
+      - 新加坡-1.23MB/s
+      - 韩国-785.1KB/s
       - 冰岛-55.1MB/s
-      - 土耳其-39.9MB/s
+      - 以色列-9.1MB/s
+      - 韩国-3.88MB/s
+      - 新加坡-4.4MB/s
+      - 巴林-2.21MB/s
+      - 加拿大-32.0MB/s
+      - 未知国家-8.9MB/s
       - 日本-1.39MB/s
-      - 美国-3.86MB/s
       - 荷兰-2.92MB/s
-      - 匈牙利-8.7MB/s
+      - 香港-43.5MB/s
+      - 土耳其-39.9MB/s
+      - 美国-3.86MB/s
+      - 立陶宛-965.0KB/s
+      - 土耳其-51.5MB/s
+      - 未知国家-9.3MB/s
+      - 香港-68.7MB/s
+      - 香港-6.84MB/s
       - 日本-217.0KB/s
       - 意大利-29.8MB/s
-      - 香港-68.7MB/s
+      - 匈牙利-8.7MB/s
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - 土耳其-51.5MB/s
-      - 加拿大-32.0MB/s
-      - 韩国-785.1KB/s
-      - 未知国家-8.9MB/s
-      - 新加坡-1.23MB/s
-      - 新加坡-4.4MB/s
+      - 马来西亚-3.48MB/s
+      - 未知国家-13.0MB/s
       - 香港-19.3MB/s
-      - 立陶宛-965.0KB/s
-      - 香港-43.5MB/s
-      - 未知国家-9.3MB/s
-      - 以色列-9.1MB/s
+      - 新加坡-1.23MB/s
+      - 韩国-785.1KB/s
       - 冰岛-55.1MB/s
-      - 土耳其-39.9MB/s
+      - 以色列-9.1MB/s
+      - 韩国-3.88MB/s
+      - 新加坡-4.4MB/s
+      - 巴林-2.21MB/s
+      - 加拿大-32.0MB/s
+      - 未知国家-8.9MB/s
       - 日本-1.39MB/s
-      - 美国-3.86MB/s
       - 荷兰-2.92MB/s
-      - 匈牙利-8.7MB/s
+      - 香港-43.5MB/s
+      - 土耳其-39.9MB/s
+      - 美国-3.86MB/s
+      - 立陶宛-965.0KB/s
+      - 土耳其-51.5MB/s
+      - 未知国家-9.3MB/s
+      - 香港-68.7MB/s
+      - 香港-6.84MB/s
       - 日本-217.0KB/s
       - 意大利-29.8MB/s
-      - 香港-68.7MB/s
+      - 匈牙利-8.7MB/s
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 土耳其-51.5MB/s
-      - 加拿大-32.0MB/s
-      - 韩国-785.1KB/s
-      - 未知国家-8.9MB/s
-      - 新加坡-1.23MB/s
-      - 新加坡-4.4MB/s
+      - 马来西亚-3.48MB/s
+      - 未知国家-13.0MB/s
       - 香港-19.3MB/s
-      - 立陶宛-965.0KB/s
-      - 香港-43.5MB/s
-      - 未知国家-9.3MB/s
-      - 以色列-9.1MB/s
+      - 新加坡-1.23MB/s
+      - 韩国-785.1KB/s
       - 冰岛-55.1MB/s
-      - 土耳其-39.9MB/s
+      - 以色列-9.1MB/s
+      - 韩国-3.88MB/s
+      - 新加坡-4.4MB/s
+      - 巴林-2.21MB/s
+      - 加拿大-32.0MB/s
+      - 未知国家-8.9MB/s
       - 日本-1.39MB/s
-      - 美国-3.86MB/s
       - 荷兰-2.92MB/s
-      - 匈牙利-8.7MB/s
+      - 香港-43.5MB/s
+      - 土耳其-39.9MB/s
+      - 美国-3.86MB/s
+      - 立陶宛-965.0KB/s
+      - 土耳其-51.5MB/s
+      - 未知国家-9.3MB/s
+      - 香港-68.7MB/s
+      - 香港-6.84MB/s
       - 日本-217.0KB/s
       - 意大利-29.8MB/s
-      - 香港-68.7MB/s
+      - 匈牙利-8.7MB/s
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -120,26 +140,31 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 土耳其-51.5MB/s
-      - 加拿大-32.0MB/s
-      - 韩国-785.1KB/s
-      - 未知国家-8.9MB/s
-      - 新加坡-1.23MB/s
-      - 新加坡-4.4MB/s
+      - 马来西亚-3.48MB/s
+      - 未知国家-13.0MB/s
       - 香港-19.3MB/s
-      - 立陶宛-965.0KB/s
-      - 香港-43.5MB/s
-      - 未知国家-9.3MB/s
-      - 以色列-9.1MB/s
+      - 新加坡-1.23MB/s
+      - 韩国-785.1KB/s
       - 冰岛-55.1MB/s
-      - 土耳其-39.9MB/s
+      - 以色列-9.1MB/s
+      - 韩国-3.88MB/s
+      - 新加坡-4.4MB/s
+      - 巴林-2.21MB/s
+      - 加拿大-32.0MB/s
+      - 未知国家-8.9MB/s
       - 日本-1.39MB/s
-      - 美国-3.86MB/s
       - 荷兰-2.92MB/s
-      - 匈牙利-8.7MB/s
+      - 香港-43.5MB/s
+      - 土耳其-39.9MB/s
+      - 美国-3.86MB/s
+      - 立陶宛-965.0KB/s
+      - 土耳其-51.5MB/s
+      - 未知国家-9.3MB/s
+      - 香港-68.7MB/s
+      - 香港-6.84MB/s
       - 日本-217.0KB/s
       - 意大利-29.8MB/s
-      - 香港-68.7MB/s
+      - 匈牙利-8.7MB/s
   - name: 🌏 国内媒体
     type: select
     proxies:
@@ -147,83 +172,99 @@ proxy-groups:
       - 香港-19.3MB/s
       - 香港-43.5MB/s
       - 香港-68.7MB/s
+      - 香港-6.84MB/s
       - 🔰 节点选择
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - 土耳其-51.5MB/s
-      - 加拿大-32.0MB/s
-      - 韩国-785.1KB/s
-      - 未知国家-8.9MB/s
-      - 新加坡-1.23MB/s
-      - 新加坡-4.4MB/s
+      - 马来西亚-3.48MB/s
+      - 未知国家-13.0MB/s
       - 香港-19.3MB/s
-      - 立陶宛-965.0KB/s
-      - 香港-43.5MB/s
-      - 未知国家-9.3MB/s
-      - 以色列-9.1MB/s
+      - 新加坡-1.23MB/s
+      - 韩国-785.1KB/s
       - 冰岛-55.1MB/s
-      - 土耳其-39.9MB/s
+      - 以色列-9.1MB/s
+      - 韩国-3.88MB/s
+      - 新加坡-4.4MB/s
+      - 巴林-2.21MB/s
+      - 加拿大-32.0MB/s
+      - 未知国家-8.9MB/s
       - 日本-1.39MB/s
-      - 美国-3.86MB/s
       - 荷兰-2.92MB/s
-      - 匈牙利-8.7MB/s
+      - 香港-43.5MB/s
+      - 土耳其-39.9MB/s
+      - 美国-3.86MB/s
+      - 立陶宛-965.0KB/s
+      - 土耳其-51.5MB/s
+      - 未知国家-9.3MB/s
+      - 香港-68.7MB/s
+      - 香港-6.84MB/s
       - 日本-217.0KB/s
       - 意大利-29.8MB/s
-      - 香港-68.7MB/s
+      - 匈牙利-8.7MB/s
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - 土耳其-51.5MB/s
-      - 加拿大-32.0MB/s
-      - 韩国-785.1KB/s
-      - 未知国家-8.9MB/s
-      - 新加坡-1.23MB/s
-      - 新加坡-4.4MB/s
+      - 马来西亚-3.48MB/s
+      - 未知国家-13.0MB/s
       - 香港-19.3MB/s
-      - 立陶宛-965.0KB/s
-      - 香港-43.5MB/s
-      - 未知国家-9.3MB/s
-      - 以色列-9.1MB/s
+      - 新加坡-1.23MB/s
+      - 韩国-785.1KB/s
       - 冰岛-55.1MB/s
-      - 土耳其-39.9MB/s
+      - 以色列-9.1MB/s
+      - 韩国-3.88MB/s
+      - 新加坡-4.4MB/s
+      - 巴林-2.21MB/s
+      - 加拿大-32.0MB/s
+      - 未知国家-8.9MB/s
       - 日本-1.39MB/s
-      - 美国-3.86MB/s
       - 荷兰-2.92MB/s
-      - 匈牙利-8.7MB/s
+      - 香港-43.5MB/s
+      - 土耳其-39.9MB/s
+      - 美国-3.86MB/s
+      - 立陶宛-965.0KB/s
+      - 土耳其-51.5MB/s
+      - 未知国家-9.3MB/s
+      - 香港-68.7MB/s
+      - 香港-6.84MB/s
       - 日本-217.0KB/s
       - 意大利-29.8MB/s
-      - 香港-68.7MB/s
+      - 匈牙利-8.7MB/s
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 土耳其-51.5MB/s
-      - 加拿大-32.0MB/s
-      - 韩国-785.1KB/s
-      - 未知国家-8.9MB/s
-      - 新加坡-1.23MB/s
-      - 新加坡-4.4MB/s
+      - 马来西亚-3.48MB/s
+      - 未知国家-13.0MB/s
       - 香港-19.3MB/s
-      - 立陶宛-965.0KB/s
-      - 香港-43.5MB/s
-      - 未知国家-9.3MB/s
-      - 以色列-9.1MB/s
+      - 新加坡-1.23MB/s
+      - 韩国-785.1KB/s
       - 冰岛-55.1MB/s
-      - 土耳其-39.9MB/s
+      - 以色列-9.1MB/s
+      - 韩国-3.88MB/s
+      - 新加坡-4.4MB/s
+      - 巴林-2.21MB/s
+      - 加拿大-32.0MB/s
+      - 未知国家-8.9MB/s
       - 日本-1.39MB/s
-      - 美国-3.86MB/s
       - 荷兰-2.92MB/s
-      - 匈牙利-8.7MB/s
+      - 香港-43.5MB/s
+      - 土耳其-39.9MB/s
+      - 美国-3.86MB/s
+      - 立陶宛-965.0KB/s
+      - 土耳其-51.5MB/s
+      - 未知国家-9.3MB/s
+      - 香港-68.7MB/s
+      - 香港-6.84MB/s
       - 日本-217.0KB/s
       - 意大利-29.8MB/s
-      - 香港-68.7MB/s
+      - 匈牙利-8.7MB/s
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -239,26 +280,31 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 土耳其-51.5MB/s
-      - 加拿大-32.0MB/s
-      - 韩国-785.1KB/s
-      - 未知国家-8.9MB/s
-      - 新加坡-1.23MB/s
-      - 新加坡-4.4MB/s
+      - 马来西亚-3.48MB/s
+      - 未知国家-13.0MB/s
       - 香港-19.3MB/s
-      - 立陶宛-965.0KB/s
-      - 香港-43.5MB/s
-      - 未知国家-9.3MB/s
-      - 以色列-9.1MB/s
+      - 新加坡-1.23MB/s
+      - 韩国-785.1KB/s
       - 冰岛-55.1MB/s
-      - 土耳其-39.9MB/s
+      - 以色列-9.1MB/s
+      - 韩国-3.88MB/s
+      - 新加坡-4.4MB/s
+      - 巴林-2.21MB/s
+      - 加拿大-32.0MB/s
+      - 未知国家-8.9MB/s
       - 日本-1.39MB/s
-      - 美国-3.86MB/s
       - 荷兰-2.92MB/s
-      - 匈牙利-8.7MB/s
+      - 香港-43.5MB/s
+      - 土耳其-39.9MB/s
+      - 美国-3.86MB/s
+      - 立陶宛-965.0KB/s
+      - 土耳其-51.5MB/s
+      - 未知国家-9.3MB/s
+      - 香港-68.7MB/s
+      - 香港-6.84MB/s
       - 日本-217.0KB/s
       - 意大利-29.8MB/s
-      - 香港-68.7MB/s
+      - 匈牙利-8.7MB/s
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
