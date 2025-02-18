@@ -5,31 +5,67 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
+  - {name: 巴西-4.4MB/s, server: 154.90.63.193, port: 990, type: ss, cipher: chacha20-ietf-poly1305, password: f8f7aCzcPKbsF8p3, udp: true}
+  - {name: 中转节点-18.16MB/s, server: 183.233.187.157, port: 20001, type: ss, cipher: chacha20-ietf-poly1305, password: 99301d55-a41f-4919-986b-1435996533aa, udp: true}
+  - {name: 巴林-1010.4KB/s, server: admin.c3.webramz.co, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: Bog0ELmMM9DSxDdQ, udp: true}
+  - {name: 巴林-2.40MB/s, server: series-a2-me.varzesh360.co, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: Bog0ELmMM9DSxDdQ, udp: true}
+  - {name: 法国-128.7KB/s, server: 185.231.205.179, port: 8388, type: ss, cipher: chacha20-ietf-poly1305, password: OTVlMzcy, udp: true}
+  - {name: 韩国-212.7KB/s, server: 3.36.73.26, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+  - {name: 法国-112.0KB/s, server: fr1.opensocks.site, port: 8388, type: ss, cipher: chacha20-ietf-poly1305, password: OTVlMzcy, udp: true}
+  - {name: 芬兰-1.13MB/s, server: 37.143.129.230, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
+  - {name: 瑞士-3.64MB/s, server: 84.17.53.160, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
   - {name: 获取节点异常，请在下个时段重试, server: 1.1.1.1, port: 6666, type: ss, cipher: none, password: "@buliang00", udp: true}
-  - {name: 获取节点异常，请在下个时段重试 2, server: 1.1.1.1, port: 6666, type: ss, cipher: none, password: "@buliang00", udp: true}
+  - {name: 马来西亚-37.5MB/s, server: 103.106.229.219, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
+      - 巴西-4.4MB/s
+      - 中转节点-18.16MB/s
+      - 巴林-1010.4KB/s
+      - 巴林-2.40MB/s
+      - 法国-128.7KB/s
+      - 韩国-212.7KB/s
+      - 法国-112.0KB/s
+      - 芬兰-1.13MB/s
+      - 瑞士-3.64MB/s
       - 获取节点异常，请在下个时段重试
-      - 获取节点异常，请在下个时段重试 2
+      - 马来西亚-37.5MB/s
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
+      - 巴西-4.4MB/s
+      - 中转节点-18.16MB/s
+      - 巴林-1010.4KB/s
+      - 巴林-2.40MB/s
+      - 法国-128.7KB/s
+      - 韩国-212.7KB/s
+      - 法国-112.0KB/s
+      - 芬兰-1.13MB/s
+      - 瑞士-3.64MB/s
       - 获取节点异常，请在下个时段重试
-      - 获取节点异常，请在下个时段重试 2
+      - 马来西亚-37.5MB/s
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
+      - 巴西-4.4MB/s
+      - 中转节点-18.16MB/s
+      - 巴林-1010.4KB/s
+      - 巴林-2.40MB/s
+      - 法国-128.7KB/s
+      - 韩国-212.7KB/s
+      - 法国-112.0KB/s
+      - 芬兰-1.13MB/s
+      - 瑞士-3.64MB/s
       - 获取节点异常，请在下个时段重试
-      - 获取节点异常，请在下个时段重试 2
+      - 马来西亚-37.5MB/s
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -48,8 +84,17 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
+      - 巴西-4.4MB/s
+      - 中转节点-18.16MB/s
+      - 巴林-1010.4KB/s
+      - 巴林-2.40MB/s
+      - 法国-128.7KB/s
+      - 韩国-212.7KB/s
+      - 法国-112.0KB/s
+      - 芬兰-1.13MB/s
+      - 瑞士-3.64MB/s
       - 获取节点异常，请在下个时段重试
-      - 获取节点异常，请在下个时段重试 2
+      - 马来西亚-37.5MB/s
   - name: 🌏 国内媒体
     type: select
     proxies:
@@ -60,23 +105,50 @@ proxy-groups:
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
+      - 巴西-4.4MB/s
+      - 中转节点-18.16MB/s
+      - 巴林-1010.4KB/s
+      - 巴林-2.40MB/s
+      - 法国-128.7KB/s
+      - 韩国-212.7KB/s
+      - 法国-112.0KB/s
+      - 芬兰-1.13MB/s
+      - 瑞士-3.64MB/s
       - 获取节点异常，请在下个时段重试
-      - 获取节点异常，请在下个时段重试 2
+      - 马来西亚-37.5MB/s
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
+      - 巴西-4.4MB/s
+      - 中转节点-18.16MB/s
+      - 巴林-1010.4KB/s
+      - 巴林-2.40MB/s
+      - 法国-128.7KB/s
+      - 韩国-212.7KB/s
+      - 法国-112.0KB/s
+      - 芬兰-1.13MB/s
+      - 瑞士-3.64MB/s
       - 获取节点异常，请在下个时段重试
-      - 获取节点异常，请在下个时段重试 2
+      - 马来西亚-37.5MB/s
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
+      - 巴西-4.4MB/s
+      - 中转节点-18.16MB/s
+      - 巴林-1010.4KB/s
+      - 巴林-2.40MB/s
+      - 法国-128.7KB/s
+      - 韩国-212.7KB/s
+      - 法国-112.0KB/s
+      - 芬兰-1.13MB/s
+      - 瑞士-3.64MB/s
       - 获取节点异常，请在下个时段重试
-      - 获取节点异常，请在下个时段重试 2
+      - 马来西亚-37.5MB/s
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -92,8 +164,17 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
+      - 巴西-4.4MB/s
+      - 中转节点-18.16MB/s
+      - 巴林-1010.4KB/s
+      - 巴林-2.40MB/s
+      - 法国-128.7KB/s
+      - 韩国-212.7KB/s
+      - 法国-112.0KB/s
+      - 芬兰-1.13MB/s
+      - 瑞士-3.64MB/s
       - 获取节点异常，请在下个时段重试
-      - 获取节点异常，请在下个时段重试 2
+      - 马来西亚-37.5MB/s
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
