@@ -1,11 +1,11 @@
----------- [2025-02-19 15:17:20] 更新订阅 ----------
----------- 2025-02-19 15:17:20 ----------
+---------- [2025-02-19 21:23:40] 更新订阅 ----------
+---------- 2025-02-19 21:23:40 ----------
 [长风分享]:
 /home/runner/work/auto_jobs/proxy/clash_cfmem.yml
 /home/runner/work/auto_jobs/proxy/v2ray_cfmem.txt
 [长风分享]: 订阅成功 https://fs.v2rayse.com/share/20250219/wbxucs2dqs.yaml
 [长风分享]: 订阅成功 https://fs.v2rayse.com/share/20250219/ix58syrbf0.txt
----------- 2025-02-19 15:17:20 ----------
+---------- 2025-02-19 21:23:41 ----------
 [freev2]: /home/runner/work/auto_jobs/subscribe/freev2.py
 [freev2]: 当前工作目录：/home/runner/work/auto_jobs/proxy/clash_freev2.yml
 [freev2]: 订阅成功, https://raw.githubusercontent.com/freefq/free/master/v2
@@ -46,7 +46,7 @@ User(
 	phone='436789040144717',
 	photo=None,
 	status=UserStatusOffline(
-		was_online=datetime.datetime(2025, 2, 19, 7, 15, 46, tzinfo=datetime.timezone.utc)
+		was_online=datetime.datetime(2025, 2, 19, 10, 16, 34, tzinfo=datetime.timezone.utc)
 	),
 	bot_info_version=None,
 	restriction_reason=[
@@ -67,28 +67,28 @@ Name: FREE 中文, ID: -1001570215033
 Name: 长风分享频道, ID: -1001516635885
 Name: 口交💋专辑, ID: -1001420871010
 Name: 免费节点自动分享, ID: 2096213628
-Name: 吃瓜群众🍉, ID: -1001786596225
+Name: 极搜-中文搜索（复活版） 中文 搜索, ID: -1001607161451
 Name: 阿里云盘资源搜索, ID: -1001598490288
 Name: 超级搜索引擎, ID: -1001760236395
+Name: 吃瓜群众🍉, ID: -1001786596225
+Name: TG代理VPN技术分享, ID: -1001670133389
 Name: 🎬 阿里云盘交流群 💾, ID: -1001589118734
 Name: 🎬 云盘盘 - 投稿🚦, ID: -1001198853752
-Name: 优哥跨境交流群, ID: -1001861402973
-Name: 极搜-中文搜索（复活版） 中文 搜索, ID: -1001607161451
-Name: 吃瓜中心, ID: -1001638488383
-Name: TG代理VPN技术分享, ID: -1001670133389
 Name: 极搜, ID: -1001888813717
-Name: 老毛子Padavan固件自助交流群, ID: -1001148540997
-Name: 长风分享群组, ID: -1001802101728
-Name: TG代理公布, ID: -1001633868843
 Name: 🎬 阿里云盘资源 🆙 🚦, ID: -1001520702906
 Name: 【李老师不是你老师】官方电报, ID: -1002155057858
+Name: 老毛子Padavan固件自助交流群, ID: -1001148540997
+Name: 长风分享群组, ID: -1001802101728
+Name: 优哥跨境交流群, ID: -1001861402973
+Name: 吃瓜中心, ID: -1001638488383
+Name: Github_2dust, ID: -1001628493435
 Name: 自选基金助手群组, ID: -1001389480278
+Name: TG代理公布, ID: -1001633868843
 Name: 新电报吃瓜#色情版, ID: -1002149316649
 Name: 反差母狗🍑自拍, ID: -1001173218900
 Name: 吃瓜🍉搜 @achiguao, ID: -1001569868197
 Name: 吃瓜🍉群众, ID: -1001905442401
 Name: 阿里云盘盘 - 📣通知频道, ID: -1001616865400
-Name: Github_2dust, ID: -1001628493435
 Name: 科技爱好者周刊, ID: -1001191802783
 Name: DY|摸鱼, ID: -1001745768919
 Name: File to bot, ID: 291481095
@@ -130,32 +130,30 @@ Name: 吃瓜新闻, ID: -1001252816724
 Name: 1lib, ID: 1788460589
 Name: 摆烂社工bot频道, ID: -1001788223313
 免费节点自动分享: 
-13272 /get
-13271 节点更新时间：10:24:20
+13275 /get
+13274 节点更新时间：14:54:23
 每30分钟更新10个节点
-13270 ss://YWVzLTI1Ni1jZmI6ZjhmN2FDemNQS2JzRjhwMw@185.123.101.241:989#%E5%9C%9F%E8%80%B3%E5%85%B6-48.3MB%2Fs
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpvWklvQTY5UTh5aGNRVjhrYTNQYTNB@45.158.171.110:8080#%E7%BE%8E%E5%9B%BD-4.34MB%2Fs
-ss://YWVzLTI1Ni1nY206WTdZMEVVWEY1WlpLSlRGVQ@154.196.244.24:16014#%E6%96%B0%E5%8A%A0%E5%9D%A1-16.2MB%2Fs
-ss://YWVzLTI1Ni1nY206TEtHOEc4Vkw2MFJTQjU5UA@23.185.248.13:17003#%E6%9C%AA%E7%9F%A5%E5%9B%BD%E5%AE%B6-1.82MB%2Fs
-ss://YWVzLTI1Ni1nY206RVhDQjNLS1cwR1hRM0VDRA@154.196.244.19:16009#%E6%96%B0%E5%8A%A0%E5%9D%A1-21.4MB%2Fs
-ss://YWVzLTI1Ni1jZmI6YW1hem9uc2tyMDU@52.79.101.162:443#%E9%9F%A9%E5%9B%BD-3.76MB%2Fs
-trojan://5af7fa3a-ad9c-4346-ba7f-184e89c91758@lm.kaiqsz.com:51075?allowInsecure=1&sni=mmbiz10.redapricotcloud.com#%E4%B8%AD%E8%BD%AC%E8%8A%82%E7%82%B9-9.68MB%2Fs
-ss://YWVzLTI1Ni1nY206Q1pXR0tWVktFVDJCVFJCSw@154.196.244.12:16002#%E6%96%B0%E5%8A%A0%E5%9D%A1-21.5MB%2Fs
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpmOGY3YUN6Y1BLYnNGOHAz@185.123.101.241:990#%E5%9C%9F%E8%80%B3%E5%85%B6-31.2MB%2Fs
-trojan://65f14831-5c67-483f-9e85-f3aa73f21187@naiu-us.05vr9nyqg5.download:13019?allowInsecure=1&sni=cloudflare.node-ssl.cdn-alibaba.com#%E4%B8%AD%E8%BD%AC%E8%8A%82%E7%82%B9-296.4KB%2Fs
-ss://YWVzLTI1Ni1jZmI6ZjhmN2FDemNQS2JzRjhwMw@185.123.101.241:989#%E5%9C%9F%E8%80%B3%E5%85%B6-48.3MB%2Fs
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpvWklvQTY5UTh5aGNRVjhrYTNQYTNB@45.158.171.110:8080#%E7%BE%8E%E5%9B%BD-4.34MB%2Fs
-ss://YWVzLTI1Ni1nY206WTdZMEVVWEY1WlpLSlRGVQ@154.196.244.24:16014#%E6%96%B0%E5%8A%A0%E5%9D%A1-16.2MB%2Fs
-ss://YWVzLTI1Ni1nY206TEtHOEc4Vkw2MFJTQjU5UA@23.185.248.13:17003#%E6%9C%AA%E7%9F%A5%E5%9B%BD%E5%AE%B6-1.82MB%2Fs
-ss://YWVzLTI1Ni1nY206RVhDQjNLS1cwR1hRM0VDRA@154.196.244.19:16009#%E6%96%B0%E5%8A%A0%E5%9D%A1-21.4MB%2Fs
-ss://YWVzLTI1Ni1jZmI6YW1hem9uc2tyMDU@52.79.101.162:443#%E9%9F%A9%E5%9B%BD-3.76MB%2Fs
-trojan://5af7fa3a-ad9c-4346-ba7f-184e89c91758@lm.kaiqsz.com:51075?allowInsecure=1&sni=mmbiz10.redapricotcloud.com#%E4%B8%AD%E8%BD%AC%E8%8A%82%E7%82%B9-9.68MB%2Fs
-ss://YWVzLTI1Ni1nY206Q1pXR0tWVktFVDJCVFJCSw@154.196.244.12:16002#%E6%96%B0%E5%8A%A0%E5%9D%A1-21.5MB%2Fs
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpmOGY3YUN6Y1BLYnNGOHAz@185.123.101.241:990#%E5%9C%9F%E8%80%B3%E5%85%B6-31.2MB%2Fs
-trojan://65f14831-5c67-483f-9e85-f3aa73f21187@naiu-us.05vr9nyqg5.download:13019?allowInsecure=1&sni=cloudflare.node-ssl.cdn-alibaba.com#%E4%B8%AD%E8%BD%AC%E8%8A%82%E7%82%B9-296.4KB%2Fs
+13273 ss://YWVzLTI1Ni1jZmI6VVRKQTU3eXBrMlhLUXBubQ@217.30.10.18:9033#%E6%B3%A2%E5%85%B0-33.9MB%2Fs
+trojan://65f14831-5c67-483f-9e85-f3aa73f21187@naiu-other.05vr9nyqg5.download:13035?allowInsecure=1&sni=cloudflare.node-ssl.cdn-alibaba.com#%E4%B8%AD%E8%BD%AC%E8%8A%82%E7%82%B9-2.73MB%2Fs
+ss://YWVzLTI1Ni1nY206QVlDNE1RNURTR0o0UU9LRw@156.245.190.19:15010#%E9%A6%99%E6%B8%AF-1.43MB%2Fs
+ss://YWVzLTI1Ni1jZmI6YW1hem9uc2tyMDU@35.94.110.89:443#%E7%BE%8E%E5%9B%BD-2.67MB%2Fs
+ss://YWVzLTI1Ni1nY206RzJMQzFCUTQ4U1hTQktaWA@185.126.239.231:20002#%E4%BF%84%E7%BD%97%E6%96%AF%E8%81%94%E9%82%A6-44.5MB%2Fs
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpmOGY3YUN6Y1BLYnNGOHAz@185.123.101.241:990#%E5%9C%9F%E8%80%B3%E5%85%B6-18.1MB%2Fs
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo2SVZPdXpNZkg1Uk9wZ3d0UlRjTkpLWUp2WWU5RkRWYVU3d0FZWWg4UFJMeHhaczY@188.191.147.127:31348#%E4%BB%A5%E8%89%B2%E5%88%97-33.8MB%2Fs
+vmess://eyJ2IjoiMiIsInBzIjoi576O5Zu9LTIuOTFNQi9zIiwiYWRkIjoiMzguMTc0LjE5MC44MCIsInBvcnQiOiIzODAwNyIsInR5cGUiOiJub25lIiwiaWQiOiI0MTgwNDhhZi1hMjkzLTRiOTktOWIwYy05OGNhMzU4MGRkMjQiLCJhaWQiOiI2NCIsIm5ldCI6IndzIiwicGF0aCI6Ii9wYXRoLzEwMjIwNjI4MjAwNSIsImhvc3QiOiIiLCJ0bHMiOiJ0bHMifQ==
+ss://YWVzLTI1Ni1nY206Mk1OQlZZWVlCMjNaRjAzWg@92.113.116.11:15002#%E4%B9%8C%E5%85%8B%E5%85%B0-52.4MB%2Fs
+ss://YWVzLTI1Ni1nY206Q1pXR0tWVktFVDJCVFJCSw@154.196.244.12:16002#%E6%96%B0%E5%8A%A0%E5%9D%A1-8.4MB%2Fs
+ss://YWVzLTI1Ni1jZmI6VVRKQTU3eXBrMlhLUXBubQ@217.30.10.18:9033#%E6%B3%A2%E5%85%B0-33.9MB%2Fs
+trojan://65f14831-5c67-483f-9e85-f3aa73f21187@naiu-other.05vr9nyqg5.download:13035?allowInsecure=1&sni=cloudflare.node-ssl.cdn-alibaba.com#%E4%B8%AD%E8%BD%AC%E8%8A%82%E7%82%B9-2.73MB%2Fs
+ss://YWVzLTI1Ni1nY206QVlDNE1RNURTR0o0UU9LRw@156.245.190.19:15010#%E9%A6%99%E6%B8%AF-1.43MB%2Fs
+ss://YWVzLTI1Ni1jZmI6YW1hem9uc2tyMDU@35.94.110.89:443#%E7%BE%8E%E5%9B%BD-2.67MB%2Fs
+ss://YWVzLTI1Ni1nY206RzJMQzFCUTQ4U1hTQktaWA@185.126.239.231:20002#%E4%BF%84%E7%BD%97%E6%96%AF%E8%81%94%E9%82%A6-44.5MB%2Fs
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpmOGY3YUN6Y1BLYnNGOHAz@185.123.101.241:990#%E5%9C%9F%E8%80%B3%E5%85%B6-18.1MB%2Fs
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo2SVZPdXpNZkg1Uk9wZ3d0UlRjTkpLWUp2WWU5RkRWYVU3d0FZWWg4UFJMeHhaczY@188.191.147.127:31348#%E4%BB%A5%E8%89%B2%E5%88%97-33.8MB%2Fs
+vmess://eyJ2IjoiMiIsInBzIjoi576O5Zu9LTIuOTFNQi9zIiwiYWRkIjoiMzguMTc0LjE5MC44MCIsInBvcnQiOiIzODAwNyIsInR5cGUiOiJub25lIiwiaWQiOiI0MTgwNDhhZi1hMjkzLTRiOTktOWIwYy05OGNhMzU4MGRkMjQiLCJhaWQiOiI2NCIsIm5ldCI6IndzIiwicGF0aCI6Ii9wYXRoLzEwMjIwNjI4MjAwNSIsImhvc3QiOiIiLCJ0bHMiOiJ0bHMifQ==
+ss://YWVzLTI1Ni1nY206Mk1OQlZZWVlCMjNaRjAzWg@92.113.116.11:15002#%E4%B9%8C%E5%85%8B%E5%85%B0-52.4MB%2Fs
+ss://YWVzLTI1Ni1nY206Q1pXR0tWVktFVDJCVFJCSw@154.196.244.12:16002#%E6%96%B0%E5%8A%A0%E5%9D%A1-8.4MB%2Fs
 ----------------------------------------------------------------------------------------------------
-['ss://YWVzLTI1Ni1jZmI6ZjhmN2FDemNQS2JzRjhwMw@185.123.101.241:989#%E5%9C%9F%E8%80%B3%E5%85%B6-48.3MB%2Fs\nss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpvWklvQTY5UTh5aGNRVjhrYTNQYTNB@45.158.171.110:8080#%E7%BE%8E%E5%9B%BD-4.34MB%2Fs\nss://YWVzLTI1Ni1nY206WTdZMEVVWEY1WlpLSlRGVQ@154.196.244.24:16014#%E6%96%B0%E5%8A%A0%E5%9D%A1-16.2MB%2Fs\nss://YWVzLTI1Ni1nY206TEtHOEc4Vkw2MFJTQjU5UA@23.185.248.13:17003#%E6%9C%AA%E7%9F%A5%E5%9B%BD%E5%AE%B6-1.82MB%2Fs\nss://YWVzLTI1Ni1nY206RVhDQjNLS1cwR1hRM0VDRA@154.196.244.19:16009#%E6%96%B0%E5%8A%A0%E5%9D%A1-21.4MB%2Fs\nss://YWVzLTI1Ni1jZmI6YW1hem9uc2tyMDU@52.79.101.162:443#%E9%9F%A9%E5%9B%BD-3.76MB%2Fs\ntrojan://5af7fa3a-ad9c-4346-ba7f-184e89c91758@lm.kaiqsz.com:51075?allowInsecure=1&sni=mmbiz10.redapricotcloud.com#%E4%B8%AD%E8%BD%AC%E8%8A%82%E7%82%B9-9.68MB%2Fs\nss://YWVzLTI1Ni1nY206Q1pXR0tWVktFVDJCVFJCSw@154.196.244.12:16002#%E6%96%B0%E5%8A%A0%E5%9D%A1-21.5MB%2Fs\nss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpmOGY3YUN6Y1BLYnNGOHAz@185.123.101.241:990#%E5%9C%9F%E8%80%B3%E5%85%B6-31.2MB%2Fs\ntrojan://65f14831-5c67-483f-9e85-f3aa73f21187@naiu-us.05vr9nyqg5.download:13019?allowInsecure=1&sni=cloudflare.node-ssl.cdn-alibaba.com#%E4%B8%AD%E8%BD%AC%E8%8A%82%E7%82%B9-296.4KB%2Fs']
+['ss://YWVzLTI1Ni1jZmI6VVRKQTU3eXBrMlhLUXBubQ@217.30.10.18:9033#%E6%B3%A2%E5%85%B0-33.9MB%2Fs\ntrojan://65f14831-5c67-483f-9e85-f3aa73f21187@naiu-other.05vr9nyqg5.download:13035?allowInsecure=1&sni=cloudflare.node-ssl.cdn-alibaba.com#%E4%B8%AD%E8%BD%AC%E8%8A%82%E7%82%B9-2.73MB%2Fs\nss://YWVzLTI1Ni1nY206QVlDNE1RNURTR0o0UU9LRw@156.245.190.19:15010#%E9%A6%99%E6%B8%AF-1.43MB%2Fs\nss://YWVzLTI1Ni1jZmI6YW1hem9uc2tyMDU@35.94.110.89:443#%E7%BE%8E%E5%9B%BD-2.67MB%2Fs\nss://YWVzLTI1Ni1nY206RzJMQzFCUTQ4U1hTQktaWA@185.126.239.231:20002#%E4%BF%84%E7%BD%97%E6%96%AF%E8%81%94%E9%82%A6-44.5MB%2Fs\nss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpmOGY3YUN6Y1BLYnNGOHAz@185.123.101.241:990#%E5%9C%9F%E8%80%B3%E5%85%B6-18.1MB%2Fs\nss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo2SVZPdXpNZkg1Uk9wZ3d0UlRjTkpLWUp2WWU5RkRWYVU3d0FZWWg4UFJMeHhaczY@188.191.147.127:31348#%E4%BB%A5%E8%89%B2%E5%88%97-33.8MB%2Fs\nvmess://eyJ2IjoiMiIsInBzIjoi576O5Zu9LTIuOTFNQi9zIiwiYWRkIjoiMzguMTc0LjE5MC44MCIsInBvcnQiOiIzODAwNyIsInR5cGUiOiJub25lIiwiaWQiOiI0MTgwNDhhZi1hMjkzLTRiOTktOWIwYy05OGNhMzU4MGRkMjQiLCJhaWQiOiI2NCIsIm5ldCI6IndzIiwicGF0aCI6Ii9wYXRoLzEwMjIwNjI4MjAwNSIsImhvc3QiOiIiLCJ0bHMiOiJ0bHMifQ==\nss://YWVzLTI1Ni1nY206Mk1OQlZZWVlCMjNaRjAzWg@92.113.116.11:15002#%E4%B9%8C%E5%85%8B%E5%85%B0-52.4MB%2Fs\nss://YWVzLTI1Ni1nY206Q1pXR0tWVktFVDJCVFJCSw@154.196.244.12:16002#%E6%96%B0%E5%8A%A0%E5%9D%A1-8.4MB%2Fs']
 ----------------------------------------------------------------------------------------------------
----------- [2025-02-19 15:17:26] 更新订阅 ----------
----------- [2025-02-19 15:28:04] 电报v2ray ----------
----------- [2025-02-19 16:40:53] 电报签到 ----------
+---------- [2025-02-19 21:23:46] 更新订阅 ----------
